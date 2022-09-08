@@ -71,7 +71,8 @@ Bloc is a new graphical library.
 ### Possible Extensions
 - Redo the Tutorial
 - Check tests
-
+- Define a cross game?
+ 
 ## Brea
 A couple of years ago, I prototyped something between a static site generator and a decoupled/headless CMS, called Brea[1] and we did a lot of extensive workshops to teach how to use it. The site (in Spanish) for the workshops and documentation of Brea is made using Brea and you can see it at [2]. It tries to address the documentation needs of the local communities which use diverse places to write documentation (HegdeDoc, Internet Archive) and want to consolidate them in a unified place. We're now discussing to integrate Brea with TiddlyWikiPharo[3] as TiddlyWiki has become an integral part of our documentation practices and maybe we could try another take on it if we get enough resources for that.
 
