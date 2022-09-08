@@ -2,6 +2,10 @@
 
 Slides are at [https://rmod-files.lille.inria.fr/?dir=DesignCoffeeClub/Slides]()
 
+- 2-BasicPrinciples-04-AboutObjectsVSData.pdf
+- 1-BasicOnReverseEngineering.pdf
+
+
 On flux
 - Probably too much for a single session 
 - Missing Slide virtual en C# 
