@@ -35,7 +35,7 @@ Class09 -- Class10
 
 
 ## Regis
-A web app to register to conference [http://github.com/ESUG/Regis]()
+A web app to register to conference [http://github.com/ESUG/Regis](http://github.com/ESUG/Regis)
 
 ### Possible extensions
 - Managing Talks
@@ -55,21 +55,27 @@ Iceberg is a powerful model and tool to manage code representation and git opera
 
 ## Citezen 
 Citezen is a library to manage scientific publications. It also support the generation of webpage, CVs...
-- [http://github.com/Ducasse/Citezen]()
+- [http://github.com/Ducasse/Citezen](http://github.com/Ducasse/Citezen)
 
 ### Possible Extensions
 - Revisit the document model	and visitors
 - writing tests
 - writing parameterized tests
 - writing a new core
-- Removing Phrase
+- Removing Phrase turning it into another visitor?
 
+## Bloc (super adventurous)
+Bloc is a new graphical library.
+- [http://www.github.com/pharo-graphics/Bloc](http://www.github.com/pharo-graphics/Bloc)
 
+### Possible Extensions
+- Redo the Tutorial
+- Check tests
 
 ## Brea
 A couple of years ago, I prototyped something between a static site generator and a decoupled/headless CMS, called Brea[1] and we did a lot of extensive workshops to teach how to use it. The site (in Spanish) for the workshops and documentation of Brea is made using Brea and you can see it at [2]. It tries to address the documentation needs of the local communities which use diverse places to write documentation (HegdeDoc, Internet Archive) and want to consolidate them in a unified place. We're now discussing to integrate Brea with TiddlyWikiPharo[3] as TiddlyWiki has become an integral part of our documentation practices and maybe we could try another take on it if we get enough resources for that.
 
-- [1] [https://code.tupale.co/Offray/Brea]()
-- [2] [https://mutabit.com/repos.fossil/indieweb/]()
-- [3] [https://code.tupale.co/Offray/TiddlyWikiPharo/]()
+- [1] [https://code.tupale.co/Offray/Brea](https://code.tupale.co/Offray/Brea)
+- [2] [https://mutabit.com/repos.fossil/indieweb/](https://mutabit.com/repos.fossil/indieweb/)
+- [3] [https://code.tupale.co/Offray/TiddlyWikiPharo/](https://code.tupale.co/Offray/TiddlyWikiPharo/)
 
