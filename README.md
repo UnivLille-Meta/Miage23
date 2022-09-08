@@ -16,3 +16,35 @@ Register your groups in the file RegisteredGroups.md by giving a name to your gr
 - Create a folder with the name of your group under the folder Groups
 - Add your weekly reports in your group folder.
 - Make sure that the name of your reports identifies uniquely your group and week (e.g. 01Prof.md)
+
+
+
+## Configuration automatique
+
+```
+StartupPreferencesLoader default executeAtomicItems: {
+	StartupAction 
+		name: 'Logo' 
+		code: [ PolymorphSystemSettings showDesktopLogo: false] .
+	StartupAction 
+		name: 'Git Settings' 
+		code: [ 
+			Iceberg enableMetacelloIntegration: true.
+		
+			IceCredentialStore current
+					storeCredential: (IcePlaintextCredentials new
+					username: 'YourName';
+					password: 'xxxx';
+					host: 'github.com';
+					yourself).		
+
+
+			IceCredentialStore current
+				storeCredential: (IceTokenCredentials new
+					username: 'YourName';
+					token: 'yourtoken';
+					yourself) 
+				forHostname: 'github.com'.
+			]. 
+}.
+```
