@@ -21,6 +21,9 @@ Register your groups in the file RegisteredGroups.md by giving a name to your gr
 
 ## Configuration automatique
 
+- Install PharoLauncher from [http://www.pharo.org](http://www.pharo.org)
+- Pick Pharo 10
+
 ```
 StartupPreferencesLoader default executeAtomicItems: {
 	StartupAction 
