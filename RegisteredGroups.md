@@ -39,3 +39,7 @@ This file contains the groups that should be declared as follows
  - D. Rizkallah danyjoe.rizkallah.etu@univ-lille.fr
  - L. Fournier lucas.fournier2.etu@univ-lille.fr
  - B. Treels benjamin.treels.etu@univ-lille.fr
+
+## Groupe BH
+ - BOUTERBIAT Islam islam.bouterbiat.etu@univ-lille.fr
+ - HALLOUANE Mehdi mehdi.hallouane.etu@univ-lille.fr
