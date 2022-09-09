@@ -24,6 +24,7 @@ This file contains the groups that should be declared as follows
  -   Isabelle Bivegue isabelle.biveguengoa.etu@univ-lille.fr
 
 ## Groupe SLR
+
  - Sabrina Kernouf sabrina.kernouf.etu@univ-lille.fr
  - Louis Deloffre louis.deloffre.etu@univ-lille.fr
  - Romain Morel romain.morel.etu@univ-lille.fr
@@ -36,6 +37,7 @@ This file contains the groups that should be declared as follows
  - Ronick Romulus ronick.romulus.etu@univ-lille.fr
 
 ## Groupe DLB
+
  - D. Rizkallah danyjoe.rizkallah.etu@univ-lille.fr
  - L. Fournier lucas.fournier2.etu@univ-lille.fr
  - B. Treels benjamin.treels.etu@univ-lille.fr
