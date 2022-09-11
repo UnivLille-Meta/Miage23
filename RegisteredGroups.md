@@ -43,3 +43,7 @@ This file contains the groups that should be declared as follows
 ## Groupe BH
  - BOUTERBIAT Islam islam.bouterbiat.etu@univ-lille.fr
  - HALLOUANE Mehdi mehdi.hallouane.etu@univ-lille.fr
+
+## Groupe PEZ
+- G. Laigle gabin.laigle21@gmail.com
+- E. Cybulski ethan.cybulski.etu@univ-lille.fr
