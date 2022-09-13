@@ -1,6 +1,4 @@
-This file contains the groups that should be declared as follows
-
-## Profs
-- S. Ducasse stephane.ducasse@inria.fr
-- G. Polito guillermo.polito@inria.fr
+## Saadi_Gaci
+- N. Saadi nadine.saadi.etu@univ-lille.fr
+- N. Gaci noufel.gaci.etu@univ-lille.fr
 
