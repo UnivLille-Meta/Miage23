@@ -1,5 +1,0 @@
-- Construction de groupe.
-- Installation Pharo.
-- S'habituer aux cammandes git/github.
-- Entrain d'apprendre la syntaxe Pharo.
-- Réalisation de l'exercice Counter.
