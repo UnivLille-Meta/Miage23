@@ -4,6 +4,10 @@ This file contains the groups that should be declared as follows
 - S. Ducasse stephane.ducasse@inria.fr
 - G. Polito guillermo.polito@inria.fr
 
+## Groupe NS
+- N. Senoussi nawfel.senoussi.etu@univ-lille.fr
+- S. Afilal Tribak sofian.afilaltribak.etu@univ-lille.fr
+
 ## Bulles
 
 - Mina Crapez mina.crapez.etu@univ-lille.fr
@@ -41,3 +45,11 @@ This file contains the groups that should be declared as follows
  - D. Rizkallah danyjoe.rizkallah.etu@univ-lille.fr
  - L. Fournier lucas.fournier2.etu@univ-lille.fr
  - B. Treels benjamin.treels.etu@univ-lille.fr
+
+## Groupe BH
+ - BOUTERBIAT Islam islam.bouterbiat.etu@univ-lille.fr
+ - HALLOUANE Mehdi mehdi.hallouane.etu@univ-lille.fr
+
+## Groupe PEZ
+- G. Laigle gabin.laigle21@gmail.com
+- E. Cybulski ethan.cybulski.etu@univ-lille.fr
