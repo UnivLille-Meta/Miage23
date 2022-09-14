@@ -8,5 +8,5 @@ Ces petits exercices nous ont aussi permis d'appliquer la technique du TDD (Test
 
 Pour finir, on a tous les deux commencé à réfléchir sur nos méthodes de travail respectives, que l'on abordera la 4eme semaine dans notre oral.
 
-Nadine Saadi et Gaci Noufel.
+Nadine Saadi et Gaci Noufel. 
  
