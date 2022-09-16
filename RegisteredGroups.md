@@ -26,6 +26,7 @@ This file contains the groups that should be declared as follows
  -   Gaëtan Garein gaetan.garein.etu@univ-lille.fr
  -   Chihebeddine Hamrouni chihebeddinhamrouni@gmail.com
  -   Isabelle Bivegue isabelle.biveguengoa.etu@univ-lille.fr
+ -   Alissia Chaouche alissia.chaouche.etu@univ-lille.fr
 
 ## Groupe SLR
 
