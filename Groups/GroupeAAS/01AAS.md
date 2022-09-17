@@ -13,3 +13,6 @@ Ensuite, j'ai préféré regarder les vidéos disponibles sur le site https://mo
 
 ## THIOYE Mouhamadou Sacoura
 Après la première séance j'ai essayé de me documenter sur le langage pharo qui est nouveau pour moi. j'ai suivi des videos d'un cours sur le langage et il me reste à les appliquer puisque j'ai pas d'ordi en ce moment. je compte plus avancer au cours de ce weeekend long(samedi au mardi) où j'aurais l'occasion d'aller au labo et m'exercer.
+
+## SAHED Anis
+Pour ma part j'ai eu un petit de retard par rapport à mes camarades, je n'ai pas pu être présent la première séance mais ils m'ont expliqué ce qui a été fait et ce qui doit être fait pour la seconde. J'ai donc revu les slides présentés lors du premier cours et me suis mis à appréhender Pharo en me servant des ressources qu'il y a sur Internet (Youtube, The Pharo Mooc, ...). 
