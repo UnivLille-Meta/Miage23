@@ -65,3 +65,7 @@ This file contains the groups that should be declared as follows
 ## Groupe HN 
 - HAMZAOUI Nassima hamzaoui.nassima.etu@univ-lille.fr
 
+## Groupe GS
+- SAADI Nadine nadine.saadi.etu@univ-lille.fr
+- GACI Noufel noufel.gaci.etu@univ-lille.fr
+
