@@ -61,7 +61,12 @@ This file contains the groups that should be declared as follows
 ## Groupe TN
  - DARRAS Noélie noelie.darras.etu@univ-lille.fr
  - JULIEN Théo theo.julien.etu@univ-lille.fr
+ - ROMULUS Ronick ronick.romulus.etu@univ-lille.fr
  
 ## Groupe HN 
 - HAMZAOUI Nassima hamzaoui.nassima.etu@univ-lille.fr
+
+## Groupe GS
+- SAADI Nadine nadine.saadi.etu@univ-lille.fr
+- GACI Noufel noufel.gaci.etu@univ-lille.fr
 
