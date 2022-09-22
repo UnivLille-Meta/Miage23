@@ -1,6 +1,6 @@
 # Lectures
 
-Slides are at [https://rmod-files.lille.inria.fr/?dir=DesignCoffeeClub/Slides]()
+Slides are at [https://rmod-files.lille.inria.fr/?dir=DesignCoffeeClub/Slides](https://rmod-files.lille.inria.fr/?dir=DesignCoffeeClub/Slides)
 
 - 2-BasicPrinciples-04-AboutObjectsVSData.pdf
 - 1-BasicOnReverseEngineering.pdf
@@ -9,5 +9,5 @@ Slides are at [https://rmod-files.lille.inria.fr/?dir=DesignCoffeeClub/Slides]()
 - either this week or next one 1-Essence-06-DidYouUnderstandSuper.pdf
 
 These lecture sources are hosted at: 
-	[http://github.com/Pharo-mooc/OOProgrammingMooc/]()
+	[http://github.com/Pharo-mooc/OOProgrammingMooc/](http://github.com/Pharo-mooc/OOProgrammingMooc/)
 	
