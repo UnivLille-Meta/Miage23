@@ -1,6 +1,7 @@
-[https://rmod-files.lille.inria.fr/?dir=DesignCoffeeClub/Slides]()
+[https://rmod-files.lille.inria.fr/?dir=DesignCoffeeClub/Slides](https://rmod-files.lille.inria.fr/?dir=DesignCoffeeClub/Slides)
 
 - 4-Principles-01-AvoidIsNil.pdf
+- 6-DesignPattern-02-HookAndTemplate.pdf
 
 ## On flux
 - Probably too much for a single session 
@@ -25,5 +26,5 @@
 - more 
 
 These lectures are hosted at: 
-	[http://github.com/Pharo-mooc/OOProgrammingMooc/]()
+	[[http://github.com/Pharo-mooc/OOProgrammingMooc/](https://rmod-files.lille.inria.fr/?dir=DesignCoffeeClub/Slides)](https://rmod-files.lille.inria.fr/?dir=DesignCoffeeClub/Slides)
 	
