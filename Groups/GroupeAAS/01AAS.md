@@ -9,7 +9,7 @@ Ensuite, j'ai préféré regarder les vidéos disponibles sur le site https://mo
     <li> Comment écrire des méthodes, créer des classes avec des attributs, packages.</li>
     <li> Je n'ai pas realisé l'exercice counter tout seul. J'ai suivi étape par étape ce qui était indiqué dans le fichier Exo-Counter.pdf .</li>
     <li> J'ai appris, par la même occasion, comment définir des tests.</li>
-<ul>
+</ul>
 
 ## THIOYE Mouhamadou Sacoura
 Après la première séance j'ai essayé de me documenter sur le langage pharo qui est nouveau pour moi. j'ai suivi des videos d'un cours sur le langage et il me reste à les appliquer puisque j'ai pas d'ordi en ce moment. je compte plus avancer au cours de ce weeekend long(samedi au mardi) où j'aurais l'occasion d'aller au labo et m'exercer.
@@ -24,4 +24,4 @@ Pour ma part j'ai eu un petit de retard par rapport à mes camarades, je n'ai pa
     <li> Comment créer des packages, des classes et des méthodes</li>
     <li> Comment créer une classe de test</li>
     <li> Comment y ajouter des tests</li>
-<ul>
+</ul>
