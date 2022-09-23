@@ -1,0 +1,5 @@
+- Nous avons atteint la semaine 3 du mooc.
+- Nous avons choisi deux algorithmes de structure de données, et avons commencé dans le document de présentation (Organisation des idées).
+- S'habituer aux cammandes git/github.
+- Encore entrain d'apprendre la syntaxe Pharo.
+- Réalisation de l'exercice DSL.
