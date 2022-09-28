@@ -1,6 +1,4 @@
-This file contains the groups that should be declared as follows
-
-## Profs
-- S. Ducasse stephane.ducasse@inria.fr
-- G. Polito guillermo.polito@inria.fr
+## Groupe BR
+- A. Bourahma aziz.bourahma.etu@univ-lille.fr
+- M.K. Rakotondramanana mamykoloina.rakotondramanana.etu@univ-lille.fr
 
