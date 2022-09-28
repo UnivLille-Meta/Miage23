@@ -35,11 +35,11 @@ This file contains the groups that should be declared as follows
 -   Louis Deloffre louis.deloffre.etu@univ-lille.fr
 -   Romain Morel romain.morel.etu@univ-lille.fr
 
-## Groupe Lydia_joe_ronick
+## Groupe Lydia_joe
 
 -   Lydia Tarmelit lydia.tarmelit.etu@univ-lille.fr
 -   joe El Hajj joe.elhajj.etu@univ-lille.fr
--   Ronick Romulus ronick.romulus.etu@univ-lille.fr
+
 
 ## Groupe DLB
 
