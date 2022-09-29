@@ -7,6 +7,7 @@ This file contains the groups that should be declared as follows
 ## Groupe NS
 - N. Senoussi nawfel.senoussi.etu@univ-lille.fr
 - S. Afilal Tribak sofian.afilaltribak.etu@univ-lille.fr
+- A. Rhofir abdelali.rhofir.etu@univ-lille.fr
 
 ## Bulles
 
