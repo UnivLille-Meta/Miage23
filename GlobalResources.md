@@ -12,7 +12,7 @@
 
 ## Pharo automatic configuration
 
-You can place in a file with .st as extension, in the Preferences folder of your OS (check self fullName in the pane of Startup>Version Preferences)
+You can place in a file with whatever.st, in the Preferences folder of your OS (check self fullName in the pane of Startup>Version Preferences)
 
 ```
 StartupPreferencesLoader default executeAtomicItems: {
