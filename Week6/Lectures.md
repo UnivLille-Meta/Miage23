@@ -4,8 +4,8 @@
 
 - 2-BasicPrinciples-06-UseVsInheritance.pdf
 - 4-Principles-09-SubtypingVsSubclassing.pdf
-- 3-DoubleDispatch-01-StoneExercise.pdf
-- 3-DoubleDispatch-04-NoSymmetrical.pdf
+- [3-DoubleDispatch-01-StoneExercise.pdf]
+- [3-DoubleDispatch-04-NoSymmetrical.pdf]
 
 These lectures are hosted at: 
 	[http://github.com/Pharo-mooc/OOProgrammingMooc/]()
