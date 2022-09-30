@@ -1,0 +1,4 @@
+- Nous avons atteint la semaine 4 du mooc.
+- Réviser les cours des Weeks déja faits.
+- On a Trouvé des difficultés avec la syntaxe pharo.
+- Entrain de finir la presentation du projet Week 4.
