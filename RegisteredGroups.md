@@ -74,3 +74,7 @@ This file contains the groups that should be declared as follows
 
 -   SAADI Nadine nadine.saadi.etu@univ-lille.fr
 -   GACI Noufel noufel.gaci.etu@univ-lille.fr
+
+## Groupe BR
+- A. Bourahma aziz.bourahma.etu@univ-lille.fr
+- M.K. Rakotondramanana mamykoloina.rakotondramanana.etu@univ-lille.fr
