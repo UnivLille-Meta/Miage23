@@ -1,5 +1,6 @@
 [https://rmod-files.lille.inria.fr/?dir=DesignCoffeeClub/Slides](https://rmod-files.lille.inria.fr/?dir=DesignCoffeeClub/Slides)
 
+- 3-DoubleDispatch-01-StoneExercise.pdf
 - 4-Principles-01-AvoidIsNil.pdf
 - 6-DesignPattern-02-HookAndTemplate.pdf
 - LRUCache
