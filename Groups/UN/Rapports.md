@@ -3,7 +3,7 @@
 ## Composition
 
 - Lucas Fournier
-- benjamin Treels
+- Benjamin Treels
 - Dany-Joe Rizkallah
 - Imane Eloihli
 
@@ -22,3 +22,11 @@ La deuxième semaine, nous avons vu en détail le disptach, Self et Super. Nous 
 ### Semaine 3
 
 La troisième semaine, nous avons vu l'utilisation des variables globales, avec différentes manières de les manipuler. Nous avons également vu différentes techniques de reverse engineering, et nous avons pu pratiquer sur un exemple concret avec du code rempli de conditions 'if' successives que nous devions améliorer. Enfin, nous avons pu revoir une nouvelle fois 'Super'. Pour finir, nous avons pu continuer notre préparation de la présentation de vendredi prochain. Nous avons analysé les tests en profondeur, préparé notre diaporama, et mis en ordre les informations récoltées jusqu'à maintenant.
+
+### Semaine 4
+
+La quatrième semaine, nous avons pu présenter le résultat de nos analyses. Nous avons réalisé entièrement le diaporama, nous nous sommes entrainés tous ensemble, et le jour de la présentation nous avons pu modifier notre exposé grâce à des indications plus précises. Enfin, nous sommes passés à l'oral pour présenter notre exposé. Nous avons aussi pu assister aux autres oraux, et voir différentes approches du problème de base, différentes librairies.
+
+### Semaine 5
+
+La cinquième semaine, nous avons vu de nouvelles notions. Nous avons pu (re)découvrir le design pattern Templace. Nous avons vu comment l'appliquer en détail, et quels pièges nous devons éviter. Nous avons pu comprendre l'utilisation d'une 'Lazy Initialization', nous avons également compris son intérêt dans certains cas de figure. Nous avons ensuite eu les consignes du nouveau projet. Il faudra comprendre comment le programme fonctionne, le modifier pour proposer des améliorations, nous mettre en contact avec la communauté pour connaitre les améliorations possibles. Nous avons choisi le projet Bloc. Nous avons téléchargé le projet et exploré la documentation pour comprendre sa nature.
