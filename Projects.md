@@ -66,6 +66,7 @@ Citezen is a library to manage scientific publications. It also support the gene
 
 ## Bloc (super adventurous)
 Bloc is a new graphical library.
+  https://www.slideshare.net/esug/bloc-for-pharo-current-state-and-future-perspective
 - [http://www.github.com/pharo-graphics/Bloc](http://www.github.com/pharo-graphics/Bloc)
 
 ### Possible Extensions
