@@ -27,6 +27,8 @@ La troisième semaine, nous avons vu l'utilisation des variables globales, avec 
 
 La quatrième semaine, nous avons pu présenter le résultat de nos analyses. Nous avons réalisé entièrement le diaporama, nous nous sommes entrainés tous ensemble, et le jour de la présentation nous avons pu modifier notre exposé grâce à des indications plus précises. Enfin, nous sommes passés à l'oral pour présenter notre exposé. Nous avons aussi pu assister aux autres oraux, et voir différentes approches du problème de base, différentes librairies.
 
+> https://docs.google.com/presentation/d/11WU7bbyHZUiRKGpL4PM_hhmSix4gczF_dNJkJfsBTew/edit#slide=id.p
+
 ### Semaine 5
 
 La cinquième semaine, nous avons vu de nouvelles notions. Nous avons pu (re)découvrir le design pattern Templace. Nous avons vu comment l'appliquer en détail, et quels pièges nous devons éviter. Nous avons pu comprendre l'utilisation d'une 'Lazy Initialization', nous avons également compris son intérêt dans certains cas de figure. Nous avons ensuite eu les consignes du nouveau projet. Il faudra comprendre comment le programme fonctionne, le modifier pour proposer des améliorations, nous mettre en contact avec la communauté pour connaitre les améliorations possibles. Nous avons choisi le projet Bloc. Nous avons téléchargé le projet et exploré la documentation pour comprendre sa nature.
