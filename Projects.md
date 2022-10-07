@@ -40,7 +40,7 @@ Class09 -- Class10
 
 
 ## Regis
-A web app to register to conference https://github.com/Lin777/Regis
+A web app to register to conference https://github.com/ESUG/Regis
 
 ### Possible extensions
 - Managing Talks
