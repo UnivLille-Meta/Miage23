@@ -35,3 +35,6 @@ Cette deuxième semaine nous a permis de commencer à réfléchir au plan de not
 </ul>
 
 J'ai aussi revu les exercices d'implémentation des booleans true et false vus en classe et aussi le mécanisme de lookup avec self et super.
+
+## THIOYE Mouhamadou Sacoura
+Pour cette semaine j'ai pu avancé sur les mooc et un peu de pratique m'a permis de m'améliorer sur ce cours. J'ai également effectué quelques tests en ce qui concerne notre projet AVL. J'espère pouvoir profiter des jours vides de la semaine qui vient pour etre complétement à niveau avant la semaine 4 pour la présentation
