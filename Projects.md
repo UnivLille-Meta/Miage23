@@ -116,7 +116,8 @@ Citezen is a library to manage scientific publications. It also support the gene
 - Integration of Citezen into microdown eg. given a tag kzVisualization, a title and a description we should be able to generate from Microdown the following: 
    - a list of corresponding publications rendered in HTML
    - example http://stephane.ducasse.free.fr/TopicsBlockchain.html and its link from the main page http://stephane.ducasse.free.fr/
-
+- Tool to edit bibentry and validate them
+- Tool to look for entries. We could use Spec.
 
 ## Pharo Virtual Machine
 The Pharo Virtual Machine is written in Pharo, transpiled to C.
