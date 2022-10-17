@@ -74,19 +74,37 @@ Citezen is a library to manage scientific publications. It also support the gene
 - Revisit the bib model and visitors 
    - hierarchy for the fields (year, title,...) 
    - hierarchy for the kind of entry (chapter, PhD, Inproceedings, techreport)
-   - add document model
-- Merging, sorting, filtering bib files
-- Writing tests, parameterized tests
+- Merging, sorting, filtering bib files 
 - Writing a new core for document 
    - study the existing one, xhtml, plain latex output are needed to generate either web sites or pdf documents
       - one idea could be generate microdown documents and use the document structure and visitor there instead of redoing everything.
       - we could have a kind of template in microdown and it would fill up the template with the section lists and we would get the document output done using microdown visitor. This way we do not reinvent the wheel in citezen. 
-      -  
+      - Check the files rmod.bib because it has some annotations. Check `CZStef new latex; html; bib ; generate`
    - need to be able to produce document with title, sections, and list of reference
    - should be able to control
       - order and selection of sections
       - order and selection of field (for example not showing DOI or note, or annotation)
-      - 
+
+ Here is an example of potential script
+ ```
+ query20162021
+	"normally this is four years so we should stop in 2011 but there are fuzy so let us go until 2012"
+
+	"self query20162021"
+
+	| builder |
+	builder := self new
+		fileNamed: '/Users/ducasse/Workspace/SimpleFiles/LSEFiles/Bibliography/bib/rmod.bib';
+		startingYear: 2017;
+		endingYear: 2021;
+		teamMembers: self teamFor20162021;
+		keysOfBlackListedEntries: self blackListedEntries ;
+		setFilteringOn;
+		yourself.
+	builder filter.
+	^ builder 
+```      
+      
 - Removing Phrase library, we should discuss if we need to replace it. It does not like. 
 - Rules for Entries: the idea is to make sure that entries respect a set of validity rules and to fix the problems automatically
    - keys should follow a given pattern for example Duca00a
