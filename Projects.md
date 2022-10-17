@@ -75,10 +75,17 @@ Citezen is a library to manage scientific publications. It also support the gene
    - add bib model
    - add document model
 - merging, sorting, filtering bib files
-- writing tests
-- writing parameterized tests
+- writing tests, parameterized tests
 - writing a new core
-- Removing Phrase
+- Removing Phrase library
+- Rules for Entries: the idea is to make sure that entries respect a set of validity rules and to fix the problems automatically
+   - keys should follow a given pattern for example Duca00a
+   - entires should all be formatted the same eg. InProceedings and not inproceedings Inproceedings...
+   - entries should have at least the mandatory fields
+   - each field should be separated by a comma
+   - month should be the three first letters of a month in lowercase
+   - More rules can be found in the ruby script testscript.rb
+- Integration of Citezen into microdown eg. given a tag
 
 ## Pharo Virtual Machine
 The Pharo Virtual Machine is written in Pharo, transpiled to C.
