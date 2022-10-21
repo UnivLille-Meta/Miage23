@@ -36,3 +36,7 @@ La cinquième semaine, nous avons vu de nouvelles notions. Nous avons pu (re)dé
 ### Semaine 6
 
 Cette semaine, nous avons vu une nouvelle notion : Le double dispatch. Nous avons pu comprendre cette nouvelle notion avec l'exemple du jeu Pierre, Papier, Ciseaux. Nous avons également revu l'héritage. Enfin, nous avons pu avancer sur notre projet. Nous avons exploré plus en profondeur la documentation du projet, et cherché à comprendre son fonctionnement. Nous nous sommes divisés les tâches pour améliorer notre efficacité, mais nous avons effectué plusieurs points pour connaitre l'avancement ou les blocages de chacun dans sa recherche.
+
+### Semaine 7
+
+Cette semaine, une grande partie de la séance a été prise par l'examen. Dans une seconde partie, nous l'avons corrigé pour voir en détail les propositions de chacun. Enfin, nous avons pu avancer sur le projet, continuer d'essayer de comprendre la structure de la librairie. Nous avons essayé de l'utiliser, mais nous n'avons pas pu y passer énormément de temps et avons donc peu avancé.
