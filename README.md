@@ -23,31 +23,12 @@ Register your groups in the file RegisteredGroups.md by giving a name to your gr
 
 - Install PharoLauncher from [http://www.pharo.org](http://www.pharo.org)
 - Pick Pharo 10
+- Make sure you have correct configured you authentication setup
+    - If you want to use SSH authentication
+    	- set up your SSH keys with a recent encryption, check github's instructions
+	- upload your public keys to github
+    - If you want to use HTTPS authentication (or not do the SSH setup)
+    	- change Icebergs setting, "Metacello Integration" with the value HTTPS
+	![imagen](https://user-images.githubusercontent.com/708322/197169064-c6bf0bd2-762c-4bbe-b48c-daedb2d3aeef.png)
+	- create an access token to be able to push (and make sure of giving it permissions by ticking the check boxes)
 
-```
-StartupPreferencesLoader default executeAtomicItems: {
-	StartupAction 
-		name: 'Logo' 
-		code: [ PolymorphSystemSettings showDesktopLogo: false] .
-	StartupAction 
-		name: 'Git Settings' 
-		code: [ 
-			Iceberg enableMetacelloIntegration: true.
-		
-			IceCredentialStore current
-					storeCredential: (IcePlaintextCredentials new
-					username: 'YourName';
-					password: 'xxxx';
-					host: 'github.com';
-					yourself).		
-
-
-			IceCredentialStore current
-				storeCredential: (IceTokenCredentials new
-					username: 'YourName';
-					token: 'yourtoken';
-					yourself) 
-				forHostname: 'github.com'.
-			]. 
-}.
-```
