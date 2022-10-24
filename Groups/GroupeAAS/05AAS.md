@@ -15,3 +15,6 @@ Durant cette semaine, j'ai appris les notions suivantes :
     <li>Rest API sous Seaside (traitement des requêtes get, post)</li>
     <li>Framework de persistance Voyage qui permet grâce à la méthode isVoyageRoot de rendre les objets persistants dans une base de données MongoDB</li>
 </ul>
+
+## KENBA Ayoub
+Absent tout la semaine (avec justificatif)
