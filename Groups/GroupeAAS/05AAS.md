@@ -17,4 +17,4 @@ Durant cette semaine, j'ai appris les notions suivantes :
 </ul>
 
 ## KENBA Ayoub
-Absent tout la semaine (avec justificatif)
+Absent toute la semaine (avec justificatif)
