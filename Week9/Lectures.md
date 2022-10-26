@@ -2,10 +2,11 @@
 
 [https://rmod-files.lille.inria.fr/?dir=DesignCoffeeClub/Slides]()
 
-- AntiPatterns
--- singleton
--- facade
-- 5-CaseStudy-06-LayeredSettingsArchitecture.pdf
+- 4-Principles-05-AboutDefensiveProgramming.pdf
+- 4-Principles-09-SubtypingVsSubclassing.pdf
+- Law of demeter
+
+
 
 These lectures are hosted at: 
 	[http://github.com/Pharo-mooc/OOProgrammingMooc/]()
