@@ -2,6 +2,7 @@
 
 [https://rmod-files.lille.inria.fr/?dir=DesignCoffeeClub/Slides]()
 
+EXAMEN
 - AntiPatterns
 -- singleton
 -- facade
