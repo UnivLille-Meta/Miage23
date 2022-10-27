@@ -10,5 +10,21 @@ Durant cette semaine, j'ai revisé les notions suivantes pour l'intérro :
   <li> La notion de Null Object Pattern pour éviter de vérifier si une variable est nil. </li>
   <li> Design Pattern (Template Method, Strategy, ...).</li>
   <li> Passer de tests unitaires à une implémentation. </li>
-    
+</ul>
+
+## SAHED Anis 
+Au cours de cette semaine, j'ai appris les notions suivantes : 
+<ul>
+  <li>Le design pattern Double dispatch</li>
+  <li>Revision du design pattern Template Method</li>
+  <li>Revision du design pattern Strategy</li>
+  <li>Pourquoi il est important d'éviter isNil</li>
+</ul>
+
+J'ai également revu les notions suivantes pour l'interro :
+<ul>
+  <li>Self/super et leurs significations</li>
+  <li>Le lookup method avec self et super</li>
+  <li>The essence of dispatch</li>
+  <li>Amélioration de la qualité du code (refactoring) avec les différents designs patterns (Template Method, Strategy, Double Dispatch,...)</li>
 </ul>
