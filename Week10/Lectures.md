@@ -2,10 +2,13 @@
 
 [https://rmod-files.lille.inria.fr/?dir=DesignCoffeeClub/Slides]()
 
-- AntiPatterns
+- 5-CaseStudy-05-Sokoban-Analysis.pdf
+- [TBD] AntiPatterns 
 -- singleton
 -- facade
+- 6-DesignPattern-05-VisitorDiscussions.pdf
 - 5-CaseStudy-06-LayeredSettingsArchitecture.pdf
+- 5-CaseStudy-04-PowerOfDelegationClassDefinitionPrinter.pdf
 
 These lectures are hosted at: 
 	[http://github.com/Pharo-mooc/OOProgrammingMooc/]()
