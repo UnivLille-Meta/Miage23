@@ -4,6 +4,9 @@
 
 - 4-Principles-03-AboutRegistration.pdf
 - 4-Principles-08-Sharing.pdf
+- [TBD] AntiPatterns 
+-- singleton
+-- Facade
 - [TBD] Decorators
 - [TBD] Chain of responsibility
 
