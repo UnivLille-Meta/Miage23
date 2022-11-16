@@ -41,11 +41,12 @@ This file contains the groups that should be declared as follows
 -   joe El Hajj joe.elhajj.etu@univ-lille.fr
 
 
-## Groupe DLB
+## Groupe UN
 
--   D. Rizkallah danyjoe.rizkallah.etu@univ-lille.fr
--   L. Fournier lucas.fournier2.etu@univ-lille.fr
--   B. Treels benjamin.treels.etu@univ-lille.fr
+-   DanyJoe Rizkallah danyjoe.rizkallah.etu@univ-lille.fr
+-   Lucas Fournier lucas.fournier2.etu@univ-lille.fr
+-   Benjamin Treels benjamin.treels.etu@univ-lille.fr
+-   Imane Eloihli imane.eloihli.etu@univ-lille.fr
 
 ## Groupe BH
 
