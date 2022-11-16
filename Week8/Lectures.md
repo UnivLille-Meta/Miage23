@@ -1,6 +1,6 @@
 # Lectures
 
-[https://rmod-files.lille.inria.fr/?dir=DesignCoffeeClub/Slides]()
+https://rmod-files.lille.inria.fr/?dir=DesignCoffeeClub/Slides
 
 - 5-CaseStudy-01-TurningAProcIntoAnObject.pdf	
 - 6-DesignPattern-01-IntroDesignPattern.pdf
