@@ -15,6 +15,6 @@
 - 10 Week 24/25 Nov
 - 11 Week 1/2 Dec
 - 12 Week 8/9 Dec 
--- Wednesday 7 Amphitheatre Maxwell (P3) ""Presentations"" 
--- Friday 9 Amphitheatre Maxwell (P3) ""Examen""
+- Wednesday 7 Amphitheatre Maxwell (P3) ""Presentations"" 
+- Friday 9 Amphitheatre Maxwell (P3) ""Examen""
 
