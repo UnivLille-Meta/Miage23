@@ -1,0 +1,1 @@
+On a consacré cette semaine au travail de la présentation sur les arbres AVL.
