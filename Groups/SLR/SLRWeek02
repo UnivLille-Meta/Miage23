@@ -1,0 +1,27 @@
+# Rapport semaine 2 :
+
+## Durant la partie libre du cours nous avons : 
+
+- Importer le projet Containers-Grid sur PharoLauncher
+- Lancer les Tests (69 tests valide) 
+- Vérifier le coverage des test par rapport au projet entier (80 %) 
+- Commencer a regarder les différents tests pour essayer de comprendre un peu le projet
+
+## Durant la semaine 
+
+### Romain Morel : 
+
+- Installation pharo ordinateur personnel + importation du projet Containers-Grid
+- Lecture du livre Pharo par l'exemple (p40) 
+- https://www.youtube.com/watch?v=e5DQbixhunc : Explication de la synthaxe et de l'initailisation 
+- Création d'un document texte pour mettre des choses utiles en pharo
+
+### Louis Deloffre : 
+
+- Installation et lancement du projet Countainers-Grid sur l'ordinateur personnel.
+- Commencement du Mook par la semaine 1.
+- Réalisation des exercices pratiques du Mook
+
+### Sabrina Kernouf :
+- Installation de pharo sur ordinateur perso + importation du projet Countainers-Grid
+- Début de lecture du mook et réalisation des exercices de la semaine 1
