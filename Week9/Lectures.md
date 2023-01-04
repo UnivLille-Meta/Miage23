@@ -5,7 +5,7 @@
 
 - 4-Principles-09-SubtypingVsSubclassing.pdf
 - 4-Principles-04-LawOfDemeter.pdf
-- 5-CaseStudy-02-AboutFluidAPI.pdf
+
 
 
 
