@@ -105,7 +105,6 @@ Citezen is a library to manage scientific publications. It also support the gene
 	^ builder 
 ```      
       
-- Removing Phrase library, we should discuss if we need to replace it. It does not like. 
 - Rules for Entries: the idea is to make sure that entries respect a set of validity rules and to fix the problems automatically
    - keys should follow a given pattern for example Duca00a
    - entires should all be formatted the same eg. InProceedings and not inproceedings Inproceedings...
@@ -132,7 +131,6 @@ It has an interpreter, a machine code compiler for ARM64, ARM32, x86, x64, and R
 - Review issues in the Pharo VM
    - remove duplicated code
 
-
 ## Roassal
 Roassal3 is an agile visualization engine for Pharo.
 - https://github.com/ObjectProfile/Roassal3/
@@ -142,10 +140,3 @@ Roassal3 is an agile visualization engine for Pharo.
 - Review layouts (see issues)
 - writing tests
 - writing parameterized tests
-
-## Brea
-A couple of years ago, I prototyped something between a static site generator and a decoupled/headless CMS, called Brea[1] and we did a lot of extensive workshops to teach how to use it. The site (in Spanish) for the workshops and documentation of Brea is made using Brea and you can see it at [2]. It tries to address the documentation needs of the local communities which use diverse places to write documentation (HegdeDoc, Internet Archive) and want to consolidate them in a unified place. We're now discussing to integrate Brea with TiddlyWikiPharo[3] as TiddlyWiki has become an integral part of our documentation practices and maybe we could try another take on it if we get enough resources for that.
-
-- [1] https://code.tupale.co/Offray/Brea
-- [2] https://mutabit.com/repos.fossil/indieweb/
-- [3] https://code.tupale.co/Offray/TiddlyWikiPharo/
