@@ -1,13 +1,8 @@
-# Prepare Presentation 
+# Exercises 
 
 For the presentation due in Week 4
-
 - How did you learn?
 - Data structure analyses
-
-## How did you learn?
-
-- Explain that to us
 
 ## Data Structure Analysis
 
