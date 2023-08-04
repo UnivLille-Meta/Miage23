@@ -1,5 +1,0 @@
-- Terminer les videos du mooc.
-- Revoir la syntaxe en general.
-- Analyser le projet Citezen (package + classes + quelques méthodes et testes).
-- Comprendre les fonctionnalitées de citezen.
-- Difficulté d'ajouter des nouveaux testes (Citezen).

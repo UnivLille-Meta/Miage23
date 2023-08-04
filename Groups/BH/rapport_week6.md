@@ -1,2 +1,0 @@
-- Révision pour le test.
-- On a rien fait pour le projet XD.

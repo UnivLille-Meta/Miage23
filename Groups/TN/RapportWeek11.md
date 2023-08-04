@@ -1,3 +1,0 @@
-- Pull Resquest : disable boutton supprimer admin
-- Preparation de l'orale
-- Revisiter l'architecture de REGIS 

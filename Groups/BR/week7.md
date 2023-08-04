@@ -1,6 +1,0 @@
--Decouverte du Projet Mikrodown en globalité
--Analyse sur le fonctionnement de Mikrodown sur sa facon de parser un texte
--Comprehension de la structure de resultats: en HTML par exemple 
--Initiations aux visitors 
--Tentative de comprendre les classes, le codes
--Recherche d'Objectifs,de comment mener le projet, qu'est-ce qu'on attend de nous

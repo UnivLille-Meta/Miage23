@@ -1,4 +1,0 @@
-- Lucas Fournier
-- Benjamin Treels
-- Dany-Joe Rizkallah
-- Imane Eloihli

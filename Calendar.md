@@ -1,19 +1,22 @@
 ## One glance schedule
 
-- 1 Week 8/9 Sep
-- 2 Week 15/16 Sep
-- 3 Week 22/23 Sep 
-- 4 Week 29/30 Sep 
+- 01 Week: 07-08 Sep Test introduction
+- 02 Week: 13-14 Sep OOP refresh
+- 03 Week: 20-21 Sep Reverse engineering
+- 04 Week: 27-28 Sep Test Quality
+- 05 Week: 05-06 Oct Presentation
 -- ""Presentations Learning and data structure analysis"" 
--- Pick up a project for the rest
-- 5 Week 6/7 Oct
-- 6 Week 13/14 Oct - ""Examen""
-- 7 Week 20/21 Oct
-- 8 Week 27/28 Oct
--  Ferie Week 10/11 Nov (Pay attention no lecture this week.)
-- 9 Week 17/18 Nov
-- 10 Week 24/25 Nov
-- 11 Week 1/2 Dec
-- 12 Week 8/9 Dec 
-- Wednesday 7 Amphitheatre Maxwell (P3) ""Examen""
-- Friday 9 Amphitheatre Maxwell (P3) ""Presentations"" 
+- 06 Week: 12-13 Oct Hook and templates
+19-20 Oct Pas de cours
+- 07 Week: 26-27 Double dispatch
+-- Examen
+
+Break 2-3 Nov
+
+- 08 Week 09-10 Nov Visitor
+- 09 Week 16-17 Nov Composite 
+- 10 Week 23-24 Nov Inheritance
+- 11 Week 30-01 Dec Types
+- 12 Week 07-08 Dec Examen 
+
+

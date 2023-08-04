@@ -1,4 +1,0 @@
--Nous avons atteint la semaine 5 du mooc.
--Réviser les cours des Weeks déja faits..
--Faire des recherches pour perfectionné notre niveau.
--pratiqué la syntaxe en faisant quelque exercices.

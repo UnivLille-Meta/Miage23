@@ -1,3 +1,0 @@
-- Revoir les cours de week 1, 2 et 3 (Révision).
-- On a Fait les quizes de week 1 jusqu'a 5 (Révision).
-- Amélioration marquée de la compréhension de la syntaxe pharo.
