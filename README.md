@@ -3,14 +3,16 @@ This is the repository of the MIAGE C3P lectures done by S. Ducasse and G. Polit
 contact: stephane.ducasse@inria.fr / guillermo.polito@inria.fr
 
 ## Files
-All the actual pdfs are hosted under [https://rmod-files.lille.inria.fr/DesignCoffeeClub/Slides/](https://rmod-files.lille.inria.fr/DesignCoffeeClub/Slides/)
+All the actual pdfs are hosted under [https://rmod-files.lille.inria.fr/DesignCoffeeClub/Slides/](https://rmod-files.lille.inria.fr/DesignCoffeeClub/)
 
-Please note that the actual lectures raw files are hosted under
-- [http://github.com/pharo-mooc/AdvancedOODesign/Slides/Stable]() for the mooc related ones and 
-- [http://github.com/pharo-mooc/AdvancedOODesign/Slides/Lectures]() 
+Please note that the lectures videos are hosted [http://rmod-pharo-mooc.lille.inria.fr/AdvancedDesignMooc/](http://rmod-pharo-mooc.lille.inria.fr/AdvancedDesignMooc/) and will be available as [https://advanced-design-mooc.pharo.org](https://advanced-design-mooc.pharo.org)
+
+
+
 
 ## Register 
 Register your groups in the file RegisteredGroups.md by giving a name to your group and listing your name as shown in the file.
+
 
 ## Reports
 - Create a folder with the name of your group under the folder Groups
