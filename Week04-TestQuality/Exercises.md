@@ -1,5 +1,7 @@
 # Exercises
 
+https://github.com/avl-univ-lille/testing/blob/2023/practice/mutation.md
+
 1. Run coverage on your project
 2. Analysis uncovered code
 3. Write tests that increase coverage
