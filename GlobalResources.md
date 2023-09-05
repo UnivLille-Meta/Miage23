@@ -1,5 +1,13 @@
+
 # Resources to learn from
 
+- Slides and Videos [https://rmod-files.lille.inria.fr/DesignCoffeeClub/2023-Miage/]
+
+Other source
+- [http://rmod-pharo-mooc.lille.inria.fr/AdvancedDesignMooc/Slides/]
+- [http://rmod-pharo-mooc.lille.inria.fr/AdvancedDesignMooc/Videos/]
+
+## Link
 - [http://mooc.pharo.org](a super cool mooc)
 - [https://discord.gg/QewZMZa](Pharo discord channel)
 - [http://books.pharo.org](Pharo by Example)
