@@ -3,7 +3,7 @@ This is the repository of the MIAGE C3P lectures done by S. Ducasse and G. Polit
 contact: stephane.ducasse@inria.fr / guillermo.polito@inria.fr
 
 ## Files
-All the actual pdfs are hosted under [https://rmod-files.lille.inria.fr/DesignCoffeeClub/Slides/](https://rmod-files.lille.inria.fr/DesignCoffeeClub/)
+All the actual pdfs are hosted under [https://rmod-files.lille.inria.fr/DesignCoffeeClub/](https://rmod-files.lille.inria.fr/DesignCoffeeClub/)
 
 Please note that the lectures videos are hosted [http://rmod-pharo-mooc.lille.inria.fr/AdvancedDesignMooc/](http://rmod-pharo-mooc.lille.inria.fr/AdvancedDesignMooc/) and will be available as [https://advanced-design-mooc.pharo.org](https://advanced-design-mooc.pharo.org)
 
