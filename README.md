@@ -21,9 +21,12 @@ In this course, you will learn the following topics.
 
 All slides, videos, and tutorials are available in (or linked from) this repository.
 
-All pdfs are hosted under [https://rmod-files.lille.inria.fr/DesignCoffeeClub/](https://rmod-files.lille.inria.fr/DesignCoffeeClub/)
+- Pdfs are hosted under [https://rmod-files.lille.inria.fr/DesignCoffeeClub/](https://rmod-files.lille.inria.fr/DesignCoffeeClub/)
+- Videos are hosted [http://rmod-pharo-mooc.lille.inria.fr/AdvancedDesignMooc/](http://rmod-pharo-mooc.lille.inria.fr/AdvancedDesignMooc/).
 
-Please note that the lectures videos are hosted [http://rmod-pharo-mooc.lille.inria.fr/AdvancedDesignMooc/](http://rmod-pharo-mooc.lille.inria.fr/AdvancedDesignMooc/) and will be available as [https://advanced-design-mooc.pharo.org](https://advanced-design-mooc.pharo.org)
+They will also be soon available on the official website [https://advanced-design-mooc.pharo.org](https://advanced-design-mooc.pharo.org)
+
+
 
 ## Course Contract
 
