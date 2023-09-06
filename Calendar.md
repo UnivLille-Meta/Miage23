@@ -1,9 +1,9 @@
 ## One glance schedule
 
 - 01 Week: 07-08 Sep Test introduction
-- 02 Week: 13-14 Sep OOP refresh
-- 03 Week: 20-21 Sep Reverse engineering
-- 04 Week: 27-28 Sep Test Quality
+- 02 Week: 14-15 Sep OOP refresh
+- 03 Week: 21-22 Sep Reverse engineering
+- 04 Week: 28-29 Sep Test Quality
 - 05 Week: 05-06 Oct Presentation
 -- ""Presentations Learning and data structure analysis"" 
 - 06 Week: 12-13 Oct Hook and templates
