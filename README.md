@@ -55,11 +55,13 @@ make recurrent pull requests to update it.
 For example, imagine that Jeanne D'arc and Tintin LeBelge are together in a group called RevolutionX.
 They create a directory RevolutionX
 
-> Groups
->   - RevolutionX
->      members.md (names and emails)
->      report-week01.md (one section for Jeanne, one for Tintin)
->      report-week02.md (one section for Jeanne, one for Tintin)
+```
+Groups
+    - RevolutionX
+        - members.md (names and emails)>
+        - report-week01.md (one section for Jeanne, one for Tintin)
+        - report-week02.md (one section for Jeanne, one for Tintin)
+```
 
 
 ## FAQ
