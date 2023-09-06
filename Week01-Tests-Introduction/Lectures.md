@@ -1,6 +1,6 @@
 # Lectures
 
-[https://rmod-files.lille.inria.fr/?dir=DesignCoffeeClub/Slides](https://rmod-files.lille.inria.fr/?dir=DesignCoffeeClub/Slides)
+[https://rmod-files.lille.inria.fr/?dir=DesignCoffeeClub/2023-Miage](https://rmod-files.lille.inria.fr/?dir=DesignCoffeeClub/2023-Miage)
 
 - 0-AboutLecture.pdf
 - http://rmod-pharo-mooc.lille.inria.fr/AdvancedDesignMooc/Slides/ M2-1-Tests-01-101.pdf
