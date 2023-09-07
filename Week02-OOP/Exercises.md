@@ -1,46 +1,41 @@
 # Exercises 
 
-For the presentation due in Week 4
+For the presentation due in Week 5
 - How did you learn?
 - Data structure analyses
 
-## Data Structure Analysis
+## Analysis
 
-### Setup
-You have to pick one of each  categories below.
+During this exercises (whose results will have to be presented during week 5) you will have to analyse
+two projects: AVL and Artefact
 
-## Kind of packaged ones
+### AVL
+ AVL is implementation of balanced trees
 
-- https://github.com/pharo-containers/ 
-	(except stack don't be lame)
-
-## Wild ones
-- https://github.com/Ducasse/Containers-OrderPreservingTree
 - https://github.com/pharo-containers/AVL
-- https://github.com/pharo-containers/BTree
-- https://github.com/Ducasse/Containers-LinkedList
-- https://github.com/Ducasse/Containers-OrderedMultiMap
-- https://github.com/Ducasse/Containers-PropertyEnvironment
-- https://github.com/Ducasse/Containers-Grid
 
+### Artefact
+Artefact is a generator of PDF document.
+
+- https://github.com/pharo-contributions/artefact
 
 For each of it perform the following analysis.
 
-## User perspective.
-- how to use it
-- what is the behavior
+### User perspective.
+- how to use it?
+- what is the behavior?
 
-## Implementor perspective
+### Implementor perspective
 - how is it implemented 
 - what are the invariants
 
-## Speculate tradeoffs 
--- speed / memory
--- flexibility
--- API
-
-## What about tests
+### What about tests
 - positive
 - negative
 - bounds?
 - coverage
+
+### You should propose test improvements
+- either improving existing tests 
+- or proposing new tests
+
