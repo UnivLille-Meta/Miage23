@@ -37,6 +37,7 @@ To pass this course you will need to:
  - make a presentation (see [Calendar.md](Calendar.md))
  - do at minimum **all** the homework in the exercises (file Exercises.md in each folder)
 	=> Each week will feature mini quizzes about the homework of the past week
+ - watch all the videos of the lectures not done during the lectures (yes there are videos for 99% of the support)
  - write (short) weekly reports to tell us your activity. Remember, focus on the important things, and show us that you are learning.
 
 ### Make a group
