@@ -7,7 +7,19 @@ Other source
 - [http://rmod-pharo-mooc.lille.inria.fr/AdvancedDesignMooc/Slides/]
 - [http://rmod-pharo-mooc.lille.inria.fr/AdvancedDesignMooc/Videos/]
 
-## Link
+## Git resources
+
+### Slides
+- https://rmod-files.lille.inria.fr/DesignCoffeeClub/2023-Miage/Git-PADR-1.2-GitAndDistributedVCS.pdf
+- https://rmod-files.lille.inria.fr/DesignCoffeeClub/2023-Miage/Git-PADR-1.3-PracticalGit.pdf
+- https://rmod-files.lille.inria.fr/DesignCoffeeClub/2023-Miage/Git-PADR-2-AdvancedGit.pdf
+  
+### Tutorials
+- https://rmod-files.lille.inria.fr/DesignCoffeeClub/2023-Miage/Support-1-BasicGit.pdf
+- https://rmod-files.lille.inria.fr/DesignCoffeeClub/2022-Miage-Slides/Support-2-AdvancedGit.pdf
+- https://rmod-files.lille.inria.fr/DesignCoffeeClub/2022-Miage-Slides/Support-2-PracticalGit.pdf
+  
+## Links
 - [http://mooc.pharo.org](a super cool mooc)
 - [https://discord.gg/QewZMZa](Pharo discord channel)
 - [http://books.pharo.org](Pharo by Example)
@@ -15,7 +27,7 @@ Other source
 - [https://scg.unibe.ch/download/oorp/OORP.pdf](Object-Oriented Reengineering Patterns)
 
 ## Optional
-- [https://rmod-files.lille.inria.fr/?dir=FreeBooks/SeasideBook](Seaside: dynamic web development)
+- Web https://rmod-files.lille.inria.fr/?dir=FreeBooks/SeasideBook
 
 
 ## Pharo automatic configuration
