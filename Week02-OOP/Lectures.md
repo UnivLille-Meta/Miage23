@@ -1,6 +1,6 @@
 # Lectures
 
-[https://rmod-files.lille.inria.fr/?dir=DesignCoffeeClub/Slides]()
+The raw versions of the lectures are hosted at:  https://rmod-files.lille.inria.fr/?dir=DesignCoffeeClub/2023-Miage
 
 - 1-Essence-01-NotExample.pdf
 - 1-Essence-02-Dispatch.pdf

@@ -1,6 +1,6 @@
 # Lectures
 
-https://rmod-files.lille.inria.fr/?dir=DesignCoffeeClub/Slides
+The raw versions of the lectures are hosted at:  https://rmod-files.lille.inria.fr/?dir=DesignCoffeeClub/2023-Miage
 
 - 5-CaseStudy-01-TurningAProcIntoAnObject.pdf	
 - 6-DesignPattern-01-IntroDesignPattern.pdf
