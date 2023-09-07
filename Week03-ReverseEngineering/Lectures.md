@@ -13,6 +13,6 @@ Extras
 - http://rmod-pharo-mooc.lille.inria.fr/MOOC/PharoMOOC/Week3/C019-W3S06-BasicClassMethods.pdf
 - http://rmod-pharo-mooc.lille.inria.fr/MOOC/PharoMOOC/Week6/C019-W6S01-DidYouUnderstandSuper.pdf
 
-
+These lectures are part of the forthcoming mooc https://advanced-design-mooc.pharo.org
 
 	

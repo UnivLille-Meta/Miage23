@@ -6,4 +6,6 @@ The raw versions of the lectures are hosted at:  https://rmod-files.lille.inria.
 - http://rmod-pharo-mooc.lille.inria.fr/AdvancedDesignMooc/Slides/M3-3-DesignPattern-02-HookAndTemplate.pdf
 - http://rmod-pharo-mooc.lille.inria.fr/AdvancedDesignMooc/Slides/M5-7-Principles-01-AvoidIsNil.pdf
 
+These lectures are part of the forthcoming mooc https://advanced-design-mooc.pharo.org
+
 	

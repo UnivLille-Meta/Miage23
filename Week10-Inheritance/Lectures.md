@@ -11,6 +11,4 @@ The raw versions of the lectures are hosted at:  https://rmod-files.lille.inria.
 
 
 
-
-These lectures are hosted at: 
-	[http://github.com/Pharo-mooc/OOProgrammingMooc/]()
+These lectures are part of the forthcoming mooc https://advanced-design-mooc.pharo.org

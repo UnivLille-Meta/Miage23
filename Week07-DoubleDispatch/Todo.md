@@ -1,4 +1,4 @@
-# Todo 
+# Exercises 
 
-- Design documents
-- PR
+- Developments and PRs for your game
+

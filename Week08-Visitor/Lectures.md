@@ -3,9 +3,8 @@
 The raw versions of the lectures are hosted at:  https://rmod-files.lille.inria.fr/?dir=DesignCoffeeClub/2023-Miage
 
 
-- [3-DoubleDispatch-04-NoSymmetrical.pdf]
-- 6-DesignPattern-04-Visitor.pdf
+- https://rmod-files.lille.inria.fr/DesignCoffeeClub/2023-Miage/M6-2-DoubleDispatch-04-NoSymmetrical.pdf
+- https://rmod-files.lille.inria.fr/DesignCoffeeClub/2023-Miage/M6-4-DesignPattern-04-Visitor.pdf
 
-These lectures are hosted at: 
-	[http://github.com/Pharo-mooc/OOProgrammingMooc/]()
-	
+
+These lectures are part of the forthcoming mooc https://advanced-design-mooc.pharo.org
