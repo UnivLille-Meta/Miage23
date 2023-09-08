@@ -8,8 +8,8 @@
 -- ""Presentations Learning and data structure analysis"" 
 - 06 Week: 12-13 Oct Hook and templates
 19-20 Oct Pas de cours
-- 07 Week: 26-27 Double dispatch
--- Examen
+- 07 Week: 26 Pas de cours le 27
+-- Examen en amphi C15 04
 
 Break 2-3 Nov
 
