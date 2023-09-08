@@ -4,12 +4,10 @@
 - 02 Week: 14-15 Sep OOP refresh
 - 03 Week: 21-22 Sep Reverse engineering
 - 04 Week: 28-29 Sep Test Quality
-- 05 Week: 05-06 Oct Presentation
--- ""Presentations Learning and data structure analysis"" 
+- 05 Week: 05-06 Oct Presentation -- *Presentations Learning and data structure analysis*
 - 06 Week: 12-13 Oct Hook and templates
 - 19-20 Oct Pas de cours
-- 07 Week: 26 Pas de cours le 27
--- Examen en amphi C15 04
+- 07 Week: Examen en amphi C15 04 le 26/10 les deux groupes -- *Pas de cours le 27*
 
 Break 2-3 Nov
 
