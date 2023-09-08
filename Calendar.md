@@ -7,7 +7,7 @@
 - 05 Week: 05-06 Oct Presentation
 -- ""Presentations Learning and data structure analysis"" 
 - 06 Week: 12-13 Oct Hook and templates
-19-20 Oct Pas de cours
+- 19-20 Oct Pas de cours
 - 07 Week: 26 Pas de cours le 27
 -- Examen en amphi C15 04
 
