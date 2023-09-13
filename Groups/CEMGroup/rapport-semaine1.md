@@ -29,4 +29,16 @@ Dans cette définition, je ne suis pas encore capable de définir correctement l
 
 # Lina
 
+### Ce que j'ai fait
+
+J'ai réalisé les exercices de la première semaine qui m'ont permis d'apprendre à utiliser Pharo, connaître la syntaxe, créer une classe, écrire des méthodes, faire des tests et découvrir l'extreme TDD.
+
+### Ce que je n'ai pas fait (et pourquoi)
+
+Je n'ai pas encore regardé les vidéos car je n'ai pas eu le temps pour le moment, mais je compte le faire ce week end pour vérifier que j'ai bien tout compris.
+
+### Les difficultés que j'ai rencontré et comment je les ai surmontées
+
+Je n'ai pas vraiment rencontré de difficultés pour ce premier tp, les consignes étaient très claires et la fiche d'exercices bien détaillée.
+
 # Nizar
