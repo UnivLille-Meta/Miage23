@@ -1,48 +1,48 @@
 # Exercises 
 
-For the presentation due in Week 5
-- How did you learn?
-- Data structure analyses
+The main objective of this week's practice is to start preparing the presentation due in Week 5.
+During this exercise you will have to analyze two existing software projects: AVL and Artefact.
+Then, you will have to prepare a 10' presentation that shows two aspects of your analysis:
+
+- What conclusions did you get from the data structure?
+- *How* did you learn?
+
+
+## Projects
+
+- AVL is an implementation of balanced trees https://github.com/pharo-containers/AVL
+- Artefact is a generator of PDF documents https://github.com/pharo-contributions/artefact
 
 ## Analysis
 
-During this exercise (whose results will have to be presented during week 5) you will have to analyze
-two projects: AVL and Artefact
+For each project perform *at least* the following analyses.
 
-### AVL
- AVL is an implementation of balanced trees
+Tips:
+- You can check the code from the Class browser,
+- Execute examples from the playground,
+- and inspect the results using the inspector.
+- To execute the tests use DrTests (see menus)
+- And check the options in the browser/playground (senders, implementors) what do they do and why are they useful?
 
-- https://github.com/pharo-containers/AVL
+### From a user perspective
+- Is there good starting documentation? Look for installation instructions, starting points, examples.
+- How do we use the project/library?
+- What does it do? Why would you use it?
+- What are the key classes to look at?
 
-### Artefact
-Artefact is a generator of PDF documents.
-
-- https://github.com/pharo-contributions/artefact
-
-To execute the tests use DrTests (see menus)
-
-For each of it perform the following analysis.
-
-
-### User perspective.
-- how to use it?
-- what is the behavior?
-- what are the key classes?
-
-
-### Implementor perspective
-- how is it implemented 
-- what are the invariants
+### From an implementor/contributor perspective
+- how is it implemented? Do you recognize some known patterns?
+- what are the invariants? For AVL you will see plenty since it is a data structure. For Artefact, can you zoom into a feature and get some insights?
 - what is the design?
 
 ### What about tests
-- positive
-- negative
-- bounds?
-- coverage
+- Are there tests?, do they run?
+- Is coverage good? Are there missing tests?
+- What kind of tests do you find? Positive, negative, boundary checks?
 
-### You should propose test improvements
-- either improving existing tests 
-- or proposing new tests
+### Propose improvements
+Either
+- improving existing tests 
+- proposing new (missing) tests
 - if you find problems please open issues in the github repository of the project
-- you can also propose PullRequests to address problems and improve the project.
+- you can also propose pull requests to address problems and improve the project
