@@ -6,3 +6,4 @@ J'ai ensuite commencé à regarder les différents cours que nous aurons dans ce
 
 # Maxime
 
+Lors de la première séance, j'ai pu découvrir les différents objectifs qu'avaient cette matière : comprendre réellement ce qu'est la conception orientée objet, mais aussi apprendre à rapidement s'approprier un code qui n'est pas le notre, et trouver la méthode d'apprentissage qui nous est la plus appropriée. J'ai également découvert le language de programmation Pharo, et aie pu en partie le pratiquer lors du TP mais également par la suite chez moi à l'aide des vidéos et pdf mis à disposition. Je m'étais arrêté à la création de setter, où j'ai rencontré un léger blocage que j'ai surmonté à l'aide de quelques recherches.
