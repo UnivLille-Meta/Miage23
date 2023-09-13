@@ -9,3 +9,10 @@ J'ai également regardé la vidéo d'Xtreme TDD
 # Simon :
 
 # Paul :
+
+J'ai commencé par découvrir ProfStef et Pharo pour avoir quelques base.
+En suivant le TP, j'ai un blocage sur une méthode de test (instance side), j'ai décidé de regarder les vidéos.
+Puis j'ai fini par la découverte de Iceberg et surtout de comment push sur git.
+-> la différence instance side et class side
+Pour la méthode printString, j'ai du chercher sur ProfStef, puis j'ai aussi chercher un peu sur Internet pour la methode printString afin de remplacer correctement les paramètres dans ma chaîne de caractères
+Après avoir repris le TD avec mes camarades, j'ai réglé mon erreur pour l'instance side
