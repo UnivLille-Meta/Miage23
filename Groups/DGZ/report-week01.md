@@ -8,6 +8,12 @@ J'ai également regardé la vidéo d'Xtreme TDD
 
 # Simon :
 
+J'ai passé la première séance à faire le premier TP et à m'amuser avec l'IDE Pharo. En effet :
+- Le TP m'a permis de découvrir les fonctionnalités de base de Pharo et de l'IDE. J'ai découvert l'organisation de projets sur Pharo, c'est à dire le découpage en packages, classes et méthodes. Ainsi que l'utilisation de git pour enregistrer et historiser le code en local, une chose très pratique que je n'ai retrouvé nullepart d'autre.
+- J'ai ensuite regardé la vidéo de XTDD et ai appliqué ses principes.
+- Après avoir fini tout cela je me suis amusé à remonter les fonctions de bases de Pharo (exemple : new -> basicNew) et à découvrir certains fonctionnements du language (exemple : yourself)
+
+
 # Paul :
 
 J'ai commencé par découvrir ProfStef et Pharo pour avoir quelques base.
