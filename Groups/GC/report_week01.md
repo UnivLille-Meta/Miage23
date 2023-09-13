@@ -1,8 +1,9 @@
 # Thomas
 
-Pour la première semaine, j'ai suivi le cours de la semaine une ainsi que réaliser les exercices proposés.
-
-J'ai ensuite commencé à regarder les différents cours que nous aurons dans cette UE.
+Pour la première semaine, j'ai suivi le cours de la semaine une ainsi que réaliser les exercices proposés. <br>
+j'ai réalisé l'exercice en TDD et j'ai push mon travail sur github à l'aide d'iceberg.
+J'ai ensuite commencé à regarder les différents cours que nous aurons dans cette UE particulièrement celui de la semaine prochaine soit les cours sur self, super et inheritance. <br/>
+Je n'ai pas rencontré de problème particulier pour cette première séance.
 
 # Maxime
 
