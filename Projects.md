@@ -23,6 +23,7 @@ Bloc is a new graphical library
 - Taquin
 - Maze generator
 - Bomberman
+- Puissance4 (for this one we will also define a little AI that will be able to compete against humans :)
 
 You can find some ideas of games at: 
 https://inventwithpython.com/blog/2012/02/20/i-need-practice-programming-49-ideas-for-game-clones-to-code/
