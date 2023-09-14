@@ -1,4 +1,17 @@
 AGOUAZI LYNDA 
+Report: First Lecture on Pharo Programming
+What I Did:
+-I installed Pharo according to the official tutorial.
+-I created a Pharo image and began acquiring a fundamental understanding of the language's syntax with ProfStef.
+-I followed the PDF and videos to create a package, a class "MyCounter", methods and a test.
+-I created a GitHub repository.
+
+What I Did Not Do:
+Initially, I faced difficulty comprehending the concept of "forking" a project. However, with explanations in the lecture and supplementary video tutorials, I later achieved clarity on this topic.
+
+Difficulties Encountered and Solutions: Test Execution and Loading project: 
+I encountered problems concerning the execution of tests and loading of components. I resolved these issues by revisiting YouTube tutorials and verifying the steps to ensure correctness of what I did.
+
 
 CHAMI Nour :
 
