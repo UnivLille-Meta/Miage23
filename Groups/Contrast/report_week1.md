@@ -1,5 +1,5 @@
 
-Gabriella Divine ISHIMWE: 
+# Gabriella Divine ISHIMWE: 
 
 Durant la première semaine, j'ai pu comprendre l’objectif du cours de C3P qui est celui d’apprendre à apprendre. J’ai pu voir que ce cours m’aiderait à comprendre l’ ”objet“ d’une manière générale et surtout à être plus à l’aise lors l’apprentissage de n’importe quel langage objet. 
 
@@ -9,7 +9,7 @@ Par la suite, j'ai commencé les exercices du TP1. A certains niveaux du TP, j�
 
 
 
-Axel SENECHAL:
+ # Axel SENECHAL:
 
 Pour la première semaine, on nous a présenté pharo, son environnement et son installation. On nous a également présent le concept du mode de C3P, qui est globalement d'apprendre des méthodologies d'adaptation dans nos abordages de nouveaux projets/nouveaux langages.
 
