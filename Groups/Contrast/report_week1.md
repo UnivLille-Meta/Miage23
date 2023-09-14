@@ -1,4 +1,11 @@
 
+Gabriella Divine ISHIMWE: 
+
+Durant la première semaine, j'ai pu comprendre l’objectif du cours de C3P qui est celui d’apprendre à apprendre. J’ai pu voir que ce cours m’aiderait à comprendre l’ ”objet“ d’une manière générale et surtout à être plus à l’aise lors l’apprentissage de n’importe quel langage objet. 
+
+Pour aborder Pharo, j’ai d’abord revu la syntaxe avec les différentes notions eues un cours. L’une des notions qui m’a le plus intéressée est l’Extreme TDD qui, je pense va m’habituer à commencer par les testS et par la suite écrire le code, me permettant ainsi d' améliorer la qualité de mon code en garantissant que chaque partie que je code est testé minutieusement dès le départ afin de perdre moins de temps dans le débogage.
+
+Par la suite, j'ai commencé les exercices du TP1. A certains niveaux du TP, j’ai eu certains blocages et c’est là que j’ai commencé à regarder les vidéos sur le MOOC qui m’ont aidé à comprendre point par point les notions de base et à être plus à l’aise dans la suite du TP. 
 
 
 
