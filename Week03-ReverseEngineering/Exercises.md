@@ -1,4 +1,4 @@
-<img width="1585" alt="imagen" src="https://github.com/UnivLille-Meta/Miage23/assets/708322/7d42308c-8ed6-467c-85c8-14adad111301"># Exercises
+# Exercises
 
 In this practice we will step by step explore the `LRUCache` class in Pharo11, try to understand it and understand how to use our every-day tools to do this.
 
