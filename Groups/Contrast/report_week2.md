@@ -1,7 +1,7 @@
 
 
 
-Axel SENECHAL:
+# Axel SENECHAL:
 
 Pour cette deuxième semaine, mon changement de groupe est maintenant effectif.
 
