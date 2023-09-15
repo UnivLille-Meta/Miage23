@@ -21,3 +21,12 @@ La première semaine a été principalement consacrée à la mise en place de l'
 #### Tâches restantes :
 
     - Intégrer automatiquement Git à Pharo. Actuellement, j'utilise le terminal pour pousser les fichiers car je rencontre des difficultés à le configurer sur mon ordinateur.
+
+
+
+### Sahnoune Thilleli
+    Durant cette première séance de cours : 
+•	J’ai réussi à installer le logiciel Pharo Launcher. 
+•	Je me suis familiarisé avec l’interface du logiciel. 
+•	J’ai appris comment déclarer des classes, des variables et faire appel à ces dernières. 
+•	Mais je n’ai pas réussi à créer les méthodes.
