@@ -61,7 +61,7 @@ How many are tests? Are there new usages of the class that we did not see before
 
 ## Implementor’s Hat: Inserting entries in the cache
 
-Let's make a hipothesis. Now that we have read the wikipedia page and we are cache experts, we can assume that
+Let's make a hypothesis. Now that we have read the wikipedia page and we are cache experts, we can assume that
 - a cache hit means that the looked up element is in the cache
 - a cache miss means that the looked up element is not in the cache
 - when a miss happens, probably we are going to insert something in the cache
@@ -123,9 +123,10 @@ Do you have a hunch? Check the surrounding code.
 - How do Pharo random generators work?
 
 ## Takeaways
-- We focused on the target, we ignored more things than those that we learned
+- Focused on the target and the task at hand
+- Ignore things not in focus, keep a log for later
+- You will probably ignored more things than those that you learn
 - Flow: High-level View => Usage => Implementation
-- We ignored things not in focus, and kept a log for later
 
 - Comments had important info: the why of the design
 - Senders show examples of users!
