@@ -33,7 +33,15 @@ Dans testing d'un noeud non nul il y a du vrai code donc ces méthodes servent b
 Pour le AVL_Tree avec des accolade je crois que c'est une extention. Danc cette chose il y a des points vert comme lors des tests mais ça ne ressemble pas a des tests. Selon sa classe AVLTree herite d'une collection. J'ai l'impression que c'est une sorte de main ou la représentation de noeuds. Je vais faire abstraction de ça ne comprenant pas l'utilité ni ce que c'est.
 
 ### AVL-Tree-Inspector
+Concerne l'arbre, il peut aussi ajouter une animation. De lire un nombre. 
+Il y a une classe de test, une classe et une classe avec des accolades.
+Pour la classe de test il y a une méthode qui passe. 
+Pour la classe on peut acceder a un arbre, le modifier. Je ne comprend pas le fais d'ajouter de l'animation dans un arbre.
+Il y a encore la chose avec des accolades. Il y a encore des extensions dedans. Il ressemble beaucoup au AVL-Tree.
+Quand une classe herite de collection elle a des accolade et hérite de toutes les méthodes de collections. 
 
+### BaselineOfAVLTree
+Il y a une class qui fais un bouton dans graphe le bouton a des bord vert quand la souris passe dessu. Baseline semble importer des packages. 
 
 
 
