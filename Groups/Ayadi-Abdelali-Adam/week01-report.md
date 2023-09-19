@@ -17,8 +17,14 @@ Solution: J'ai pris le temps de lire et d'expérimenter avec des exemples de cod
 ### Difficultés
 
 ## Adam
+Au cours de la semaine 01 j'ai installé pharo.
+j'ai exploré l'environnement pharo.
+j'ai appris à implémenter des classes ainsi que des méthodes et des tests en suivant le tutorial de la classe Counter.
+j'ai découvert les types de données en pharo en suivant le tutorial ProfStef et j'ai exécuté quelques lignes de code.
+
 
 ### Difficultés
+
 
 
 
