@@ -5,7 +5,7 @@ The raw versions of the lectures are hosted at:  https://rmod-files.lille.inria.
 - https://rmod-files.lille.inria.fr/DesignCoffeeClub/2023-Miage/1-BasicOnReverseEngineering.pdf
 - https://rmod-files.lille.inria.fr/DesignCoffeeClub/2023-Miage/reverse-engineering-LRU.pdf
 
-Extras about design
+To watch at home: about design
 
 - https://rmod-files.lille.inria.fr/DesignCoffeeClub/2023-Miage/M4-2-BasicPrinciples-04-AboutObjectsVSData.pdf
 - https://rmod-files.lille.inria.fr/DesignCoffeeClub/2023-Miage/M4-3-Principles-02-AboutGlobalVariables.pdf
