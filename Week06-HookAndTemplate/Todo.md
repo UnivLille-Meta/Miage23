@@ -1,4 +1,3 @@
-## Project analysis
-- Reverse engineering
-- Design assessment
-- Handle first requirement
+## Exercises
+
+- Study the implementation of Sokoban, Miners games packaged in the Myg framework (see the file projects)

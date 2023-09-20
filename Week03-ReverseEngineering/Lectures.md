@@ -1,16 +1,21 @@
 # Lectures
 
-Slides are at [https://rmod-files.lille.inria.fr/?dir=DesignCoffeeClub/Slides](https://rmod-files.lille.inria.fr/?dir=DesignCoffeeClub/Slides)
+The raw versions of the lectures are hosted at:  https://rmod-files.lille.inria.fr/?dir=DesignCoffeeClub/2023-Miage
 
-- 1-BasicOnReverseEngineering.pdf
-- LRUCache
+- https://rmod-files.lille.inria.fr/DesignCoffeeClub/2023-Miage/1-BasicOnReverseEngineering.pdf
+- https://rmod-files.lille.inria.fr/DesignCoffeeClub/2023-Miage/reverse-engineering-LRU.pdf
 
-- 2-BasicPrinciples-04-AboutObjectsVSData.pdf
-- 03-TheUglyGlobalVariables.pdf
-- 2-BasicPrinciples-02-FromGlobalToParameter.pdf
-- either this week or next one 1-Essence-06-DidYouUnderstandSuper.pdf
-	- For the next time, these slides require explaining metaclasses
+To watch at home: about design
 
-These lecture sources are hosted at: 
-	[http://github.com/Pharo-mooc/OOProgrammingMooc/](http://github.com/Pharo-mooc/OOProgrammingMooc/)
+- https://rmod-files.lille.inria.fr/DesignCoffeeClub/2023-Miage/M4-2-BasicPrinciples-04-AboutObjectsVSData.pdf
+- https://rmod-files.lille.inria.fr/DesignCoffeeClub/2023-Miage/M4-3-Principles-02-AboutGlobalVariables.pdf
+- https://rmod-files.lille.inria.fr/DesignCoffeeClub/2023-Miage/M3-5-BasicPrinciples-02-FromGlobalToParameter.pdf
+
+Extras about language
+- http://rmod-pharo-mooc.lille.inria.fr/MOOC/PharoMOOC/Week5/C019-W5S02-UnderstandingClassMethods.pdf
+- http://rmod-pharo-mooc.lille.inria.fr/MOOC/PharoMOOC/Week3/C019-W3S06-BasicClassMethods.pdf
+- http://rmod-pharo-mooc.lille.inria.fr/MOOC/PharoMOOC/Week6/C019-W6S01-DidYouUnderstandSuper.pdf
+
+These lectures are part of the forthcoming mooc https://advanced-design-mooc.pharo.org
+
 	

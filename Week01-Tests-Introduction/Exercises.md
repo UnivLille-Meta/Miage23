@@ -61,7 +61,7 @@ You may want to check the videos here:
 - *Creating packages, classes and methods:* https://www.youtube.com/watch?v=8Do1TjMHLAI&list=PL2okA_2qDJ-kCHVcNXdO5wsUZJCY31zwf&index=11
 - *Creating tests:* https://www.youtube.com/watch?v=FZBDNRJWpLE&list=PL2okA_2qDJ-kCHVcNXdO5wsUZJCY31zwf&index=12
 - *Alternative method creation:* https://www.youtube.com/watch?v=iAPo3j_DaXE&list=PL2okA_2qDJ-kCHVcNXdO5wsUZJCY31zwf&index=13
-- *Committing the code in Git:* https://www.youtube.com/watch?v=iAPo3j_DaXE&list=PL2okA_2qDJ-kCHVcNXdO5wsUZJCY31zwf&index=14
+- *Committing the code in Git:* https://www.youtube.com/watch?v=NDJv7TRhwRE&list=PL2okA_2qDJ-kCHVcNXdO5wsUZJCY31zwf&index=14
 
 Or the powerful version with eXtrement TDD (Test driven development):
 - https://www.youtube.com/watch?v=K8CVAKE_9pI&list=PL2okA_2qDJ-kCHVcNXdO5wsUZJCY31zwf&index=32
@@ -74,3 +74,7 @@ Remember to write the report on:
  - what you did
  - what you did not (and why)
  - what difficulties you found and **more importantly** how did you *overcome* them! You are going to become a professional software engineer, you need to be able to get through problems.
+
+## Git related resources
+
+Check the GlobalResources.md file it contains some slides and tutorials on git.

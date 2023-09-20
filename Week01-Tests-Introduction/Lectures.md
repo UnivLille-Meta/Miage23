@@ -13,3 +13,5 @@ The raw versions of the lectures are hosted at:  https://rmod-files.lille.inria.
 ## Demo
 
 We will code the counter in live mode
+
+These lectures are part of the forthcoming mooc https://advanced-design-mooc.pharo.org
