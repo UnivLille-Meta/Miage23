@@ -18,6 +18,7 @@ On a voulus allé trop vite et faire ce dont on à l'habitude alors qu'il aurait
 ## Comment nous procédons
  - Ouverture des packages chacun leur tours
  - Ouverture des classes
+ - Lecture des commentaires
  - Lecture des noms des classes et des méthodes ainsi que la classification(accesssing, etc) des méthodes -> donne une première idée de ce que ça fais
 ### Pour les packages "classique"
  - Lecture rapide du code pour confirmer l'idée
@@ -30,7 +31,9 @@ On a voulus allé trop vite et faire ce dont on à l'habitude alors qu'il aurait
  - En pharo
  - Trvaille sur les arbres de migrations
  - Il y a 4 packages différents : ils ont chacun leur utilité. On sépare la définition des objets avec les tests.
- - Les accolades représentent des collections -> On ne le savais pas sans demandé au prof
+ - Les accolades représentent les classes qui héritent de collections (elle héritent aussi de toutes les méthodes) -> On ne le savais pas sans demandé au prof
+ - Un petit triangle sifnifie qu'il y a une surcharge
+ - POur une méthode abstraite on aura ```self subclassResponsibility``` qui signifie qu'il faut allé voir la méthode fille
 ### AVL-Tree-Tests
  - Les tests passent tous
  - Ils semblent bien écrit
@@ -44,36 +47,32 @@ Ici isBalance renvoie un boolean, il n'y a donc pas besoins du equals.
  - Hérite du type "Collection"
  - Constitue l'ensemble des neouds de l'arbre.
  - Possédent 4 classes dont une collection (représenté par des accolades)
- - Présence d'une classe mére abstraite : accesseur, hauteur, ajout d'enfant, etc
+ - Présence d'une classe mére AVLAbstractNode abstraite avec des accesseur, hauteur, ajout d'enfant, etc -> elle nous permet de définir les comportements attendus
+ - AVLNilNode permet de créer un noeud vide
+ - AVLNode permet de créer un noeud avec une valeur et deux sous-noeuds : gauche et droit.
+ - Le collection AVL-Tree possédent des points verts comme les tests utilisé dans les tests mais ce ne sont pas des tests
 #### Méthode vide
  - Les méthode do: et withAllChildren de cette classe prend un argument et ne fais rien dans la classe abstraite
  - Ce n'est présent que chez une des 2 classes filles 
 
-
-
 ### AVL-Tree-Inspector
-On a "AVLNilNode" qui permet de créer un noeud vide
-On a "AVLNode" qui permet de créer un noeud avec une valeur et deux sous-noeuds : gauche et droit.
-On a "AVLAbstractNode" qui est la classe abstraite mère des 2 types de noeuds : elle nous permet de définir les comportements attendus
-Danc cette chose il y a des points vert comme lors des tests mais ça ne ressemble pas a des tests. 
-
-
-Concerne l'arbre, il peut aussi ajouter une animation. De lire un nombre. 
-Il y a une classe de test, une classe et une classe avec des accolades.
-Pour la classe de test il y a une méthode qui passe. 
-Pour la classe on peut acceder a un arbre, le modifier. Je ne comprend pas le fais d'ajouter de l'animation dans un arbre.
-Il y a encore la chose avec des accolades. Il y a encore des extensions dedans. Il ressemble beaucoup au AVL-Tree.
-Quand une classe herite de collection elle a des accolade et hérite de toutes les méthodes de collections. 
+ - Concerne l'arbre -> Peut ajouter une animation, lire un nombre
+ - Il y a une classe de test, une collection et une classe
+ - Dans cette classe de test la méthode passe
+ - Cette classe sert à accéder à un arbre, le modifier, ajouter une animation
+ - C'est très similaire à AVL_Tree
 
 ### BaselineOfAVLTree
-Il y a une class qui fais un bouton dans graphe le bouton a des bord vert quand la souris passe dessu. Baseline semble importer des packages. 
-
-## Utilisation d'outil Pharo
-### Analyse des dependances
-On voit que plusieurs dépendance général sont utilisé : Collection, Random, SUnit. Mais il y a également des dépendance à Rossal3 que je ne comprend pas.
+ - C'est un chargeur de projet
+ - Possédent une classe
+ - Elle permet de créer un boutons qui a des bords vert quand on passe dessus
+ - La classe Baseline semble importer des packages
+ - On peut deplacer le bouton
+ - Quand on double clique ça ouvre le browser de pharo
 
 ## Questions
  - Où se trouve le main ?
+ - Le main est-il la classe Baseline
  - Comment lancer le projet ?
 
 
