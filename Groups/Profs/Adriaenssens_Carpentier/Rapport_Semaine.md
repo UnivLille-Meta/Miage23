@@ -9,6 +9,9 @@ Le TDD consiste à faire les tests en 1er, prioriser les interfaces à l'implém
 - Exercice terminé lien : https://github.com/Elisa2502/Pharo_TP
 - Le projet ne veut pas être push sur mon github
 
+  #### Rabah
+  - Pendant la premiere seance, j'ai revue les notions de base de pharo ( creation de package, classes, méthodes, tests, variable ... ) aprés installation de l'envirenement de travail, j'ai travaillé sur le premier tp du compteur, avec les tests qui verifiant le code. 
+
 # Rapport 2 : 
 #### Madeline
  - **Heritage**
@@ -40,3 +43,13 @@ Message send -> methode lookup à partir de l'instance -> trouve methode -> exec
 - Présentation des projets
 - Organisation du groupe
 - Importation du projet AVL et début du rapport d'observations
+
+
+#### Rabah 
+
+- Refresh sur les Boolean et comment sont codé leur méthode
+- Rappel sur 'this' et 'super' dans l'heritage, 
+- Modelisation des objets Boolean
+- revision generale sur la programmation orienté objet ( polymorphisme, heritage, LOOKUP,LATEBINDING)
+- adhesion au github de trinome .
+- debut sur le projet de AVL.
