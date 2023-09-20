@@ -1,17 +1,36 @@
 
 ## Fonctionnement du groupe 
-Chacun à son propre rapport, on regarde chacun tous les packages pour AVL.
+Chacun à son propre rapport, on regarde chacun tous les packages pour AVL. Puis on fusionne nos rapport pour savoir ce qu'on va dire et qu'elles sont les grand axes qui s'en dégége.
 
-## Comment j'ai fais
-Lecture du readme.
-Ouverture des package dans l'ordre suivant : Tree-Test, Tree, Tree-inspector et Baseline
-J'ai ouvert les package chacun leur tour.
-Dans le package de test j'ai seulement regarde quelques méthodes au hasard comme il y en a beaucoup.
-Dans le package de tree il n'y a pas beaucoup de "classe" pour regarder les méthode j'utilise leur classification, par exemple accessing, adding, etc
+## Premier contacte avec le projet
+ - Lecture du readme
+ - Recherche d'un UML -> il n'y a pas d'UML, ce qui aurait pus donner une vision globale du projet
 
-## Ce que j'ai appris/decouvert
-c'est un projet en cour qui travaille sur les arbre de migration. C'est du Pharo, on peut ajouter des dependence.
-L'installation du projet n'est pas forcement dure on a juste voulus faire un git clone et ce n'était pas la bonne approche. Je n'ai par contre pas réussi à installer les dépendances. Je n'ai pas trouvé de main ni d'UML je n'ai donc pas de vision global du projet. Je ne sais pas à quoi cela ressemble pour l'utilisateur aussi.
+## Installation du projet
+ - Télécharger le projet en locale
+ - Essayer de l'ajouter à notre git -> ça ne fonctionne pas
+ - Aide du prof
+ - Ouverture du playground
+ - Execution de la commande
+ - Personne n'a réussi à mettre les dépendances
+On a voulus allé trop vite et faire ce dont on à l'habitude alors qu'il aurait fallus juste faire plus attention au readme qui était assez explicite.
+
+## Comment nous procédons
+ - Ouverture des packages chacun leur tours
+ - Ouverture des classes
+ - Lecture des noms des classes et des méthodes ainsi que la classification(accesssing, etc) des méthodes -> donne une première idée de ce que ça fais
+### Pour les packages "classique"
+ - Lecture rapide du code pour confirmer l'idée
+ - Lecture en détaille du code si l'idée était mauvaise ou si nous n'avons pas d'idée de ce que ça fais
+### Pour les packages de tests
+ - Comme il y a beaucoup de méthode -> ouverture d'une ou plusieurs méthodes au hasard pour savoir comment sont fait les tests
+ - Si un nom semble étrange lecture de la méthode
+
+## Ce que nous apprenons du projet
+ - En pharo
+ - Trvaille sur les arbres de migrations
+
+
 
 ### AVL-Tree-Tests
 Les tests passent tous. 
@@ -44,16 +63,13 @@ Quand une classe herite de collection elle a des accolade et hérite de toutes l
 ### BaselineOfAVLTree
 Il y a une class qui fais un bouton dans graphe le bouton a des bord vert quand la souris passe dessu. Baseline semble importer des packages. 
 
-
-
 ## Utilisation d'outil Pharo
 ### Analyse des dependances
 On voit que plusieurs dépendance général sont utilisé : Collection, Random, SUnit. Mais il y a également des dépendance à Rossal3 que je ne comprend pas.
 
-
-# Semaine 2 
-
-- Installation du projet
+## Questions
+ - Où se trouve le main ?
+ - Comment lancer le projet ?
 
 ### Ce que j'apprends du projet 
 - Il y a 4 packages différents : ils ont chacun leur utilité. On sépare la définition des objets avec les tests.
@@ -62,12 +78,6 @@ On voit que plusieurs dépendance général sont utilisé : Collection, Random, 
 - On a "AVLNode" qui permet de créer un noeud avec une valeur et deux sous-noeuds : gauche et droit.
 - On a "AVLAbstractNode" qui est la classe abstraite mère des 2 types de noeuds : elle nous permet de définir les comportements attendus
 
-
-
-### Comment je procède
-- Je parcours les packages un à la fois
-- Je regarde le nom des classes et des méthodes pour déjà avoir une idée de la fonctionnalité
-- Je lis le code pour confirmer mon idée
 
 
 ### Ce que j'apprends en Pharo via le projet
