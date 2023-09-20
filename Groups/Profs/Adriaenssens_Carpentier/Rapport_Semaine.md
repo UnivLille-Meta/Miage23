@@ -9,7 +9,7 @@ Le TDD consiste à faire les tests en 1er, prioriser les interfaces à l'implém
 - Exercice terminé lien : https://github.com/Elisa2502/Pharo_TP
 - Le projet ne veut pas être push sur mon github
 
-  #### Rabah
+#### Rabah
 - Pendant la premiere seance, j'ai revue les notions de base de pharo ( creation de package, classes, méthodes, tests, variable ... ) aprés installation de l'envirenement de travail, j'ai travaillé sur le premier tp du compteur, avec les tests qui verifiant le code. 
 
 # Rapport 2 : 
