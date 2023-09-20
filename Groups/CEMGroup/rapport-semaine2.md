@@ -25,3 +25,24 @@ En suivant le cours et en posant des questions à Guille. J'ai aussi lu un peu d
 
 
 # Nizar
+
+### Ce que j'ai appris
+
+Pendant cette deuxième semaine, je me suis rendu compte du vrai intérêt du late binding et son impact sur la fléxibité et la polymorphie dans la POO.
+
+En implémentant la version eager du ou ( | ) expliquée dans le cours, j'ai mieux compris l'intérêt de faire en sorte que toute (chose) soit un objet.
+
+Le reste du cours étant porté sur l'héritage, la différence entre this et super, cela a été un rappel des notions acquises en génie logiciel pendant la L3.
+
+Je travaillerai prochainement sur l'analyse du projet AVL, Lina et Rachid ayant choisi le projet Artefact.
+
+### Comment j'ai appris
+
+Mon apprentissage s'est principalement déroulé en relisant les diapo du cours et en regardant les vidéos mises à notre disposition. L'implémentation du OR m'a aidé aussi.
+
+### Ce que j'aimerais comprendre
+
+Les rappels de cours que l'on a eus pour l'instant ont été très clairs.
+
+J'aimerais surtout apprendre de nouvelles notions de la POO et éventuellement corriger et/ou étendre les principes acquis lors du cours GL de l'année dernière.
+
