@@ -20,5 +20,7 @@
 ### Ce que j'apprends en Pharo via le projet
 - Pour les tests, on peut créer une méthode d'initialisation, ici "setUp" pour définir comment va commencer chaque test.
   De cette manière, on ne doit pas faire un "new" de notre objet dans chaque test.
+- Pour créer une méthode abstraite, on utilise "^ self subclassResponsibility", ce qui permet d'indiquer qu'on va la définir dans les sous-classes
+  
 
 
