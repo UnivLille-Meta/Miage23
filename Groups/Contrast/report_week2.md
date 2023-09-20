@@ -7,9 +7,9 @@ Durant la deuxième semaine, nous avons abordées en cours différentes notions 
 A travers les exercices des diapos faits en cours sur le lookup avec super et self, j'ai vu que j'avais des confusions sur l'usage de ces deux messages en pharo; je n'avais pas bien compris le principe du "static" pour le super et du "dynamic" pour le self.
 J'ai pu revoir ces notions avec mon binome Axel, refaire quelques exercices et je commence à etre un peu plus à l'aise avec cette notion.
 
-Dans la suite, je souhaite continuer mon apprentissage en me focalisant point par point sur les différents principes de la programmation objet que je n'avais pas au final réellement compris. Les vidéos MOOC m'y aident beaucoup. Cela me prend plus de temps, mais je préfère prendre plus de temps pour etre plus à l'aide avec les bases.
+Dans la suite, je souhaite continuer mon apprentissage en me focalisant point par point sur les différents principes de la programmation objet que je n'avais pas au final réellement compris. Les vidéos MOOC m'y aident beaucoup. Cela me prend plus de temps, mais je préfère prendre assez de temps pour d'abord etre à l'aide avec les bases.
 
-Concernant le projet, on a commencé à regarder globalement les 2 projets à étudier, le readme, l'installation etc.
+Concernant le projet, on a pu en parallèle commencer à regarder globalement les 2 projets à étudier, le readme, l'installation etc et on a par la suite discuté de nos premières observations sur ceux-ci.
 
 
 # Axel 
