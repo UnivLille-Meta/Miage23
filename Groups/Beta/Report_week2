@@ -24,4 +24,8 @@ Regarder la manière dont sont écrites les tests m'a beaucoup aidé de manière
 Finalement, j'ai une erreur où le canevas n'arriverait pas à ajouter les noueds de l'arbre (et ce n'est pas la version j'ai la même erreur en 11.0), 
 erreur que je n'arrive à comprendre et à fixer même avec les tests et la documentation.
 
+Mohoammad Javad : 
+
+J'ai lu sur AVL Tree, pour que je trouve à quoi ça sert, j'ai révisé le cours de la semaine dernière sur le dispatching.
+Puis, j'ai essayé d'écrire le test sur look up. J'ai bien réussi d'écrire un test mais j'arrive pas à trouver comment je peu faire une hiérachie dans mes classes.
 
