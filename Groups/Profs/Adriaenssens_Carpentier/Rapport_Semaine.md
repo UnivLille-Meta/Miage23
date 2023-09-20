@@ -33,3 +33,10 @@ Boolean = object
 **self == super = true c'est le même objet c'est le lookup qui change**
 
 Message send -> methode lookup à partir de l'instance -> trouve methode -> execute methode 
+
+#### Elisa
+- Rappels sur les objets *self* et *super*
+- Rappels sur le *look up*
+- Présentation des projets
+- Organisation du groupe
+- Importation du projet AVL et début du rapport d'observations
