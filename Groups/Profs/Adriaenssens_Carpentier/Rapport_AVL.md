@@ -29,30 +29,35 @@ On a voulus allé trop vite et faire ce dont on à l'habitude alors qu'il aurait
 ## Ce que nous apprenons du projet
  - En pharo
  - Trvaille sur les arbres de migrations
-
-
-
+ - Il y a 4 packages différents : ils ont chacun leur utilité. On sépare la définition des objets avec les tests.
+ - Les accolades représentent des collections -> On ne le savais pas sans demandé au prof
 ### AVL-Tree-Tests
-Les tests passent tous. 
-J'ai ouvert des tests au hasard pour regarder de quoi ils ont l'air : 
+ - Les tests passent tous
+ - Ils semblent bien écrit
+ - On peut créer une méthode d'initialisation, ici "setUp" pour définir comment va commencer chaque test. -> On ne doit donc pas faire de "new" de notre objet dans chaque méthodes (c'est l'éuivalent d'un before)
+#### Exemples de tests
 testSeriousAdd
-``` self assert: tree isBalanced. ``` il n'y a pas de equals donc la valeur n'est pas modifié
-testIsleaf
-Les tests me semblent bien 
-```self assert: tree root isNilNode.``` mais il n'y a touours pas de equals
-
-Il n'y a pas de equals dans les tests quand il y a un if donc je suppose que ça renvoie une erreur si ce n'est pas le resultat du if. 
+``` self assert: tree isBalanced. ``` 
+Ici isBalance renvoie un boolean, il n'y a donc pas besoins du equals.
 
 ### AVL-Tree
-Ce package s'occupe des noeuds.
-Il y a 3 classes et quelques chose qui est représenté par des accolades. 
-Il y a une classe mére absrtaite. Cette classe contient des accesseur pour les enfant et sa hauteur. elle peut ajouter des enfants. dans enumerating, il y a une méthode do: ```do: aBlock``` qui est vide donc surement hérité.
-Dans le paquet testing il y a les isBalanced, etc. qui retourne toujours la même chose. Je ne comprend donc pas du tout en quoi les tests sont utiles comme la réponse est fixe. 
-do: n'est que dans une classe fille. 
-Dans testing d'un noeud non nul il y a du vrai code donc ces méthodes servent bien pour les tests. Je ne suis pas convaincue de l'utilité de les mettrent dans la catégorie testing. Cela me fais trop pensé a une utilité unique au test.  
-Pour le AVL_Tree avec des accolade je crois que c'est une extention. Danc cette chose il y a des points vert comme lors des tests mais ça ne ressemble pas a des tests. Selon sa classe AVLTree herite d'une collection. J'ai l'impression que c'est une sorte de main ou la représentation de noeuds. Je vais faire abstraction de ça ne comprenant pas l'utilité ni ce que c'est.
+ - Hérite du type "Collection"
+ - Constitue l'ensemble des neouds de l'arbre.
+ - Possédent 4 classes dont une collection (représenté par des accolades)
+ - Présence d'une classe mére abstraite : accesseur, hauteur, ajout d'enfant, etc
+#### Méthode vide
+ - Les méthode do: et withAllChildren de cette classe prend un argument et ne fais rien dans la classe abstraite
+ - Ce n'est présent que chez une des 2 classes filles 
+
+
 
 ### AVL-Tree-Inspector
+On a "AVLNilNode" qui permet de créer un noeud vide
+On a "AVLNode" qui permet de créer un noeud avec une valeur et deux sous-noeuds : gauche et droit.
+On a "AVLAbstractNode" qui est la classe abstraite mère des 2 types de noeuds : elle nous permet de définir les comportements attendus
+Danc cette chose il y a des points vert comme lors des tests mais ça ne ressemble pas a des tests. 
+
+
 Concerne l'arbre, il peut aussi ajouter une animation. De lire un nombre. 
 Il y a une classe de test, une classe et une classe avec des accolades.
 Pour la classe de test il y a une méthode qui passe. 
@@ -71,18 +76,7 @@ On voit que plusieurs dépendance général sont utilisé : Collection, Random, 
  - Où se trouve le main ?
  - Comment lancer le projet ?
 
-### Ce que j'apprends du projet 
-- Il y a 4 packages différents : ils ont chacun leur utilité. On sépare la définition des objets avec les tests.
-- Un "AVLTree" hérite du type "Collection", il constitue l'ensemble des neouds de l'arbre.
-- On a "AVLNilNode" qui permet de créer un noeud vide
-- On a "AVLNode" qui permet de créer un noeud avec une valeur et deux sous-noeuds : gauche et droit.
-- On a "AVLAbstractNode" qui est la classe abstraite mère des 2 types de noeuds : elle nous permet de définir les comportements attendus
 
-
-
-### Ce que j'apprends en Pharo via le projet
-- Pour les tests, on peut créer une méthode d'initialisation, ici "setUp" pour définir comment va commencer chaque test.
-  De cette manière, on ne doit pas faire un "new" de notre objet dans chaque test.
 
 
 
