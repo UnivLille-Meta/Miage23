@@ -6,10 +6,18 @@ Nous avons également abordés l'héritage et le lookup. Ce rappel m'a bien aid�
 En plus de ça, nous avons commencé à analyser le projet AVL ensemble afin de comprendre comment éxécuter le projet et le comprendre dans l'ensemble. Nous avons commencé à prendre des notes de notre analyse de ce projet.
 
 
-
-
 # Simon :
 
+Nous avons également commencé à étudier le code d'un projet : AVL.
+Remarques :
+- La doc était insuffisante
+- Regarder les tests est utile pour comprendre le comportement des classes
+- Le playground est pratique pour tester des fonctionnalités du projet
+
+Nous avons abordés des points importants de la programmation objet, tels que :
+- Lookup (this + super)
+- Notions d'héritage
+- Polymorphisme
 
 
 # Paul :
