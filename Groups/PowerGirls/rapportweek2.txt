@@ -1,0 +1,3 @@
+Cheyma Zekhnini:
+pour cette semaine j ai copris comment on peut programmer le et '&' logique ansi que le ou '|' et le not logique en creant des classe sans utilise des conditions 
+dans ses classe nous avons utilise un mot cle pharo appple "self" vu e cours et la diffrence entre lui et "super"
