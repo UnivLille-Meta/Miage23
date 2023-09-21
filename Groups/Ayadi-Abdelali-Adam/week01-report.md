@@ -13,11 +13,10 @@
 Solution: J'ai pris le temps de lire et d'expérimenter avec des exemples de code simples.
 
 ## Abdelali
-
-•	Installation pharo launcher
-•	Lecture des documents week1
-•	Réalisation de l'exercice Counter: https://github.com/RhofirAbdelali/C3P/tree/master
-•	Apprendre a utilisé Iceberg
+- Installation pharo launcher
+- Lecture des documents week1
+- Réalisation de l'exercice Counter: https://github.com/RhofirAbdelali/C3P/tree/master
+- Apprendre a utilisé Iceberg
 
 ## Adam
 
