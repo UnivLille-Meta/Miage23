@@ -14,7 +14,10 @@ Solution: J'ai pris le temps de lire et d'expérimenter avec des exemples de cod
 
 ## Abdelali
 
-### Difficultés
+•	Installation pharo launcher
+•	Lecture des documents week1
+•	Réalisation de l'exercice Counter: https://github.com/RhofirAbdelali/C3P/tree/master
+•	Apprendre a utilisé Iceberg
 
 ## Adam
 
