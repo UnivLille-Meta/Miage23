@@ -1,5 +1,7 @@
 # Rapport Deuxième Semaine : Programmation Orientée Objet (POO)
 
+## Abdellatif
+
 Cette semaine, nous avons revu les principes fondamentaux de la Programmation Orientée Objet (POO). Voici un résumé des points abordés :
 
 - **Héritage :** Nous avons exploré le concept d'héritage, permettant à une classe d'hériter des attributs et méthodes d'une autre classe, favorisant la réutilisation du code et la création de hiérarchies de classes.
