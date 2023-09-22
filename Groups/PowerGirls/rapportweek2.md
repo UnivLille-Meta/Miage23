@@ -14,3 +14,8 @@ Pour la deuxieme semaine :
 - Dans le projet AVL, on a 4 packages, j'ai checker les différentes méthodes et classes qu'ils contiennent(pas de commentaires)
 - J'ai essayé de faire des exemples dans le playground pour mieux comprendre le fonctionnement du projet
 - Les tests sont tous au vert
+
+# Bouchra Hayani:
+Voici un résumé de mes principales réalisations :
+ Cette semaine a été axée sur l'apprentissage des concepts clés de la programmation orientée objet en Pharo notamment NotExample, Dispatch, Inheritance-Basic, Self, et Super.
+ Et sur la mise en pratique de ces connaissances à travers un exercice d'implémentation des méthodes booléennes telles que |, or:, ifTrue:ifFalse:.
