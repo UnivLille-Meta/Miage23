@@ -1,6 +1,7 @@
 # M1 MIAGE | C3P
 
 ---
+
 ## AYADI Skander
 
 - Au cours de cette séance, j'ai appris à écrire des programmes simples en Pharo, notamment la création de classes et de méthodes, la compréhension de la syntaxe et de la précédence des opérateurs, la gestion des affectations, des structures conditionnelles, des boucles et la rédaction de tests
@@ -9,8 +10,9 @@
 - J'ai crée une classe Counter avec des méthodes d'incrémentation et de décrémentation en utilisant une approche TDD, tout en découvrant le navigateur de code et le débogueur
 
 ### Difficultés
--  La syntaxe d'un nouveau langage m'est paru un peu déroutante au début car je ne connaissais pas le languages
-Solution: J'ai pris le temps de lire et d'expérimenter avec des exemples de code simples.
+
+- La syntaxe d'un nouveau langage m'est paru un peu déroutante au début car je ne connaissais pas le languages
+  Solution: J'ai pris le temps de lire et d'expérimenter avec des exemples de code simples.
 
 ## Abdelali
 
@@ -25,6 +27,15 @@ j'ai découvert les types de données en pharo en suivant le tutorial ProfStef e
 
 ### Difficultés
 
+## Abdellatif
 
+- L'installation s'est bien déroulée sans problème, la création de packages et de classes aussi.
 
+- Je me suis familiarisé un peu avec l'interface et la syntaxe. C'est assez différent du mainstream. J'ai aussi pu utiliser le débogueur pour suivre le déroulement de l'exécution du code.
+
+- TDD, réalisé pour la première fois, m'a pris un peu de temps, mais normalement j'ai maîtrisé. Il faudrait s'exercer avec des problèmes plus complexes.
+
+- Le document du MOOC m'a beaucoup aidé pour apprendre, vu que je n'ai pas la patience pour regarder des vidéos ou encore suivre le ProfStef.
+
+- Sinon, pour les tests, j'ai retenu qu'ils sont une sorte de garantie et permettent de prévenir la "peur du changement".
 
