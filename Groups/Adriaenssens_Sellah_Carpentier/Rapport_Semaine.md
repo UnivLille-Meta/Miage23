@@ -53,3 +53,15 @@ Message send -> methode lookup à partir de l'instance -> trouve methode -> exec
 - revision generale sur la programmation orienté objet ( polymorphisme, heritage, LOOKUP,LATEBINDING)
 - adhesion au github de trinome .
 - debut sur le projet de AVL.
+
+# Rapport 3 :
+#### Madeline
+
+#### Elisa
+- Comment rechercher les informations que l'on veut dans un projet et faire abstraction du reste
+- L'importance des tests
+- Travail sur le mutation testing
+- Le test de coverage est important pour savoir la quantité de code testée mais les mutants servent à savoir si les tests sont corrects et pertinents. Ils sont donc complémentaires.
+- Comment faire tourner le coverage et les mutants sur Pharo.
+
+#### Rabah
