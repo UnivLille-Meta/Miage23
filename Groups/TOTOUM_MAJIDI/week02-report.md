@@ -8,6 +8,6 @@
 
 - L'une des principales leçons de cette semaine est l'importance de remplacer les structures conditionnelles statiques par des messages envoyés aux objets en exploitant les hiérarchies de classes. Cela permet à chaque objet de prendre des décisions concernant son comportement en fonction de sa classe respective. En d'autres termes, l'envoi de messages devient un mécanisme de choix dynamique, et les classes sont des représentations de ces choix potentiels. Ainsi, lorsque nous adressons un message à un objet, la classe de cet objet détermine la méthode appropriée à exécuter, ce qui renforce la modularité et la flexibilité de notre code.
 
-- 
+- J'ai davantage appris sur l'héritage. Chaque classe a une seule superclasse, et en pharo toutes les classes héritent de Object. L'héritage des variables est statique et se fait lors de la définition de la classe, tandis que l'héritage du comportement est dynamique et se fait au moment de l'exécution.
 
 
