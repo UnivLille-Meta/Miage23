@@ -6,4 +6,8 @@
 
 - Laisser le récepteur du message décider signifie que lorsqu'un message est envoyé à un objet, c'est cet objet lui-même qui détermine comment il répondra au message en fonction de sa propre classe et de ses méthodes. On a utilisé cela pour l'implémentation des méthodes booléennes, chaque sous-classe de Boolean implémentait ainsi ses propres méthodes. Cela a permis d'exploiter le polymorphisme.
 
+- L'une des principales leçons de cette semaine est l'importance de remplacer les structures conditionnelles statiques par des messages envoyés aux objets en exploitant les hiérarchies de classes. Cela permet à chaque objet de prendre des décisions concernant son comportement en fonction de sa classe respective. En d'autres termes, l'envoi de messages devient un mécanisme de choix dynamique, et les classes sont des représentations de ces choix potentiels. Ainsi, lorsque nous adressons un message à un objet, la classe de cet objet détermine la méthode appropriée à exécuter, ce qui renforce la modularité et la flexibilité de notre code.
+
 - 
+
+
