@@ -66,6 +66,9 @@ Message send -> methode lookup à partir de l'instance -> trouve methode -> exec
 - Explication de comment faire de bon tests, l'importance des tests, explication de comment faire des mutants et vérifier le coverage avec pharo
    - Le coverage, qui permet de voir combien de code est couvert/testé
    - Les mutants servent à savoir si les tests sont pertinants
+   - Il est plus simple de faire des tests quand on a trouver un bug que de faire des tests quand il n'y a pas de bug
+   - Si les mutants survivent aux tests c'est qu'il manques des tests, si il meurt tous c'est que l'application est bien testé
+   - Le score de mutation est le nombre de mutant tué sur le nombre de mutant totale
    - C'est 2 méthodes sont complémentaires
 
 #### Elisa
