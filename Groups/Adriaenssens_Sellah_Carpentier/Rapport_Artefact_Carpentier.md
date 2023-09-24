@@ -37,7 +37,7 @@ Le readme est clair et bien détaillé, dommage que certaine commande ne marche 
  - Tout hérite de pdfComposite
  - On peut personnaliser beaucoup de chose comme la font, le style, les couleurs, l'ordre des pages, la polices
  - Il y a 6 packages
- - 
+ - PDFDocument permet de mettre en page le pdf
  
 
 ## Questions
