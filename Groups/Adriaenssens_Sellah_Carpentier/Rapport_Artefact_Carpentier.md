@@ -20,8 +20,14 @@ Le readme est clair et bien détaillé, dommage que certaine commande ne marche 
 
 
 ## Ce que nous apprenons du projet
- - En pharo
- - 
+ - En Smalltalk
+ - Est un framwork qui permet de générer des pdf
+ - Les pdf sont en effet simple à créer pour l'utilisateur, et les exemples sont assez explicite
+ - J'ai réussi à creer tous les pdf des exemples, ils sont dans le dossier pdf de l'image et il y a le tests à la racine de celle-ci
+ - Tous les tests passent
+ - Tout hérite de pdfComposite
+ - On peut personnaliser beaucoup de chose comme la font, le style, les couleurs, l'ordre des pages, la polices
+ - Il y a 6 packages
  
 
 ## Questions
