@@ -56,6 +56,17 @@ Message send -> methode lookup à partir de l'instance -> trouve methode -> exec
 
 # Rapport 3 :
 #### Madeline
+ - Explication de comment rechercher l'information dans un projet inconnue
+   - Il faut comprendre à quoi sert le projet et comment l'utiliser
+   - Pour ça on se concentre sur : la/les classe.s principale.s, les méthodes les plus utiles, les tests
+   - Toujours lire la doc
+   - On peut chercher des informations pour confirmer la doc
+   - Et on fais abstraction du reste jusqu'a ce qu'on en ai besoins, on fais abstraction des détail que l'on ne comprend pas, on ignore les details complexes
+   - On fais : regarder dans l'ensemble -> Utilisation -> Implementation sur le sujet principale
+- Explication de comment faire de bon tests, l'importance des tests, explication de comment faire des mutants et vérifier le coverage avec pharo
+   - Le coverage, qui permet de voir combien de code est couvert/testé
+   - Les mutants servent à savoir si les tests sont pertinants
+   - C'est 2 méthodes sont complémentaires
 
 #### Elisa
 - Comment rechercher les informations que l'on veut dans un projet et faire abstraction du reste
