@@ -16,6 +16,13 @@ En partant de ça, on peut se fixer comme objectif d'ajouter une fonctionnalité
 
 # Lina
 
+Cette semaine, j'ai découvert le reverse engineering, qui s'avère très utile pour analyser un projet un projet que l'on ne connaît pas. Il permet d'éviter d'avoir à lire et à comprendre tout le code en se concentrant sur les points important et en laissant de côté certains détails. L'analyse du projet est donc plus rapide et plus efficace.
+
+Le cours de cette semaine m'a également permis d'en apprendre plus sur le mutation testing. On avait abordé cette notion l'année dernière en cours de génie logiciel, mais sans trop entrer dans les détails et sans réellement l'appliquer concrètement sur un projet.
+
+j'ai ensuite appliqué les notions vues en cours en réalisant les exercices sur le reverse engineering et le mutation testing.
+
+La prochaine étape est d'utiliser ces principes sur le projet Artefact sur lequel je travaille avec Rachid pour la présentation.
 
 # Nizar
 
