@@ -1,5 +1,8 @@
 # Trévor :
-
+  
+Cette semaine deux points principaux ont été abordés :
+ - Le reverse engineering. Dans notre vie nous allons lire et devoir comprendre du code écrit par d'autres personnes qui ne codent pas comme nous. J'ai compris qu'il était important de ne pas essayer de tout comprendre (c'est quelque chose que je n'aime pas) et qu'il fallait se concentrer sur les éléments qui interagissent le plus dans un projet, ceux avec beaucoup de responsabilité.
+ - La qualité des tests avec notamment la Mutation Analysis. Faire des tests c'est bien, mais faire des bons tests qui couvrent le maximum de chose et révèlent des bugs c'est mieux.
 
 # Simon :
 
