@@ -28,4 +28,19 @@ En Pharo, tout est un objet, y compris les classes elles-mêmes. Ce qui signifie
 
 J'ai continué à travailler sur l'exercice et à préparer la présentation. J'ai également commencé à élaborer les diapositives.
 
+Je suis actuellement en train de parcourir le rapport  [Reverse engineering on LRUCache](https://rmod-files.lille.inria.fr/DesignCoffeeClub/2023-Miage/reverse-engineering-LRU.pdf) pour étudier un exemple concret d'analyse et pour mieux comprendre la manière dont la présentation devrait être structurée.
+
+### Mutation Testing
+
+J'ai approfondi mes connaissances en mutation testing, ce sujet avait été survolé l'année dernière en cours de COO. 
+
+J'ai commencé l'exercice sur LRUCache. Je n'ai malheureusement pas pu terminer l'exercice pendant la séance, mais j'ai l'intention de le compléter pour la semaine 04 afin de pratiquer davantage le mutation testing.
+
+J'ai élargi mes connaissances en installant le plugin Pitest dans Eclipse pour explorer comment le mutation testing peut être appliqué sur un de mes projets Java de licence 3.
+
+*Notes pour moi-même :*
+- À mesure que le nombre de mutants tués augmente, la qualité des tests s'améliore. En cas de mutants survivants, cela indique des lacunes dans les tests.
+- Un test de qualité doit couvrir les différentes branches du code, les cas limites et les scénarios critiques.
+- Il vaut mieux avoir une couverture de code plus faible avec des tests de haute qualité plutôt que d'avoir une couverture de code élevée avec des tests inefficaces. Donc pour l'analyse de AVL et Artefact, ne pas se baser uniquement sur le taux de couverture pour évaluer que le code est exempt de bugs.
+
 ---
