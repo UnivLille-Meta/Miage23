@@ -26,6 +26,8 @@ Le readme est clair et bien détaillé, dommage que certaine commande ne marche 
 - Je regarde les méthodes utiliser et je vais lire leur noms et la documentation
 - Si je ne comprend pas ce que font les classes/méthodes je vais regarder dans le code, si je ne comprend toujours pas j'ignore
 - Il est également possible d'aller lire le nom des commits, de verifier la qualité des tests grâce aux mutants, etc
+- Mon point de départ est cette ligne qui permet de faire un pdf :
+       ```PDFDocument new add: (PDFPage new add: (PDFTextElement new text: 'Hello'; from: 10mm@10mm)); exportTo: 'test.pdf' asFileReference writeStream```
 
 
 ## Ce que nous apprenons du projet
@@ -38,7 +40,19 @@ Le readme est clair et bien détaillé, dommage que certaine commande ne marche 
  - On peut personnaliser beaucoup de chose comme la font, le style, les couleurs, l'ordre des pages, la polices
  - Il y a 6 packages
  - PDFDocument permet de mettre en page le pdf
+ - La classe abstraite PDFElement permet d'ajouter des elements comme des dessins, des images, du textes
+ - Il y a aussi des classes qui s'occupe de la mise en page, de la font, ... etc
+ - On peut gérer le type de donnée voulus gràce à la classe PDFDataType
+ - Le package ```ArtefactExample``` donne des exemples de pdf faisable
+ - 
+
+### Design Pattern
+ - Visiteur, on observe un visiteur avec la classe abstraite PDFDataType
+
+## Ce que nous apprennons sur pharo
+ - Les classe avec un T vert représente un trait
+ - Quand une classe est une exception il y a un petit éclair
  
 
 ## Questions
- - 
+ - Il y a des sortes de sous package
