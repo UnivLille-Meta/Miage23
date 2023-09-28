@@ -79,11 +79,12 @@ Message send -> methode lookup à partir de l'instance -> trouve methode -> exec
 - Comment faire tourner le coverage et les mutants sur Pharo.
 
 #### Rabah
-- Pendant la troisieme seance j'ai vu des nouvelles notion dans pharo qui sont :
-  -  La recherche d'informations dans un projets inconnue.
-  -  Commment comprendre le but de projet et comment l'utiliser.
-  -  Identifier les classes principales, les méthodes essentielles et les tests associés.
-  -  Consulter la documentation du projet.
-  -  Ignorer les détails complexes et se concentrer sur l'essentiel.
-  -  Introduction au concept de mutation testing, qui consiste à créer des mutants (variantes du code) pour vérifier si les tests sont justes (tester les tests 😂 )
-  -  Mettre l'accent sur des tests de qualité, et de combiner intelligemment le test de couverture et le mutation testing pour garantir la fiabilité de l'application.
+- Pendant la troisième séance, j'ai découvert de nouvelles notions dans Pharo, notamment :
+
+  - La recherche d'informations dans un projet inconnu.
+  - Comment comprendre le but d'un projet et comment l'utiliser.
+  - L'identification des classes principales, des méthodes essentielles et des tests associés.
+  - La consultation de la documentation du projet.
+  - L'importance de mettre de côté les détails complexes pour se concentrer sur l'essentiel.
+  - Une introduction au concept de mutation testing, qui consiste à créer des mutants (variantes du code) pour vérifier si les tests sont corrects (on teste les tests 😂).
+  - L'accent mis sur la création de tests de qualité et la combinaison intelligente du test de couverture et du mutation testing pour garantir la fiabilité de l'application.
