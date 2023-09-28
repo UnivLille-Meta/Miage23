@@ -19,3 +19,9 @@ Cette semaine, nous avons revu les principes fondamentaux de la Programmation Or
 ### Exercice
 
 Les exercices pratiques ont renforcé ma compréhension du langage Pharo et ma maîtrise de l'envoi de messages en POO. Cette expérience a approfondi ma compréhension des concepts abordés cette semaine.
+
+## Edem
+-Au cours de la deuxième semaine j’ai implémenté les méthodes |, or: et ifTrue:ifFalse: qui sont des méthodes de la classe abstraite MyBoolean que j’ai créé pour comprendre le concept de “dispatch”.
+-J'ai fait les exercices de super et self du cours pour comprendre le concept de Lookup et j’ai compris que self fait référence à l’objet sur lequel une méthode est exécutée alors que super fait référence à la classe parente de la classe dans laquelle la méthode exécutée est définie.
+-j’ai exploré les différentes parties du projet AVL : classes et méthodes , et j’ai essayé de comprendre l’implémentation de chaque méthode et son utilité.
+
