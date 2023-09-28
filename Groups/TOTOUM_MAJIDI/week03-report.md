@@ -1,6 +1,5 @@
 # Semaine 03
 
----
 ## Patricia
 
 ### Object vs Data
@@ -28,3 +27,5 @@ En Pharo, tout est un objet, y compris les classes elles-mêmes. Ce qui signifie
 ### Reverse engireering
 
 J'ai continué à travailler sur l'exercice et à préparer la présentation. J'ai également commencé à élaborer les diapositives.
+
+---
