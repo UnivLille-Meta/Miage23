@@ -65,5 +65,14 @@ Either
 
   `L'interêt qu'il en ressort est que AVL permet une implementation simple d'une structure hiérarchique de donnée, avec rendu visuel, mais à vocation d'être assimilé par d'autres projets, étant (au delà du cadre théorique pur) limité en utilisation seul.`
 
+
+
+
+RESTE A FAIRE:
+
+- NIL PATTERN
+- EXEMPLE DE FEATURES CAPITALES
+- COVERAGE TEST
+- TESTS UPGRADE
   
 
