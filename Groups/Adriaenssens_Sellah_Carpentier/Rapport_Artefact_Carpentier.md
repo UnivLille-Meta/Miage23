@@ -52,7 +52,12 @@ Le readme est clair et bien détaillé, dommage que certaine commande ne marche 
 ## Ce que nous apprennons sur pharo
  - Les classe avec un T vert représente un trait
  - Quand une classe est une exception il y a un petit éclair
+
+## Tests
+ - Il y a un coverage de 42,86% ce qui est bas, il faudrait un coverage plus élevé
+ - Selon le coverage il y a 4 méthodes non testé
+ - Les tests sont surement pas assez précis
  
 
 ## Questions
- - Il y a des sortes de sous package
+ - Il y a des sortes de sous packages vides
