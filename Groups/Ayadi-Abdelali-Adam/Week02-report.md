@@ -19,3 +19,8 @@ Cette semaine, nous avons revu les principes fondamentaux de la Programmation Or
 ### Exercice
 
 Les exercices pratiques ont renforcé ma compréhension du langage Pharo et ma maîtrise de l'envoi de messages en POO. Cette expérience a approfondi ma compréhension des concepts abordés cette semaine.
+
+**ABDELALI**
+-  Relecture des cours (Mooc Pharo pdf + vidéos)
+-  Analyse du projet AVL
+-  Recherche internet sur AVL
