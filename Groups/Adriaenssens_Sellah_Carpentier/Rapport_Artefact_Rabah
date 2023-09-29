@@ -1,0 +1,9 @@
+
+
+### Class PDFFront :
+  - Une class abstraite qui gere la police des carracteres dans le pdf.
+
+### PDFFormat
+  - Une class Abstraite qui gere le format du pdf (A1....,A4)
+
+###  
