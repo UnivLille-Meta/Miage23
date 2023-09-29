@@ -44,10 +44,10 @@ Le readme est clair et bien détaillé, dommage que certaine commande ne marche 
  - Il y a aussi des classes qui s'occupe de la mise en page, de la font, ... etc
  - On peut gérer le type de donnée voulus gràce à la classe PDFDataType
  - Le package ```ArtefactExample``` donne des exemples de pdf faisable
- - 
 
 ### Design Pattern
  - Visiteur, on observe un visiteur avec la classe abstraite PDFDataType
+ - Composite, PDFCompositeCodeSegement
 
 ## Ce que nous apprennons sur pharo
  - Les classe avec un T vert représente un trait
@@ -57,6 +57,15 @@ Le readme est clair et bien détaillé, dommage que certaine commande ne marche 
  - Il y a un coverage de 42,86% ce qui est bas, il faudrait un coverage plus élevé
  - Selon le coverage il y a 4 méthodes non testé
  - Les tests sont surement pas assez précis
+ - Je me suis interessé aux tests de PDFDataTypeTest la classe avec le visiteur, ce ne sont que des tests très basiques au vus du coverage c'est surement pareil dans tout le code aux vue du coverage
+
+## Exception
+ - Il y a des exceptions au seins du projet ce qui signifie qu'un endroit doit lever ces exceptions
+ - L'exception ArtefactOverSizeContent est appelé uniquement dans la classe PDFParagrapheElement elle permet de vérifier qu'on ne dépasse pas taille
+ - D'ailleurs la méthode ```splitOn: aPage using: aFont``` a une complexité de O(n²), elle semble assez longue, elle est surement simplifiable, apres avoir regardé elle n'est même pas testé
+ - Il faudrais donc tester cette méthode et avec plusieurs tests, étant donné qu'il y a plusieurs conditions, une exception
+ - Pour la seconde exception ```ArtefactundefinedAttribute``` est présente dans la classe PDFElement et la classe PDFElementTest
+ - Dans la classe de tests il y a 2 méthodes qui utilisent l'interface mais aucune de ces méthodes ne test la méthode checkAttribute de PDFElement
  
 
 ## Questions
