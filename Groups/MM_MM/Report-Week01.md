@@ -1,0 +1,4 @@
+### Rapport 1 Mariem Mseika
+
+    In this firt week I tried to gather and learn as much information based on what the teacher showed us, I tried to go over everything we have alredy done like installing pharo on my computer, going through the lesson slides, opening a git hub account, testing some fontionality (fork, modify, pull request) and went even further by watching some educating videos on youtube about programming on pharo reading some of the countless lesson provided on here (https://rmod-files.lille.inria.fr/DesignCoffeeClub/) and also redoing the counter exercise for more practice.
+    I came to learn that Pharo is a pure object-oriented programming language and having a basic knowledge in java could help you understand it even better and finally I decided to write this rapport in english since all of the courses and lessons were in english and since it would help me adapte with the language and strengthen my vocabulary.

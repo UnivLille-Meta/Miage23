@@ -7,3 +7,5 @@ Nous avons revu en cours des notions de programmation orientée objet, notamment
 Nous avons eu un rappel sur la programmation orienté avec self et super.
 Nous avons pu avec Maxime importé les projets AVL et Arefact dans une image pharo pour commencer à analyser les projets.
 Pour comprendre comment un projet fonctionne, je mets un breakpoint dans un message qui m'intéresse puis je regarde son déroulement avec le debogueur. Cela a permis de constater une issue avec le debogueur j'ai donc crée une issue sur le github pharo sur le sujet.
+
+https://github.com/pharo-project/pharo/issues/14657
