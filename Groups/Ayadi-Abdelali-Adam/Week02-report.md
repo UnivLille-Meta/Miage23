@@ -29,3 +29,8 @@ Les exercices pratiques ont renforcé ma compréhension du langage Pharo et ma m
 -Au cours de la deuxième semaine j’ai implémenté les méthodes |, or: et ifTrue:ifFalse: qui sont des méthodes de la classe abstraite MyBoolean que j’ai créé pour comprendre le concept de “dispatch”.
 -J'ai fait les exercices de super et self du cours pour comprendre le concept de Lookup et j’ai compris que self fait référence à l’objet sur lequel une méthode est exécutée alors que super fait référence à la classe parente de la classe dans laquelle la méthode exécutée est définie.
 -j’ai exploré les différentes parties du projet AVL : classes et méthodes , et j’ai essayé de comprendre l’implémentation de chaque méthode et son utilité.
+
+## Ayadi 
+- Au cours de ce TP, j'ai travaillé sur l'implémentation de méthodes booléennes en Pharo, notamment |, or:, et ifTrue:ifFalse:
+- J'ai également effectué des exercices de recherche à partir des diapositives pour mieux comprendre la hiérarchie des classes et des méthodes(Look up / Self / Super)
+- De plus, j'ai commencé à explorer le projet AVL en découvrant les differents classe qui le compose et en testant quelques classes dans le playground. Cette exploration m'a permis de mieux comprendre la structure et la logique du projet, ainsi que de commencer à évaluer les fonctionnalités dont j'aurai besoin pour l'analyse.
