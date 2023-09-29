@@ -47,7 +47,7 @@ Le readme est clair et bien détaillé, dommage que certaine commande ne marche 
 
 ### Design Pattern
  - Visiteur, on observe un visiteur avec la classe abstraite PDFDataType
- - Composite, PDFCompositeCodeSegement
+ - Composite, PDFCompositeCodeSegement. Il y a des composite à différents endroit du code ils sont là pour s'occuper de la structure
 
 ## Ce que nous apprennons sur pharo
  - Les classe avec un T vert représente un trait
@@ -58,6 +58,7 @@ Le readme est clair et bien détaillé, dommage que certaine commande ne marche 
  - Selon le coverage il y a 4 méthodes non testé
  - Les tests sont surement pas assez précis
  - Je me suis interessé aux tests de PDFDataTypeTest la classe avec le visiteur, ce ne sont que des tests très basiques au vus du coverage c'est surement pareil dans tout le code aux vue du coverage
+ - Dans le package de test 2 classes abstraites sont définis elle retourne des "résultat fixe", et sont utilisé dans des méthodes de tests pour ne rien faire, ces classes ne servent pas elles pourraient être dans les tests.
 
 ## Exception
  - Il y a des exceptions au seins du projet ce qui signifie qu'un endroit doit lever ces exceptions
@@ -66,6 +67,11 @@ Le readme est clair et bien détaillé, dommage que certaine commande ne marche 
  - Il faudrais donc tester cette méthode et avec plusieurs tests, étant donné qu'il y a plusieurs conditions, une exception
  - Pour la seconde exception ```ArtefactundefinedAttribute``` est présente dans la classe PDFElement et la classe PDFElementTest
  - Dans la classe de tests il y a 2 méthodes qui utilisent l'interface mais aucune de ces méthodes ne test la méthode checkAttribute de PDFElement
+
+## Debugger
+ - Dans le package ArtefactsExemple, dans la classe PDFDemos il y a la méthode cellTest qui est apparement bugger selon le point d'exclamation à coté de la la methode
+ - Apres avoir regardé la méthode il y a en faite un TODO et du code commenté dedans ce qui est moche en dehors de ça le code est long et devrais être simplifié
+ - 
  
 
 ## Questions
