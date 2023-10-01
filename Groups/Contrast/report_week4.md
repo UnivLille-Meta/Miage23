@@ -1,12 +1,12 @@
 # Gabriella -----
 
 Cette semaine, nous avons abordé une des notions importantes du cours, le double dispatch.
-De ce que j’ai compris, le double dispatch permet réellement d’utiliser le principe du “Don’t tell, ask”. Il permet d’éviter les if. Avec la manière dont on a appris à coder, on a plus tendance à poser des questions en utilisant des if; ce qui des fois rallonge beaucoup notre code.
-J’ai vu que le double dispatch permet de rendre un code de plusieurs lignes de “if” assez complexe à comprendre en un code plus facile à comprendre et plus simple à maintenir.
+De ce que j’ai compris, le double dispatch permet réellement d’utiliser le principe du “Don’t tell, ask”. Il permet d’éviter les "if". Avec la manière dont on a appris à coder, on a plus tendance à poser des questions en utilisant des "if" en codant; ce qui, des fois, rallonge beaucoup le nombre de lignes de code.
+J’ai vu que le double dispatch permet de passer d'un code de plusieurs lignes de “if” assez complexe à comprendre à un code plus simple à maintenir et plus facile à comprendre.
 
 ### Préparation de la présentation:
 J’ai commencé à aborder le projet Artefact pendant que Axel avançait sur AVL et que Nouha se renseignait sur le Mutation Testing.
-Le projet Artefact est assez grand. J’étais un peu perdu au début en sachant pas trop où regarder et sur quoi se concentrer. J’essaie actuellement de l’aborder pas à pas et d’utiliser le reverse engineering en essayant pas de tout comprendre en une fois mais en essayant plutôt de cibler les classes importantes et de me concentrer sur celles-ci.
+Le projet Artefact est assez grand. J’étais un peu perdu au début en ne sachant pas trop où regarder et sur quoi me concentrer. J’essaie actuellement de l’aborder pas à pas et d’utiliser le reverse engineering en n'essayant pas de tout comprendre en une fois mais en essayant plutôt de cibler les classes importantes et de me concentrer sur celles-ci.
 
 
 ### Points sur lesquels je vais travailler:
