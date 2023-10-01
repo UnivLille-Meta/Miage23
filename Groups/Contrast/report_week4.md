@@ -4,6 +4,11 @@ Cette semaine, nous avons abordé une des notions importantes du cours, le doubl
 De ce que j’ai compris, le double dispatch permet réellement d’utiliser le principe du “Don’t tell, ask”. Il permet d’éviter les "if". Avec la manière dont on a appris à coder, on a plus tendance à poser des questions en utilisant des "if" en codant; ce qui, des fois, rallonge beaucoup le nombre de lignes de code.
 J’ai vu que le double dispatch permet de passer d'un code de plusieurs lignes de “if” assez complexe à comprendre à un code plus simple à maintenir et plus facile à comprendre.
 
+Concernant le projet AVL, ma démarche pour l’ aborder a été la suivante: j’ai d’abord commencé par lire le readme du projet. Contrairement au projet Artefact qui a un readme et un guide assez structuré, montrant les cas d’usages de ce projet et expliquantnles éléments importants du code, le readme du projet AVL est un peu court et ne donne pas le contexte global du projet et son utilité par rapport aux AVL.
+Pour analyser le code du projet, j’ai essayé d’adopter une approche systématique :
+* Ouverture des packages un par un.
+* Examen des classes, noms de méthodes et commentaires.
+
 ### Préparation de la présentation:
 J’ai commencé à aborder le projet Artefact pendant que Axel avançait sur AVL et que Nouha se renseignait sur le Mutation Testing.
 Le projet Artefact est assez grand. J’étais un peu perdu au début en ne sachant pas trop où regarder et sur quoi me concentrer. J’essaie actuellement de l’aborder pas à pas et d’utiliser le reverse engineering en n'essayant pas de tout comprendre en une fois mais en essayant plutôt de cibler les classes importantes et de me concentrer sur celles-ci.
