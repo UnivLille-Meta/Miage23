@@ -65,7 +65,8 @@ Either
 
   `L'interêt qu'il en ressort est que AVL permet une implementation simple d'une structure hiérarchique de donnée, avec rendu visuel, mais à vocation d'être assimilé par d'autres projets, étant (au delà du cadre théorique pur) limité en utilisation seul.`
 
-
+  Regardant les mutation tests sur AVL, en installant mutalk, on a obtenu comme résultat d'analyse des mutants 17 en nombre total des mutants générés, 13 tués et 4 vivants
+  ![](pictures/AVL%20mutants.png)
 
 
 RESTE A FAIRE:

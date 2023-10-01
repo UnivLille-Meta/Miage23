@@ -38,4 +38,23 @@ Nous étions un peu perdus dans les découvertes des deux projets, mais je dirai
 
 # Nouha -----
 
+ This week's lectures and exercises are mainly focused about mutation testing and its effeciency along with the introduction to a new concept  we learned in class: double dispatch
 
+ Major ideas I got going through week 4 exercises:
+
+- when running coverage for Network-UUID, we find 81.25% of code coverage
+- we could increase test coverage by writing additional test cases to ensure that various code paths and scenarios are tested thoroughly
+- Code coverage is a very beneficial proxy for code and test quality but it’s limited because the massive  quantity of the tests doesn’t imply their high quality. It's possible to have a large number of low-quality tests that achieve high coverage but do not effectively catch bugs or provide meaningful validation.
+- To bridge the gap between mutation score and coverage percentage, we could prioritize testing for high-impact mutations that are likely to uncover real defects.
+- When thinking about test quality, I find mutation testing more precise than code coverage as it directly assesses the ability of tests to detect defects by introducing artificial faults into the code.
+- Both analyses are useful, but they serve different purposes, with mutation testing providing a more direct assessment of test quality by evaluating their effectiveness in defect detection, while code coverage measures the extent of code exercised by tests but does not directly assess defect-detection precision, making them complementary rather than interchangeable.
+- On Improving mutation analysis runtime, I tried with AVLTree classes and we can notice a tiny example of the diffrence in the pictures below
+
+![](pictures/AVL%20mutationTest%20all.png)
+
+![](pictures/AVL%20mutationTest%20Selecting.png)
+
+
+- we can consider AVL project well tested since out of the 17 mutatants, the four alive recommand to remove ^ in some methods, which is not a big deal. Also, the coverage is 89.89% . More details are on AVL analysis report
+
+In terms of Double Dispatch, I find the example we've seen in class; rock, paper, scissors  very explicit to introduce the double depandacy that a method can have, the reciever object and the argument, which allows more flexibility and dynamism on methods.  
