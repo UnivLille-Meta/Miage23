@@ -15,7 +15,7 @@ Le projet Artefact est assez grand. J’étais un peu perdu au début en ne sach
 
 
 ### Points sur lesquels je vais travailler:
-* Dans la suite de cette semaine, je vais continuer de travailler sur le projet Artefact .
+* Dans la suite de cette semaine, je vais continuer de travailler sur le projet Artefact dont je présenterai l’évolution de mon analyse dans le prochain rapport .
 
 * J’ai remarqué que je comprenais plus facilement avec les vidéos du MOOC. Elles expliquent chaque notion du cours et vont même au-delà d’une manière assez accessible. Je vais essayer de regarder s’il y en a sur le mutation testing que je trouve ne pas avoir bien compris.
 
