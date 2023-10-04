@@ -12,8 +12,13 @@ J'ai continué mon analyse du projet Artefact et me suis fixé un axe d'analyse,
 
 Pour la suite, j'aimerais améliorer ma capacité à repérer les problèmes où il serait intéressant d'appliquer tel ou tel design pattern.
 
-  
+
 # Lina
+
+Le cours de cette semaine m'a permis de découvrir le double dispatch, et les exemples vus en cours, surtout celui du pierre feuille ciseeaux, m'ont permis de bien comprendre.
+
+En parallèle, j'ai continué à travailler sur l'analyse du projet Artefact de mon côté en vue de la présentation.
+Avec Rachid, nous nous sommes réparti le travail restant pour être plus efficace.
 
 
 # Nizar
