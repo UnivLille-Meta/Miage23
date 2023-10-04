@@ -12,7 +12,7 @@ Les méthodes de visiting sont bien définie dans une catégorie de méthode ré
 
 Composite est utilisé dans le PDFComposite (comme son nom l'indique => facile à trouver !)
 
-
+Composite permet donc dee jouer avec les éléments en leurs attribvuant des fonctionnalités annexs et rajouter des comportemets. (Ajouter un text flottant à une flèche ou autre par exemple)
 
 
 # Testing
@@ -26,7 +26,7 @@ Composite est utilisé dans le PDFComposite (comme son nom l'indique => facile �
 ![img2](https://github.com/Gabriella3620/Contrast/assets/129399867/18ea335d-615f-45d4-80a0-41ad7fd2a988)
 
 
-80% covergae totale
+80% coverage total
 
 ## Mutation Testing
 
