@@ -86,7 +86,8 @@ Le Null pattern est implémenté pour pouvoir traiter l'abseence des oeuds dans 
 
 ## Mutation Testing
 
-![image](https://github.com/Gabriella3620/Contrast/assets/129399867/22bdfb21-a254-49d9-9255-e14b88f35754)
+![image](https://github.com/Gabriella3620/Contrast/assets/129399867/e2c59894-39b0-428c-964c-9f225eb3c16f)
+
 
 
 ![image](https://github.com/Gabriella3620/Contrast/assets/129399867/feff519e-23ac-483d-a004-64d293a3b85c)
