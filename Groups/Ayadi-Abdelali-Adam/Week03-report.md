@@ -34,3 +34,10 @@ les étapes suivi:
 - Comment gagner du temps et lire efficacement le code.
 - Si le projet et bien trop grand, dois-je lire tout pour identifier ce dont j'ai besoin ?
 - Comment applique la mutation sur d'autre classe ? par example le AVL.
+  ## Edem
+Tout d’abord j’ai compris la différence entre lru et lfu : LRU est basé sur la récence, tandis que LFU est basé sur la fréquence.
+-En pharo , il existe une hiérarchie intéressante liée à la gestion du cache. Elle inclut les classes "AbstractCache," "LRUCache," et "TTLCache," qui montrent comment différentes politiques de gestion du cache sont implémentées. j’ai focalisé sur la classe LRUCache et spécifiquement sur la méthode : at:ifAbsentPut: qui permet de comprendre le principe d’ajout de nouveaux éléments au cache selon la  politique lru et les notions de “miss” et “hit”.
+-j’ai remarqué que  le "keyIndex Dictionary" est un composant essentiel de la LRUCache qui permet de gérer les emplacements des paires clé/valeur dans la liste chaînée double, facilitant la gestion du cache en fonction de la récence d'utilisation des données.
+- j’ai fait les exercices de TestQuality: j’ai analysé les tests de mutation et j'ai compris que le taux de couverture ne reflète pas toujours la qualité des tests. En comparant le taux de couverture et le ‘mutation score’, j'ai réalisé l'importance d'avoir des tests robustes qui détectent efficacement les mutations, même dans les parties du code apparemment couvertes.
+-Lorsqu'un mutant survit aux tests, cela indique une faiblesse potentielle dans la suite de tests, car les modifications apportées au code n'ont pas été détectées. Cela souligne des zones où les tests pourraient être améliorés pour assurer une couverture complète du code.
+-J'ai exploré le framework Artefact de Pharo avec l'objectif de générer des PDF en comprenant la structure des classes. En ajoutant des objets à des objets parent comme PdfDocument et PdfPage, j'ai créé des documents PDF. Cette approche m'a aidé à comprendre comment chaque élément, en tant qu'objet enfant, contribue à la structure globale du document.
