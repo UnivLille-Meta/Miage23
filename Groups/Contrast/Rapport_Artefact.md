@@ -13,6 +13,8 @@ Les méthodes de visiting sont bien définie dans une catégorie de méthode ré
 Composite est utilisé dans le PDFComposite (comme son nom l'indique => facile à trouver !)
 
 
+
+
 # Testing
 
 
