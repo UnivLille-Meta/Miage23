@@ -88,9 +88,16 @@ Le Null pattern est implémenté pour pouvoir traiter l'abseence des oeuds dans 
 
 ![image](https://github.com/Gabriella3620/Contrast/assets/129399867/e2c59894-39b0-428c-964c-9f225eb3c16f)
 
+### Exemple de mutation
 
+#### Mutation => checking de booleen vérifié à valeur fixe à true
 
-![image](https://github.com/Gabriella3620/Contrast/assets/129399867/feff519e-23ac-483d-a004-64d293a3b85c)
+![image](https://github.com/Gabriella3620/Contrast/assets/129399867/4473298e-18e7-4062-8446-26d8844fa8ba)
+
+#### Mutation => Switch d'opérateur logique
+
+![image](https://github.com/Gabriella3620/Contrast/assets/129399867/5bf64c96-c9c0-4875-8cd5-726099bfe8d6)
+
 
 
 
