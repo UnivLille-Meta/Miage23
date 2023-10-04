@@ -94,4 +94,4 @@ Message send -> methode lookup à partir de l'instance -> trouve methode -> exec
  - Cour double dispatch
  - Révision double dispatch
  - Travaille en autonomie
- - Lecture adding number
+ - Lecture adding number + exercice adding number
