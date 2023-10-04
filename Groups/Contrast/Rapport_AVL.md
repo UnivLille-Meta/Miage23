@@ -69,11 +69,33 @@ Either
   ![](pictures/AVL%20mutants.png)
 
 
-RESTE A FAIRE:
+# Design pattern
 
-- NIL PATTERN
-- EXEMPLE DE FEATURES CAPITALES
-- COVERAGE TEST
-- TESTS UPGRADE
+## Null Pattern
+
+Le Null pattern est implémenté pour pouvoir traiter l'abseence des oeuds dans l'aborscence. Comme ça lors du parcours du viewer pour la représentation graphique ou autre, l'"absence est mieux intégrée, sans "if !null". Permet par un double dispatch d'avoir un comportement nul snas spec/switch de condition
+
+# Testing
+
+## Coverage
+
+![image](https://github.com/Gabriella3620/Contrast/assets/129399867/d39b0092-39af-43bc-acd2-336cca8b49aa)
+
+![image](https://github.com/Gabriella3620/Contrast/assets/129399867/ec99023f-8307-4f3f-9fd1-2a49185d027a)
+
+
+## Mutation Testing
+
+![image](https://github.com/Gabriella3620/Contrast/assets/129399867/22bdfb21-a254-49d9-9255-e14b88f35754)
+
+
+![image](https://github.com/Gabriella3620/Contrast/assets/129399867/feff519e-23ac-483d-a004-64d293a3b85c)
+
+
+
+## Improvement
+
+Amélioration covering du Tree Inspector, 40% c'est faible
+
   
 
