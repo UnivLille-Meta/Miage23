@@ -5,3 +5,6 @@ Cette semaine, j'ai fait le jeu du pierre feuille ciseau pour pratiquer le doubl
 
 
 # Paul :
+Nous avons découverte le double dispatch. J'ai pu regarder sur internet quelques exemples supplémentaires.
+J'ai principalement travaillé sur l'analyse des deux projets AVl et Artefact. J'ai fais des recherches sur le fonctionement via internet, ainsi que la découverte des possibles design pattern dans les projets.
+J'ai également analyser l'execution des démos d'Artefact avec Trévor. Pour finir, j'ai commencé la réalisation de la présentation.
