@@ -1,2 +1,2 @@
-Harrar M'hamed : mhamed.harrar.etu@univ-lille.fr
-Thilleli Sahnoune : thilleli.sahnoune.etu@univ-lille.fr
+HARRAR M'hamed : mhamed.harrar.etu@univ-lille.fr
+SAHNOUNE Thilleli : thilleli.sahnoune.etu@univ-lille.fr
