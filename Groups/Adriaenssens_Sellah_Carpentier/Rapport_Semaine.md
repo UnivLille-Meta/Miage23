@@ -95,3 +95,6 @@ Message send -> methode lookup à partir de l'instance -> trouve methode -> exec
  - Révision double dispatch
  - Travaille en autonomie
  - Lecture adding number + exercice adding number
+ - Finir l'analyse d'artefact
+ - Finir le diapo
+ - Reviser l'oral en groupe
