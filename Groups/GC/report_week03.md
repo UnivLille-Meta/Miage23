@@ -5,6 +5,6 @@ Le cours était basé sur le Reverse Engineering. Il nous a ensuite été demand
 # Thomas
 
 J'ai compris le cours de reverse engineering et testQuality.
-J'ai mis en prtique cela avec l'exercice de reverse engineering sur LRUCache et l'exercice de test Quality avec UUID.
+J'ai mis en pratique cela avec l'exercice de reverse engineering sur LRUCache et l'exercice de test Quality avec UUID.
 J'ai ensuite mis cela en pratique pour AVL en regardant le code et ses tests. J'ai pu pour l'instant tuer tous les mutants du message isLeaf soit 3.
 
