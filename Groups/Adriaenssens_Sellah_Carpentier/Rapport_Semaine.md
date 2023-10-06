@@ -88,3 +88,13 @@ Message send -> methode lookup à partir de l'instance -> trouve methode -> exec
   - L'importance de mettre de côté les détails complexes pour se concentrer sur l'essentiel.
   - Une introduction au concept de mutation testing, qui consiste à créer des mutants (variantes du code) pour vérifier si les tests sont corrects (on teste les tests 😂).
   - L'accent mis sur la création de tests de qualité et la combinaison intelligente du test de couverture et du mutation testing pour garantir la fiabilité de l'application.
+ 
+# Rapport 4 :
+#### Madeline
+ - Cour double dispatch
+ - Révision double dispatch
+ - Travaille en autonomie
+ - Lecture adding number + exercice adding number
+ - Finir l'analyse d'artefact
+ - Finir le diapo
+ - Reviser l'oral en groupe
