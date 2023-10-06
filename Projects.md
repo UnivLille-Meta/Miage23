@@ -45,14 +45,13 @@ Metacello new
     lock.
 
 Metacello new
-    repository: 'github://Ducasse/Myg';
+    repository: 'github://Ducasse/Myg:v1.0.0';
     baseline: 'Myg';
     onConflictUseIncoming;
     load.
 ```
 
-You will just need to execute `Sokoban open`.
-
+You will just need to execute `Sokoban open` to open the Sokoban, or do the same with `MineSweeper` or `Takuzu`.
 For more information, you can go to the website of the project: https://github.com/ducasse/myg
 
 ## Bloc and examples
