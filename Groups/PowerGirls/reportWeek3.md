@@ -9,3 +9,5 @@ Pendant la semaine 3 :
 - J'ai réalisé un test de couverture qui atteint un taux de 93,85 %, ce qui est considéré comme un pourcentage élevé.
 - Ensuite, j'ai travaillé sur l'exercice de mutation pour comprendre l'analyse des tests et différencier les tests de mutation des tests de couverture
 
+# Bouchra Hayani
+cette semaine, j'ai révisé le cours précédent et  j'ai travaillé sur les exercices sur la méthode LRUCache et l'amélioration des tests.
