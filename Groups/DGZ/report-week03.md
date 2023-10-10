@@ -6,7 +6,9 @@ Cette semaine deux points principaux ont été abordés :
 
 # Simon :
 
-
+Durant cette semaine, nous avons étudié deux éléments importants : 
+  - Le reverse engeneering qui consiste à analyser et comprendre le fonctionnement interne d'un système ou d'un application à partir du code. Plusieurs points importants sont ressortis, tels que l'importance de l'analyse macroscopique préliminaire sur le but du sujet d'étude permettant de savoir où commencer les recherches et ne pas se perdre dans le code, ou encore le fait qu'il est inutile de tout regarder, on ne peut pas tout comprendre en détail il est important de savoir mettre de côté des éléments.
+  - Le mutation testing qui permet de déterminer la qualité des tests existants et leur pertinance vis-à-vis des bugs et futur changements de code.
 
 # Paul :
 
