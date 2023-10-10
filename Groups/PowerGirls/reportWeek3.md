@@ -6,7 +6,6 @@ Et en ce qui concerne le projet, j’ai appliqué ce qu’on a vu en cours en fa
 # Rawan Ghosn
 Pendant la semaine 3 :
 - J'ai travaillé sur l'exercice LRUCache pour comprendre le concept de reverse engineering.
-- J'ai réalisé un test de couverture qui atteint un taux de 93,85 %, ce qui est considéré comme un pourcentage élevé.
 - Ensuite, j'ai travaillé sur l'exercice de mutation pour comprendre l'analyse des tests et différencier les tests de mutation des tests de couverture
 
 # Bouchra Hayani
