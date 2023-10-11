@@ -18,3 +18,21 @@ Pharo est utilisé dans le cadre de ce module comme "nouveau langage", malgré q
 Pour mettre en application tout ceci, je suis passé outre l'installation car je m'en étais déjà chargé l'année dernière (je travaille sur ma propre machine). Puis, on a fait une implémentation de classe, méthode de classe, test (+testing) et Exception, sur un counter classique.
 
 Suite aux explications de divers modules demandant du travail de groupe, j'ai fait pour changer et passé en groupe 2 pour pouvoir être en bînome avec Gabriella. Cela a donc entrainé un légér retard qui explique le léger retard de ce premier rapport.
+
+# Nouha BOUKILI :
+
+## Ce que j'ai fait:
+
+Comme je suis arrivée qu’en 3ème semaine, je n’ai pas pu assister évidemment aux cours de la 1ère et la 2ème semaine mais afin de rattraper l’ensemble des apprentissages passés, je trouve en disposition un mooc qui présente très explicitement tout ce qu’il faut pour une première approche avec la programmation orienté objet à l’aide de Pharo.
+Pour cette semaine, je commence par l'installation de Pharo, j'ai ensuite suis le tutoriel ProfStef qui permet d'apprendre en exercice les premières bases.
+J'ai crée le package, les classes et les classes de tests de l'exemple MyCounter comme le montre le mooc. 
+
+
+## Ce que j'ai pas fait:
+
+J'arrive pas à faire un push sur iceberg
+
+## difficultés rencontrées:
+
+Sauf iceberg que j'arrive pas à installer sur mon pc personnel, je n'ai pas rencontré de difficulté particulière.
+![](pictures/iceberg%20.png)

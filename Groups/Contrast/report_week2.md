@@ -29,3 +29,24 @@ Le Readme permet de focus assez vite sur l'utilisation technique (installation/d
   - Les dépendances demandent un accès github, donc le projet l'utilisant devient dépendant de git, et donc d'accès internet. Pourrait pauser des problèmes sur des projets internes en term de sécurité ou d'environnement de travail.
   - 4 packages, séparés par utilités. La documentation des packages est très légères. On est obligé de fouiller à l'intérieur pour comprendre vraiment, point améliorable
   - Le package des tests est au vert.
+
+
+# Nouha
+
+## Ce que j'ai fait:
+Pour cette semaine je commence à voir de près des notions qu'on a déja vu en java, notamment lepolymorphysme et comment ça sert à remplacer les conditionnels  et le late binding (la méthode appelée est déterminée au moment de l'exécution en fonction du type réel de l'objet).
+
+Je me familiarise avec deux nouveaux principes:
+- Don't ask, tell : à la place de demander avec les conditionnels, on peut appliquer un raisonnement selon le type d'objet traité 
+- Let the receiver decide : permettre à l'objet récepteur de décider de la manière de répondre à un message, le client donne les ordres et le récepteur réagit selon sa logique. 
+Aussi, parmi les points importants que je retiens:
+- dynamic dispatch: l'un des plus importants principes de la poo, c'esst la représentation modulaire des conditions, pas besoin des conditionnels compliqués, il vaut mieux avoir une hiérarchie de classes dynamique à l'aide du polymorphisme par exemple.
+- self représente le récepteur toujours .
+- super change le lookup, exactement comme on avait vu en java.
+
+## Ce que j'ai pas fait:
+
+
+## difficultés rencontrées:
+ce n'était pas évident de comprendre le principe "let the receiver decide" au début mais il est bien expliqué sur le reste des diapos.
+
