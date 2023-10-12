@@ -41,3 +41,33 @@ Tout d’abord j’ai compris la différence entre lru et lfu : LRU est basé su
 - j’ai fait les exercices de TestQuality: j’ai analysé les tests de mutation et j'ai compris que le taux de couverture ne reflète pas toujours la qualité des tests. En comparant le taux de couverture et le ‘mutation score’, j'ai réalisé l'importance d'avoir des tests robustes qui détectent efficacement les mutations, même dans les parties du code apparemment couvertes.
 -Lorsqu'un mutant survit aux tests, cela indique une faiblesse potentielle dans la suite de tests, car les modifications apportées au code n'ont pas été détectées. Cela souligne des zones où les tests pourraient être améliorés pour assurer une couverture complète du code.
 -J'ai exploré le framework Artefact de Pharo avec l'objectif de générer des PDF en comprenant la structure des classes. En ajoutant des objets à des objets parent comme PdfDocument et PdfPage, j'ai créé des documents PDF. Cette approche m'a aidé à comprendre comment chaque élément, en tant qu'objet enfant, contribue à la structure globale du document.
+
+## Skander
+
+### Reverse Engineering
+
+Pendant cette séance, j'ai appris plusieurs aspects importants concernant la classe LRUCache de Pharo et son utilisation.
+
+- J'ai acquis une compréhension du concept de Cache LRU (Least Recently Used), y compris sa signification dans le contexte de la programmation. je me suis aidé de ressources comme wikipédia pour comprendre le principe d'un cache LRU
+
+- J'ai examiné la classe LRUCache dans le package System-Caching de Pharo. J'ai cherché à comprendre sa structure et le nombre de méthodes qu'elle contient.
+
+- J'ai appris comment LRUCache est utilisée dans le code existant en recherchant des senders de la méthode "at:ifAbsentPut:" ce qui est très utile si on veut analyser un projet en se focalisant sur une méthode en particulier et en regardant ses senders et ses implementors.
+
+- J'ai appris à rester concentré sur l'objectif principal, en ignorant les détails non pertinents afin de mieux comprendre une fonctionnalité d'un projet.
+
+### Test Quality
+
+J'ai également appris a explorer en profondeur les Tests de Mutation en utilisant la bibliothèque mutalk.
+
+-  La première étape consistait à évaluer la couverture du code de la bibliothèque UUID de Pharo en utilisant les tests du package Network-Tests. J'ai compris l'importance de la couverture du code et comment l'augmenter pour obtenir une meilleure qualité de test (par exemple, tester les méthodes qui sont pas encore couvertes par les tests)
+
+- j'ai exploré la qualité des tests de la bibliothèque UUID en utilisant les tests de mutation. J'ai découvert que le score de mutation (killed/mutants) peut différer de la couverture du code.
+
+- J'ai appris que la couverture des tests est un indicateur important de la qualité des tests. Une couverture élevée indique généralement une meilleure  qualité, car elle signifie qu'une grande partie du code est testée. Mais, une couverture élevée ne garantit pas nécessairement que les tests sont pertinents ou qu'ils capturent tous les problèmes potentiels.
+
+- le score de mutation est généralement considéré comme une mesure plus précise de la qualité des tests que la simple couverture de code. Il met en évidence la capacité des tests à détecter les changements dans le code source en introduisant des variations intentionnelles (les mutants) et en mesurant la capacité des tests à les tuer
+
+- le score de mutation augmente quand on rajoute des tests qui vont tuées plus de mutants et gérer plus de cas
+
+- J'ai exploré des techniques pour améliorer le temps d'exécution des analyses de mutation comme ajouté with: AllTestsMethodsRunningMutantEvaluationStrategy new. ce qui va réduire le temps de l'analyse de mutation.
