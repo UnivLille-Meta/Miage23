@@ -10,12 +10,14 @@ J'aurais néanmoins besoin d'un éclaircissement sur le choix de l'utilisation d
 
 # Simon :
 
-
+Cette semaine, deux points importants ressortent dans ce que j'ai appris :
+  - J'ai découvert plusieurs approches d'aborder un projet grâce aux présentations des projets AVL et Artefact de tous les groupes de la classe
+  - J'ai compris plus en détail l'implémentation de classes en pharo, notamment au niveau des variables d'instance et des fonctions. Cet apprentissage s'est fait via l'exercice d'implémentation de DoubleLinkedList proposé en cours et via des discussions avec Trévor sur son implémentation de l'exercice.
 
 
 # Paul :
 
-Nous avons présenter les deux projets AVL et Artefacts, nous avons retenu qu'il fallait mettre une slide de fin pour résumer les points importants.
+Nous avons présenté les deux projets AVL et Artefacts, nous avons retenu qu'il fallait mettre une slide de fin pour résumer les points importants.
 Nous avons également vu dans différentes présentations d'autres méthodes pour découvrir les projets, d'autres façons de voir les projets et surtout d'interpréter.
 J'ai commencé chez moi à bosser sur les linked list, mais en continuant, j'ai eu des erreurs avec l'IDE Pharo et je ne trouvais plus mon projet. 
 J'ai donc discuté avec Trévor sur son implémentation ce qui a permit de compléter le début de mon implémentation et surtout de ma compréhension de la syntaxe du pharo.
