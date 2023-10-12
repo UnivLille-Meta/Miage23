@@ -98,3 +98,7 @@ Message send -> methode lookup à partir de l'instance -> trouve methode -> exec
  - Finir l'analyse d'artefact
  - Finir le diapo
  - Reviser l'oral en groupe
+
+#### Rabah
+- Pendant la semaine 04, j'ai consacré plus de temps au projet AVL et Artefact. Cela m'a permis de réviser et
+d'apprendre davantage de notions sur Pharo. De plus, j'en ai profité pour réviser les design patterns (double dispatch, visitor), préparer la présentation et l'oral avec mon groupe.
