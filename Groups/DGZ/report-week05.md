@@ -2,7 +2,9 @@
 
 Cette semaine, j'ai principalement travaillé sur l'implémentation d'une DoubleLinkedList étant donné que j'avais déjà fait les exercices précèdent (mutant, LRU Cache), que vous pouvez retrouver ici : https://github.com/Yamimutu/C3P_Ex/tree/main .  
 
-Ça m'a vraiment permis de comprendre la syntaxe, les boucles, les conditions en Pharo plus efficacement. J'ai réussi à répondre aux attentes de l'exercice. Je me suis surtout aider du code des différents package déjà présent, de stackOverflow et du site suivant pour la syntaxe : https://programmation.developpez.com/tutoriel/cours-complet-pharo/?page=chapitre-3-moins-un-resume-de-la-syntaxe
+Ça m'a vraiment permis de comprendre la syntaxe, les boucles, les conditions en Pharo plus efficacement. J'ai réussi à répondre aux attentes de l'exercice. Je me suis surtout aider du code des différents package déjà présent, de stackOverflow et du site suivant pour la syntaxe : https://programmation.developpez.com/tutoriel/cours-complet-pharo/?page=chapitre-3-moins-un-resume-de-la-syntaxe .  
+
+J'ai réussi à avoir 100% des mutants tués, pour le coverage j'ai un problème m'empêchant de voir le % de couverture (je pourrais vous montrer cela demain).
 
 J'aurais néanmoins besoin d'un éclaircissement sur le choix de l'utilisation des [] ou des () avant un while ou après un ifTrue par exemple, car c'est un peu flou pour moi.
 
