@@ -15,7 +15,7 @@ Faire de petites méthodes pour chaque aspect : au lieu d’avoir une grosse cla
 On aura ainsi une une complexité moins élevée aussi.
 
   - c’est quoi nil?
-    -De ce que j’ai compris: 
+    - De ce que j’ai compris: 
 En java, nil  c’est un  pointeur par défaut. Et c’est assez "surprenant " pour un langage objet.
 En pharo,  c’est un objet, une instance unique de la classe UndefinedObject.
 
