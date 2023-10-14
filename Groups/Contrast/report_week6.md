@@ -13,6 +13,7 @@ Cette semaine, j'ai appris lors des cours plusieurs notions qui vont m'aider au 
 * Solution possible : 
 Faire de petites méthodes pour chaque aspect : au lieu d’avoir une grosse classe qui fait tout : privilégier plus de classes et des petites méthodes pour chaque aspect.
 On aura ainsi une une complexité moins élevée aussi.
+
   - Ce que c'est "nil"  
 - De ce que j’ai compris: 
 En java, nil  c’est un  pointeur par défaut. Et c’est assez "surprenant " pour un langage objet.
