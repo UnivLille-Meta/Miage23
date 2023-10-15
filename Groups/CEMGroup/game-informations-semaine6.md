@@ -5,7 +5,7 @@
 Le jeu 2048 est un jeu de puzzle où le joueur déplace des blocs sur un plateau, généralement de 4x4 cases, en utilisant les touches fléchées. L'objectif est de combiner des blocs de mêmes valeurs pour les fusionner et créer un nouveau bloc avec une valeur double. Le joueur gagne lorsqu'un bloc atteint la valeur de 2048, mais le jeu peut continuer pour atteindre un score plus élevé.
 
 
-#  Quels types d'objets y a-t-il?
+#  Quels sont les éléments centraux du jeu ?
 
     Conception actuelle : 
 
