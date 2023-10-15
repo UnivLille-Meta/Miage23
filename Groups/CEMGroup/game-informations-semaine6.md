@@ -22,3 +22,6 @@ Le jeu 2048 est un jeu de puzzle où le joueur déplace des blocs sur un plateau
 Lorsque le joueur appuie sur une touche fléchée, tous les blocs se déplacent dans cette direction jusqu'à ce qu'ils touchent le bord du canvas ou un autre bloc.
 Si deux blocs de même valeur sont adjacents dans la direction du mouvement, ils fusionnent pour former un bloc de valeur double.
 Après chaque mouvement, un nouveau bloc apparaît aléatoirement sur une case vide avec une valeur initiale (généralement 2 ou 4).
+
+# Le jeu a-t-il des événements basés sur le temps?
+Non, le jeu 2048 n'est pas basé sur le temps. Les actions du joueur déterminent le rythme du jeu. Il n'y a pas d'événements automatiques qui se produisent à intervalles réguliers comme dans Tetris.
