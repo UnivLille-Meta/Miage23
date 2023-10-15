@@ -10,7 +10,16 @@ Lors des présentations, j'ai beaucoup appris de la manière dont chaque groupe 
   
  Je vous ai ajouté au dépôt GitHub dédié.
 
+# Nouha
 
+## Ce que j'ai fait:
+Pour cette semaine, on a fait la présentation de notre analyse du projet AVL et la bibliothèque Artefact. Les recommandations et les remarques que nous avons reçues nous seront utiles pour améliorer notre présentation du projet.
+J'ai aussi commencé d'implémenter la double linked list.
   
+## Ce que je n'ai pas fait:  
+chercher à améliorer les tests de myList
+
+## difficultés rencontrées:
+Un exercice en dehors de notre programme habituel en classe, ainsi que des exercices hebdomadaires, s'est avéré très utile pour évaluer mon niveau et mes compétences en Pharo. Initialement, il semblait facile, mais lorsque j'ai commencé à implémenter la liste, j'ai rencontré plusieurs défis qui, par la suite, m'ont aidé à mieux comprendre la programmation orientée objet avec Pharo et à progresser.
 
 

@@ -24,3 +24,20 @@ En pharo,  c’est un objet, une instance unique de la classe UndefinedObject.
 
 
  
+# Nouha
+
+## Ce que j'ai fait:
+### Ce que j'ai appris en cous cette semaine:
+- On a vu de près l'importance de l'envoi des messages dans la coo, notamment, un envoi de message représente un choix et la hiérarchie de classes définit les choix possibles.
+- On a vu comment l'envoi de message est un hook, ça donne la possibilité aux sous-classes de varier les méthodes. C'est valable aux self-send messages aussi.   
+- Emmental poo: une classe générique peut avoir des trous et les sous-classes remplissent ces trous.
+-  l'implémentation des petites méthodes au lieu des hardcore classes est très important que ce soit au niveau de l'encapsulation de la complexité, la facilité de test et la possibilité de créer des points d'extension pour les sous-classes. 
+- Au lieu de renvoyer Nil en cas d'erreur, on peut générer une exception appropriée.
+- Pour éviter les vérifications constantes de Nil, on peut de renvoyer des objets polymorphes plutôt que Nil. Par exemple, au lieu de renvoyer Nil, on renvoit une collection vide ou un nombre spécifique.
+- En pharo, on a trois singleton, Nil, true et false. 
+  
+## Ce que je n'ai pas fait:  
+J'avance toujours sur MyList, le homework de double linked list
+
+## difficultés rencontrées:
+pad de difficulté spécifique.
