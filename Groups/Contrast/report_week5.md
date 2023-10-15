@@ -22,4 +22,9 @@ chercher à améliorer les tests de myList
 ## difficultés rencontrées:
 Un exercice en dehors de notre programme habituel en classe, ainsi que des exercices hebdomadaires, s'est avéré très utile pour évaluer mon niveau et mes compétences en Pharo. Initialement, il semblait facile, mais lorsque j'ai commencé à implémenter la liste, j'ai rencontré plusieurs défis qui, par la suite, m'ont aidé à mieux comprendre la programmation orientée objet avec Pharo et à progresser.
 
+ # Axel
 
+
+ Cette semaine était celle des présentations. Nous avons consacré tout le temps de cours à celles-ci, car un défaut quee quasiment tout les groupes ont eut a été de dépassé grandement sur les 10 minutes prévues, nous y compris. Cela nous donne une piste d'amlioration sur nos prochaine synthèse de travail.
+
+ Globalement, nous étions satisfait de notre perfomance.
