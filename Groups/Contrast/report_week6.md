@@ -27,7 +27,7 @@ En pharo,  c’est un objet, une instance unique de la classe UndefinedObject.
 # Nouha
 
 ## Ce que j'ai fait:
-### Ce que j'ai appris en cous cette semaine:
+### Ce que j'ai appris en cours cette semaine:
 - On a vu de près l'importance de l'envoi des messages dans la coo, notamment, un envoi de message représente un choix et la hiérarchie de classes définit les choix possibles.
 - On a vu comment l'envoi de message est un hook, ça donne la possibilité aux sous-classes de varier les méthodes. C'est valable aux self-send messages aussi.   
 - Emmental poo: une classe générique peut avoir des trous et les sous-classes remplissent ces trous.
@@ -41,3 +41,11 @@ J'avance toujours sur MyList, le homework de double linked list
 
 ## difficultés rencontrées:
 pad de difficulté spécifique.
+
+
+
+# Axel
+
+Nous avons vu différents pattern, dont le pattern nil que nous avions présenté, l'ayant repéré dans AVL. Mais le voir plus en profondeur m'a permi de réellement comprendre la portée de ce pattern et l'utilité de celui-ci, ainsi que la bonne pratique sur laquelle il repose/qu'il aide à faire qui permet le découplage et donc le double dispatch, et ce qui en découle.
+
+On nous a aussi présenter le 2nd projet, réaliser un jeu parmis une liste prédéfinie et incorporer dans son développement un maximum de pratique vu en cours. Nous pensons à "Game of Life", "SameGame" et "2048". Cepedant, à part le double dispatch et le visiteur, nous n'avons au premiers abords pas encore vu plus de pattern à intégrer, nous devons y réfléchir plus en détails.
