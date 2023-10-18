@@ -102,3 +102,15 @@ Message send -> methode lookup à partir de l'instance -> trouve methode -> exec
 #### Rabah
 - Pendant la semaine 04, j'ai consacré plus de temps au projet AVL et Artefact. Cela m'a permis de réviser et
 d'apprendre davantage de notions sur Pharo. De plus, j'en ai profité pour réviser les design patterns (double dispatch, visitor), préparer la présentation et l'oral avec mon groupe.
+
+# Rapport 5 : 
+#### Oral
+ - Pas d'uml du projet pour appuyer nos propos
+ - Presentation trop général
+ - Approfondissement des tests
+
+# Rapport 6 : 
+#### Madeline
+- Null Pattern
+- Clean code
+- 
