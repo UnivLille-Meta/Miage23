@@ -141,6 +141,8 @@ d'apprendre davantage de notions sur Pharo. De plus, j'en ai profité pour révi
 On a fais un premier UML qui ne fonctionne pas : 
 ![image](./umlv1.png)
 
+
+
 Et voici l'UML que nous trouvons mieux : 
 ![image](./umlv2.png)
 
