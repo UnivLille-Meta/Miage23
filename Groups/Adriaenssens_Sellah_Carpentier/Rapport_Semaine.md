@@ -148,13 +148,12 @@ d'apprendre davantage de notions sur Pharo. De plus, j'en ai profité pour révi
 Voici le lien de notre projet Bomberman : 
 ![Bomberman](https://github.com/Elisa2502/Bomberman)
 
-On a fais un premier UML qui ne fonctionne pas :  
-
+On a fais un premier UML qui ne fonctionne pas :   
 ![image1](./umlv1.png)
 
 
 
-Et voici l'UML que nous trouvons mieux : 
+Et voici l'UML que nous trouvons mieux :  
 ![image2](./umlv2.png)
 
 Pour le moment nous nous concentrons principalement sur les cases et sur la manière dont on représente le plateaux on verra par la suite le reste, nous essayons de réfléchir au mieux au code our trouver des design pattern comme demandé. 
