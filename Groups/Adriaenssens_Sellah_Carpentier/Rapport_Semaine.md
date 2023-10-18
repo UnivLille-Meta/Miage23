@@ -132,6 +132,13 @@ d'apprendre davantage de notions sur Pharo. De plus, j'en ai profité pour révi
 - Bonnes utilisations des patterns pour simplifier le code
 - Travail sur notre projet
 
+#### Rabah
+- Refresh double dispatch
+- Les envois de messages
+- Polymorphise
+- Design pattern
+- Travail sur le projet de Bomberman
+
 #### Projet 
 - On a choisi de faire un bomberman
 - On a travaillé sur une conception de projet
