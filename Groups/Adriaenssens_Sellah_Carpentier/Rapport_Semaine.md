@@ -148,7 +148,8 @@ d'apprendre davantage de notions sur Pharo. De plus, j'en ai profité pour révi
 Voici le lien de notre projet Bomberman : 
 ![Bomberman](https://github.com/Elisa2502/Bomberman)
 
-On a fais un premier UML qui ne fonctionne pas : 
+On a fais un premier UML qui ne fonctionne pas :  
+
 ![image1](./umlv1.png)
 
 
