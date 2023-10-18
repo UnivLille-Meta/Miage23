@@ -120,6 +120,11 @@ d'apprendre davantage de notions sur Pharo. De plus, j'en ai profité pour révi
 #### Madeline
 - Null Pattern
 - Clean code
+- Message sends are hooks for subclasses
+- Pas de duplication
+- Emmental -> les sous classes doivent remplir les trous
+- Utiliser les patterns au bon moment
+- polymorphise
 
 #### Elisa
 - Rappels double dispatch
@@ -131,4 +136,12 @@ d'apprendre davantage de notions sur Pharo. De plus, j'en ai profité pour révi
 - On a choisi de faire un bomberman
 - On a travaillé sur une conception de projet
 - Nous sommes toujours à la recherche de notre conception idéale pour pouvoir démarrer le projet correctement
-- Nous avons écrit différents UML à travers plusieurs réflexions de conception 
+- Nous avons écrit différents UML à travers plusieurs réflexions de conception
+
+On a fais un premier UML qui ne fonctionne pas : 
+![image](./umlv1.png)
+
+Et voici l'UML que nous trouvons mieux : 
+![image](./umlv2.png)
+
+Pour le moment nous nous concentrons principalement sur les cases et sur la manière dont on représente le plateaux on verra par la suite le reste, nous essayons de réfléchir au mieux au code our trouver des design pattern comme demandé. 
