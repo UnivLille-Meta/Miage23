@@ -139,11 +139,11 @@ d'apprendre davantage de notions sur Pharo. De plus, j'en ai profité pour révi
 - Nous avons écrit différents UML à travers plusieurs réflexions de conception
 
 On a fais un premier UML qui ne fonctionne pas : 
-![image](./umlv1.png)
+![image1](./umlv1.png)
 
 
 
 Et voici l'UML que nous trouvons mieux : 
-![image](./umlv2.png)
+![image2](./umlv2.png)
 
 Pour le moment nous nous concentrons principalement sur les cases et sur la manière dont on représente le plateaux on verra par la suite le reste, nous essayons de réfléchir au mieux au code our trouver des design pattern comme demandé. 
