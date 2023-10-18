@@ -99,18 +99,36 @@ Message send -> methode lookup à partir de l'instance -> trouve methode -> exec
  - Finir le diapo
  - Reviser l'oral en groupe
 
+#### Elisa
+- Cours double dispatch
+- Pierre Feuille Ciseaux
+- Travail en groupe sur AVL et Artefact
+- Préparation de la présentation
+
 #### Rabah
 - Pendant la semaine 04, j'ai consacré plus de temps au projet AVL et Artefact. Cela m'a permis de réviser et
 d'apprendre davantage de notions sur Pharo. De plus, j'en ai profité pour réviser les design patterns (double dispatch, visitor), préparer la présentation et l'oral avec mon groupe.
 
 # Rapport 5 : 
-#### Oral
+#### Oral, retours : 
  - Pas d'uml du projet pour appuyer nos propos
- - Presentation trop général
+ - Presentation trop générale
  - Approfondissement des tests
+ - On aurait pu plus s'appuyer sur le code pour expliquer le visitor
 
 # Rapport 6 : 
 #### Madeline
 - Null Pattern
 - Clean code
-- 
+
+#### Elisa
+- Rappels double dispatch
+- Bonnes techniques de code / refractoring
+- Bonnes utilisations des patterns pour simplifier le code
+- Travail sur notre projet
+
+#### Projet 
+- On a choisi de faire un bomberman
+- On a travaillé sur une conception de projet
+- Nous sommes toujours à la recherche de notre conception idéale pour pouvoir démarrer le projet correctement
+- Nous avons écrit différents UML à travers plusieurs réflexions de conception 
