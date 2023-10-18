@@ -158,4 +158,4 @@ Et voici l'UML que nous trouvons mieux :
 
 ![image2](./umlv2.png)
 
-Pour le moment nous nous concentrons principalement sur les cases et sur la manière dont on représente le plateaux on verra par la suite le reste, nous essayons de réfléchir au mieux au code our trouver des design pattern comme demandé. 
+Pour le moment nous nous concentrons principalement sur les cases et sur la manière dont on représente le plateaux on verra par la suite le reste, nous essayons de réfléchir au mieux au code pour trouver des design pattern comme demandé. 
