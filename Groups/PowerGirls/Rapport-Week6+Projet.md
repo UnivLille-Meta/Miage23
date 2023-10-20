@@ -31,7 +31,7 @@ Be the last player standing to win the round.
 
 ## Interactions: 
 - Key press : control the directions of light cycles
-- Collision: When a player's light cycle collides with a trail or a barrier, the round ends.
+- Collision: When a player's light cycle collides with a trail or a barrier, the round ends and we have a round winner.
 
 ## Tests:
 - We will conduct tests to assess various aspects of our game, including game logic, actions, game board structure, game manager...
