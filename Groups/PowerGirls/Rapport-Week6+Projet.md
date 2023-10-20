@@ -13,21 +13,21 @@ As players move their light cycle, they leave a trail behind them and the trails
 Be the last player standing to win the round.
 
 ## Objects: 
-Elements :
-    Player :
-      SmartPlayer: Controlled by an algorithm, represented by a light cycle.
-      RandomPlayer: Controlled by users, represented by a light cycle.
-    Ground : The game ground where all action takes place.
-    Wall
-    Trail: the path left by players.
-Point: used to be able to follow the move state.
-Paging: responsible for the initial interface and menu options.
-Tron : entry point for the game.
-Board: the game board.
-BoardElement: represents individual elements on the game board.
-Game manager: manages the overall game state.
-Algorithm: we will decide between MaxN and AlphaBeta
-Heuristque: we will decide between Voronoi and OpenSpace
+- Elements :
+    - Player :
+      - SmartPlayer: Controlled by an algorithm, represented by a light cycle.
+      - RandomPlayer: Controlled by users, represented by a light cycle.
+    - Ground : The game ground where all action takes place.
+    - Wall
+    - Trail: the path left by players.
+- Point: used to be able to follow the move state.
+- Paging: responsible for the initial interface and menu options.
+- Tron : entry point for the game.
+- Board: the game board.
+- BoardElement: represents individual elements on the game board.
+- Game manager: manages the overall game state.
+- Algorithm: we will decide between MaxN and AlphaBeta
+- Heuristque: we will decide between Voronoi and OpenSpace
 
 ## Interactions: 
 - Key press : control the directions of light cycles
