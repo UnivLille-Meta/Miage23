@@ -20,7 +20,7 @@ Elements :
     Ground : The game ground where all action takes place.
     Wall
     Trail: the path left by players.
-    Point: used to be able to follow the move state.
+Point: used to be able to follow the move state.
 Paging: responsible for the initial interface and menu options.
 Tron : entry point for the game.
 Board: the game board.
