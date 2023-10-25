@@ -34,5 +34,6 @@ Exemple du double dispatch sur l'addition d'entiers, de flottants et de fraction
 
 J'ai visionné les vidéos du MOOC consacrées aux module 2 et module 6 afin de combler les lacunes causées par mon absence en classe et d'avoir les explications orales.
 
-
+### Ezzahra
+Au cours de cette semaine, nous avons plongé dans le concept de double dispatch à travers notre travail sur l'exercice du jeu "Pierre-Papier-Ciseaux", je ne savais pas avant que je peux le faire sans aucune "if"! En parallèle, j'ai également alloué du temps à la préparation de notre présentation portant sur le projet artefact.
 
