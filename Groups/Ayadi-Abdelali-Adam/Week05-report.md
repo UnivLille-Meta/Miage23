@@ -21,3 +21,14 @@
 → Le dernier diapositive est le plus important, car c'est celui qui reste le plus longtemps, donc il faut bien le concevoir.
 
 ---
+
+## Abdelali
+
+### Présentation
+
+- Participation à la présentation des projets "AVL" et "Artefact".
+
+### Cours et Apprentissage
+
+- Visionnage des vidéos du MOOC de la semaine pour approfondir mes connaissances.
+- Travaux en cours sur les exercices LRU et mutation testing.

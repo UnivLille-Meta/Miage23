@@ -13,3 +13,11 @@
 ### Ce que je ne comprend pas très bien
 
 - Je ne comprends pas vraiment le late binding et le static, je dois y revenir ultérieurement.
+
+## Abdelali
+
+- Révision du design pattern "double dispatch"
+- Compréhension de l'importance du polymorphisme pour éviter les structures conditionnelles.
+- Préparation à la présentation en analysant les projets et en tentant d'appliquer des concepts de reverse engineering.
+- Recherche des mutants et essayer d'en tuer sur les projets
+- Préparation pour la présentation orale.
