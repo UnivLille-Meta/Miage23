@@ -25,3 +25,14 @@ Les Mutating test, pour pouvoir mettre à l'épreuve le projet, permettent autan
 Via l'exercice sur LRUCache, j'ai pu les mettre un peu en pratique, ce qui été capital pour ancré ces méthodes dans mes réflexes lorsque je vois un nouvau projet.
 
 Nous avons décidé de nous concentrer sur les vidéos de cours + AVL jusqu'à la Week 4.
+
+# Nouha
+
+## Ce que j'ai fait:
+Pour cette semaine, on aborde le reverse engineering, pour une première bonne pratique on commence à regarder  l'hiérarchie du projet, voir de près les senders/les implementors...
+On se familiarise avec des nouveaux patrons du Reverse engineering.
+## Ce que j'ai pas fait:
+Je n'ai pas pu écrire des tests qui incrémentent le coverage ou bien le taux de mutations
+
+## difficultés rencontrées:
+
