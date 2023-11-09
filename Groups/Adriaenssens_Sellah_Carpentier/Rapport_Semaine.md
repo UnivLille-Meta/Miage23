@@ -98,3 +98,64 @@ Message send -> methode lookup à partir de l'instance -> trouve methode -> exec
  - Finir l'analyse d'artefact
  - Finir le diapo
  - Reviser l'oral en groupe
+
+#### Elisa
+- Cours double dispatch
+- Pierre Feuille Ciseaux
+- Travail en groupe sur AVL et Artefact
+- Préparation de la présentation
+
+#### Rabah
+- Pendant la semaine 04, j'ai consacré plus de temps au projet AVL et Artefact. Cela m'a permis de réviser et
+d'apprendre davantage de notions sur Pharo. De plus, j'en ai profité pour réviser les design patterns (double dispatch, visitor), préparer la présentation et l'oral avec mon groupe.
+
+# Rapport 5 : 
+#### Oral, retours : 
+ - Pas d'uml du projet pour appuyer nos propos
+ - Presentation trop générale
+ - Approfondissement des tests
+ - On aurait pu plus s'appuyer sur le code pour expliquer le visitor
+
+# Rapport 6 : 
+#### Madeline
+- Null Pattern
+- Clean code
+- Message sends are hooks for subclasses
+- Pas de duplication
+- Emmental -> les sous classes doivent remplir les trous
+- Utiliser les patterns au bon moment
+- polymorphise
+
+#### Elisa
+- Rappels double dispatch
+- Bonnes techniques de code / refractoring
+- Bonnes utilisations des patterns pour simplifier le code
+- Travail sur notre projet
+
+#### Rabah
+- Refresh double dispatch
+- Les envois de messages
+- Polymorphise
+- Design pattern
+- Travail sur le projet de Bomberman
+
+#### Projet 
+- On a choisi de faire un bomberman
+- On a travaillé sur une conception de projet
+- Nous sommes toujours à la recherche de notre conception idéale pour pouvoir démarrer le projet correctement
+- Nous avons écrit différents UML à travers plusieurs réflexions de conception
+
+Voici le lien de notre projet Bomberman : 
+![Bomberman](https://github.com/Elisa2502/Bomberman)
+
+On a fais un premier UML qui ne fonctionne pas :
+   
+![image1](./umlv1.png)
+
+
+
+Et voici l'UML que nous trouvons mieux :  
+
+![image2](./umlv2.png)
+
+Pour le moment nous nous concentrons principalement sur les cases et sur la manière dont on représente le plateaux on verra par la suite le reste, nous essayons de réfléchir au mieux au code pour trouver des design pattern comme demandé. 
