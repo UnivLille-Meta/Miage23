@@ -176,6 +176,12 @@ Préparation examen
  - Permet de "vister" un objet pour étendre une structure de donnée
 
 #### Elisa
+- Rappel du composite
+- Explication du visiteur
+- Le composite est moins modulable que le visiteur
+  - Pour ajouter une fonctionnalité dans le composite, il faut ajouter une méthode dans chaque sous classe ou la classe mère
+  - Alors que dans le visiteur, il faut créer une nouvelle classe qui impléémente visit_ avec les types de notre structure de données
+- L'ajout et la modification de fonctionnalités est ainsi plus facile et plus rapide avec un visiteur
 
 #### Rabah
 
