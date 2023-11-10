@@ -5,6 +5,7 @@ Jump to :
 
 # Rachid
 
+Semaine des présentations donc pas de cours. En dehors des cours, j'ai regardé des vidéos sur certains design pattern tels que Visitor et Hook and Template pour bien les comprendre.
 
 # Lina
 
