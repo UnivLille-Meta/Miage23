@@ -29,3 +29,10 @@ Chacune de ces classes définit une méthode playAgainstStone, playAgainstPaper 
 Lorsque la méthode vs: est appelée sur un objet, elle sélectionne la bonne méthode à exécuter en fonction de l'objet sur lequel elle est appelée et de l'objet passé en argument.
 
 La solution est extensible, ce qui signifie que vous pouvez ajouter de nouveaux éléments au jeu (par exemple, Spock et Lizard) sans avoir à modifier le code existant. Cela démontre la puissance de la double expédition et de la conception modulaire.
+## Abdelali
+
+- Révision du design pattern "double dispatch"
+- Compréhension de l'importance du polymorphisme pour éviter les structures conditionnelles.
+- Préparation à la présentation en analysant les projets et en tentant d'appliquer des concepts de reverse engineering.
+- Recherche des mutants et essayer d'en tuer sur les projets
+- Préparation pour la présentation orale.

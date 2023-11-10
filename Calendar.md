@@ -7,8 +7,10 @@
 - 05 Week: 05-06 Oct Presentation -- *Presentations Learning and data structure analysis*
 - 06 Week: 12-13 Oct Hook and templates
 - 19-20 Oct Pas de cours
-- 07 Week: Examen en amphi C15 04 le 26/10 les deux groupes -- *Pas de cours le 27*
-
+- 07 Week: 26-27 Double dispatch
+-- Examen  C15 04 dans le Batiment C
+	le C15 : https://goo.gl/maps/g391N7hyq1Q17NMB9
+	L'amphi 4 est à gauche en rentrant dans le bâtiment.	
 Break 2-3 Nov
 
 - 08 Week 09-10 Nov Visitor

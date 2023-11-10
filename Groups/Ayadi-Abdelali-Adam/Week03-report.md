@@ -71,3 +71,14 @@ J'ai également appris a explorer en profondeur les Tests de Mutation en utilisa
 - le score de mutation augmente quand on rajoute des tests qui vont tuées plus de mutants et gérer plus de cas
 
 - J'ai exploré des techniques pour améliorer le temps d'exécution des analyses de mutation comme ajouté with: AllTestsMethodsRunningMutantEvaluationStrategy new. ce qui va réduire le temps de l'analyse de mutation.
+
+### Abdelali
+
+## Reverse Engineering
+- J'ai exploré en profondeur la classe LRUCache dans Pharo pour comprendre son fonctionnement, en consultant des ressources externes et en analysant sa structure.
+
+## Test Quality
+- J'ai évalué la qualité des tests en analysant la couverture du code et en utilisant les tests de mutation pour évaluer la robustesse des tests.
+
+## Relire tous les cours des semaines précédentes
+- J'ai pris le temps de relire l'ensemble des cours des semaines précédentes pour consolider mes connaissances.

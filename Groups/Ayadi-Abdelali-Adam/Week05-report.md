@@ -20,6 +20,7 @@
 
 → Le dernier diapositive est le plus important, car c'est celui qui reste le plus longtemps, donc il faut bien le concevoir.
 
+
 ## Skander
 
 - Il faut plus rentrer en détail dans l'explication des tests 
@@ -27,3 +28,14 @@
 - C'est mieux de se concentrer sur une seule fonctionnalité au lieu de parler vaguement de plusieurs sans rentrer dans les détails.
 - il est prèfèrable de mettre des éléments texte dans la présentation lorsqu'on veut montrer du code (plus lisible).
 - la dernière diapositive est la plus importante car elle reste le plus de temps à l'écran, il faut bien l'utiliser en mettant les points les plus importants.
+
+## Abdelali
+
+### Présentation
+
+- Participation à la présentation des projets "AVL" et "Artefact".
+
+### Cours et Apprentissage
+
+- Visionnage des vidéos du MOOC de la semaine pour approfondir mes connaissances.
+- Travaux en cours sur les exercices LRU et mutation testing.
