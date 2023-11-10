@@ -162,8 +162,8 @@ Pour le moment nous nous concentrons principalement sur les cases et sur la mani
 
 
 # Rapport 7 
-Semaine sans cours. 
-Préparation examen. 
+Semaine sans cours.  
+Préparation examen.  
 
 # Rapport 8
 #### Madeline
