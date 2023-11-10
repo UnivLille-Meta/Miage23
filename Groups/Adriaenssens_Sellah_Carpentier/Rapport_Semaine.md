@@ -159,3 +159,21 @@ Et voici l'UML que nous trouvons mieux :
 ![image2](./umlv2.png)
 
 Pour le moment nous nous concentrons principalement sur les cases et sur la manière dont on représente le plateaux on verra par la suite le reste, nous essayons de réfléchir au mieux au code pour trouver des design pattern comme demandé. 
+
+# Rapport 7
+#### Madeline
+ - **Composite**
+ - Element simple et composé sont polymorphique
+ - Il y a un composant/feuille et des composés, on a une liste de composés
+
+ - **Visiteur**
+ - Il fontionne très bien avec le composite
+ - Permet de "vister" un objet pour étendre une structure de donnée
+
+#### Elisa
+
+#### Rabah
+
+#### Projet
+Nous avons encore une fois mis à jour l'UML : 
+![image3](./umlv3.png)
