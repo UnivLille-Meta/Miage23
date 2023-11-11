@@ -2,32 +2,28 @@
 
 ## Mélik : 
 
-J'ai essayé de prendre de l'avance sur le cours en regardant les slides sur le double dispatch afin de preparer la seance.
+J'ai utilisé cette semaine afin de pouvoir réviser pour l'examen du 26.
+J'ai revu l'ensemble du programme en relisant les slides et en visionnant certains mooc tels que : 
 
-L'utilistation de l'exemple pierre feuille ciseau me parle d'autant plus car cela me rappel le projet que j'ai eu à faire en JSFS lors de ma L3 et je me rend compte que j'aurai tout simplement pu utiliser ce design pattern au lieu de mettre des tonnes de If.
+- Inheritance Basics 
+- Inheritance and Lookup
+- About super
 
-En résumé, j'ai compris que le mécanisme de double dispatch permet une conception modulaire en envoyant deux messages pour déterminer la méthode en fonction à la fois du receveur et de l'argument. L'implémentation favorise l'extensibilité sans la nécessité de modifier le code existant.
+qui m'ont bien aidé à cerner et ne plus faire d'erreur sur le mecanisme de lookup et bien comprendre les principes de l'heritage.
 
-On le comprend davantage aussi dans les slides "AddingNumbers" grâce aux exemples :
+J'ai aussi vu les mooc sur : 
 
-### Exemple 1 : 
+- Test 101: The minimum you should know
+- Test-Driven Development
 
-Ajout d'entiers et de flottants :
+En pensant qu'il y aurait un exercice concernant les tests lors de l'examen.
 
-    Les classes impliquées sont Integer et Float.
-    Deux méthodes + sont définies, une dans chaque classe.
-    L'idée est d'envoyer un message sumWithInteger: depuis la classe Integer et sumWithFloat: depuis la classe Float.
-    Les méthodes sumWithInteger: et sumWithFloat: effectuent l'addition appropriée.
+Pour finir j'ai regardé les mooc concernant les design pattern : 
 
-### Exemple 2 :
+- Hooks and Template: One of the cornerstones of OOP
+- Decorator Design Pattern
 
-Ajout de fractions :
+## Mohamed :
 
-    La classe Fraction est introduite.
-    Une méthode + est définie dans la classe Fraction.
-    Deux nouvelles méthodes, sumWithInteger: et sumWithFraction:, sont introduites pour le double dispatch.
-    Ces méthodes définissent le comportement d'addition avec des entiers et des fractions respectivement.
-    
-    Le double dispatch est utilisé pour choisir la bonne méthode en fonction du type des objets impliqués.
-
-## Mohamed : 
+J'ai egalement profité de cette semaine pour réviser l'examen.
+J'ai essayé de refaire les exercices vu au cours des differentes semaines afin de ne pas avoir de lacunes notamment sur la syntaxe pharo et les connaissances acquises.
