@@ -20,10 +20,12 @@ Afin d'appliquer tout ces concepts nous avons fait les exercices correspondants 
 
 ### Mohamed :
 
-Ayant deja fait META l'année passée, j'ai passé la partie exercice car j'avais déjà pratiqué ces exemples en langage PHARO. Je me suis ainsi focalisé sur la preparation de la presentation et me suis concentré sur le projet AVL.
+Ayant deja fait META l'année passée, j'ai passé la partie exercice car j'avais déjà pratiqué ces exemples en langage PHARO. Je me suis ainsi focalisé sur la preparation de la presentation et me suis concentré sur le projet Artefact.
 Je l'ai installé en utilisant le script present dans le readme et ai commencé a survoler le code afin d'identifier les choses dont je pourrai parler.
 
 ### Mélik :
 
-Etant donné que je decouvre le langage pharo j'ai jugé bon de faire les exercices mêmes si je maitrisais deja plus ou moins ces aspect la en programmation et les avait deja pratiqué dans divers langages.
+Etant donné que je decouvre le langage pharo j'ai jugé bon de faire les exercices mêmes si je m'en sortais deja plus ou moins sur ces aspect la en programmation et les avait deja pratiqué dans divers langages.
 J'ai pu ainsi en apprendre davantage notamment sur la syntaxe pharo et ai reussi a comprendre comment fonctionnait le launcher et l'environnement de travail en general car j'avais un peu de mal au depart à m'y retrouver. 
+Nous avons décidé avec mohamed de nous repartir les taches pour la presentation afin d'être plus efficace.
+Je me focaliserai sur AVL et lui artefact.
