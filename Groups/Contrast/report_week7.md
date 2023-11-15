@@ -33,15 +33,15 @@ J'ai un peu de mal avec blocs et j'essaie de me familiariser toujours avec icebe
 # Gabriella
 Cette semaine, on a abordé le design pattern Visitor. J'ai pu comprendre ce que représente le visitor et dans quel cas il est utile de l'utiliser. 
 Ce que j'ai retenu:
-     - le "Visitor" va représenter une opération et cette opération sera découplée de son domaine d'utilisation. Cela signifie que le code de l'opération ne sera pas intégré dans les classes des objets sur lesquels il opère.
+- le "Visitor" va représenter une opération et cette opération sera découplée de son domaine d'utilisation. Cela signifie que le code de l'opération ne sera pas intégré dans les classes des objets sur lesquels il opère.
     Par exemple, le code de chaque entité, nombre, opération etc est dans le domain et ça sera à chacune d'elle de definir  sa manière d’etre visitée. Avec le double dispatch, on a ainsi cet échange  entre le domain et le visitor.
-    - le "Visitor" sera une classe autonome. Elle peut être définie et étendue indépendamment des classes d'objets qu'elle visite.
+  - le "Visitor" sera une classe autonome. Elle peut être définie et étendue indépendamment des classes d'objets qu'elle visite.
 De manière plus pratique, le "petit jeu" entre le professeur qui jouait le role du visitor et une étudiante qui jouait le role de l'opération (ou du nombre) m'a permis de vraiment comprendre comment se passe cet échange de manière plus concrète pour moi.
 
 Par rapport à quand utiliser le visitor et quand ne pas le faire, j'avais eu du mal à comprendre le fait qu'il propose un design extensible mais qu'il soit pas adapté au changement de structure. Pour moi ça allait dans le meme sens. Mais avec l'aide du prof, j'ai pu comprendre que pour le changement de structure, si le domaine change et qu'on est amené à rajouter des feuilles au niveau de la structure, il est possible qu'on doive ajouter une nouvelle gestion de la feuille. Ce qui est très embetant si on doit le faire à chaque fois.
-J'ai regardé la vidéo du MOOC pour renforcer ma compréhesion.
+J'ai regardé la vidéo du MOOC pour renforcer ma compréhesion
 
-Pour le projet, on va continuer d'avancer sur Maze Generator sur lequel on s'est tous convenu de travailler à trois.
+Pour le projet, on va continuer d'avancer sur Maze Generator sur lequel on s'est convenus de travailler.
 
 On a commencé par penser au design, c'est à dire penser d'abord à ce dont on va avoir besoin pour implémenter ce projet, par exemple, pour implémenter le labyrinthe, aurais-je besoin de murs, cases, etc?
 
