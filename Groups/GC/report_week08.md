@@ -1,0 +1,3 @@
+# Maxime
+
+J'ai comme recommandé regardé les tests présents dans le Sokoban, ceux-ci seront très utiles pour le développement du SameGame. Ils m'ont d'ailleurs mené à regarder un peu plus en détail l'utilisation de Bloc. Javad et Thomas ont eux fait le tuto Bloc où ils ont tenté d'implémenter un Memory, je pense donc leur laisser la partie graphique et me concentrer sur la conception du coeur du jeu.
