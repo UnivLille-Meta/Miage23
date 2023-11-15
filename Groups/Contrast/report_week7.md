@@ -29,3 +29,21 @@ les exercices donnés par M. Polito apparaissent intéréssentes mais le temps e
 
 ## difficultés rencontrées:
 J'ai un peu de mal avec blocs et j'essaie de me familiariser toujours avec iceberg.
+
+# Gabriella
+Cette semaine, on a abordé le design pattern Visitor. J'ai pu comprendre ce que représente le visitor et dans quel cas il est utile de l'utiliser. 
+Ce que j'ai retenu:
+     - Le "Visitor" va représenter une opération et cette opération sera découplée de son domaine d'utilisation. Cela signifie que le code de l'opération ne sera pas intégré dans les classes des objets sur lesquels il opère.
+    Par exemple, le code de chaque entité, nombre, opération etc est dans le domain et ça sera à chacune d'elle de definir  sa manière d’etre visitée. Avec le double dispatch, on a ainsi cet échange  entre le domain et le visitor.
+
+    - Le "Visitor" sera une classe autonome. Elle peut être définie et étendue indépendamment des classes d'objets qu'elle visite.
+De manière plus pratique, le "petit jeu" entre le professeur qui jouait le role du visitor et une étudiante qui jouait le role de l'opération (ou du nombre) m'a permis de vraiment comprendre comment se passe cet échange de manière plus concrète pour moi.
+
+    
+
+
+
+
+
+
+
