@@ -24,5 +24,12 @@ Je veux apprendre à écrire de bons tests qui ne changeront plus (ou peu) aprè
 
 # Nizar
 
+### Ce que j'ai appris
+
+Lors du dernier cours, nous avons revu le design pattern 'Visiteur'. J'ai appris cette année que le choix de l'override n'était pas pertinant dans ce cas. Nous avons vu que l'on pouvait implémenter le Visiteur avec un double dispatch, qui permet à l'objet visité, une fois que le visiteur lui a envoyé le message lui demandant de l'évaluer, de préciser à ce dernier la manière de le visiter.
+
+### Comment j'ai appris
+
+Après avoir suivi le cours, j'ai regardé la vidéo de M.Fabresse Luc afin de compléter les notion déja acquises pendant le cours de Jeudi dernier.
 
 
