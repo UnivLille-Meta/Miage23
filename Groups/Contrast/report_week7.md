@@ -39,6 +39,15 @@ Ce que j'ai retenu:
     - Le "Visitor" sera une classe autonome. Elle peut être définie et étendue indépendamment des classes d'objets qu'elle visite.
 De manière plus pratique, le "petit jeu" entre le professeur qui jouait le role du visitor et une étudiante qui jouait le role de l'opération (ou du nombre) m'a permis de vraiment comprendre comment se passe cet échange de manière plus concrète pour moi.
 
+Par rapport à quand utiliser le visitor et quand ne pas le faire, j'avais eu du mal à comprendre le fait qu'il propose un design extensible mais qu'il soit pas adapté au changement de structure. Pour moi ça allait dans le meme sens. Mais avec l'aide du prof, j'ai pu comprendre que pour le changement de structure, si le domaine change et qu'on est amené à rajouter des feuilles au niveau de la structure, il est possible qu'on doive ajouter une nouvelle gestion de la feuille. Ce qui est très embetant si on doit le faire à chaque fois.
+J'ai regardé la vidéo du MOOC pour renforcer ma compréhesion.
+
+Pour le projet, on va continuer d'avancer sur Maze Generator sur lequel on s'est tous convenu de travailler à trois.
+
+On a commencé par penser au design, c'est à dire penser d'abord à ce dont on va avoir besoin pour implémenter ce projet, par exemple, pour implémenter le labyrinthe, aurais-je besoin de murs, cases, etc?
+
+Nous continuerons d'avancer sur le projet cette semaine.
+
     
 
 
