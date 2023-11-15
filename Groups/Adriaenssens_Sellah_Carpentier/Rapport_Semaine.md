@@ -170,10 +170,12 @@ Préparation examen
  - **Composite**
  - Element simple et composé sont polymorphique
  - Il y a un composant/feuille et des composés, on a une liste de composés
+ - Moins modulable que le visiteur
 
  - **Visiteur**
  - Il fontionne très bien avec le composite
  - Permet de "vister" un objet pour étendre une structure de donnée
+ - Ajout et modification de fonctionnalité, plus facile et rapide qu'avec le composite
 
 #### Elisa
 - Rappel du composite
@@ -186,5 +188,8 @@ Préparation examen
 #### Rabah
 
 #### Projet
+ - Fais depot git
+ - Se répartir les tâches
+ - Commencer à coder
 Nous avons encore une fois mis à jour l'UML : 
 ![image3](./umlv3.png)
