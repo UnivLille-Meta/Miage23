@@ -186,6 +186,11 @@ Préparation examen
 - L'ajout et la modification de fonctionnalités est ainsi plus facile et plus rapide avec un visiteur
 
 #### Rabah
+- Polymorphique, Élément simple et composé.
+- Comprend un composant/feuille et des composés.
+- Le visiteur Permet d'élargir une structure de données en "visitant" un objet.
+- L'ajout et la modification de fonctionnalités sont plus simples avec le visiteur.
+- Il suffit de créer une nouvelle classe implémentant la méthode "visit_" pour chaque type de la structure de données.
 
 #### Projet
  - Fais depot git
