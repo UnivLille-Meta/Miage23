@@ -5,5 +5,7 @@ Pour la semaine dernière, nous nous sommes réunis pour discuter de l'architect
 
 # Simon :
 
+Réunion en groupe pour parler du projet.
+Révisions pour l'examen, visualisation des vidéos du cours + exercices.
 
 # Paul :
