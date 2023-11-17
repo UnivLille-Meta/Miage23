@@ -24,3 +24,9 @@ J'ai pu bien comprendre l'importance du double dispatch qui est un mécanisme ce
 Je ne voyais pas trop l'inconvenient du visitor mais j'ai cru comprendre qu'il est moins adapté aux structures d'objets changeantes.
 
 ## Mohamed : 
+
+nous avons continuer a coder le jeux , j'ai eut du mal avec les differentes frameworks même en utulisant l'image donné sur discord. 
+j'ai donc continuer mon uml en ayant toute mes disigns pattern et avoir une structure du code cohérente et optimisé.
+
+a faire : 
+reussir a utiliser bloc et myg.
