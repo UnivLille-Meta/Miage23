@@ -27,3 +27,10 @@ Pour finir j'ai regardé les mooc concernant les design pattern :
 
 J'ai egalement profité de cette semaine pour réviser l'examen.
 J'ai essayé de refaire les exercices vu au cours des differentes semaines afin de ne pas avoir de lacunes notamment sur la syntaxe pharo et les connaissances acquises.
+Cotés cours : 
+
+On nous a présenté cette semaine le pattern Visitor.
+
+Nous nous sommes ensuite replongé sur le projet. Nous hésitions encore sur plusieurs jeu,mais on va surment prendre BomberMan.
+
+Il est aussi prévu que nous fassions les tutos blocs pour nous familiariser avec.
