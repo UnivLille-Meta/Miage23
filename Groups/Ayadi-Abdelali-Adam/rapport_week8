@@ -1,0 +1,12 @@
+## Edem
+### le Modèle Composite
+j'ai bien avancé avec la partie Composite en créant les classes FSEntry, FSFile, et FSDirectory pour construire un système de fichiers.
+Cela m'a permis de gérer des élément simples(fichierà et des éléments composites(dossier) d'éléments de manière similaire.
+
+### Compréhension acquise : 
+Au cours de cet exercice, j'ai compris comment organiser des structures complexes en utilisant le modèle Composite. 
+L'idée d'une hiérarchie d'objets pour représenter des relation entre eux devient plus claire, surtout en utilisant la récursivité pour éviter la redondance de code.
+
+### Difficultés:
+Le modèle Visitor a posé des défis, surtout quand il s'agit d'ajouter de nouvelles fonctionnalités comme le calcul de la taille des éléments.
+Comprendre comment les méthodes interagissent entre les visiteur et les éléments visités n'a pas été simple pour moi dans ce contexte.
