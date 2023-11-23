@@ -5,5 +5,9 @@ Pour la semaine dernière, nous nous sommes réunis pour discuter de l'architect
 
 # Simon :
 
+Réunion en groupe pour parler du projet.
+Révisions pour l'examen, visualisation des vidéos du cours + exercices.
 
 # Paul :
+Révision pour l'examen. Je me suis concentré sur les pdf de cours (n'ayant pas internet..), j'ai approfondi le double dispatch et surtout la différence super/self.
+Nous nous sommes ensuite réunis pour discuter du projet et de notre façon de procéder pour l'architecture.
