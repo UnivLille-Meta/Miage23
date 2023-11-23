@@ -25,8 +25,7 @@ All slides, videos, and tutorials are available in (or linked from) this reposit
 
 - Pdfs are hosted under [https://rmod-files.lille.inria.fr/DesignCoffeeClub/](https://rmod-files.lille.inria.fr/DesignCoffeeClub/)
 - Videos are hosted [http://rmod-pharo-mooc.lille.inria.fr/AdvancedDesignMooc/](http://rmod-pharo-mooc.lille.inria.fr/AdvancedDesignMooc/).
-
-They will also be soon available on the official website [https://advanced-design-mooc.pharo.org](https://advanced-design-mooc.pharo.org)
+- The official website [https://advanced-design-mooc.pharo.org](https://advanced-design-mooc.pharo.org)
 
 
 
