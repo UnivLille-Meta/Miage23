@@ -1,5 +1,7 @@
 # Rapport 8 : 
 
+Voici le lien de notre depot pour le projet BOMBERMAN : https://github.com/naysparrow/Besbas_Leulmi_Bomberman
+
 ## Mélik : 
 
 J'ai essayé de prendre de l'avance sur le cours en regardant les slides sur le double dispatch du week7 et week8 et du visitor afin de preparer la seance.
