@@ -209,6 +209,13 @@ Nous avons encore une fois mis à jour l'UML :
 # Rapport 10
 
 #### Madeline
+ - Design Pattern Strategy
+ - *Sous-Typage :  Permet d'heriter d'un objet pour être un. Definis un sous type, tout ce qui est compatible avec la super classe et compatible avec la sous classe. POur la spécialisation*
+ - *Sous-classage : Permet d'herité afin de récupérer les méthodes de la super classe, on peut annuler des méthodes. Pour la réutilisation *
+ - *Polymorphisme :  capacite des 2 objets à être interchangeable pour un client*
+ - Partage
+ - Extensibilité
+ - Granularité du partage
 
 #### Elisa
 - Découverte du design pattern Strategy
@@ -228,7 +235,7 @@ Nous avons encore une fois mis à jour l'UML :
   - Adaptation des méthodes
   - Adaptation des tests
 - IHM mise à jour, plus ouverte à l'évolution
-- Plateau implémenté d'une différente manière
-- On peut accéder à une case du plateau
+- Plateau implémenté d'une différente manière => On peut accéder aux cases du plateau
+- Ajout d'un controleur et d'un main
 - Mise à jour de l'uml qui combine le visiteur de la semaine dernière avec le state
  ![image4](./umlv4.png)
