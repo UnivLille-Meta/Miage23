@@ -213,13 +213,22 @@ Nous avons encore une fois mis à jour l'UML :
 #### Elisa
 - Découverte du design pattern Strategy
 - Différence entre sous-typage et sous-classage
- - sous-typage : c'est de la spécialisation
- - sous-classage : c'est de la réutilisation
+  - sous-typage : c'est de la spécialisation
+  - sous-classage : c'est de la réutilisation
 - Etude de l'exam 1 et questions sur les mauvaises réponses
- - Attention, le polymorphisme peut exister sans héritage (c'est simplement une capacité d'interchanger des objets)
+  - Attention, le polymorphisme peut exister sans héritage (c'est simplement une capacité d'interchanger des objets)
 - Travail sur le projet  
 
 #### Rabah
 - Absence entreprise
   
 #### Projet
+- Implémentation du design pattern State
+  - Modification des class existantes
+  - Adaptation des méthodes
+  - Adaptation des tests
+- IHM mise à jour, plus ouverte à l'évolution
+- Plateau implémenté d'une différente manière
+- On peut accéder à une case du plateau
+- Mise à jour de l'uml qui combine le visiteur de la semaine dernière avec le state
+ ![image4](./umlv4.png)
