@@ -11,5 +11,12 @@ En même temps aussi, J’avance sur le projet, car il ne reste pas beaucoup de 
 
 Dorénavant, je vais mettre le travail dans le github pour que vous puissiez voir où nous en somme.
 
-
 Url Projet GitHub : https://github.com/Metzo-GH/Projet_Game_2048/tree/master
+
+
+## Mariem Mseika
+
+For this week we were focused on making an advancement on the project, I was analysing the Myg code provided and realised that the other games Takuzu and MineSweeper have an even closer logic to our project game 2048.
+I managed by analysing the code to create a board with a menu option and even the appatirion of random number using similar codes for the MineSweeper code and this week we will work more on custumizing the codes to fit.
+
+I have some troubles with pharo on my school account, whenever I try executing tricks it doesn't work and shows me an error about being unsubscribed or not registered, I tried using a stable working commit, removing it and installing it back but the error won't go so I have been mostly working on my personnal laptop.
