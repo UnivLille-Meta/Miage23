@@ -204,4 +204,22 @@ Nous avons encore une fois mis à jour l'UML :
  - Pour le back le modéle est fonctionnel, il faut que le joueur puisse se déplacer et généré un labyrinte parfait avec du sol et des murs
  - On a commencer les tests, il faudrait faire du tdd pour les prochaine deature
  - Pour le front on a un plateau, on cherche une solution pour le lier au back
- - Il faut continuer d'étudier le Sokoban 
+ - Il faut continuer d'étudier le Sokoban
+
+# Rapport 10
+
+#### Madeline
+
+#### Elisa
+- Découverte du design pattern Strategy
+- Différence entre sous-typage et sous-classage
+ - sous-typage : c'est de la spécialisation
+ - sous-classage : c'est de la réutilisation
+- Etude de l'exam 1 et questions sur les mauvaises réponses
+ - Attention, le polymorphisme peut exister sans héritage (c'est simplement une capacité d'interchanger des objets)
+- Travail sur le projet  
+
+#### Rabah
+- Absence entreprise
+  
+#### Projet
