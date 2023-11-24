@@ -11,3 +11,5 @@ En combinant le "Visitor Pattern" avec le "Composite Pattern", on peut traiter l
 
 # Salma
 On a travaillé en groupe sur notre projet (jeux de tron) et pour comprendre le travail d’ensemble et mettre en place le squelette du jeu on a préféré de travailler tous ensemble.
+# Bouchra
+En explorant l'exemple du jeu Sokoban pour le projet, j'ai acquis une compréhension approfondie du fonctionnement de Myg et des mécanismes impliqués dans la conception de jeux similaires, cela m'a beaucoup aidé à savoir comment avancer dans notre projet.
