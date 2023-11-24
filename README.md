@@ -25,8 +25,7 @@ All slides, videos, and tutorials are available in (or linked from) this reposit
 
 - Pdfs are hosted under [https://rmod-files.lille.inria.fr/DesignCoffeeClub/](https://rmod-files.lille.inria.fr/DesignCoffeeClub/)
 - Videos are hosted [http://rmod-pharo-mooc.lille.inria.fr/AdvancedDesignMooc/](http://rmod-pharo-mooc.lille.inria.fr/AdvancedDesignMooc/).
-
-They will also be soon available on the official website [https://advanced-design-mooc.pharo.org](https://advanced-design-mooc.pharo.org)
+- The official website [https://advanced-design-mooc.pharo.org](https://advanced-design-mooc.pharo.org)
 
 
 
@@ -38,7 +37,6 @@ To pass this course you will need to:
  - pass the exams (see [Calendar.md](Calendar.md))
  - make a presentation (see [Calendar.md](Calendar.md))
  - do at minimum **all** the homework in the exercises (file Exercises.md in each folder)
-	=> Each week will feature mini quizzes about the homework of the past week
  - watch all the videos of the lectures not done during the lectures (yes there are videos for 99% of the support)
  - write (short) weekly reports to tell us your activity. Remember, focus on the important things, and show us that you are learning.
 
