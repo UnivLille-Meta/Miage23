@@ -1,0 +1,10 @@
+# Trévor :
+
+Cette semaine, j'ai travaillé sur le projet. J'ai fait des scénarios de tests, puis j'ai fait le code qui permettait de faire passer les tests au vert et donc de répondre à un scénario. En plus de ça, j'ai commencé à réfléchir et à tester des choses pour notre fonction de check de plateau qui regardera s'il y a des combinaisons sur notre plateau. J'ai abouti à une idée que j'ai retranscrite en pseudo code afin de la partager et de la valider avec mon groupe.
+
+# Simon :
+
+
+
+# Paul :
+
