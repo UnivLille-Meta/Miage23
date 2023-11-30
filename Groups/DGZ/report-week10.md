@@ -7,4 +7,5 @@ Cette semaine, j'ai travaillé sur le projet. J'ai fait des scénarios de tests,
 J'ai avancé sur le projet, on travaille en XTDD afin de réutiliser les principes appris dans le cours. Nous avons parlé avec Trévor d'une méthode importante pour le projet et attendons d'être réunis ) trois pour en poser la structure et la travailler.
 
 # Paul :
-
+Je continue à travailler sur le visuel du projet.
+J'ai réussi à régler un problème de layout (centrer l'élement) en cherchant plus profondément dans Bloc, je n'ai pas pu avancer le reste de la semaine puisque j'étais malade.
