@@ -4,7 +4,7 @@ Cette semaine, j'ai travaillé sur le projet. J'ai fait des scénarios de tests,
 
 # Simon :
 
-
+J'ai avancé sur le projet, on travaille en XTDD afin de réutiliser les principes appris dans le cours. Nous avons parlé avec Trévor d'une méthode importante pour le projet et attendons d'être réunis ) trois pour en poser la structure et la travailler.
 
 # Paul :
 
