@@ -8,3 +8,4 @@ J'ai étais et je suis encore malade depuis ce week-end. Je n'ai pas pu travaill
 
 # Paul :
 
+J'ai commencé la partie visuelle du projet,en commençant par le menu principal, cela m'a permit d'avoir quelques notions avec Bloc. J'ai pu réaliser le menu mais j'ai eu quelques problèmes en utilisant le layout qui est complexe à utiliser.
