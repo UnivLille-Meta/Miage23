@@ -1,10 +1,10 @@
 # Trévor :
 
-J'ai étais et je suis encore malade depuis ce week-end. Je n'ai pas pu travaillé sur le projet comme je l'aurais voulu. Je vais essayé de me rattraper la semaine prochaine pour compenser cette semaine..
+J'ai été et je suis encore malade depuis ce week-end. Je n'ai pas pu travaillé sur le projet comme je l'aurais voulu. Je vais essayé de me rattraper la semaine prochaine pour compenser cette semaine..
 
 # Simon :
 
-
+Je n'ai pas beaucoup avancé sur le projet dû à un manque de temps, je compte avancer plus la semaine prochaine.
 
 # Paul :
 
