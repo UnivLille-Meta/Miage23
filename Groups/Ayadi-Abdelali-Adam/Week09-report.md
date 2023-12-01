@@ -21,3 +21,15 @@ Pour commencer, nous nous sommes inspirés du jeu Sokoban, qui est basé sur myg
 3. Les images doivent être converties en base 64, puis myg se charge de les afficher.
 
 4. Pour les afficher, nous les ajoutons (si elles ne sont pas déjà présentes) dans un dictionnaire appelé Icons, avec le nom de l'icône comme clé.
+
+
+## Skander
+
+Au cours des deux dernières semaines, notre réflexion s'est portée sur différentes idées de jeux, en envisageant les design patterns qui pourraient s'appliquer à chacun. Après mûre considération, nous avons pris la décision de développer le jeu Galaga.
+
+Dans cette période, j'ai débuté par examiner des projets préexistants réalisés avec les bibliothèques MyG et Bloc, notamment le jeu Sokoban. Cette exploration m'a permis de comprendre les éléments graphiques fondamentaux et la structure des classes dans ces projets.
+
+Une compréhension approfondie a émergé concernant la manière dont l'affichage de chaque marche et de chaque élément est étroitement lié à un caractère spécifique, ce dernier étant associé à une image encodée en base64, présentée sous forme de chaîne de caractères.
+
+Au cours de cette période, nous avons notamment réussi à afficher un menu d'accueil comprenant un bouton "Start", qui, une fois activé, ouvre un tableau de jeu vide. Ce processus a impliqué une mise en œuvre soignée des éléments graphiques et une gestion structurée des classes du projet.
+
