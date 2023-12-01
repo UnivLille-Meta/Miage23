@@ -211,7 +211,7 @@ Nous avons encore une fois mis à jour l'UML :
 #### Madeline
  - Design Pattern Strategy
  - *Sous-Typage :  Permet d'heriter d'un objet pour être un. Definis un sous type, tout ce qui est compatible avec la super classe et compatible avec la sous classe. POur la spécialisation*
- - *Sous-classage : Permet d'herité afin de récupérer les méthodes de la super classe, on peut annuler des méthodes. Pour la réutilisation *
+ - *Sous-classage : Permet d'herité afin de récupérer les méthodes de la super classe, on peut annuler des méthodes. Pour la réutilisation*
  - *Polymorphisme :  capacite des 2 objets à être interchangeable pour un client*
  - Partage
  - Extensibilité
@@ -239,3 +239,12 @@ Nous avons encore une fois mis à jour l'UML :
 - Ajout d'un controleur et d'un main
 - Mise à jour de l'uml qui combine le visiteur de la semaine dernière avec le state
  ![image4](./umlv4.png)
+
+# Rapport 11
+#### Madeline 
+
+#### Elisa
+
+#### Rabah
+
+#### Projet
