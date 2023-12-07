@@ -255,3 +255,9 @@ Nous avons encore une fois mis à jour l'UML :
 #### Rabah
 
 #### Projet
+  - case qui prennent la bonne couleur
+  - Bonne implémentation des couleur
+  - Ajout de méthode pour l'affichage
+  - Commencer à réfléchir à comment faire bouger le joueur sur le plateau et a lié cette partie avec la back
+  - Le plateau coté back à était refais
+  - **Il faut ajouter des tests pour le back pour savoir d'ou vient certains problème**
