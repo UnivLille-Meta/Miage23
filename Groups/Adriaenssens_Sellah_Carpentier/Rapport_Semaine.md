@@ -251,6 +251,15 @@ Nous avons encore une fois mis à jour l'UML :
  - polymorphisme -> pas de surcharge
 
 #### Elisa
+- Approfondissement du polymorphisme
+- Conditions pour faire du polymorphisme
+  - Les sous-types doivent être inclus dans un type commun  T1 ⊇ T2
+  - L'utilisateion doit "typer", utiliser le type le plus abstrait
+- La compilation en Java regarde si ça "type"
+- A l'exécution, on sait de quel "vrai" type sont les variables instanciées
+- Différences :
+  - surcharge permet de créer de nouvelles signatures pour le même nom de méthode (pas de polymorphisme)
+  - Redéfinition permet d'avoir exactement la même signature (polymorphisme) 
 
 #### Rabah
 
