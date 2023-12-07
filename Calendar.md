@@ -18,6 +18,6 @@ Break 2-3 Nov
 - 10 Week 23-24 Nov Inheritance
 - 11 Week 30-01 Dec Types
 - 12 Week 07-08 Dec Projet
-- Examen le 15 Dec de 8h à 11h amphi Cauchy au M1.
+- Examen le 15 Dec de 9h à 12h amphi Cauchy au M1.
 
 
