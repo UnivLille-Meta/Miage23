@@ -242,6 +242,13 @@ Nous avons encore une fois mis à jour l'UML :
 
 # Rapport 11
 #### Madeline 
+ - *redefinir : refaire avec la même signature*
+ - COO : strategy, composite, visiteur
+ - **Quand à t'on besoins d'une surcharge ou d'une redefinition de méthode**
+ - A qui profite le polymorphisme ?
+ - *surcharge : nouvelle signature, pas de polymosphisme et pas de redefinition*
+ - polimorphisme ou redefinition il faut la même signature et ne pas utiliser la surcharge
+ - polymorphisme -> pas de surcharge
 
 #### Elisa
 
