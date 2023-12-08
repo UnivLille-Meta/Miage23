@@ -19,3 +19,5 @@
  
 - We are still working on combining them, but we can say we started solving the puzzle and making certain changes 
   to hopefully reach our goal 
+
+  Project URL : https://github.com/Metzo-GH/Projet_Game_2048/tree/master/src
