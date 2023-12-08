@@ -7,3 +7,6 @@ Sur le plan personnel, j'ai continué à travailler sur les exercices du cours s
 
 À travers l'exemple illustré dans le cours d'un arbre contenant des répertoires et des fichiers, j'ai bien compris comment le "Composite Pattern" fonctionne. Ce pattern permet effectivement de traiter de manière polymorphe des éléments simples et composites. Le caractère polymorphique du "Composite Pattern" repose sur l'implémentation d'une interface commune par tous les éléments, facilitant ainsi la flexibilité et l'extensibilité du code sans nécessiter de modifications majeures.
 
+# Salma
+Cette semaine on a vu le design pattern visitor et j’ai fait l’exercice de composite contenant les classes FSEntry, FSFile et FSDirectory.
+On a avancé sur le jeu en faisant des icones pour les murs et on a ajouté le joueur en utilisant les BlElement tout en s’inspirant du jeu de sokoban.
