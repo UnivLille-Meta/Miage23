@@ -261,7 +261,9 @@ Nous avons encore une fois mis à jour l'UML :
   - surcharge permet de créer de nouvelles signatures pour le même nom de méthode (pas de polymorphisme)
   - Redéfinition permet d'avoir exactement la même signature (polymorphisme) 
 
-#### Rabah
+#### Rabah 
+- Surcharge et la redéfinition des méthodes dans l'héritage et les différents cas de méthode de Lookup.
+- avancement sur le projet
 
 #### Projet
   - case qui prennent la bonne couleur
