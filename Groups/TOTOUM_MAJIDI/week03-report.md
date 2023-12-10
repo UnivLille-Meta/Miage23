@@ -63,3 +63,18 @@ Une révision de l'algorithme de recherche m'a permis de comprendre qu'il s'appl
 Reverse Engineering
 Grace au cours de Pharo en reverse engineering, j'ai identifié un bug au sein de la plateforme. Fort de cette découverte, j'ai pris l'initiative d'ouvrir une pull request pour signaler le problème. Grâce à cette démarche, l'équipe de développement a pu prendre connaissance de la situation et a rapidement entrepris les mesures nécessaires pour corriger ce bug. Cela a été une expérience enrichissante, démontrant l'impact positif que l'engagement dans la communauté open source peut avoir sur l'amélioration des logiciels.
 
+---
+### Ezzahra
+
+Au cours de cette formation, j'ai acquis une nouvelle perspective sur la nature des objets en programmation orientée objet (POO). J'ai compris que les objets combinent à la fois des données et des comportements.
+
+Cela est bien illustré par l'exemple des points en Java et en Pharo. Contrairement à Java, où les points sont généralement considérés comme de simples structures de données avec des méthodes d'accès, en Pharo, les points sont pleinement des objets offrant des opérations mathématiques intégrées. Cette distinction met en lumière l'importance d'utiliser des objets riches en fonctionnalités pour simplifier la logique du client, réduisant ainsi la nécessité de calculs manuels et de duplication de logique.
+
+## À propos des variables globales
+Bien que certains des exemples abordés au cours puissent sembler complexes à première vue, le message central de l'importance d'éviter les variables globales a été clairement compris. Cette démarche favorise une meilleure gestion et compréhension du code.
+
+Passage des variables globales aux paramètres
+Les exemples présentés dans le cours démontrent comment éviter l'utilisation de variables globales en privilégiant plutôt l'utilisation de variables d'instance. Ce choix offre la possibilité de personnaliser le comportement des objets, favorisant ainsi une conception plus modulaire et plus flexible.
+
+### Méthodes de classe
+Une révision de l'algorithme de recherche m'a permis de comprendre qu'il s'applique tant aux méthodes d'instance qu'aux méthodes de classe. En Pharo, où tout est un objet, y compris les classes elles-mêmes, ces dernières peuvent recevoir des messages comme n'importe quel autre objet. Elles peuvent aussi définir des méthodes spécifiques appelées "class methods," ce qui leur permet de posséder des fonctionnalités propres, indépendamment des instances individuelles de la classe.
