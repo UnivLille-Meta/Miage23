@@ -109,17 +109,18 @@ Add an extra section with **Design decisions**. Use this section to explain thin
 We are going to look in your project, in different levels:
 
 1. First level: functional -- le minimum syndical
-  1. Does it install?
-  2. Does it run?
-  3. Are there tests?
-  4. Are the tests green?
+    - Does it install?
+    - Does it run?
+    - Are there tests?
+    - Are the tests green?
 
 2. Second level: code quality
-  3. Is the code readable?
-  4. How did you use the tools that were at your disposal? Myg, Bloc, Test framework...
-  5. How did you apply the concepts we saw in class? Design patterns, inheritance, delegation, polymorphism...
+    - Is the code readable?
+    - Did you design your test cases?
+    - How did you use the tools that were at your disposal? Myg, Bloc, Test framework...
+    - How did you apply the concepts we saw in class? Design patterns, inheritance, delegation, polymorphism...
 
 3. Cross-cutting -- soft skills:
-  5. Asking for help and questions in mailing lists/discord/discussion channels
-  7. Answering in mailing lists/discord/discussion channels
-  6. Opening entries in issue/bug trackers
+    - Asking for help and questions in mailing lists/discord/discussion channels
+    - Answering in mailing lists/discord/discussion channels
+    - Opening entries in issue/bug trackers
