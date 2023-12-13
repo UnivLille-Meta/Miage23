@@ -1,0 +1,2 @@
+Nadia :: 
+This week, our main focus was on advancing our project. We made progress by creating classes for the UI interface and the model. Specifically, we successfully developed our graphical interface and displayed the game board and 3x3 boxes with different sizes.
