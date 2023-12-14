@@ -272,3 +272,14 @@ Nous avons encore une fois mis à jour l'UML :
   - Commencer à réfléchir à comment faire bouger le joueur sur le plateau et a lié cette partie avec la back
   - Le plateau coté back à était refais
   - **Il faut ajouter des tests pour le back pour savoir d'ou vient certains problème**
+
+# Rapport 12
+
+#### Projet
+  - Correction des bugs
+  - Ajout de test
+  - L'affichage et le plateau sont correctement lié
+  - Le plateau est cohérent
+  - Début de l'ajout pour faire bouger le personnage
+  - Réfléchir à comment ajouter les bombes
+  - Re répartition du travail
