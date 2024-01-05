@@ -16,6 +16,7 @@
 
 ### Ezzahra
 - En analysant le code pour la mutation testing, en utilisant le reverse engineering, j'ai trouvé un Bug au niveau de Pharo (en consultant les statistiques du mutation testing) que j'ai repporté à monsieur Ducasse, suite auquel il m'a demandé d'ouvrir un ISSUE sur Git, l'équipe de Pharo était très responsive et ils m'ont répondu dans quelques minutes. Il m'ont donné un code à integrer au niveau de pharo puisque c'est Open source. et ça a résolu le problème.
+   Voici le lien vers l'ISSUE: https://github.com/pharo-project/pharo/issues/14719
 
 - J'ai également abordé la partie reverse engineering en préparant pour la présentation de projet, et j'ai réussi à modifier et implémenter un code pour l'extraction de pdf de l'horloge pour faire une démonstration au niveau de la présentation.
 
