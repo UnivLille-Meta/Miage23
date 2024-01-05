@@ -204,4 +204,82 @@ Nous avons encore une fois mis à jour l'UML :
  - Pour le back le modéle est fonctionnel, il faut que le joueur puisse se déplacer et généré un labyrinte parfait avec du sol et des murs
  - On a commencer les tests, il faudrait faire du tdd pour les prochaine deature
  - Pour le front on a un plateau, on cherche une solution pour le lier au back
- - Il faut continuer d'étudier le Sokoban 
+ - Il faut continuer d'étudier le Sokoban
+
+# Rapport 10
+
+#### Madeline
+ - Design Pattern Strategy
+ - *Sous-Typage :  Permet d'heriter d'un objet pour être un. Definis un sous type, tout ce qui est compatible avec la super classe et compatible avec la sous classe. POur la spécialisation*
+ - *Sous-classage : Permet d'herité afin de récupérer les méthodes de la super classe, on peut annuler des méthodes. Pour la réutilisation*
+ - *Polymorphisme :  capacite des 2 objets à être interchangeable pour un client*
+ - Partage
+ - Extensibilité
+ - Granularité du partage
+
+#### Elisa
+- Découverte du design pattern Strategy
+- Différence entre sous-typage et sous-classage
+  - sous-typage : c'est de la spécialisation
+  - sous-classage : c'est de la réutilisation
+- Etude de l'exam 1 et questions sur les mauvaises réponses
+  - Attention, le polymorphisme peut exister sans héritage (c'est simplement une capacité d'interchanger des objets)
+- Travail sur le projet  
+
+#### Rabah
+- Absence entreprise
+  
+#### Projet
+- Implémentation du design pattern State
+  - Modification des class existantes
+  - Adaptation des méthodes
+  - Adaptation des tests
+- IHM mise à jour, plus ouverte à l'évolution
+- Plateau implémenté d'une différente manière => On peut accéder aux cases du plateau
+- Ajout d'un controleur et d'un main
+- Mise à jour de l'uml qui combine le visiteur de la semaine dernière avec le state
+ ![image4](./umlv4.png)
+
+# Rapport 11
+#### Madeline 
+ - *redefinir : refaire avec la même signature*
+ - COO : strategy, composite, visiteur
+ - **Quand à t'on besoins d'une surcharge ou d'une redefinition de méthode**
+ - A qui profite le polymorphisme ?
+ - *surcharge : nouvelle signature, pas de polymosphisme et pas de redefinition*
+ - polimorphisme ou redefinition il faut la même signature et ne pas utiliser la surcharge
+ - polymorphisme -> pas de surcharge
+
+#### Elisa
+- Approfondissement du polymorphisme
+- Conditions pour faire du polymorphisme
+  - Les sous-types doivent être inclus dans un type commun  T1 ⊇ T2
+  - L'utilisateion doit "typer", utiliser le type le plus abstrait
+- La compilation en Java regarde si ça "type"
+- A l'exécution, on sait de quel "vrai" type sont les variables instanciées
+- Différences :
+  - surcharge permet de créer de nouvelles signatures pour le même nom de méthode (pas de polymorphisme)
+  - Redéfinition permet d'avoir exactement la même signature (polymorphisme) 
+
+#### Rabah 
+- Surcharge et la redéfinition des méthodes dans l'héritage et les différents cas de méthode de Lookup.
+- avancement sur le projet
+
+#### Projet
+  - case qui prennent la bonne couleur
+  - Bonne implémentation des couleur
+  - Ajout de méthode pour l'affichage
+  - Commencer à réfléchir à comment faire bouger le joueur sur le plateau et a lié cette partie avec la back
+  - Le plateau coté back à était refais
+  - **Il faut ajouter des tests pour le back pour savoir d'ou vient certains problème**
+
+# Rapport 12
+
+#### Projet
+  - Correction des bugs
+  - Ajout de test
+  - L'affichage et le plateau sont correctement lié
+  - Le plateau est cohérent
+  - Début de l'ajout pour faire bouger le personnage
+  - Réfléchir à comment ajouter les bombes
+  - Re répartition du travail
