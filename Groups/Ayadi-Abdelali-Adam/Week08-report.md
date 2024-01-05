@@ -37,3 +37,16 @@ L'idée d'une hiérarchie d'objets pour représenter des relation entre eux devi
 
 Le modèle Visitor a posé des défis, surtout quand il s'agit d'ajouter de nouvelles fonctionnalités comme le calcul de la taille des éléments.
 Comprendre comment les méthodes interagissent entre les visiteur et les éléments visités n'a pas été simple pour moi dans ce contexte.
+
+## Skander
+
+### Design pattern Composite
+
+Dans cette séance, j'ai appris l'implémentation du Design Pattern Composite pour optimiser la recherche de fichiers au sein d'une arborescence.j'ai implementer la recherche de fichier en implementant les classes FSEntry, FSFile et FSDir. L'accent était mis sur l'évitement de la duplication de code, favorisant ainsi la maintenance en un seul endroit et ajoutant une structure claire et une lisibilité accrue au projet. L'objectif était de minimiser l'utilisation de retours nuls et de conditions complexes, sauf pour des aspects fondamentaux tels que les chaînes de caractères. Le modèle Composite a été choisi pour sa capacité à offrir une solution structurée à ces défis spécifiques.
+
+
+### Design pattern Visitor
+
+Lors de cette séance, j'ai appris comment implementer le design pattern visitor. ce design pattern permet de placer des nouveaux comportements dans une classe séparée que l’on appelle visiteur comportant des méthodes visit pour chaque elements, plutôt que de les intégrer dans des classes existantes.
+
+Cette approche modulaire offre plusieurs avantages. Elle permet d'ajouter de nouvelles fonctionnalités sans altérer la structure des classes existantes, favorisant ainsi la clarté du code et la réutilisation des composants. De plus, le design pattern Visitor facilite la gestion des différents comportements, les regroupant de manière organisée au sein des classes visiteurs dédiées.
