@@ -1,4 +1,4 @@
-### Project Repository Link:
+### Project Repository Link
 
 https://github.com/nadiaames/GameProject
 
