@@ -1,3 +1,3 @@
-## Lien de notre jeu : Galaga
+## Lien vers notre jeu : Galaga
 
-https://github.com/sbaka/game_pharo
+Ce lien vous dirigera vers notre projet du jeu Galaga : https://github.com/sbaka/game_pharo
