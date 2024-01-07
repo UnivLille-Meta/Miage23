@@ -1,7 +1,8 @@
 # Rapport 11 :
 
 ## Mohamed : 
-
+j'ai revu le tuto Blocs pour comprendre le front et comment cela fonctionnais .
+j'ai continuer a coder quelquie classe et quelque tests 
 
 ## Mélik : 
 
