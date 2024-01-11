@@ -19,3 +19,14 @@ Par rapport au projet, j'ai commencé à coder le board en m'inspirant du jeu SO
 
 Nous avons pensé à faire un bomberman "different" en proposant plusieurs niveaux ( comme pour sokoban ) et plusieurs mode de jeux ( 1vs1, 1vs1vs1vs1 ).
 J'ai fait en sorte que le board s'affiche ainsi que quatres joueurs ( ou 2 ) puis j'ai travaillé sur le menu d'accueil en m'inspirant toujours de sokoban.
+
+Mohamed : 
+
+aprés avoir etablie les bases du jeu Bomberman et en regardant comment fonctionné le jeu Sokoban 
+nous avons commencer a coder quelque classe pour voir nous mettre dans le bain . 
+j'ai essayer de faire le tuto Blocs pour comprendre le framework et comment l'utiliser pour l'interface graphique 
+
+
+Melik : 
+j'ai essayer de refaire le tuto Blocs pour comprendre le framework et comment cela fonctionné .
+puis nous nous sommes mis a coder certaines classe en nous inspirant de sokoban 
