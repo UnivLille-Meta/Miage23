@@ -15,7 +15,7 @@ For this practice, you will need to:
 ```smalltalk
 Metacello new
   baseline: 'MuTalk';
-  repository: 'github://pharo-contributions/mutalk/src';
+  repository: 'github://pharo-contributions/mutalk:v1.0.0/src';
   load.
 ```
 
