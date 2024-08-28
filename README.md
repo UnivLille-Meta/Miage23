@@ -35,6 +35,18 @@ To pass this course you will need to:
  - watch all the videos of the lectures not done during the lectures (yes there are videos for 99% of the support)
  - write (short) weekly reports to tell us your activity. Remember, focus on the important things, and show us that you are learning.
 
+### Each week
+
+During the lectures:
+- Do the exercises
+- Ask questions if needed, we are there for that!
+- Work on your projects
+
+At home:
+- Prepare the following lecture: Watch the lectures (videos, slides)
+- Ideally, come with questions
+- Write your report
+
 ### Make a group
 
 Some of the activities during the course require group organization.
