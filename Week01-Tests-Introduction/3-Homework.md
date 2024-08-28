@@ -50,3 +50,12 @@ How do you approach it?
 Did you ask questions in the discord channels or mailing lists?
 
 This is extra points ;)
+
+## Prepare for next week
+
+Next week we will study the basics of message dispatch.
+The topics are visited in Module 1 of https://advanced-design-mooc.pharo.org/#module1
+
+- Watch the videos
+- Read the slides
+- Prepare your questions
