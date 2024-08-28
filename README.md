@@ -50,22 +50,22 @@ At home:
 ### Make a group
 
 Some of the activities during the course require group organization.
-For example, this is the case for reporting and presentations.
+For example, this is the case for the practical project.
 
-Make your groups and create a folder inside the [Groups](Groups) directory.
-Choose a name for your group and use that as folder name.
+Make group of max 3 persons and come to us, you will be assigned a unique group identifier.
+Each group will have a directory inside the [Groups](Groups) folder.
 Put inside your group folder
  - a file with your full names and emails
  - all your activity and reports
  
-make recurrent pull requests to update it.
+Make recurrent pull requests to update it.
 
 For example, imagine that Jeanne D'arc and Tintin LeBelge are together in a group called RevolutionX.
 They create a directory RevolutionX
 
 ```
 Groups
-    - RevolutionX
+    - Group1
         - members.md (names and emails)
         - report-week01.md (one section for Jeanne, one for Tintin)
         - report-week02.md (one section for Jeanne, one for Tintin)
