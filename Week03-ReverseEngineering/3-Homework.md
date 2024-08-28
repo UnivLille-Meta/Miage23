@@ -18,3 +18,10 @@ Lectures are hosted in https://advanced-design-mooc.pharo.org/
 
 - You should have already started with at least one kata
 - At the minimum, you should have started to write tests to understand the existing code and the required features
+
+### Prepare for next week
+
+Next week we will study test quality.
+
+- Read the slides
+- Prepare your questions
