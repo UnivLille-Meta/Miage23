@@ -68,13 +68,6 @@ Or the powerful version with eXtrement TDD (Test driven development):
 
 You can check for more info on Pharo in the mooc website: http://mooc.pharo.org
 
-## Step 4: Write your report
-
-Remember to write the report on:
- - what you did
- - what you did not (and why)
- - what difficulties you found and **more importantly** how did you *overcome* them! You are going to become a professional software engineer, you need to be able to get through problems.
-
 ## Git related resources
 
 Check the GlobalResources.md file it contains some slides and tutorials on git.
