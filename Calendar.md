@@ -4,13 +4,10 @@
 - 02 Week: 12-13 Sep OOP refresh
 - 03 Week: 19-20 Sep Reverse engineering
 - 04 Week: 26-27 Sep Test Quality
-- 05 Week: 03-04 Oct 
-- 06 Week: 10-11 Oct Hook and templates
+- 05 Week: 03-04 Oct Hook and templates 
+- Examen la semaine 06, amphi à confirmer
 - 17-18 Oct Pas de cours
 - 07 Week: 24-25 Double dispatch
--- Examen  C15 04 dans le Batiment C
-	le C15 : https://goo.gl/maps/g391N7hyq1Q17NMB9
-	L'amphi 4 est à gauche en rentrant dans le bâtiment.	
 Break 31-1 Nov
 
 - 08 Week 07-08 Nov Visitor
