@@ -20,7 +20,7 @@ The lectures on Pharo introduction: Module 1 from https://advanced-design-mooc.p
 
 ### Prepare for next week
 
-Next week we will study the basics of message dispatch. [Week02-OOP](Week02-OOP)
+Next week we will study the basics of message dispatch. [Week02-OOP](../Week03-ReverseEngineering)
 
 - Read the slides
 - Prepare your questions
