@@ -71,6 +71,16 @@ Groups
         - report-week02.md (one section for Jeanne, one for Tintin)
 ```
 
+### Grading
+
+You are going to be graded on
+- Exam 1 (individually)
+- Exam 2 (individually)
+- Weekly Reports (individually)
+- Practical Project (in group)
+- **Bonus:** Getting contact with the community to ask questions and help (discord, mailing lists).
+
+Your final grade will be a weighted average of all these grades.
 
 ## FAQ
 
