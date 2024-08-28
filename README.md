@@ -23,11 +23,7 @@ In this course, you will learn the following topics.
 
 All slides, videos, and tutorials are available in (or linked from) this repository.
 
-- Pdfs are hosted under [https://rmod-files.lille.inria.fr/DesignCoffeeClub/](https://rmod-files.lille.inria.fr/DesignCoffeeClub/)
-- Videos are hosted [http://rmod-pharo-mooc.lille.inria.fr/AdvancedDesignMooc/](http://rmod-pharo-mooc.lille.inria.fr/AdvancedDesignMooc/).
-- The official website [https://advanced-design-mooc.pharo.org](https://advanced-design-mooc.pharo.org)
-
-
+- Pdfs and videos are hosted under https://advanced-design-mooc.pharo.org
 
 ## Course Contract
 
@@ -35,7 +31,6 @@ This course proposes a series of teorical lectures and practical exercises.
 Modules are divided in weeks, each in a different folder, and you will find the theory and practice in that folder.
 To pass this course you will need to:
  - pass the exams (see [Calendar.md](Calendar.md))
- - make a presentation (see [Calendar.md](Calendar.md))
  - do at minimum **all** the homework in the exercises (file Exercises.md in each folder)
  - watch all the videos of the lectures not done during the lectures (yes there are videos for 99% of the support)
  - write (short) weekly reports to tell us your activity. Remember, focus on the important things, and show us that you are learning.
@@ -59,7 +54,7 @@ They create a directory RevolutionX
 ```
 Groups
     - RevolutionX
-        - members.md (names and emails)>
+        - members.md (names and emails)
         - report-week01.md (one section for Jeanne, one for Tintin)
         - report-week02.md (one section for Jeanne, one for Tintin)
 ```
