@@ -27,6 +27,7 @@ At the end of the semester you need to deliver:
    - Add a `Readme.md` file in your group's directory, next to where you put your weekly repports.
    - Add in your `Readme.md` file the link to your repository.
    - Make sure your repository is public so we can see it
+   - Add the MIT licence
  
 - **Optional: give us write access to your code**
    - Share your repository with us the teachers, so we will have write access to your code
@@ -35,6 +36,7 @@ At the end of the semester you need to deliver:
 
 Add in your repository a `Readme.md` file with the following information:
 - Installation instructions: what should we download to run your project? in what order? Please test these installation instructions and make sure everything works
+   - please define a baseline. They are documented in Pharo's awesome wiki.
 - Usage instructions: What should we do to run your project? How do we use it? How do we interact with it?
 - Where is your code/tests located? Should we take care of something?
 
