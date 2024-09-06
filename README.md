@@ -2,7 +2,7 @@ This is the repository of the MIAGE C3P lectures done by S. Ducasse and G. Polit
 
 contact: stephane.ducasse@inria.fr / guillermo.polito@inria.fr
 
-Discord channel: https://discord.gg/MqP32ZB29
+Discord channel: https://discord.gg/XTEDF7sT
 
 ## Modules
 
