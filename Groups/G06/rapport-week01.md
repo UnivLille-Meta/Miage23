@@ -1,4 +1,6 @@
-Mohamed Yassine Aloui Section 
+Mohamed Yassine Aloui Section
+
+
 Après avoir lu des documents PDF et regardé des vidéos, j'ai appris la syntaxe de Pharo (les classes, les objets, les messages). En Pharo, tout est un objet, ou bien un message envoyé à un objet. Pour exécuter une méthode, on envoie un message à cet objet.
 
 Les types de messages sont :
