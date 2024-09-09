@@ -100,5 +100,23 @@ fct value:2
 
 ```
 
-## LIETARD Evann 
+## Evann Lietard
+#### Collection
+Une collection est une structure qui regroupe des éléments pour les manipuler ensemble.  Il y a 97 types de collections différentes, comme les Array, Set, Dictionary, etc. Pour obtenir le nombre de collections, j'ai utilisé la commande suivante :
+```Collection allSubclasses size```
+
+Il existe plusieurs types d'itération, mais elles commencent toutes à l'index 1. Voici quelques itérateurs que j'ai pu voir : do,collect,select,reject.
+Pour répondre à ces questions sur les collections, j'ai regardé la vidéo sur les itérateurs ainsi que réalisé quelques codes dans le Playground.
+
+#### Condition
+Pour vérifier une condition en Pharo, nous écrivons d'abord la condition, suivie de ifTrue:[] ifFalse:[]. Selon le résultat, nous effectuons le bloc associé. Par exemple :
+ ``` x := 10. (x > 10) ifTrue: [ 'True' ] ifFalse: [ 'False' ]. ``` 
+Ici, le résultat serait False car 10 n'est pas strictement supérieur à 10. Pour répondre à cette question, j'ai regardé la vidéo d'introduction sur les blocs ainsi que testé dans le Playground.
+
+#### Classe/Methode/Test
+J'ai effectué quelques méthodes et tests : https://github.com/EvannLietard/Week1C3P. Le plus gros problème a été de push cela sur Git, car je n'avais pas coché la configuration des clés SSH personnalisées.
+
+#### Codage base pharo
+Les règles de nommage sont très importantes. Par exemple, je n'avais pas le bouton pour effectuer un test car j'avais écrit test à la fin de mon test au lieu de le mettre au début. De plus, les classes doivent commencer par une majuscule et les méthodes par une minuscule. Les outils qui aident à éviter les erreurs sont, par exemple, le débogueur.
+
 
