@@ -41,6 +41,42 @@ le principe de XTTD est de fixer et corriger les erreurs de déclaration dans le
 En suivant la vidéo j’ai
   
   
-  
+  # MOULOUEL TARIK WEEK 1 : 
+  # Rapport Week 1 
+
+## Collectiosn and iterators in Pharo : 
+- Pour se faire, j'ai regardé une vidéo Youtube qui expliquait les collections, donc comme pour les autres langages de progrmmation, une collection sert a stocker et a manipuler  des elements  j'ai pu constater qu'il y avait plusieurs types de collections en Pharo parmi elles :les tableaux, les sets ou encore les dictionnaires, cependant dans Pharo le premier element est d'index 1 et non pas 0 comme la plupart des autres langages de programmation. UNe collection peut contenir differents types d'objets
+
+- Pour parcourir les collections il existe plusieurs itérateurs do,collect,select,reject, detect ... . j'ai essayé avec un petit exemple sur le playground pour savoir que ça marchait bien :    ``` #(16 11 68 19) do: [ :each | Transcript show: each ; cr ] ```  
+
+- Les differences entre les differentes collections sont : 
+  - OrderedCollection :  collection dynamique donc on peut inserer sans se soucier de la taille.
+  - Array: collection statique donc de taille fixe.
+  - Set: une collection qui stocke des éléments uniques,sans doublons, et où l'ordre n'est pas garanti.
+  - Dictionnaire: une paire de cle valeur ou la cle est unique. 
+
+
+## Conditionals in Pharo : 
+  - Apres avoir LU le le pdf ```http://rmod-pharo-mooc.lille.inria.fr/OOPMooc/01-Welcome/W1S07-BasicBooleansAndCondition.pdf```, j'ai pu comprendre que les booleens sont un peu differents des autres langages de programmation car ils sont implementes comme des envois de messages à des objets.   
+    j'ai essayé quelques exmemples dans le playground ``` (5 = 5) ifTrue: [ Transcript show: 'Égal'; cr ] ifFalse: [ Transcript show: 'Pas égal'; cr ].``` ce qui affiche Egal. 
+
+
+
+## Learn how to create classes and methods : 
+    - POur ce faire, j'ai cree la classe Mycounter, que j'ai ensuite tésté en suivant une autre vidéo Youtube qui expliquait les differentes étapes pour réaliser cette petite manipulation.
+    - les difficultés rencontrées c'est notamment s'habituer à l'environnement de Pharo c'est a dire utiliser les outils du Browser et pas juste creer des classes comme on avait l'habitude avec les autres langages.   
+
+
+ ## Learn about the basic Pharo coding style :  
+ - Les regles a suivre sont :  
+   - Choisir des noms simples, variable privee en miniscule, variable partagee en majuscule, eviter les underscore dans les identifiants de variable...
+   - utiliser les commentaires surtout les bouts de codes inhabituels...
+   - toujours bien aligner son code..
+   - eviter les parenthses de trop, utiliser les patterns et biens d'autres. 
+
+## Extras : 
+- Apres avoir lu pdf,Les blocks sont des méthodes anonymes qui sont utilsees partout en Pharo , boucles iterateurs, conditions ..., c'est comme les lambdas fonctions qu'on avait vu en Haskell l'annee derniere. j'ai egalemnt fait quelques tests dans le playground.  
+
+
   
 
