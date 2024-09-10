@@ -1,0 +1,105 @@
+
+Cette semaine j'ai étudié Pharo avec des supports variés. J'ai utilisé le Mook en Français sur youtube, Pharo en lui-même pour expérimenter et rechercher, le discord pharo, le livre *Pharo with style*, la documentation de pharo sur github (pharo-open-documentation/pharo-wiki), la cheat sheat pharo ainsi que les slides disponibles sur le github du cours. 
+
+
+# Une Issue
+
+Cette semaine, j'ai créé une issue dans pharo :
+https://github.com/pharo-vcs/iceberg/issues/1844
+
+
+# Les Collections 
+
+Pour en apprendre plus sur les collections j'ai cherché dans le Finder de pharo mais je n'ai rien réussi à trouver de concluant. 
+J'ai ensuite regardé le MOOC sur Youtube pour trouver des informations. 
+J'ai retrouvé mes notes de l'année dernière sur la Syntaxe de pharo. 
+
+
+On peut copier un tableau
+```
+#('hello' 'World') copy at: 2 put: 'Pharo'; yourself.
+>#('hello' 'Pharo')
+```
+
+On peut "générer dynamiquement" des tableaux
+```pharo 
+{ #('bip' 'World') copy at: 2 put: 'bop'; yourself. 3 . (6*60) } 
+
+>#(#('bip' 'bop') 3 360)
+
+{ 3 . 14 . 28 }
+>#(3 14 28)
+```
+
+Itérer sur une collection : 
+```Pharo
+#(1 2 3 4)
+do: [:each | Transcript show: each abs printString;cr]
+> 1 
+> 2
+> 3
+> 4
+```
+
+## Les itérateurs des collections 
+
+```Pharo
+do: (pour itérer)
+
+collect: (pour itérer et récupérer les résultats pour les emttre dans une nouvelle collection)
+
+select: (pour sélectionner un ensemble d'éléments à l'intérieur d'une collection pour en créer une autre)
+
+reject: (pour éliminer des éléments d'une collection)
+
+detect: (pour renvoyer le premier élément qui correspond dans une colleciton)
+
+detect:ifNone (pour renvoyer le premier élément qui correspond dans une collection ou une valeur par défaut)
+```
+
+
+>[!note]
+>L'index d'un tableau en pharo commence à 1
+# Les conditionnelles
+*Source: Mook vidéo 19 (Messages pour les programmeurs Java)*
+Les conditionnelles sont des messages en pharo et non des mots clé.
+
+on a 'ifTrue:' et 'ifFalse'
+
+
+# Créer des classes et des méthodes
+
+Pour revoir la création des tests et des méthodes j'ai créé une classe Peluche comportant trois variables de classes (prix nom et type). J'ai créé la méthode d'initialisation ainsi que les accesseurs.
+
+Pour réutiliser les collections j'ai créé une classe magasin avec une variable stock.
+J'ai réussi à initialiser la collection mais malgré mes recherches (sur la cheat sheet , le chanel discord pour les débutants, mes notes, ...) je n'ai pas réussi à trouver comment ajouter un élément dans une collection. Je compte donc poser la question une fois de retour en cours.
+
+# Coding Style
+Lors de cette semaine voici les normes de codage en Pharo que j'ai revues ou apprises (cela correspond au premier chapitre du livre *Pharo with Style* ):
+
+
+- Le Camel Case est utilisé pour les noms de méthodes et de classes
+- Utiliser des noms descriptifs et le plus précis possible pour éviter l'ambiguïté 
+- Les méthodes commencent avec des minuscules
+- Les noms de classes, variables globales et variables e classes commencent par une majuscule
+- Les variables privées commencent par une minuscule
+- Pas d'underscore dans les noms. 
+- Le nom d'une classe enfant doit indiquer le nom de sa classe parent en suffixe
+- Ajouter le nom de la classe dans une méthode pour éviter les problèmes de redéfinition accidentel
+
+# Cascade et block Closure
+*Source : Notes des années précédentes, vidéo 5 Mook pharo (Syntaxe pharo), vidéo 22 Mook pharo (Introduction aux Blocs)*
+
+Cascade : ";" utilisé pour envoyer plusieurs messages au même mot clé 
+
+Block -> Méthode anonyme ou clôture lexicale 
+On peut mettre les blocs dans des variables, en argument de fonction
+On peut leur donner plusieurs arguments en mettant "value: value: ...." après le block 
+
+```Pharo
+[:x | x + 2] value: 5
+```
+
+# Autres recherches
+
+Cette semaine, j'ai revu aussi les messages et leur hiérarchie, les différents boucles disponibles dans pharo ainsi que les messages de débogage
