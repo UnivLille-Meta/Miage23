@@ -263,3 +263,35 @@ Cette semaine, j'ai notamment :
 ****
 # BOU ALEXANDRE
 
+# BOU ALEXANDRE
+
+**Learn about collections in Pharo and their iterators**
+
+- Les collections en pharo sont des variables pouvant contenir plusieurs variables, comme des tableaux (Array).
+- Leur itération commence à 1 contrairement aux autres langages.
+- Pour les itérer ils y a plusieurs fonctions comme do.
+
+**Learn about conditionals in Pharo**
+
+- En pharo on n'utilise pas des mots clés comme if, else, elif pour faire du conditionnel. Egalement il n'y a pas de signe pour exprimer le contraire comme ! dans certains langages.
+- Pour en faire on vérifie une condition pour savoir si elle est vraie ou fausse grâce aux fonctions ifTrue et ifFalse.
+
+**Learn how to create classes and methods** 
+
+- Pour créer une classe en pharo il faut d'abord créer un package que l'on nomme puis y rajouter la déclaration de classe (un message).
+- Qu'importe la classe elle hérite d'une autre classe (Object par défault) il faut donc pas oublier d'appeler le super dans nos méthodes surtout la méthode init.
+- On peut ajouter des méthodes depuis l'interface Pharo qui nous donne un saqquelette de la méthode.
+- Les méthodes sont public et retournent self par défault.
+
+**Learn about the basic Pharo coding style.**
+
+- Les méthodes sont des messages, leur écriture est courte et leur nom est le plus explicite possible.
+- Les noms des classes commencent par une majuscule et ceux des métodes par une minuscule.
+- Les getters et les setters ont le même nom que l'attribut contrairement aux autres langages où on rajoute get ou set devant. La seume différence est que le setter prends un paramètre et donc à le caractère `:` en plus. 
+- Pour séparer une instruction on utilise le caractére `.`.
+
+**Rapport**
+
+- Cette semaine j'ai lu les pdf de cours.
+- J'ai fait le tutorielProfStef.
+- Je me suis informé sur le projet avec mon groupe et on s'est organisé en même temps.
