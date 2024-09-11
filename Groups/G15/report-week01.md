@@ -254,6 +254,33 @@ Heavily optimised by the compiler
 ### How did you find this information?
 
 http://rmod-pharo-mooc.lille.inria.fr/MOOC/PharoMOOC/Week2/C019-W2S08-BooleansAndCondition.pdf
+
+## Learn how to create classes and methods
+
+### How do you write a small program with classes and methods in Pharo?
+
+A class is defined by sending a message to its superclass
+Classes are defined inside packages
+Methods are public
+By default a method returns the receiver, self
+Class methods are just methods of the class side
+
+### How did you find this information?
+
+http://rmod-pharo-mooc.lille.inria.fr/MOOC/PharoMOOC/Week1/C019-W1S06-ClassAndMethodDefinition.pdf
+
+### Please provide a github repository link.
+
+
+
+
+
+
+
+
+
+
+
  
 
  
