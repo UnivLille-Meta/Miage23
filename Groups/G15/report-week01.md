@@ -275,11 +275,18 @@ I create a counter, increment, decrement ,initialize it ,write testCases and def
 
 ### What problems did you find?
 
-I find problems to push my project .I create a ssh key to resolve the problems and add this to github and pharo.
+I find problems to push my project with https.I create a ssh key to resolve the problems and add this to github and pharo.
 
 ### Please provide a github repository link.
 
 https://github.com/adama-coundoul/MyCounter
+
+## Learn about the basic Pharo coding style.
+
+### What rules are common to follow?
+
+'
+
 
 
 
