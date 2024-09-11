@@ -269,7 +269,17 @@ Class methods are just methods of the class side
 
 http://rmod-pharo-mooc.lille.inria.fr/MOOC/PharoMOOC/Week1/C019-W1S06-ClassAndMethodDefinition.pdf
 
+### What program did you write?
+
+I create a counter, increment, decrement ,initialize it ,write testCases and define a new instance creation method.
+
+### What problems did you find?
+
+I find problems to push my project .I create a ssh key to resolve the problems and add this to github and pharo.
+
 ### Please provide a github repository link.
+
+https://github.com/adama-coundoul/MyCounter
 
 
 
