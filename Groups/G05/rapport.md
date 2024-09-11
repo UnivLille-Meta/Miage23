@@ -154,7 +154,106 @@ Je me suis poser aussi des questions:
 
 
 ****
-# GODET CYRIL
+# Cyril Godet
+
+
+1. **Learn about collections in Pharo and their iterators**
+
+* Les collections comme les tableaux sont définies de la façon suivante : #(1 2 3 4) pour le tableau contenant les entiers 1 2 3 et 4.
+* Pour itérer sur ce tableau, on peut utiliser do: , qui permet d’appliquer une instruction pour les éléments du tableau.
+Par exemple: ``` #(1 2 −4 −86) do: [ :each | Transcript show: each abs printString ; cr ] ``` permet de parcourir le tableau ```#(1 2 −4 −86)``` et applique la fonction ```abs``` pour chaque élément du tableau (each) tout en affichant le résultat dans l’onglet Transcript.
+
+
+2. **Learn about conditionals in Pharo**
+
+* Pour créer des conditionnelles en Pharo, il faut utiliser ```ifTrue``` et ``` ifFalse```.
+* Par exemple pour créer la méthode qui calcule la factorielle d’un nombre :
+
+```
+factorielle  
+self =0 ifTrue:[^1].    
+self >0 ifTrue:[^ self * (self-1)factorielle].  
+self error:’Ne fonctionne pas avec les nombres positifs’  
+```
+* En Pharo, on vérifie si la condition donnée est vraie ou fausse.
+Contrairement aux autres langages qui utilisent les mots clés if/else.
+
+3. **Learn how to create classes and methods**
+
+* Pour créer une classe, il faut d’abord créer un paquet (package) puis on peut ainsi créer des classes qui appartiennent à ce paquet.
+Comme Pharo est un langage orienté objet, il faut bien sûr donner la super classe de la classe que l’on veut créer.
+
+* Les définitions de classes sont des messages, puisque le message subclass: inst est envoyé à la super classes pour créer la classe.
+
+* Pour créer une méthode, il suffit de cliquer sur le bouton dans l’interface de Pharo, un exemple de création de méthode est alors montré et il faut s’en inspirer.
+* Les méthodes sont publiques et retournent l’objet (self) par défaut.
+
+* Il existe des conventions de présentation comme : ```Integer >> factorial``` qui signifie que la méthode factorial appartient à la classe Integer.
+
+* Pour voir si j'ai bien compris comment créer une classe et une méthode, j'ai repris l'exemple de la classe Counter en appliquant le TDD. En ce qui concerne la décrémentation du compteur, je n'ai traité que le cas où on ne distingue pas si l'attribut count est positif ou négatif (alors que dans l'exemple donné en cours, count ne pouvait pas être négatif).
+
+4. **Learn about the basic Pharo coding style.**
+
+* En Pharo, les méthodes sont des messages. Elles sont courtes et leur nom est explicite pour ne pas créer de confusion.
+* Les instructions se terminent par le caractère ‘.’ qui correspond au caractère ‘;’ en Java.
+Attention il s’agit seulement d’un séparateur et non d’un terminateur. Ce qui fait qu’il n’est pas obligatoire d’en mettre un pour la dernière instruction de la méthode.
+
+* J’ai remarqué que l’on applique une indentation pour le corps d’une méthode. Est-ce une convention ?
+* On applique l’écriture en CamelCase. c’est à dire que les noms de classe commencent par une majuscule et les noms d’une méthode commencent par une minuscule.
+* Les getters et les setters portent le même nom que l’attribut. Pour les différencier, le setters possède un paramètre. Ce qui fait que lorsqu’on les appellent, par exemple pour la classe Counter et son attribut count
+- count est le getter
+- count: est le setter (auquel il faut ajouter la nouvelle valeur)
+
+* Lorsque l’on crée la méthode initialize qui permet d’initialiser les attributs. Il ne faut pas oublier d’appeler la méthode initialize de la super classe (avec super initialize.)
+
+
+5. **Extras**
+
+- Le caractère ‘;’ permet de créer une cascade et de simplifier l’écriture et d’éviter la redondance puisqu’on agit sur le même objet. Par exemple :
+```
+Transcript cr.  
+Transcript show: 1.  
+Transcript show: 2
+```
+devient
+```
+Transcript cr ;  
+ show: 1 ;  
+ show: 2
+```
+
+* Les blocs sont des morceaux de code. (ils sont définis par [ ] )
+- Par exemple le bloc ``` [:x| x+2] value:5 ``` permet de faire x+2 avec x=5 ce qui donne 7.  
+Le bloc ```[:x :y | x+y] value:3 value:5```  permet de faire x+y avec x=3 et y=5 ce qui donne 8.  
+La méthode value permet ainsi d’obtenir le résultat du bloc.
+
+
+* Les boucles timesRepeat: permettent de répéter un bloc un certain nombre de fois
+Par exemple ```4 timesRepeat: [ Transcript show: (3 + 2) printString; cr ].``` va répéter 4 fois le bloc ``` [ Transcript show: (3 + 2) printString; cr ]```
+ce qui va permettre d’afficher 4 fois le chiffre 5
+
+* Les boucles to:do: permettent d’effectuer des boucles sur des nombres par exemple : ``` 1 to: 100 do: [ :i | Transcript show: i ; space ] ```  va afficher tous les nombres de 1 à 100 en les séparant par un espace.
+
+* Il existe aussi des boucles to:by:do qui permettent de créer des pas.
+Par exemple : ``` 1 to: 100 by: 3 do: [ :i | Transcript show: i ; space ]  ``` permet d’afficher les nombres de 1 à 100 séparés par un espace mais seulement les nombres 3 par 3 : (1 4 7 10 13 16 … 91 94 97 100)
+
+
+* Il existe aussi des itérateurs qui permettent de filtrer les résultats ou d’appliquer une fonction.
+
+Par exemple avec le tableau ```#(11 38 3 -2 10) ```:
+
+
+- ```#(11 38 3 -2 10) collect: [:each|each abs]``` renvoie le tableau auquel on applique la valeur absolue de tous les nombres du tableau initial soit le tableau ```#(11 38 3 2 10)```
+
+- ```#(11 38 3 -2 10) collect: [:each|each odd] ```  renvoie le tableau auquel on applique la fonction impair (qui renvoie un booléen) sur tous les nombres du tableau initial soit le tableau ``` #(true false true false false)```
+
+- ``` #(11 38 3 -2 10) select: [:each|each odd]``` renvoie un tableau qui est composé uniquement des nombres du tableau initial qui sont impairs (ceux pour qui la fonction odd est true) soit le tableau ``` #(11 3)```
+
+- ```#(11 38 3 -2 10) select: [:each|each > 10]``` renvoie un tableau qui est composé uniquement des nombres du tableau initial qui sont supérieur à 10 (ceux pour qui la fonction supérieur à 10 est true) soit le tableau ```#(11 38)```
+
+- ```#(11 38 3 -2 10) reject: [:each|each > 10] ``` est le contraire de ``` #(11 38 3 -2 10) select: [:each|each > 10]```.
+Cela permet d’obtenir tous les nombres du tableau qui sont inférieur ou égal à 10 soit ``` #(3 -2 10)```
+
 ****
 # BOU ALEXANDRE
 
