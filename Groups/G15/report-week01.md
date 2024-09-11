@@ -285,6 +285,20 @@ https://github.com/adama-coundoul/MyCounter
 
 ### What rules are common to follow?
 
+-  Shared variables start with uppercase
+-  Private variables start with lowercase
+-  Avoid to use plural for class names
+-  Favor simple direct meaning
+-  Use descriptive names
+-  ...
+
+ ### Examples that violate some rulesPlease show code .
+
+ Not dow prefer dayOfWeek
+ | dataset f Xmatrix scale X |
+
+
+
 '
 
 
