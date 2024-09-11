@@ -79,5 +79,101 @@ En suivant la vidéo j’ai
 - Apres avoir lu pdf,Les blocks sont des méthodes anonymes qui sont utilsees partout en Pharo , boucles iterateurs, conditions ..., c'est comme les lambdas fonctions qu'on avait vu en Haskell l'annee derniere. j'ai egalemnt fait quelques tests dans le playground.  
 
 
-  
+# EL JISR Karim 
+# Rapport Week 1 :
+
+## Learn about collections in Pharo and their iterators
+
+Une collection dans Pharo est une structure de données qui regroupe des éléments pour les stocker et les manipuler en tant qu'ensemble. Les collections sont fondamentales dans Pharo, permettant de gérer plusieurs objets ensemble, tels que l'ajout, la suppression, l'accès ou l'itération des éléments.
+
+Types de Collections dans Pharo : 
+Toutes ces collections héritent de la classe de base Collection.
+Parmi les collections les plus couramment utilisées dans Pharo, on trouve :
+- Array : Une collection ordonnée et de taille fixe, dont les éléments peuvent être accédés par index.
+- OrderedCollection : Une collection dynamique et ordonnée qui peut grandir et se réduire selon les besoins.
+- Set , LinkedList ect..
+
+Les itérateurs les plus courants: do , collect , select: / reject:
+
+Comment J'ai Trouvé ces Informations:
+Pour rassembler ces informations, j'ai exploré la documentation de Pharo, examiné les classes et méthodes dans l'environnement de Pharo
+
+## Learn about conditionals in Pharo
+
+Les Conditionnels dans Pharo
+
+En Pharo, les conditionnels sont gérés différemment par rapport à d'autres langages de programmation. Les conditions ne sont pas des structures de contrôle intégrées au compilateur, mais des messages envoyés aux objets.
+
+on peut les ecrire avec les messages suivants:
+ifTrue:, ifFalse:, ifTrue:ifFalse:, et ifFalse:ifTrue:
+
+| collection |
+  collection := OrderedCollection new.
+  collection isEmpty
+    ifTrue: [ Transcript show: 'La collection est vide'; cr ]
+    ifFalse: [ Transcript show: 'La collection contient des éléments'; cr ].
+
+Différences par rapport aux autres langages: 
+
+Contrairement à des langages comme Java ou Python, où les conditionnels sont intégrés directement dans la syntaxe du langage (if, else), en Pharo, les conditionnels sont des messages envoyés aux objets, tels que Boolean.
+
+Avantage :
+Écrire les conditions avant d'appeler les actions ifTrue: ou ifFalse: rend le code plus lisible
+Inconvénient
+Pour les programmeurs d'autre languages c'est ambigue de ne pas trouver une sytaxe if else.
+
+Pour rassembler ces informations, j'ai consulté le MOOC "Live Object Programming in Pharo" et j'ai examiné l'implémentation des classes Boolean, True, et False dans l'environnement de Pharo.
+
+## Learn how to create classes and methods
+
+Pour créer une classe :
+* il faut créer un Package :
+Ouvrez le System Browser (par Browse => System Browser).
+Cliquez sur "New Package" et nommez votre package.
+* ensuite il faut ajouter une Classe :
+Une fois le package créé, ajoutez une nouvelle classe en cliquant sur "New Class".
+il faut donnez un nom à la classe et définissez ses super-classes et variables d'instance.
+* enfin il faut ajouter des Méthodes :
+Après avoir créé la classe, il faut ajoutez des méthodes en sélectionnant la classe dans le System Browser et en utilisant "New Method".
+
+Exemple qu'on a fait est celui fait en classe pour Counter et les tests.
+
+Probleme rencontrer c'est qu'il faut faire une methode initialize pour chaque classe cree car sans cette methode on aura des erreurs de tests.
+
+J'ai appris à créer des classes en suivant le cours de méta en L3, et j'ai également bénéficié d'un rappel lors de la première séance de cours.
+
+
+## Learn about the basic Pharo coding style.
+
+Règles Communes du Style de Codage en Pharo
+Choisir des Bons Noms :
+Les noms doivent être simples, directs et explicites.
+
+Nomination des Méthodes et Variables :
+
+Les noms des classes commencent par une majuscule (par exemple, Counter, Dé).
+Les noms des méthodes commencent par une minuscule (par exemple, initialize, add).
+Les noms des getters et setters suivent directement le nom de l'attribut qu'ils manipulent, sans préfixe get ou set comme dans d'autres langages. Par exemple, pour une variable add, le getter est add et le setter est add:.
+
+Accesseurs et Paramètres :
+Les accesseurs doivent suivre les noms des variables d'instance correspondantes. Par exemple, pour une variable d'instance name, le getter serait name et le setter name:.
+
+Nommage des Tests :
+Les noms des tests commencent par test pour indiquer clairement qu'il s'agit de méthodes de test.
+
+Syntaxe et Séparation des Instructions :
+Pour séparer les instructions dans une méthode, on utilise le caractère (.).
+
+Violation : Nom de Paramètre Identique à une Variable d'Instance
+
+age: age
+    age := age.  "Erreur : le paramètre et la variable d'instance ont le même nom."
+
+Correction :
+
+age: newAge
+    age := newAge.
+
+
+J'ai exploré ces informations en consultant le livre "Pharo with Style" et en utilisant les outils intégrés dans l'environnement de développement Pharo, tels que le Critic Browser.
 
