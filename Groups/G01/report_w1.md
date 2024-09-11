@@ -104,7 +104,7 @@ I search for tools that that show violations  but  couldn't find.
 
 > ### - Partie Ikimath ADEOYE
 >> ### _What is a collection and what is it used for?_
-A collection is data structure that allow to store , retrieve and manipulate groups of objects.
+A collection is data structure that allow to store , retrieve and manipulate groups of objects. The difference between all the collections is that some are unordered like: Dictionnary and Set which means that the objects are stored without any specific order and some are Sequenceable like orderedCollection and Array.
 
 > ### _What kind of collections does Pharo standard library provide? And How to iterate them?_
 > **Dictionnary**: it's a collection of elements that associate a key object with a value object.
@@ -119,6 +119,34 @@ each of the items. The Dictionary>>#select: selector is also implemented to retu
 
 **Set**: Repreesents a set of objects without duplicates. To iteraate a Set, we use  _do:_ and _collect:_ and maybe _select:_, _reject:_,_detect:_, but I didn't see their implementation in the Set class.
 
+
+My answers are based on Pharo Mooc and Comments on classes on pharo.
 >
->
->
+
+#### How do you write conditionals in Pharo? What is different from other programming languages? Can you think about the benefits and drawbacks of the approach? How did you find this information?
+
+In pharo, to write a condition we use , _ifTrue:ifFalse_ or _ifTrue:_  or  _ifFalse:ifTrue:_ or _ifFalse:_. These messages are sent to Booleans objets True/False.
+
+```
+Example: 
+    x:=5.
+    y:=3.
+    result:= (y>x) ifTrue[x]ifFalse:[y].
+
+```
+In my opinion, it's much more easier to proceed  like this than having to write  if..Else or Else If. But because it's not very familiar to everybody ssome people might find it difficult  or strange.
+
+My information are baaased on previous experience with pharo and pharo Mooc.
+
+
+#### What program did you write? What problems did you find? Please provide a github repository link.
+
+I wwrote a small code to implement a calculator that ccan calculateee the sum and the average of a collection. Here is my repository: https://github.com/IkiAde/M1_MIAGE
+
+>#### Pharo methods are usually small and readable.What rules are common to follow? Are there tools that show you violations to such rules?
+
+Some rules to follow while coding in pharo:
+- Single Responsibility Principle (SRP):Each method should perform a single task or responsibility.
+- The Naming convention for classes, methods, variable
+- The code formatting
+- Write Good comments, do not paraphrase the code.
