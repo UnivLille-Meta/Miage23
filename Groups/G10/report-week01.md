@@ -1,16 +1,18 @@
-# Elsa Logier
+# Rapport semaine n°1 - Groupe 10
+
+## Elsa Logier
 
 Cette semaine j'ai étudié Pharo avec des supports variés. J'ai utilisé le Mook en Français sur youtube, Pharo en lui-même pour expérimenter et rechercher, le discord pharo, le livre *Pharo with style*, la documentation de pharo sur github (pharo-open-documentation/pharo-wiki), la cheat sheat pharo ainsi que les slides disponibles sur le github du cours. 
 J'ai aussi préparé le cours de la semaine prochaine en regardant les vidéos du mooc associéees 
 
 
-## Une Issue
+### Une Issue
 
 Cette semaine, j'ai créé une issue dans pharo :
 https://github.com/pharo-vcs/iceberg/issues/1844
 
 
-## Les Collections 
+### Les Collections 
 
 Pour en apprendre plus sur les collections j'ai cherché dans le Finder de pharo mais je n'ai rien réussi à trouver de concluant. 
 J'ai ensuite regardé le MOOC sur Youtube pour trouver des informations. 
@@ -43,7 +45,7 @@ do: [:each | Transcript show: each abs printString;cr]
 > 4
 ```
 
-### Les itérateurs des collections 
+#### Les itérateurs des collections 
 
 ```Pharo
 do: (pour itérer)
@@ -62,21 +64,21 @@ detect:ifNone (pour renvoyer le premier élément qui correspond dans une collec
 
 >[!note]
 >L'index d'un tableau en pharo commence à 1
-## Les conditionnelles
+### Les conditionnelles
 *Source: Mook vidéo 19 (Messages pour les programmeurs Java)*
 Les conditionnelles sont des messages en pharo et non des mots clé.
 
 on a 'ifTrue:' et 'ifFalse'
 
 
-## Créer des classes et des méthodes
+### Créer des classes et des méthodes
 
 Pour revoir la création des tests et des méthodes j'ai créé une classe Peluche comportant trois variables de classes (prix nom et type). J'ai créé la méthode d'initialisation ainsi que les accesseurs.
 
 Pour réutiliser les collections j'ai créé une classe magasin avec une variable stock.
 J'ai réussi à initialiser la collection mais malgré mes recherches (sur la cheat sheet , le chanel discord pour les débutants, mes notes, ...) je n'ai pas réussi à trouver comment ajouter un élément dans une collection. Je compte donc poser la question une fois de retour en cours.
 
-## Coding Style
+### Coding Style
 Lors de cette semaine voici les normes de codage en Pharo que j'ai revues ou apprises (cela correspond au premier chapitre du livre *Pharo with Style* ):
 
 
@@ -89,7 +91,7 @@ Lors de cette semaine voici les normes de codage en Pharo que j'ai revues ou app
 - Le nom d'une classe enfant doit indiquer le nom de sa classe parent en suffixe
 - Ajouter le nom de la classe dans une méthode pour éviter les problèmes de redéfinition accidentel
 
-## Cascade et block Closure
+### Cascade et block Closure
 *Source : Notes des années précédentes, vidéo 5 Mook pharo (Syntaxe pharo), vidéo 22 Mook pharo (Introduction aux Blocs)*
 
 Cascade : ";" utilisé pour envoyer plusieurs messages au même mot clé 
@@ -102,6 +104,22 @@ On peut leur donner plusieurs arguments en mettant "value: value: ...." après l
 [:x | x + 2] value: 5
 ```
 
-## Autres recherches
+### Autres recherches
 
 Cette semaine, j'ai revu aussi les messages et leur hiérarchie, les différents boucles disponibles dans pharo ainsi que les messages de débogage.
+
+## Aymeric Jakobowski
+
+### Réalisé en cours
+
+J'ai durant ce premier cours découvert un peu les possibilités de Pharo, le POURQUOI que ce langage est enseigné dans notre formation. Bien qu'un peu original des cours qu'on a l'habitude d'avoir, j'ai l'impression que ce cours va me faire progresser. Tant en soft-skills qu'en compréhension du paradigme objet.
+
+Durant les vacances précédentes, Elsa Logier m'avait conseillé de me préparer un peu à ce langage de programmation. Elle m'a partagé le MOOC (en français sur Youtube). Une chose que j'ai donc faite.
+Ainsi, lorsque la partie TP du cours à commencé, l'IDE était déjà installé et j'ai réalisé (une seconde fois, pour me remettre dans le bain) le tuto du ProfStef.
+
+J'ai ensuite attaqué le [TP n°1](http://rmod-pharo-mooc.lille.inria.fr/MOOC/PharoMOOC/Week1/Exo-Counter.pdf) (Developing a simple counter - PDF). J'ai réalisé le TP jusqu'à la partie Git.
+
+Enfin, j'ai pu aider quelques camarades à configurer leurs Git pour la synchronisation de code avec Iceberg. En effet, j'ai eu la chance de beaucoup manipuler Git en BUT informatique et en entreprise.
+
+### Réalisé à la maison & exercices
+
