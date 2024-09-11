@@ -243,6 +243,17 @@ Ex : Weather isRaining
      ifTrue: [ self takeMyUmbrella ]
      ifFalse: [ self takeMySunglasses ]
 
+### What is different from other programming languages?
+
+The difference is Conceptually ifTrue:ifFalse: is a message sent to an object:a boolean!
+
+### an you think about the benefits and drawbacks of the approach?
+
+Heavily optimised by the compiler
+
+### How did you find this information?
+
+http://rmod-pharo-mooc.lille.inria.fr/MOOC/PharoMOOC/Week2/C019-W2S08-BooleansAndCondition.pdf
  
 
  
