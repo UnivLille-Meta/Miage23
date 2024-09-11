@@ -103,7 +103,22 @@ I search for tools that that show violations  but  couldn't find.
 
 
 > ### - Partie Ikimath ADEOYE
->
+>> ### _What is a collection and what is it used for?_
+A collection is data structure that allow to store , retrieve and manipulate groups of objects.
+
+> ### _What kind of collections does Pharo standard library provide? And How to iterate them?_
+> **Dictionnary**: it's a collection of elements that associate a key object with a value object.
+It's possible to iterate over all of the values, keys, and associations of a Dictionary using
+the Dictionary>>#valuesDo:, Dictionary>>#keysDo:, and Dictionary>>#associationsDo: selectors. These selectors evaluate a block for
+each of the items. The Dictionary>>#select: selector is also implemented to return a subset of the Dictionary where the block evaluates to true using the value.
+
+**Array**: It's a fixed-sized collection of elements accessed by integer indices. To iterate an Array, we use _do:_, _collect:_, _select:_, _reject:_,_detect:_.
+
+**OrderedCollection**: It's used to store an unknow amount of objects. It stores data  inside an array and remembers the first and last index. To iterate an OrderedCollection, we use _do:_, _collect:_, _select:_, _reject:_,_detect:_.
+
+
+**Set**: Repreesents a set of objects without duplicates. To iteraate a Set, we use  _do:_ and _collect:_ and maybe _select:_, _reject:_,_detect:_, but I didn't see their implementation in the Set class.
+
 >
 >
 >
