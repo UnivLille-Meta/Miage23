@@ -297,6 +297,23 @@ https://github.com/adama-coundoul/MyCounter
  Not dow prefer dayOfWeek
  | dataset f Xmatrix scale X |
 
+## Can you learn about cascades and block closures? How do you approach it?
+
+ Blocks are:
+kind of anonymous methods
+◦ also called (lexical) closures
+used everywhere in Pharo
+◦ loops, conditionals, iterators, ...
+◦ GUI frameworks, DSLs, ...
+◦ at the heart of the system
+
+A block is defined by [ ]
+[ expressions. ... ]
+
+### How did you find this information?
+
+http://rmod-pharo-mooc.lille.inria.fr/MOOC/PharoMOOC/Week2/C019-W2S06-Blocks.pdf
+
 
 
 '
