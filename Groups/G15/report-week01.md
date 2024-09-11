@@ -205,13 +205,22 @@ Une collection est une structure de données qui permet de stocker et manipuler 
 
 ### What kind of collections does Pharo standard library provide?
 
-- Pharo propose plusieurs collections telles que :
+ Pharo propose plusieurs collections telles que :
 - OrderedCollection (dynamically growing)
 - Array (fixed size, direct access)
 - Set (no duplicates)
 - Dictionary (key-based, aka. maps)
 
 ### How do you iterate collections and what are differences between them?
+
+-do: (iterate)
+-collect: (iterate and collect results)
+-select: (select matching elements)
+-reject: (reject matching elements)
+-detect: (get first element matching)
+-detect:ifNone: (get first element matching or a default value)
+-includes: (test inclusion)
+-and a lot more...
 
 
 
