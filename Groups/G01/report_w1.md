@@ -104,10 +104,12 @@ I search for tools that that show violations  but  couldn't find.
 
 > ### - Partie Ikimath ADEOYE
 >> ### _What is a collection and what is it used for?_
+
 A collection is data structure that allow to store , retrieve and manipulate groups of objects. The difference between all the collections is that some are unordered like: Dictionnary and Set which means that the objects are stored without any specific order and some are Sequenceable like orderedCollection and Array.
 
 > ### _What kind of collections does Pharo standard library provide? And How to iterate them?_
-> **Dictionnary**: it's a collection of elements that associate a key object with a value object.
+
+**Dictionnary**: it's a collection of elements that associate a key object with a value object.
 It's possible to iterate over all of the values, keys, and associations of a Dictionary using
 the Dictionary>>#valuesDo:, Dictionary>>#keysDo:, and Dictionary>>#associationsDo: selectors. These selectors evaluate a block for
 each of the items. The Dictionary>>#select: selector is also implemented to return a subset of the Dictionary where the block evaluates to true using the value.
