@@ -19,13 +19,13 @@ Set (no duplicates)
 Dictionary (key-based, aka. maps)
 
 **How do you iterate collections and what are differences between them ?** 
-do: (iterate) : ```pharo#(16 11 68 19) do: [ :each | Transcript show: each ; cr ] ```
-collect: (iterate and collect results)
-select: (select matching elements) : ```pharo#(16 11 68 19) select: [ :i | i odd ]```
-reject: (reject matching elements) ```pharo #(16 11 68 19) reject: [ :i | i odd ]```
-detect: (get first element matching) ```pharo #(16 11 68 19) detect: [ :i | i odd ]```
-detect:ifNone: (get first element matching or a default value) ```pharo #(16 12 68 20) detect: [ :i | i odd ] ifNone: [ 0 ]```
-includes: (test inclusion). 
+	- do: (iterate) : ```pharo#(16 11 68 19) do: [ :each | Transcript show: each ; cr ] ```
+	- collect: (iterate and collect results)
+	- select: (select matching elements) : ```pharo#(16 11 68 19) select: [ :i | i odd ]```
+	- reject: (reject matching elements) ```pharo #(16 11 68 19) reject: [ :i | i odd ]```
+	- detect: (get first element matching) ```pharo #(16 11 68 19) detect: [ :i | i odd ]```
+	- detect:ifNone: (get first element matching or a default value) ```pharo #(16 12 68 20) detect: [ :i | i odd ] ifNone: [ 0 ]```
+	- includes: (test inclusion). 
 ### Learn about conditionals in Pharo :
 **where did i find the information :** 
 http://rmod-pharo-mooc.lille.inria.fr/OOPMooc/01-Welcome/W1S07-BasicBooleansAndCondition.pdf
