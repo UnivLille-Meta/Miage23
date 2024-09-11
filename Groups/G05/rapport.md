@@ -254,6 +254,12 @@ Par exemple avec le tableau ```#(11 38 3 -2 10) ```:
 - ```#(11 38 3 -2 10) reject: [:each|each > 10] ``` est le contraire de ``` #(11 38 3 -2 10) select: [:each|each > 10]```.
 Cela permet d’obtenir tous les nombres du tableau qui sont inférieur ou égal à 10 soit ``` #(3 -2 10)```
 
+**Rapport**
+Cette semaine, j'ai notamment :  
+
+- refais l'exercice du compteur, vu en cours jeudi dernier. 
+– fais le tutoriel ProfStef et regardé les polycopiés du Mooc pour découvrir la syntaxe du langage Pharo. 
+– découvert le projet avec les autres membres du groupe. 
 ****
 # BOU ALEXANDRE
 
