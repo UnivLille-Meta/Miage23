@@ -50,8 +50,15 @@ Pharo est un langage purement orienté objet basé sur Smalltalk, et même les c
 > un exemple de class et méthodes ce trouve dans ce depôt
 > il s'agit d'une classe representant un dé à 6 faces
 > https://github.com/marik27/C3P_Devoirs
+
 ## _How did you find this information?_
 > Ayant bien compris le mode de fonctionnement de l'écriture des classes et méthodes en pharo, j'ai choi un exemple que j'ai décidé d'implémenter.
+
+>### _Pharo methods are usually small and readable.What rules are common to follow? Are there tools that show you violations to such rules?_
+> * Les règles communes à suivre : 
+> Chaque méthode doit avoir une seule responsabilité ou fonction. Cela facilite la compréhension et la maintenance du code.
+ Méthodes Courtes, Noms de Méthodes Descriptifs, Pas Trop de Paramètres , Pas de Code dupliqué, Utilisation de Messages Simples dans les méthodes.
+> * Pour voir ses violations, on peut par exemple utiliser `CriticBrowser` : Un outil intégré à Pharo qui permet de vérifier le code en fonction de diverses règles de style et de bonnes pratiques.
 
 ### - Partie Ouassila BOUKHARS
 
@@ -95,7 +102,7 @@ I encounter problem with the git repository, in fact it need a token to create a
 I search for tools that that show violations  but  couldn't find.
 
 
-> ### - Partie Ikhimat ADEOYE
+> ### - Partie Ikimath ADEOYE
 >
 >
 >
