@@ -2,6 +2,109 @@
 
 ## BOUGUEROUCHE SEIF-EDDIN :
 
+### Learn about collections in Pharo and their iterators :
+**where did i find the information :** 
+https://eng.libretexts.org/Bookshelves/Computer_Science/Programming_Languages/Book%3A_Pharo_by_Example_5.0_(Ducasse_Zagidulin_Hess_and_Chloupis)/11%3A_Collections/11.05%3A_Collection_Iterators
+http://rmod-pharo-mooc.lille.inria.fr/OOPMooc/02-Syntax/W2S10-Iterators.pdf
+http://rmod-pharo-mooc.lille.inria.fr/OOPMooc/02-Syntax/W2S08-Basic-ArraySetOrderedCollection.pdf
+
+**What is a collection and what is it used for ?**
+In Pharo, a collection is used to group objects and perform operations on these sets, such as adding, removing, accessing, and iterating over elements.
+
+**What kind of collections does Pharo standard library provide ?**
+The most common Collection subclasses are : 
+OrderedCollection (dynamically growing)
+Array (fixed size, direct access)
+Set (no duplicates)
+Dictionary (key-based, aka. maps)
+
+**How do you iterate collections and what are differences between them ?** 
+do: (iterate) : ```pharo#(16 11 68 19) do: [ :each | Transcript show: each ; cr ] ```
+collect: (iterate and collect results)
+select: (select matching elements) : ```pharo#(16 11 68 19) select: [ :i | i odd ]```
+reject: (reject matching elements) ```pharo #(16 11 68 19) reject: [ :i | i odd ]```
+detect: (get first element matching) ```pharo #(16 11 68 19) detect: [ :i | i odd ]```
+detect:ifNone: (get first element matching or a default value) ```pharo #(16 12 68 20) detect: [ :i | i odd ] ifNone: [ 0 ]```
+includes: (test inclusion). 
+### Learn about conditionals in Pharo :
+**where did i find the information :** 
+http://rmod-pharo-mooc.lille.inria.fr/OOPMooc/01-Welcome/W1S07-BasicBooleansAndCondition.pdf
+
+**How do you write conditionals in Pharo ?**
+
+```pharo
+| x |
+x := 5.
+(x > 3)
+	ifTrue: [ Transcript show: 'x est supérieur à 3'; cr ]
+	ifFalse: [ Transcript show: 'x est inférieur ou égal à 3'; cr ]
+```
+
+**What is different from other programming languages ?**
+Unlike other languages where if and else are keywords, Pharo uses message sending (ifTrue:, ifFalse:) to boolean objects.
+Code blocks are defined by brackets [ ]
+
+**Can you think about the benefits and drawbacks of the approach ?** 
+
+A fluent syntax that resembles more of an object-oriented language.
+It suit to the pharo’s all object philosophy
+
+But it’s less understandable for beginner from another programming language 
+
+### How to create classes and methods : 
+
+First I created a pharo 12 image then I went to the browser > system browser. After that I  created a new folder and started coding here.
+I find this information in the pdf file in exercice part for week 1
+
+I Write the exercice one with the counter implementation, my problem was that when i read the pdf file the way to create method was deprecated so i struggle to understand that and even if i knew it i'm not use to dev in TDD methode
+
+https://github.com/Jogozan/week1_c3p
+
+
+### Learn about the basic Pharo coding style.
+
+**What rules are common to follow ?** 
+to Avoid underscores and favor camel case for exemple: 
+Prefer
+
+```pharo
+timeOfDay
+```
+over
+```pharo
+Not timeofday
+Not time_of_day
+```
+Use descriptive name
+Prefer
+```pharo
+timeOfDay
+```
+over
+```pharo
+Not tod
+```
+Method selectors start with lowercase
+
+Prefer
+```pharo
+getMethodsNamesFromAClass: aClass
+| methodsNames |
+methodsNames := aClass selectors.
+methodsNames do: [ :each | names add: each ]
+```
+over
+```pharo
+GetMethodsNamesFromAClass: aClass
+| methodsNames |
+methodsNames := aClass selectors.
+methodsNames do: [ :each | names add: each ]
+```
+**Are there tools that show you violations to such rules?** 
+
+I don't find tools
+
+
 ## BARTHELEMY CAMILLE :
 
 # Homework 1
