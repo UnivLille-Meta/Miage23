@@ -227,14 +227,23 @@ Une collection est une structure de données qui permet de stocker et manipuler 
  http://rmod-pharo-mooc.lille.inria.fr/MOOC/PharoMOOC/Week3/C019-W3S07-Basic-ArraySetOrderedCollection.pdf
  http://rmod-pharo-mooc.lille.inria.fr/MOOC/PharoMOOC/Week3/C019-W3S09-Iterators.pdf
 
-## Examples 
+### Examples 
  #(16 11 68 19) do: [ :each | Transcript show: each ; cr ]
  #(16 11 68 19) select: [ :i | i odd ]
  > #(11 19)
  #(16 11 68 19) reject: [ :i | i odd ]
  > #(16 68)
 
- ## Learn about collections in Pharo and their iterators
+ ## Learn about conditionals in Pharo
+
+ ### How do you write conditionals in Pharo?
+
+In Pharo, traditional conditional (if, else, while) are messages sent to boolean or block object.
+Ex : Weather isRaining
+     ifTrue: [ self takeMyUmbrella ]
+     ifFalse: [ self takeMySunglasses ]
+
+ 
 
  
 
