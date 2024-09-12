@@ -10,11 +10,8 @@ It depends on these keys which will help us choose the right one: Sequenceable, 
 Source: Pharo 9 by Example, Stéphane Ducasse and Gordana Rakic with Sebastijan Kaplar and Quentin Ducasse
 
 For example in  order to have a set of arrays which is possible to be modified:
-
 Arr1 := #(1 2 3 4).
-
 OrderedCollection1 := OrderedCollection newFrom: Arr1. 
-
 Now we can access and modify the array’s elements.
 
 --Class and Methods:
