@@ -2,7 +2,9 @@
 
 ### Learn about collections in Pharo and their iterators
 
+Les collections sont des structures qui permettent de contenir n’importe quel type d’objet. La bibliothèque standard de Pharo fournit beaucoup de classes de collection telles que les Set, Array ou Dictionary qui héritent toutes de la classe Collection, ce qui permet d’avoir une API commune. Pour itérer dans une collection, on peut utiliser le message ```do: aBlock```. Toutes les collections commencent à l’indice 1.
 
+Pour répondre à ces questions sur les collections, j’ai regardé la vidéo ‘Un survol des principales collections’.
 
 ### Learn about conditionals in Pharo
 
