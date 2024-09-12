@@ -1,14 +1,17 @@
 ## Thomas LIENARD
 
-### Code repo : 
-
-https://github.com/Murddy/Counter/tree/main
-
 ### Learn about collections in Pharo and their iterators
+
+
 
 ### Learn about conditionals in Pharo
 
 ### Learn how to create classes and methods
+
+Pour cette partie, j'ai créé la classe Counter et ses quelques méthodes proposé comme tutoriel lors de cette première semaine. 
+Voici le dépot de cette classe : https://github.com/Murddy/Counter/tree/main .
+
+Durant cette parti j'ai eu quelque problème pour trouver comment lié ma classe écrite sur mon pc et le git que j'avais créé pour elle. J'ai donc demandé à un camarade de m'expliquer comment faire.
 
 ### Learn about the basic Pharo coding style.
 
