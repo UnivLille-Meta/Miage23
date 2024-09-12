@@ -3,7 +3,7 @@
 ## Elsa Logier
 
 Cette semaine j'ai étudié Pharo avec des supports variés. J'ai utilisé le Mook en Français sur youtube, Pharo en lui-même pour expérimenter et rechercher, le discord pharo, le livre *Pharo with style*, la documentation de pharo sur github (pharo-open-documentation/pharo-wiki), la cheat sheat pharo ainsi que les slides disponibles sur le github du cours. 
-J'ai aussi préparé le cours de la semaine prochaine en regardant les vidéos du mooc associéees 
+J'ai aussi préparé le cours de la semaine prochaine en regardant les vidéos du mooc associées.
 
 
 ### Une Issue
@@ -121,5 +121,13 @@ J'ai ensuite attaqué le [TP n°1](http://rmod-pharo-mooc.lille.inria.fr/MOOC/Ph
 
 Enfin, j'ai pu aider quelques camarades à configurer leurs Git pour la synchronisation de code avec Iceberg. En effet, j'ai eu la chance de beaucoup manipuler Git en BUT informatique et en entreprise.
 
-### Réalisé à la maison & exercices
+### Réalisé à la maison
 
+Dans cette section, je vais réaliser une liste des choses que j'ai réalisé :
+- Regarder Karaté Kid (pour une fois qu'il y a un devoir de ce type, autant en profiter !)
+- Suivi des vidéos du MOOC
+  - Module 0 (Little Warm up with Pharo) : Bien que j'ai déjà suivi ce module durant les grandes vacances, j'ai de nouveau regardé, mais d'un regard différent, en me focalisant sur d'autres détails qui auraient pu m'échapper lors de la première lecture.
+  - Module 1 (Understanding messages) : C'était à réaliser pour la prochaine séance.
+  - Module 2 (Tests) : En voyant le module et en ayant pratiqué durant la séance, j'ai vu un aspect que je n'avais pas réèlement saisi avant sur la méthode TDD. Certes, je l'avais vu en BUT informatique, mais nous n'étions pas vraiment convaincu de la chose. Mais vous avoir vu faire une démonstration sur la manière de raisonner m'a fait comprendre le POURQUOI utiliser cette méthode de travail !!
+- Groupe Discord rejoint
+- Fin du TP n°1, voici le [lien GitHub](https://github.com/AymericJak/my-counter-pharo)
