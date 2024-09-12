@@ -8,6 +8,10 @@ Pour répondre à ces questions sur les collections, j’ai regardé la vidéo �
 
 ### Learn about conditionals in Pharo
 
+Pour écrire une condition en Pharo, on doit d’abord écrire une expression qui retourne un booléen, suivie de ```ifTrue:[]``` et  ```ifFalse:[]```. Le ‘[]’ contient le bloc à utiliser en fonction du résultat. Contrairement à d’autres langages, Pharo vérifie juste qu’un booléen soit vrai ou faux, ce qui me semble plus efficace et plus rapide.
+
+Pour répondre à ces questions sur les conditions, j’ai regardé la vidéo ‘Booléens et conditions’.
+
 ### Learn how to create classes and methods
 
 Pour cette partie, j'ai créé la classe Counter et ses quelques méthodes proposé comme tutoriel lors de cette première semaine. 
