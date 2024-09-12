@@ -149,4 +149,92 @@ Cette semaine, j'ai notamment :
 
 
 # ABOU DAHER Wassim 
+## Learn about collections in Pharo and their iterators
+
+A collection in Pharo is a structure that allows storing and managing groups of objects. Collections provide functionality like adding, removing, or accessing elements. Common types of collections in Pharo include:
+
+**Array:** Fixed-size collections where elements are indexed.   
+**OrderedCollection:** Collections that can grow or shrink in size, maintaining insertion order.  
+**Set:** Unordered collections that do not allow duplicates.  
+**Dictionary:** Key-value pair collections.  
+
+There is multiple ways to iterate through collections: 
+
+**do:** simply iterates over the collection.  
+ /#(1 2 3) do: [:each | Transcript show: each; cr].
+
+**collect:** transforms elements and returns a new collection.  
+| result |  
+result := #(1 2 3) collect: [:each | each * 2].
+
+**select:** filters elements that meet a condition, while reject: excludes elements that meet the condition.  
+| result |
+result := #(1 2 3 4) select: [:each | each result].
+
+**detect:** returns the first element that satisfies a condition.
+| nombrePair |
+nombrePair := #(1 2 3) detect: [:each | each even].  
+
+I found this informations by consulting the Pharo documentation, the MOOC, and exploring examples in the pharo launcher
+
+## Learn about conditionals in Pharo
+
+In Pharo, conditional statements like True False are implemented as messages sent to objects, a unique approach compared to other languages where conditionals are structural keywords, in addition in Pharo we put the true and false directly in the condition not only "if". The advantage of this approach is that it adheres to the object-oriented philosophy of Pharo—everything is an object, including Boolean values and conditional. I didn't find a real disadvantage of this.
+exemple: 
+
+| list |
+list := OrderedCollection new.
+list add: 'Example'.
+list isEmpty
+    ifTrue: [ Transcript show: 'The list is empty'; cr ]
+    ifFalse: [ Transcript show: 'The list contains elements'; cr ].
+
+I found this information in 
+## Learn how to create classes and methods
+
+ To create a new class and methods, I used the System Browser. Here's an example of how I created a Counter class with methods for incrementing and decrementing a count: 
+
+Create a package. 'MyCounter'
+Define a test class and test methods
+Define a new class with a name and a superclass (Object).
+Define instance variables, like count.
+Add methods, such as increment, decrement, and initialize.
+
+Here’s a simple example of a method for initializing the counter:
+
+initialize
+    count := 0.
+
+Other methos and classes are made in the tp1: 
+
+## Learn about the basic Pharo coding style. 
+
+Pharo encourages writing small methods. Some essential rules include:
+1. Keep methods short (not like the other languages which can have a big class and methods like java)
+2. Organize code visually
+3. The comments are separated from the code and after the code not on above
+
+An example: 
+InCreMent
+  COUNT := COUNT+1.
+
+which must be like that:
+increment
+    count := count + 1.
+
+_Hint:_ look for the `Pharo with Style` free book.
+
+## Extras
+
+Cascades in Pharo allow sending multiple messages to the same object using the ; symbol, avoiding repetition. For example:
+
+Counter new  
+    increment;  
+    increment;  
+    decrement.  
+
+Block closures  are blocks of code  in [], which can be passed as arguments to methods. For example:
+
+[ :x | x + 1 ] value: 22.  
+  
 # Meryem 
