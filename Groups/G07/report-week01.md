@@ -206,6 +206,7 @@ initialize
     count := 0.
 
 Other methos and classes are made in the tp1: 
+https://github.com/wassimAbouDaher/TP1.git  
 
 ## Learn about the basic Pharo coding style. 
 
