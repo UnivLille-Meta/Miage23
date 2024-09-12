@@ -21,6 +21,18 @@ Durant cette parti j'ai eu quelque problème pour trouver comment lié ma classe
 
 ### Learn about the basic Pharo coding style.
 
+Pharo possède plusieurs règle à suivre tels que mettre une majuscule pour commencer le nom d'une classe et mettre une minuscule pour une méthodes. Il y a aussi toute la synthaxe à connaitre comme savoir que || servent à definir une variable ou ^ qui est le return.
+
+Pharo nous montre automatiquement les parties du code qui enfreignent une règle et nous montre la règle enfreinte.
+
+Pour donner un exemple simple : 
+
+Nomdemethod
+  "commentaire"
+  instruction
+
+Dans cette exemple le nom de la méthode n'est pas valide.
+
 ### Extras
 
 ## Baptiste PARENT
