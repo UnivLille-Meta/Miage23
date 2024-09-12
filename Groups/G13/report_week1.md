@@ -15,6 +15,7 @@ OrderedCollection1 := OrderedCollection newFrom: Arr1.
 Now we can access and modify the array’s elements.
 
 --Class and Methods:
+
 I wrote a class with two methods, one gets students passed units and the other returns how much units remain to study.
 Here is the github repository link:
 https://github.com/sepideh94/C3P_week1
