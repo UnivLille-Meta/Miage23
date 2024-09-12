@@ -5,7 +5,7 @@
 - 03 Week: 19-20 Sep Reverse engineering
 - 04 Week: 26-27 Sep Test Quality
 - 05 Week: 03-04 Oct Hook and templates 
-- Examen la semaine 06, amphi à confirmer
+- 06 WeekL Vendredi 11 Oct - Examen Salle B12, B13
 - 17-18 Oct Pas de cours
 - 07 Week: 24-25 Double dispatch
 Break 31-1 Nov
