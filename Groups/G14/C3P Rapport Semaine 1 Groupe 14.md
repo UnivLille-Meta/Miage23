@@ -119,7 +119,7 @@ Mais on a aussi :
 - `reject`qui est en quelque sorte l'inverse du select .  
 - `detect` recherche le premier élément qui répond à la condition donnée  
 Exemple de mon code :  
-![](../CapturesDimos/collection.png)
+![](./CapturesDimos/collection.png)
 
 Sources :  
 http://rmod-pharo-mooc.lille.inria.fr/MOOC/PharoMOOC-Videos/FR/Week3/C019SD-W3-S7-v3.mp4  
@@ -138,7 +138,7 @@ Ce qui est plus avantageux ici c'est que je trouve que c'est plus facile à comp
 En revanche si le bloc est trop gros, cela peut vite devenir trop lourd.
 
 Exemple de mon code :  
-![](../CapturesDimos/ifTrue.png)  
+![](./CapturesDimos/ifTrue.png)  
 
 Sources :  
 http://rmod-pharo-mooc.lille.inria.fr/MOOC/PharoMOOC-Videos/FR/Week2/C019SD-W2-S8-v2.mp4  
