@@ -1,4 +1,4 @@
-*Auteur MOUSSED-WERNITZ Dimos & GOOSSEN Guillaume* 
+*Auteur MOUSSED-WERNITZ Dimos & GOOSSEN Guillaume*
 # Guillaume GOOSSEN
 ## Apprendre les collections dans Pharo et leurs itérateurs
 
@@ -30,7 +30,7 @@ Ou encore :
 - `select` filtre les élément en fonction d'une condition
 - `reject` exclue les éléments qui répondent à la condition
 - `detect` recherche le premier élément qui répond à la condition donnée
-#### Sources : 
+#### Sources :
 - http://rmod-pharo-mooc.lille.inria.fr/MOOC/PharoMOOC-Videos/FR/Week3/C019SD-W3-S7-v3.mp4
 - http://rmod-pharo-mooc.lille.inria.fr/MOOC/PharoMOOC-Videos/FR/Week3/C019SD-W3-S9-v3.mp4
 - ChatGPT
@@ -81,7 +81,7 @@ On peut utiliser :
 - Refactoring Browser
 #### Veuillez montrer des exemples de code qui violent certaines règles :
 
-``` 
+```
 MyClass >> doIt
     "Nom de méthode peu clair, ne dit pas ce que la méthode fait"
     ^ self value * 2.
@@ -93,12 +93,74 @@ MyClass >> fetchAndDisplayData
     self fetchData.
     self displayData.
 ```
-#### Source : 
+#### Source :
 - Livre 'Pharo with style'
 - ChatGPT
 ## Extras
 
-#### Pouvez-vous en apprendre plus sur les cascades et les fermetures de blocs ? 
+#### Pouvez-vous en apprendre plus sur les cascades et les fermetures de blocs ?
 
-#### Comment l'abordez-vous ?
+#### Comment l'abordez-vous ?  
 
+# Dimos MOUSSED-WERNITZ  
+## Les collections dans Pharo et leurs itérateurs  
+Il existe plusieurs types de collections dans la bibliothèques Pharo comme par exemple :  
+- Ordered Collection (collection dynamique)
+- Tableau (taille fixe, accès aux éléments en fonction des indices)
+- Set (pour les éléments uniques)
+- Dictionnaire (Table de hashage avec clé/valeur)  
+
+Contrairement aux autres languages les collections commencent ici à l'indice 1.  
+
+Pour itérer les Collections il faut utiliser le message `do: [...]`
+Mais on a aussi :
+- `collect` qui est l'équivalent d'un map en java(appliquer une fonction à chaque éléments de la Collection)  
+- `select` l'équivalent d'un filter en Java (filtrer selon une condition donnée)  
+- `reject`qui est en quelque sorte l'inverse du select .  
+- `detect` recherche le premier élément qui répond à la condition donnée  
+Exemple de mon code :  
+![](../CapturesDimos/collection.png)
+
+Sources :  
+http://rmod-pharo-mooc.lille.inria.fr/MOOC/PharoMOOC-Videos/FR/Week3/C019SD-W3-S7-v3.mp4  
+
+## Les conditionnels dans Pharo
+#### Comment les écrires ?  
+Ce sont toujours des messages envoyés à des boolens ou a des blocs.
+On peut directectement écrire un message avec `ifTrue: BLOC` ou `ifFalse: BLOC` mais il existe aussi par exemple `ifEmpty:` et `ifNotEmpty:`
+
+
+#### Différences avec autres languages ?  
+On n'as pas de if else en Pharo, mais on a `ifTrue:` et `ifFalse:` directement
+
+#### Avantages/Incovéniants
+Ce qui est plus avantageux ici c'est que je trouve que c'est plus facile à comprendre et surtout plus lisible comparé au autres langages classique.
+En revanche si le bloc est trop gros, cela peut vite devenir trop lourd.
+
+Exemple de mon code :  
+![](../CapturesDimos/ifTrue.png)  
+
+Sources :  
+http://rmod-pharo-mooc.lille.inria.fr/MOOC/PharoMOOC-Videos/FR/Week2/C019SD-W2-S8-v2.mp4  
+
+
+## Création de classes et de méthodes  
+Pour écrire un programme avec des classes et méthodes dans Pharo il suffit de créer une image sur Pharo, lancer le Playground et la magie opère.  
+'Nautilus' est utilisé pour l'écriture du code.  
+J'ai eu cette information car j'étais présent et attentif au premier cours ;)  
+Voici mon dépôt de mon compteur codé en Pharo :  
+
+Sources :  
+http://rmod-pharo-mooc.lille.inria.fr/MOOC/PharoMOOC-Videos/FR/Week1/C019SD-W1-S6-v3.mp4  
+
+## Style de codage de base de Pharo  
+En Pharo il faut favoriser le camelCase.
+Les nom des méthodes doivent être précise et consises.
+Il existe des outils qui vous montrent les violations de ces règles comme par exemple:  
+- critic Browser  
+- smallInt  
+- Refactoring Browser  
+
+Sources :
+- https://books.pharo.org/booklet-WithStyle/pdf/WithStyle.pdf  
+- Chat GPT
