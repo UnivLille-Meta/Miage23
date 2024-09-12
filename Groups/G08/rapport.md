@@ -133,6 +133,113 @@ J'ai également envoyé un mail au professeur pour résoudre un autre problème 
 
 
 
+## EL MANSOURI Yacine
+
+# FIRST WEEK :
+
+## HOMEWORK : 
+
+### Learn about collections in Pharo and their iterators
+
+**What is a collection and what is it used for? What kind of collections does Pharo standard library provide? How do you iterate collections and what are differences between them? How did you find this information?**
+
+Une collection est un type de données qui permet de regrouper et manipuler plusieurs objets sous une même entité. Elles sont utilisées pour stocker, organiser et gérer des ensembles de données. 
+La bibliotheque standard Pharo en fournit pas mal, voici une image les resumants :  
+![CollectionsTableau](collections.png)  
+Il en existe differente sorte, les séquentielles, les triées, les indexéees, les collections à clés, les collections mutables, les collections extensibles, les collections à duplicat, les collections heterogenes...
+Voici un autre tableau classants les plus connus :
+![CollectionsTableau](collections_rangees.png)  
+L'iteration sur une collection peut se faire de differentes facon :
+do: (iterate)
+collect: (iterate and collect results)
+select: (select matching elements)
+reject: (reject matching elements)
+detect: (get first element matching)
+detect:ifNone: (get first element matching or a default
+value)
+includes: (test inclusion)
+...
+
+Quelques exemples de code que j'ai essayé: 
+`#(16 11 68 19) do: [ :each | Transcript show: each ; cr ]`
+`#(16 11 68 19) select: [ :i | i odd ]`
+`#(16 11 68 19) reject: [ :i | i odd ]`
+...
+
+Source : http://rmod-pharo-mooc.lille.inria.fr/Books/01-PharoByExample/PharoByExample-2011-FR.pdf  
+http://rmod-pharo-mooc.lille.inria.fr/MOOC/PharoMOOC/Week3/C019-W3S09-Iterators.pdf
+
+### Learn about conditionals in Pharo
+
+**How do you write conditionals in Pharo? What is different from other programming languages? Can you think about the benefits and drawbacks of the approach? How did you find this information?**
+
+Les clauses conditionnelles sont obtenues par l’envoi des messages a la classe Boolean contrairement aux autres languages que nous connaissons tel que ifTrue:, ifFalse: ou ifTrue:ifFalse: au résultat d’une expression booléenne.
+L'avantage je pense est que la plupart des comportements des booléens peuvent être compris en juste lisant le code. Ensuite les blocs peuvent être passés comme arguments et stockés dans des variables.
+
+Quelques exemples de code que j'ai essayé: 
+`(4 factorial > 20) ifTrue: [ 'plus grand' ] ifFalse: [ 'plus petit' ]`
+...
+
+Source : http://rmod-pharo-mooc.lille.inria.fr/Books/01-PharoByExample/PharoByExample-2011-FR.pdf  
+
+### Learn how to create classes and methods
+
+**How do you write a small program with classes and methods in Pharo? Pharo is indeed, very IDE oriented and you have to get used to the tooling. How did you find this information?**
+
+Pour créer une classe en Pharo, il faut utiliser le System Browser :
+- Ouvrir le Browser.
+- Créer un package.
+- Créer une classe qui hérite d'une superclasse ( Object par defaut ).
+- Ajouter des méthodes d'instance ou de classe à la classe.
+
+J'ai pu principalement m'entrainer sur le TP Counter qui m'a permit de manipuler et de prendre en main pharo. Puis j'ai pu egalement refaire quelques exemples du cours. 
+
+Parfois j'ai rencontré des problemes avec le self qui me disait qu'il n'etait pas connu car la methode etait d'instance et non de classe.
+
+Voici le lien de mon dépot : https://github.com/yacineelmns/C3P
+
+### Learn about the basic Pharo coding style.
+
+**Pharo methods are usually small and readable. What rules are common to follow? Are there tools that show you violations to such rules?**
+
+Les regles courantes a suivre sont par exemples :
+- utilisez des noms descriptifs pour les methodes et classes
+- évitez d'utiliser le pluriel pour les noms de classe
+- mettre une majuscule a la premiere lettre du nom d'une classe
+- utilisez la notation camelCase
+- évitez de préfixer les setters avec set
+...  
+Regles ( et la suite ) a retrouver sur PharoWithStyle
+
+Oui Pharo propose des outils comme le débogueur pour examiner le code et repérer les violations des règles de style.
+
+Voici des bouts de code qui enfreignent certaines regles :  
+```
+object subclass: mycounter [
+    | count |
+]
+```
+```
+MyClass >> calculate_total [
+    ^5 + 5
+]
+```
+```
+MyClass >> setAge: anAge [
+    age := anAge
+]
+```
+
+### Extras
+
+En regardant les extras j'ai decouvert les cascades et les blocs.
+La cascade permet d'envoyer plusieurs messages à un même objet sans avoir à répéter le récepteur plusieurs fois. Cela permet d'écrire des instructions plus concises.
+Un bloc représente une fonction anonyme, définie à l'aide des crochets [ ]. Ils peuvent être exécutés plus tard en les capturants dans des variables.
+
+Avez-vous posé des questions sur les canaux Discord ou les listes de diffusion ?
+
+Non je n'ai pas posé de questions pour le moment car j'ai trouvé reponse a toutes mes questions sur les differentes ressources disponibles sur internet.
+
 
 
 
