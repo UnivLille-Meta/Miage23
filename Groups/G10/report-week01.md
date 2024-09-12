@@ -197,3 +197,24 @@ Dans le livre `Pharo with Style`, on peut retrouver les différentes conventions
 Pour repérer ce genre « d'erreurs », il y a par exemple un outil de linting dans Pharo lui même. Par exemple, quand j'ai créé la méthode `initialize`, j'ai eu une petite alerte pour indiquer que la méthode est censée faire être incluse dans le protocole `initialization`. Un simple refactoring, mais ça permet d'avoir une bonne organisation et cohérence entre les différents packages / projets.
 
 Sources : livre [Pharo with Style](https://github.com/SquareBracketAssociates/Booklet-PharoWithStyle/releases/download/continuous/WithStyleBook-wip.pdf) et expérience personnelle (alternance, sur un projet datant de 2012)
+
+> Extras
+
+Les cascades permettent d'envoyer plusieurs objets à un objet. Dans un exemple que j'ai réalisé précédemment :
+
+`#(1 2 3 4 5) do: [:each | Transcript show: each; cr]`
+
+On peut voir que j'ai utilisé une cascade au niveau du `Transcript`. Je lui transmet le message `show` et le message `cr`. Chacun sont séparés par des point-virgules.
+
+Cela permet d'éviter la redondance du code. Par exemple, la version longue serait :
+```
+...
+Transcript show: each.
+Transcript cr
+```
+
+Pour parler des blocks, l'exemple ci-dessus est aussi parfait. Après le `do` pour itérer dans un tableau, on met un block. Celui-ci est entre crochets.
+
+De la manière que j'ai compris, le block est similaire à une fonction lambda. Ainsi, on a la possibilité d'y mettre un paramètre (ici `each`).
+
+Sources : [M0-7 - Understanding Messages: Sequence and Cascade](http://rmod-pharo-mooc.lille.inria.fr/MOOC/PharoMOOC/Week2/C019-W2S04-Messages-Sequence.pdf)

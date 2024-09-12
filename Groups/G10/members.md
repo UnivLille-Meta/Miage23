@@ -1,2 +1,2 @@
 - LOGIER 		ELSA			elsa.logier.etu@univ-lille.fr
-- JAKOBOWSKI	AYMERIC		aymeric.jakobowski.etu@univ-lille.fr
+- JAKOBOWSKI	AYMERIC			aymeric.jakobowski.etu@univ-lille.fr
