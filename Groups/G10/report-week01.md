@@ -131,3 +131,69 @@ Dans cette section, je vais réaliser une liste des choses que j'ai réalisé :
   - Module 2 (Tests) : En voyant le module et en ayant pratiqué durant la séance, j'ai vu un aspect que je n'avais pas réèlement saisi avant sur la méthode TDD. Certes, je l'avais vu en BUT informatique, mais nous n'étions pas vraiment convaincu de la chose. Mais vous avoir vu faire une démonstration sur la manière de raisonner m'a fait comprendre le POURQUOI utiliser cette méthode de travail !!
 - Groupe Discord rejoint
 - Fin du TP n°1, voici le [lien GitHub](https://github.com/AymericJak/my-counter-pharo)
+
+### Exercices
+
+> Learn about collections in Pharo and their iterators
+
+Une collection est une structure de données. Elle va permettre de regrouper des objets (éléments) et de les gérer.
+
+En Pharo, on peut retrouver ces collections :
+![alt text](images/image.png)
+
+Voici un exemple de liste, et la manière d'itérer dessus :
+```
+#(1 2 3 4 5) do: [:each | Transcript show: each; cr]
+```
+
+Source : [M0-12 - Iterators](http://rmod-pharo-mooc.lille.inria.fr/MOOC/PharoMOOC/Week3/C019-W3S09-Iterators.pdf)
+
+> Learn about conditionals in Pharo
+
+En Pharo, les conditions sont de cette forme :
+```
+condition
+    ifTrue: [code à exécuter]
+    ifFalse: [code à exécuter]
+```
+
+Contrairement à d'autres langages, la condition précède le `if`. Puisque l'ensemble de l'expression se lit de gauche à droite. Ainsi : `condition <- if <- code`.
+
+C'est une autre manière de penser. D'un côté, le langage reste propre et cohérent. Mais d'un autre côté, la syntaxe est moins familière avec les autres langages (par exemple en python : `if condition: code à exécuter`)
+
+Source : [Youtube - Booléens et conditions (W2S8-FR)](https://www.youtube.com/watch?v=lsnndemTkao&list=PL2okA_2qDJ-k83Kxu_d8EPzMXtvCrReRn&index=25)
+
+> Learn how to create classes and methods
+
+La première étape consiste à se rendre dans le `System Browser` puis de créer un nouveau package.
+
+Ensuite, dans la fenêtre en bas, nous pouvons remplir les informations de la classe, la sauvegarder pour qu'elle soit enregistrée dans le package. On peut aussi ajouter une documentation dans l'onglet `comment`.
+
+Voici le repository GitHub : [facebike-pharo](https://github.com/AymericJak/facebike-pharo)
+
+En quelques mots, j'ai créé un getter, un setter, une méthode d'initialisation et une fonction pour ajouter un utilisateur à la liste des utilisateurs.
+
+Voici le code pour tester :
+```
+| myUsers |
+myUsers := Users new.
+myUsers addUser: 'John'.
+myUsers addUser: 'Jane'.
+myUsers addUser: 'John'.
+
+myUsers users do: [ :user|Transcript show: user; cr ]
+```
+
+Il est aussi important de réaliser des tests unitaire pour chacune de ces méthodes (non fait dans cette exemple, mais je le ferai pour la semaine prochaine)
+
+> Learn about the basic Pharo coding style
+
+Dans le livre `Pharo with Style`, on peut retrouver les différentes conventions à appliquer dans le langage. En voici quelques unes :
+- Pour les noms de classe, variable, il faut utiliser le camel case. Exemple : `NomDeClasse, nomDeMethode, ...`
+- Utiliser des noms de variable clairs (c'est logique, pour la maintenabilité, c'est plus simple). Exemple : `tod => timeOfDay, éviter les x y ou z, ...`
+- Commenter les méthodes, classes. C'est toujours dans une optique de maintenabilité.
+- Pour les tests unitaires, utiliser des formes interrogatives.
+
+Pour repérer ce genre « d'erreurs », il y a par exemple un outil de linting dans Pharo lui même. Par exemple, quand j'ai créé la méthode `initialize`, j'ai eu une petite alerte pour indiquer que la méthode est censée faire être incluse dans le protocole `initialization`. Un simple refactoring, mais ça permet d'avoir une bonne organisation et cohérence entre les différents packages / projets.
+
+Sources : livre [Pharo with Style](https://github.com/SquareBracketAssociates/Booklet-PharoWithStyle/releases/download/continuous/WithStyleBook-wip.pdf) et expérience personnelle (alternance, sur un projet datant de 2012)
