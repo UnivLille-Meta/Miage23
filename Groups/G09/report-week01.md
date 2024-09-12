@@ -159,7 +159,7 @@ Après avoir créé la classe, on peut créer des instances de celle-ci et appel
 
 ### Quelles difficultés avez-vous rencontrées ?
 
-Au début, la navigation dans l'IDE Pharo était un peu déstabilisante,. J'ai également eu du mal à me familiariser avec la manière dont Pharo gère la création et la modification de classes par rapport à d'autres langages plus traditionnels.
+Au début, la navigation dans l'IDE Pharo était un peu déstabilisante. J'ai également eu du mal à me familiariser avec la manière dont Pharo gère la création et la modification de classes par rapport à d'autres langages plus traditionnels.
 
 ### Comment avez-vous trouvé ces informations ?
 
