@@ -1,4 +1,5 @@
-*Auteur MOUSSED-WERNITZ Dimos & GOOSSEN Guillaume*
+*Auteurs MOUSSED-WERNITZ Dimos & GOOSSEN Guillaume*  
+*Nous avons par ailleurs effectué la session de travail à 2 pour utiliser le principe du "Cerveau Collectif"*
 # Guillaume GOOSSEN
 ## Apprendre les collections dans Pharo et leurs itérateurs
 
@@ -150,7 +151,7 @@ http://rmod-pharo-mooc.lille.inria.fr/MOOC/PharoMOOC-Videos/FR/Week2/C019SD-W2-S
 Pour écrire un programme avec des classes et méthodes dans Pharo il suffit de créer une image sur Pharo, lancer le Playground et la magie opère.  
 'Nautilus' est utilisé pour l'écriture du code.  
 J'ai eu cette information car j'étais présent et attentif au premier cours ;)  
-Voici mon dépôt de mon compteur codé en Pharo :  
+Voici mon dépôt de mon compteur codé en Pharo :  https://github.com/DimosMssd/Mycounter.git
 
 Sources :  
 http://rmod-pharo-mooc.lille.inria.fr/MOOC/PharoMOOC-Videos/FR/Week1/C019SD-W1-S6-v3.mp4  
