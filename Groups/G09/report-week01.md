@@ -84,6 +84,10 @@ By using PharoLauncher, we can notice that, in fact, this method raises a warnin
 
 
 
+
+
+
+
 # Rapport sur les Tâches en Pharo fait par Salas Merzouk
 
 ## 1. Les collections dans Pharo et leurs itérateurs
@@ -92,10 +96,10 @@ By using PharoLauncher, we can notice that, in fact, this method raises a warnin
 Une collection en Pharo est une structure de données qui permet de stocker et de manipuler un groupe d'éléments. Les collections sont essentielles pour gérer des groupes d'objets dans un programme. Elles permettent de stocker, organiser, accéder et manipuler des données.
 
 ### Quels types de collections la bibliothèque standard de Pharo propose-t-elle ?
-Pharo propose plusieurs types de collections dans sa bibliothèque standard, comme les `OrderedCollection`, `Set`, `Array`, `Dictionary`, et bien d'autres. Chaque type a des propriétés spécifiques. Par exemple, un `Set` ne contient pas de doublons, tandis qu'une `OrderedCollection` conserve l'ordre d'ajout des éléments.
+Pharo propose plusieurs types de collections dans sa bibliothèque standard, comme les OrderedCollection, Set, Array, Dictionary, et bien d'autres. Chaque type a des propriétés spécifiques. Par exemple, un Set ne contient pas de doublons, tandis qu'une OrderedCollection conserve l'ordre d'ajout des éléments.
 
 ### Comment itérer sur les collections et quelles sont les différences entre ces méthodes ?
-En Pharo, on peut itérer sur les collections avec des méthodes comme `do:`, `collect:`, `select:`, `reject:`, et `detect:`. Par exemple, `do:` applique un bloc à chaque élément de la collection, tandis que `collect:` retourne une nouvelle collection transformée par un bloc de code. Chaque méthode d'itération a des caractéristiques différentes selon le besoin : certaines créent une nouvelle collection, d'autres modifient la collection existante.
+En Pharo, on peut itérer sur les collections avec des méthodes comme do: , collect, select:, reject:, et detect:. Par exemple, do: applique un bloc à chaque élément de la collection, tandis que collect: retourne une nouvelle collection transformée par un bloc de code. Chaque méthode d'itération a des caractéristiques différentes selon le besoin : certaines créent une nouvelle collection, d'autres modifient la collection existante.
 
 ### Comment avez-vous trouvé ces informations ?
 J'ai trouvé ces informations en recherchant sur internet.
@@ -115,7 +119,7 @@ myCollection do: [ :each | Transcript show: each printString; cr ].
 
 ### Comment écrire des conditionnelles dans Pharo ?
 
-En Pharo, les conditionnelles se font principalement avec des méthodes comme `ifTrue:`, `ifFalse:`, et `ifTrue:ifFalse:`. Par exemple, une expression conditionnelle typique peut être :
+En Pharo, les conditionnelles se font principalement avec des méthodes comme ifTrue:, ifFalse:, et ifTrue:ifFalse:. Par exemple, une expression conditionnelle typique peut être :
 
 ```smalltalk
 `a > b ifTrue: [ 'a est plus grand' ] ifFalse: [ 'b est plus grand' ].
@@ -123,7 +127,7 @@ En Pharo, les conditionnelles se font principalement avec des méthodes comme `i
 
 ### En quoi cela diffère-t-il des autres langages de programmation ?
 
-Contrairement à des langages comme Java ou Python où les conditionnelles utilisent des mots-clés (`if`, `else`), en Pharo, les conditionnelles sont des envois de messages à des objets booléens (`true` et `false`). 
+Contrairement à des langages comme Java ou Python où les conditionnelles utilisent des mots-clés (if, else), en Pharo, les conditionnelles sont des envois de messages à des objets booléens (true et false). 
 
 ### Avantages et inconvénients de cette approche
 
@@ -149,7 +153,7 @@ a > b ifTrue: [ Transcript show: 'a est plus grand'; cr ] ifFalse: [ Transcript 
 
 ### Comment écrire un petit programme avec des classes et méthodes en Pharo ?
 
-En Pharo, on crée des classes dans l'IDE via le navigateur de classes. Chaque classe peut avoir des méthodes définies à l’intérieur. Par exemple, pour créer une classe `Personne` avec une méthode `nom`, on définit la classe et la méthode comme suit :
+En Pharo, on crée des classes dans l'IDE via le navigateur de classes. Chaque classe peut avoir des méthodes définies à l’intérieur. Par exemple, pour créer une classe Personne avec une méthode nom, on définit la classe et la méthode comme suit :
 
 Après avoir créé la classe, on peut créer des instances de celle-ci et appeler ses méthodes.
 
@@ -189,5 +193,8 @@ result := 0.
 ```
 
 Dans cet exemple, les méthodes sont trop longues et pourraient être décomposées en plusieurs petites méthodes plus lisibles.
+
+
+
 
 
