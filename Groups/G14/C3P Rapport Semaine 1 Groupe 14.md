@@ -100,7 +100,9 @@ MyClass >> fetchAndDisplayData
 
 #### Pouvez-vous en apprendre plus sur les cascades et les fermetures de blocs ?
 
-#### Comment l'abordez-vous ?  
+On peut percevoir les blocs comme des fonctions anonymes. J'ai aussi consulter la vidéo concernant les blocs et effectuer des essais dans le playground
+#### Sources : 
+- http://rmod-pharo-mooc.lille.inria.fr/MOOC/PharoMOOC-Videos/FR/Week2/C019SD-W2-S6-v2.mp4
 
 # Dimos MOUSSED-WERNITZ  
 ## Les collections dans Pharo et leurs itérateurs  
