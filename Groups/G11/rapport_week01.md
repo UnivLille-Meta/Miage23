@@ -26,11 +26,11 @@ Pharo possède plusieurs règle à suivre tels que mettre une majuscule pour com
 Pharo nous montre automatiquement les parties du code qui enfreignent une règle et nous montre la règle enfreinte.
 
 Pour donner un exemple simple : 
-
+```
 Nomdemethod
   "commentaire"
   instruction
-
+```
 Dans cette exemple le nom de la méthode n'est pas valide.
 
 ### Extras
