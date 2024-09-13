@@ -185,11 +185,11 @@ exemple:
 | list |
 list := OrderedCollection new.
 list add: 'Example'.
-list isEmpty
-    ifTrue: [ Transcript show: 'The list is empty'; cr ]
-    ifFalse: [ Transcript show: 'The list contains elements'; cr ].
+list isEmpty  
+    ifTrue: [ Transcript show: 'The list is empty'; cr ]    
+    ifFalse: [ Transcript show: 'The list contains elements'; cr ].  
 
-I found this information in 
+I remember this information from last year 
 ## Learn how to create classes and methods
 
  To create a new class and methods, I used the System Browser. Here's an example of how I created a Counter class with methods for incrementing and decrementing a count: 
@@ -238,4 +238,84 @@ Block closures  are blocks of code  in [], which can be passed as arguments to m
 
 [ :x | x + 1 ] value: 22.  
   
-# Meryem 
+# Meryem EL KOURAICHI
+
+## What is a collection and what is it used for?
+
+En Pharo, une collection est un concept fondamental en programmation orientée objet. Il s'agit d'une structure de données utilisée pour stocker et gérer un groupe d'objets. Les collections simplifient la manipulation de plusieurs objets et offrent une variété de méthodes pour accéder, modifier et itérer sur ces objets.
+
+## What kind of collections does Pharo standard library provide?
+
+La bibliothèque standard de Pharo fournit plusieurs types de collections, chacun avec des caractéristiques et des cas d'utilisation spécifiques :
+
+- **Array** : une collection de taille fixe, chaque élément de la collection est indexé par un entier en commençant par 1. Voilà comment on peut créer un tableau `tab` :
+
+  ```pharo
+  | tab |
+  tab := #(1 2 3).
+
+- **OrderedCollection** : une collection que l'on peut redimmensionner en ajoutant et/ou en retirant des éléments de celle ci:
+ voilà comment on peut initialiser une `OrderedCollection` :
+
+     ```pharo
+    | maCollection |
+    maCollection := OrderedCollection new add: 1; add: 2; add: 3; yourself.
+     ```
+
+`yourself` ici sert à renvoyer la collection elle même après l'avoir créé et avoir ajouté les éléments dans celle-ci, ce qui permet d'assigner la collection modifiée à la variable maCollection
+
+- **Dictionnary** : une collection de paires clé-valeur, le principe ressemble à celui que l'on retrouve pour d'autres langages de programmation comme java.
+
+    ```pharo
+    | dict |
+    dict := Dictionary new.
+    dict at: 'nom' put: 'ElKouraichi'; at: 'âge' put: 23.
+    ```
+
+- **Set** : correspond à une collection non ordonnée qui ne permet pas d'avoir des éléments dupliqués
+
+## How do you iterate collections and what are differences between them?
+
+Pour itérer sur les collections, on peut utiliser do: qui éxecute un bloc de code pour chaque élément du tableau, dans l'exemple suivant, pour chaque élément du tableau s'ajoute le chiffre 1 .
+
+```pharo
+    tab1 do: [:each | each +1 ]
+```
+
+Le résultat est donc :  #(2 3 4)
+
+On peut également utiliser collect: qui fait la même chose que do: sauf que collect: renvoie une nouvelle liste qu'il faudra donc assigner à une variable.
+
+On peut également utiliser select: qui sert à filtrer les éléments d'une collection qui vérifient une condition donnée , select: renvoie une nouvelle collection :
+
+```pharo
+    |tab2 |
+    tab := #(1 2 3).
+    tab2 := tab select: [:each | each even ]
+```
+
+ce code testé donne le résultat : #(2)
+
+J'ai retrouvé ces informations dans mes notes de cours de L3 meta, j'avais fait ces notes en regardant les vidéos du mooc et à partir des tps, notamment le tp jeu de dés .
+
+How do you write conditionals in Pharo?
+En pharo, les conditionnels sont écrits à l'aide du mot-clé `ifTrue:ifFalse`: 
+exemple : 
+
+```pharo
+| nombre |
+nombre := 5.
+ (nombre > 3) ifTrue: ['Nombre est supérieur à 3'] ifFalse: ['Nombre pas supérieur à 3'].
+ ```
+ résultat de l'éxecution de ce code : Nombre est supérieur à 3
+
+## What is different from other programming languages? 
+
+La syntaxe des conditionnels en Pharo est souvent plus concise et expressive, ce qui peut rendre le code plus lisible.
+
+- En Pharo, les conditionnels sont gérés par l'envoi de messages à des objets, plutôt que par des instructions if-else des langages comme C ou Java. Par exemple, (nombre > 3) est une expression qui retourne un objet Boolean, et ifTrue:ifFalse: envoie un message à cet objet pour déterminer quel bloc exécuter.
+
+## Pharo methods are usually small and readable. What rules are common to follow?
+
+les règles à suivre sont :  
+- le principe de responsabiloté unique :  chaque méthode doit accomplir une seule tâche spécifique, ce qui rend les méthodes plus facile à comprendre et maintenir.
