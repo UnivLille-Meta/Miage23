@@ -151,13 +151,13 @@ GoldStandard >> objective [
 WheyPro >> objective [
 	^ 'gain muscle'
 ] ```
-```
-| instances results |
+
+```| instances results |
 instances := { Mass new . SeriousMass new . Whey new . GoldStandard new . WheyPro new }.
 results := instances collect: [ :each | each type ].
 results.
 ```
-i found the expected result 
+	I found the expected result 
 
 
 
