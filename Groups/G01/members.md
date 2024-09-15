@@ -1,3 +1,3 @@
-SORO 		WAGNAN		x.y.etu
-ADEOYE 	IKIMATH 		
-BOUKHARS 	OUASSILA		
+- SORO 		WAGNAN	`wagnan.soro.etu@univ-lille.fr`
+- ADEOYE 	IKIMATH `ikimath.adeoye.etu@univ-lille.fr`
+- BOUKHARS 	OUASSILA `ouassila.boukhars.etu@univ-lille.fr`
