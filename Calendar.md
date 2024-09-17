@@ -2,12 +2,12 @@
 
 - 01 Week: 05-06 Sep Test introduction
 - 02 Week: 12-13 Sep OOP refresh
-- 03 Week: 19-20 Sep Reverse engineering
+- 03 Week: 19-20 Sep Reverse engineering 
 - 04 Week: 26-27 Sep Test Quality
-- 05 Week: 03-04 Oct Hook and templates 
-- Examen la semaine 06, amphi à confirmer
+- 05 Week: 03-04 Oct Hook and templates (Gabriel)
+- 06 WeekL Vendredi 11 Oct - Examen Salle B12, B13 (Gabriel)
 - 17-18 Oct Pas de cours
-- 07 Week: 24-25 Double dispatch
+- 07 Week: 24-25 Double dispatch (Gabriel)
 Break 31-1 Nov
 
 - 08 Week 07-08 Nov Visitor
