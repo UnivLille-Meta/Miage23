@@ -4,12 +4,15 @@
   
 ## PAWLOWSKI Florine 
 ### exercices 
-En suivant les videos M1-1 j'ai vu comment implémenter |, or: et not en fonction des objets False et True qui héritent de Boolean. 
+En suivant les videos M1-1 j'ai vu comment implémenter |, or: et not en fonction des objets False et True qui héritent de Boolean, il faut créer des méthodes pour chaque classe True ou False en fonction des paramètres qu'on donne. 
 Pour la partie lookup avec self et super, j'ai testé avec quelques implémentations de classes sur ce repo : https://github.com/PawlowskiFlo/C3P/tree/main/week2
 self == super est vrai car pointe sur le même objet. 
 
 ### Homeworks 
+J'ai fait les exercices sur le Dice qui sont aussi dans le package week2: 
+https://github.com/PawlowskiFlo/C3P/tree/main/week2
 
+ça m'a permis de comprendre plusieurs principes comme utiliser des classes externes à un package (ex avec Integer), mais aussi de mettre en pratique l'itération sur une collection, l'utilisation de l'opérateur + sur 2 objets qui ne sont pas forcément des nombres, faire des tests à répétition avec des nombres random et développer DSL. 
 
 
 ## LIETARD Evann 
