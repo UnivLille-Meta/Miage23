@@ -55,4 +55,8 @@ J'ai aussi profité de ma semaine pour :
 **Rapport**
 
 - J'ai fait un issue à pharo pour un problème dû à un chargement qui ne marche pas lorsque la page setting est ouverte.
-- J'ai choisi comme kata "Fuzz the board"
+- J'ai installé le dépôt du jeu sur ma machine.
+- J'ai choisi comme kata "Add pawn promotion" après avoir regarder le "kata Fuzz the board" et mettre documenté sur le fuzzing.
+- J'ai commencé à analyser le code pour voir où faire le systéme de promotion et comment dans le code de la classe du pion.
+- J'ai commencé quelque tests.
+- J'ai regardé les poly des cours de cette semaine et de la semaine dernière.
