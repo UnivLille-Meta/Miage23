@@ -11,7 +11,7 @@ Essence of dispatch is :
 ## Write small code examples 
 
 For the examples ,I think about how to implement some boolean methods (or: , ifTrue:ifFalse:, |)
-To implement the booleans methods , we have to implement them in class True and also in class False. Each class have this own definition.
+To implement the booleans methods , we have to implement them in class True and also in class False. Each class have his own definition.
 So depend to the receiver , the right method is called .
 
 False >> or: aBlock
