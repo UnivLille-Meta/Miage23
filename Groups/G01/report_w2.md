@@ -1,4 +1,4 @@
-> ## _Partie Wagnan SORO_
+## _Wagnan SORO_
 
 > ### _Practice message dispatch_
 
@@ -90,14 +90,37 @@ Ces differentes informations ont été trouvées dans les vidéos du Module 1 di
 > c'est-à-dire s'assurer que 9 reines sont placées sur l'échiquier sans se menacer mutuellement lors du jeu.Cela repond bien au soucis du refactoring
 
 
-## _Partie Boukhars Ouassila_
+## _Ouassila Boukhars_
 
 
-### Practice message dispatch
+> ### Practice message dispatch
 
-#### Write small code examples challenging your knowledge about dispatch. Did the examples work as expected?How can you correct your assumptions and how did you find this information?
+> #### Write small code examples challenging your knowledge about dispatch. Did the examples work as expected?How can you correct your assumptions and how did you find this information?
 
 Yes, the examples work as expected, The class GameCase, BonusCase, GoldenCase and NormalCase are a part of a game
 where each has its own behavior for distribute points.I didn't expected something different for what I get because
 the method addPoints is correctly dispatched to the appropriate subclass( BonusCase, GoldenCase and NormalCase).
 Here you can find the depository of the package GameCase : https://github.com/ouassilaBkrs/C3P-pharo/tree/main/MyGameCase
+
+
+## _Ikimath Adeoye_
+
+> ### Practice message dispatch
+
+To challenge my knowledge of dispatch, I created different vehicle types (Car, Bike). These vehicle types naturally inherit methods from Vehicle, such as tracking how many times the vehicle has been rented (nbRentals) and checking if the vehicle has reached its rental limit (checkMaximumRental). I also used the State Design Pattern to manage transitions between various states: AvailableState, RentedState, and OutOfServiceState.
+
+For the state transitions, I created a VehicleState superclass. In this class, common methods like rented, available, and outOfService are declared, which are then implemented differently by each specific state (AvailableState handles rented differently than RentedState). This ensures that each state can respond to vehicle actions in its own way while maintaining a shared structure.
+
+This mini-project is based on a Java project I completed last year, which simulated the rental of different types of vehicles stationed at various locations. That project involved several design patterns, but the one I tried to replicate here is the State Design Pattern.
+
+>> ### Question 
+
+One thing that I'm not really sure about is using the assertion:
+
+```
+self assert: (ferrari state isKindOf: OutOfServiceState)
+
+```
+to check if the state of the vehicle is the one expected.
+
+**Here is the repository link of my work:** https://github.com/IkiAde/M1_MIAGE/tree/master/Week02_Homework
