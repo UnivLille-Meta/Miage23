@@ -93,9 +93,9 @@ Ces differentes informations ont été trouvées dans les vidéos du Module 1 di
 ## _Partie Boukhars Ouassila_
 
 
-###Practice message dispatch
-####Write small code examples challenging your knowledge about dispatch. Did the examples work as expected?
-#####How can you correct your assumptions and how did you find this information?
+### Practice message dispatch
+
+#### Write small code examples challenging your knowledge about dispatch. Did the examples work as expected?How can you correct your assumptions and how did you find this information?
 
 Yes, the examples work as expected, The class GameCase, BonusCase, GoldenCase and NormalCase are a part of a game
 where each has its own behavior for distribute points.I didn't expected something different for what I get because
