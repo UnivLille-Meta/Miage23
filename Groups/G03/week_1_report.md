@@ -9,7 +9,7 @@
 	at: 2 put: 'Stephanie';
 	at: 3 put: 'Anne-Elisabeth')
 ```
-We coiuld do the same operation with a literal approch with `#('Bercy','Stephanie',...)`
+We could do the same operation with a literal approch with `#('Bercy','Stephanie',...)`
 
 - Iterators are used to navigate/ transform/ and modify collections
 
@@ -36,8 +36,81 @@ age := 13.
 
 ```
 
+# Classess and Methods
+
+- A class is like a preform for creating objects. each object created from a class is called an instance of that class.
+- Methods are actions each object can perform
+
+```pharo
+"Classe Counter"
+	Object << #Counter
+	slots: { #count };
+	package: 'MyCounter'
+
+"Method 1 Increment"
+	increment 
+
+	count := count + 1
+
+"Method 2 decrement"
+	decrement
+	count := count - 1
+"Using Counter Increment and Decrement with TDD Tests "
+
+	testIncrement
+
+	|c|
+	c:= Counter new.
+	c count: 25.
+	c increment .
+	self assert: c count equals: 26
+
+
+"-------------------------------------------------------"
+	testDecrement
+	
+	|c|
+	c:= Counter new.
+	c count: 25.
+	c decrement.
+	self assert: c count equals: 24
+
+```
+#Image Reference
+
+Package
+![image](https://github.com/user-attachments/assets/7f0765fc-2ac0-46a3-aee2-e477f9e609bf)
+![image](https://github.com/user-attachments/assets/d985a608-46e6-472b-9d13-e31be9ceda1c)
+![image](https://github.com/user-attachments/assets/6a173dd6-a205-4846-8364-a741619ab3f9)
+![image](https://github.com/user-attachments/assets/9e572da4-9f1c-4102-9b84-a313907cf546)
+![image](https://github.com/user-attachments/assets/fe7d09f8-d343-409c-ae03-4d1733b3f0cc)
+
+#Playground
+
+``` pharo
+
+	| student f m l s msg |
+	f := 'Stephanie'.
+	m := 'Anne-Elisabeth'.
+	l := 'BERCY'.
+	msg := 'Le nom de student nest pas complet.'.
+	student := {f. m. l}. 
+	
+	"Vérifier que student a 3 éléments"
+	s := student size.
+	Transcript open.
+	
+	(s = 3) ifTrue: [
+	    student do: [:element | Transcript show: element; cr]
+	] ifFalse: [
+	    Transcript show: msg; cr
+	].
+
+
+```
+
 # Summary
 
 Everything in Pharo is Object and actions are done via messages
 
-- This information was found by watching the MOOC on youtube 
+- This information was found by watching the MOOC on youtube, by following the PDFs and profStef Tutorials in Pharo.
