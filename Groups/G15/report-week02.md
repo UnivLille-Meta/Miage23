@@ -41,5 +41,7 @@ True >>|aBoolean
 I also do the DSL exercise => https://github.com/adama-coundoul/MyCounter. 
 We have here the exemple of roll method which is implemented in class DieHandle and Die.
 
+* self == super is true because its the same receiver.
+
 
 
