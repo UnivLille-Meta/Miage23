@@ -103,3 +103,203 @@ accepteReparateur: reparateur
 ^ reparateur repareVoiture: self.
 ```
 Cela permet alors de conclure que le double dispatch permet d'étendre facilement les véhicules. On pourrait facilement ajouter des motos ou d'autres véhicules. Cela respecte le principe ouvert aux extensions mais fermé aux modifications (**open/closed principle**).
+
+## ANDRIAMBELOMAHERY SAM-Y MAGGY :
+
+## Conditions/ Boucles/ expressions booléennes
+
+checkAge: age
+(self isAdult: age)
+ifTrue: [ ^ 'Vous êtes adultes' ].
+
+    age > 12
+        ifTrue: [ ^ 'Vous êtes adolescents' ].
+
+    ^ 'Vous êtes enfant'.
+
+| x |
+x := Evaluation new.
+x checkAge: 23.
+return
+Vous êtes adultes
+
+Ensuite j’ai fait
+showNumber: n
+1 to: n do: [:i |
+i even
+ifTrue: [
+Transcript
+nextPutAll: i printString; nextPutAll: ' est pair'; cr]
+ifFalse: [
+Transcript
+nextPutAll: i printString; nextPutAll: ' est impair'; cr]].
+
+| x |
+x := Evaluation new.
+x showNumber: 23.
+
+mais ça me retounr toujours self.et je ne comprends pas.
+
+## OOP
+
+Un design monolithique siginifie que tout système repose sur une seule structure unifiée.
+Et là on va voir le “système rigide” vers une solution plus flexible.
+Et ils sont souvent faciles à démarer mais difficile à maintenir après. Du coup les microservices ou systèmes modulaires sont mieux adaptés.
+
+Self en pharo est équivaux à this en java. Ils permettent de faire réferencier à l’objet actuel dans lequel le code est exécuté (de travailler avec ses attributs et méthodes).
+
+### Constructor
+
+Voici une exemple de constructeur:
+humain: nam age: ag
+| h |
+h := self class new.
+h name: nam.
+h age: ag.
+^ h
+
+ou bien
+
+identityHuman: niv parcours: parc
+| h |
+h := self class new.
+h niveau: niv.
+h parcours: parc.
+^ h
+
+| x |
+x := Humain new.
+x identityHuman: 'M1' parcours: 'MIAGE'.
+
+### NotExample
+
+l’opérateur not est utilisé pour inverser les booléens
+
+ex:
+|| isStudent |
+isStudent := true.
+(isStudent not)
+ifFalse: [ 'This person is a student.' ]
+ifTrue: [ 'This person is not a student.' ].
+
+result:
+This person is a student.
+
+[faux + faux => true] et [faux + vrai => faux]
+
+### Dispatch
+
+Le concept du dispatch est “comment l’objet décide de répondre aux messages (via méthode) que je lui envoie?”
+
+Pour voir une exemple basique, on va créer une méthode “introduce” pour présenter une personne
+ex:
+introduce: string
+^ 'je me présente: ', string
+
+| x |
+x := Humain new.
+x introduce: 'Maggy'.
+result:
+je me présente: Maggy
+
+ou bien
+speak
+^ 'Hii guys! '
+
+| x |
+x := Humain new.
+x speak.
+Result:
+Hii guys!
+
+### Inheritance
+
+En associant le dispatch avec l’héritage, les sous classes bénéficent des méthodes définies dans les super-classes.
+
+Il y a plusieurs formes d’héritages,
+Voyant tout d’abord avec le
+
+- hériage simple (classe enfant hérite d'une classe parent)
+  Humain << #Woman
+
+specify
+^ 'Je suis une fille '
+
+playground:
+| x |
+x := Woman new.
+x specify.
+Result:
+Je suis une fille
+
+et si
+x speak.
+Result:
+Hii guys!
+
+- Surcharge (redéfinition d’une méthode)
+  ou on le connaît aussi sous le nom polymorphisme [Liaison tardive] permettant une grande flexibilité dans le code
+  Du coup si on surcharge speak dans Woman:
+  speak
+  ^ 'Bonjour tout le monde! Je suis une fille '
+
+le reulst sera :
+Bonjour tout le monde! Je suis une fille  
+avec
+x speak.
+
+- héritage multiple
+  malheuresment il n’y a pas d’héritage multiple
+
+- héritage multiniveau
+  Pour mieux le comprendre on va s’orienter sur 3 classes: A, B et C.
+  A a deux méthode: 1) foo => foo retourne 10 2) bar => self foo
+
+B n’a pas de méthode
+et C a une méthode foo qui retourne 50
+
+Tout les petits exercices pour mieux comprendre les héritages (classe A, B, et C) pour super et self ; et pour plus d’illustration [lien github week2](https://github.com/s-mgy/c3p)
+
+Il y a 2 étapes lorsqu’il un objet recoit un message:
+
+1. la recherche (ou lookup en anglais) [Si la classe ne trouve pas ce qu’il cherche, ça va dans les super-classes et ainsi de suite.]
+2. la méthode d’exécution
+
+_le lookup s’arrete dès qu’il a trouvé ce qu’il cherche_
+
+### Recursion
+
+Ce qui est bien à connaître aussi c’est concernant les recursions.
+2 éléments essentiels sur:
+
+1.  Cas de base (qui mets fin à la recursion)
+    somme: n
+
+        n = 0 ifTrue: [ ^ 0 ].
+
+        ^ n + (self somme: n – 1)
+
+    | x |
+    x := Evaluation new.
+    x somme: 5.
+
+return:
+15
+
+2.  Cas récursif (fonction où elle s’appelle elle même)
+    ex:
+    factoriel: n
+
+        ^ n <= 1
+        	ifTrue: [ 1 ]
+        	ifFalse: [ n * (self factoriel: n - 1 ) ].
+
+| x |
+x := Evaluation new.
+x factoriel: 5.
+return:
+120
+
+self c’est la classe (objet) qui fait la recherche.[ qui a fait genre l’init de l’appel]. Self represente toujours le receiver.
+Contrairement à super qui cherche directement dans la super-classes
+
