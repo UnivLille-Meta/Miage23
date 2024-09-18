@@ -14,6 +14,9 @@ https://github.com/PawlowskiFlo/C3P/tree/main/week2
 
 ça m'a permis de comprendre plusieurs principes comme utiliser des classes externes à un package (ex avec Integer), mais aussi de mettre en pratique l'itération sur une collection, l'utilisation de l'opérateur + sur 2 objets qui ne sont pas forcément des nombres, faire des tests à répétition avec des nombres random et développer DSL. 
 
+Pour le dispatch j'ai regardé les vidéos du mooc, mais pour mieux comprendre j'ai demandé à Julien Conoir qui avait fait META en option l'année dernière et qui m'a conseillée de faire la fiche d'exercice sur le dispatch pour mieux comprendre et qui reprend l'implémentation du Dice. 
+J'ai donc mis en place quelques nouvelles méthodes pour le dispatch (voir repo week2). En fait ça permet de ne pas utiliser de conditions, en effet quand on a que quelques cas à traiter ce n'est pas génant (par exemple additioner un Die et un DieHandle) mais si on veut pouvoir additioner d'autres Objets le dispatch est bien plus pratique et orienté Objet (c'est l'objet qui a la responsabilité). C'est aussi intéressant en terme de lisibilité de code, ça permet de faire plusieurs méthodes plus simples et plus lisibles.  
+
 
 ## LIETARD Evann 
 
