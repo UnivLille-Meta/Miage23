@@ -15,9 +15,9 @@ Puis l'autre point se cachant derrière la hiérarchie de classes ( l'héritage 
 
 ### Exemple de code en Pharo 
 
-Imaginons qu'on implémente un système où chaque objet peut être un animal qui émet un son. Nous allons utiliser la répartition dynamique pour éviter d'utiliser des if ou case.
+Imaginons qu'on implémente un système où chaque objet peut être un animal qui émet un son. Nous allons utiliser la répartition dynamique pour éviter d'utiliser des if ou case.  
 
-* Définition des classes et méthodes
+* Définition des classes et méthodes  
 Nous avons donc la classe Animal abstraite qui par defaut correspond a un animal muet. Si une classe ne redefinit donc pas la methode speak, c'est qu'il est muet. Et toutes les classes qui redefiniront la methode speak auront un son personnel.
 
 ```
@@ -53,8 +53,8 @@ Animal << #Giraffe
 	package: 'Homework2'
 ```
 
-* Test du comportement
-Ensuite, nous pouvons tester en leur envoyant le message speak.
+* Test du comportement  
+Nous pouvons maintenant tester, en leur envoyant le message speak.  
 ![dog](dog.png)  
 ![cow](cow.png)  
 ![giraffe](giraffe.png)  
