@@ -15,21 +15,27 @@ To implement the booleans methods , we have to implement them in class True and 
 So depend to the receiver , the right method is called .
 
 False >> or: aBlock
+
   ^ aBlock value.
 
 True >> or: aBlock
+
   ^ true
 
 True >> ifTrue: trueBlock ifFalse: falseBlock
+
    ^ trueBlock value.
 
-False >> ifTrue: trueBlock ifFalse: falseBlock                                                 
+False >> ifTrue: trueBlock ifFalse: falseBlock   
+
    ^ falseBlock value.
 
-False >> | aBoolean                             
+False >> | aBoolean 
+
   ^ aBoolean
 
 True >>|aBoolean
+
    ^ true
 
 I also do the DSL exercise => https://github.com/adama-coundoul/MyCounter. 
