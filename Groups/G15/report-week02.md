@@ -21,15 +21,15 @@ True >> or: aBlock
   ^ true
 
 True >> ifTrue: trueBlock ifFalse: falseBlock
-  ^ trueBlock value.
+   ^ trueBlock value.
 
-False >> ifTrue: trueBlock ifFalse: falseBlock
-  ^ falseBlock value.
+False >> ifTrue: trueBlock ifFalse: falseBlock                                                 
+   ^ falseBlock value.
 
- False >> | aBoolean                             
-   ^ aBoolean
+False >> | aBoolean                             
+  ^ aBoolean
 
- True >>|aBoolean
+True >>|aBoolean
    ^ true
 
 I also do the DSL exercise => https://github.com/adama-coundoul/MyCounter. 
