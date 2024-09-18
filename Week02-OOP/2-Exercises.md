@@ -7,3 +7,8 @@ To practice the OOP concepts we reviewed today, here are some exercises you can 
 - Do a pass on the lookup exercises from the slides. Do you get the correct result? Do you understand why? Try arriving until the cases with `super` sends.
 
 - Think about what does `self == super` return. Remember that `==` is the identity comparison, returning true if the compared objects are *the same* object
+
+You can do one or two of the following exercises:
+
+- Flags.pdf in the resources folder 
+- DSL http://rmod-pharo-mooc.lille.inria.fr/MOOC/PharoMOOC/Week3/Exo-DSL-V2.pdf
