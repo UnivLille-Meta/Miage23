@@ -182,16 +182,83 @@ results.
 
 	Animal  << #Dog
 	slots: {};
-	package: 'Dispatch' ```   
+	package: 'Dispatch'   
+
+ ``` 
 
 - J'ai ensuite tésté dans le playground avec  :
-	 ```| animal1 animal2 |
+	 ```
+	 | animal1 animal2 |
 		animal1 := Dog new.
 		animal2 := Cat new.
 
 		Transcript show: (animal1 speak); cr.  
-		Transcript show: (animal2 speak); cr.  ```  
+		Transcript show: (animal2 speak); cr.  
+	```  
 
-	
   - Les exemples on marché comme prévu. 
 
+# EL JISR Karim 
+
+## Essence of Dispatch: Booleans
+- Les messages en Pharo utilisent le late binding pour déterminer dynamiquement la méthode à exécuter.
+- Les opérations comme not et | sont gérées par des méthodes spécifiques dans les classes True et False, exploitant l'héritage pour éviter les conditionnels explicites.
+
+## Essence of Dispatch: Let the Receiver Decide
+- L'envoi de messages permet de choisir dynamiquement le comportement en fonction de la classe de l'objet récepteur.
+
+## Inheritance Basics
+Héritage : Permet de réutiliser et personnaliser le code en étendant les classes sans duplication.
+Aspects de l'Héritage :
+- Statique : Les variables d'instance sont héritées au moment de la définition des classes.
+- Dynamique: La recherche de méthodes se fait à l'exécution, en explorant la hiérarchie des classes.
+
+## Inheritance and Lookup: Self
+- Lookup de Méthode : Commence dans la classe de l'objet et continue dans les superclasses si nécessaire.
+- self : Représente l'objet récepteur du message, permettant d'accéder à ses méthodes et variables.
+
+## About Super
+- super : Modifie le point de départ de la recherche de méthode en débutant dans la classe parente immédiate, contrairement à self qui fait référence à l'objet récepteur.
+Différences avec self :
+- self est dynamique
+- super est statique
+
+## Homework
+
+Nous avons deux classes Vehicle et Car. La voiture hérite du véhicule, mais elle a son propre comportement pour la méthode action.
+
+Object subclass: #Vehicle
+    instanceVariableNames: ''.
+
+Vehicle >> action
+    ^ 'Normal Action'.
+
+Object subclass: #Car
+    instanceVariableNames: ''.
+
+Car >> action
+    ^ 'Vroom Vroom!'.
+
+| myVehicle myCar |
+myVehicle := Vehicle new.
+myCar := Car new.
+
+myVehicle action.  "Attendu : 'Normal Action'"
+myCar action.     "Attendu : 'Vroom Vroom!'"
+
+Maintenant, je vais tester une situation où une méthode n'est définie que dans la superclasse, mais est appelée sur une instance de la sous-classe.
+
+Object subclass: #Bike
+    instanceVariableNames: ''.
+
+| myBike |
+myBike := Bike new.
+myBike action.  "Attendu : 'Normal Action'"
+
+Je vais maintenant tester une redéfinition de méthode qui utilise super pour appeler la méthode de la superclasse.
+
+Car >> action
+    ^ super action, ' and now the car is driving fast!'.
+
+myCar := Car new.
+myCar action.  "Attendu : 'Normal Action and now the car is driving fast!'"
