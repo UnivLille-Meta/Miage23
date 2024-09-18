@@ -227,38 +227,44 @@ Différences avec self :
 
 Nous avons deux classes Vehicle et Car. La voiture hérite du véhicule, mais elle a son propre comportement pour la méthode action.
 
-Object subclass: #Vehicle
-    instanceVariableNames: ''.
+```
+	Object subclass: #Vehicle
+    	instanceVariableNames: ''.
 
-Vehicle >> action
-    ^ 'Normal Action'.
+	Vehicle >> action
+    	^ 'Normal Action'.
 
-Object subclass: #Car
-    instanceVariableNames: ''.
+	Object subclass: #Car
+    	instanceVariableNames: ''.
 
-Car >> action
-    ^ 'Vroom Vroom!'.
+	Car >> action
+    	^ 'Vroom Vroom!'.
 
-| myVehicle myCar |
-myVehicle := Vehicle new.
-myCar := Car new.
+	| myVehicle myCar |
+	myVehicle := Vehicle new.
+	myCar := Car new.
 
-myVehicle action.  "Attendu : 'Normal Action'"
-myCar action.     "Attendu : 'Vroom Vroom!'"
+	myVehicle action.  "Attendu : 'Normal Action'"
+	myCar action.     "Attendu : 'Vroom Vroom!'"
+``` 
 
 Maintenant, je vais tester une situation où une méthode n'est définie que dans la superclasse, mais est appelée sur une instance de la sous-classe.
 
-Object subclass: #Bike
-    instanceVariableNames: ''.
+```
+	Object subclass: #Bike
+    	instanceVariableNames: ''.
 
-| myBike |
-myBike := Bike new.
-myBike action.  "Attendu : 'Normal Action'"
+	| myBike |
+	myBike := Bike new.
+	myBike action.  "Attendu : 'Normal Action'"
+```
 
 Je vais maintenant tester une redéfinition de méthode qui utilise super pour appeler la méthode de la superclasse.
 
-Car >> action
-    ^ super action, ' and now the car is driving fast!'.
+```
+	Car >> action
+    	^ super action, ' and now the car is driving fast!'.
 
-myCar := Car new.
-myCar action.  "Attendu : 'Normal Action and now the car is driving fast!'"
+	myCar := Car new.
+	myCar action.  "Attendu : 'Normal Action and now the car is driving fast!'"
+```
