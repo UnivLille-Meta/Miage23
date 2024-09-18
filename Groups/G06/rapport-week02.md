@@ -161,4 +161,37 @@ results.
 
 
 
+# MOULOUEL Tarik 
+
+ - Pour ce rapport, j'ai vu la video youtube qui expliquait l'opérateur ``` not ``` et l'opérateur ``` or ``` dans pharo, j'ai aussi fait des recherches sur le dispatch, j'ai pu comprendre que le dispatch fait référence au processus par lequel le systeme détermine quelle méthode doit etre executee lorsqu'une methode est appelee sur un objet. Le dispatch en Pharo est principalement dynamique (late binding), ce qui signifie que la méthode à exécuter est déterminée au moment de l'exécution en fonction du type réel de l'objet. par contre dans d'autres langages il y a aussi le dispatch statique ou la méthode est determinee au moment de la compilation .  
+ - j'ai aussi compris pourquoi self == super retourne true, en effet c'est parce que self fait référence à l'objet actuel qui reçoit le message, et super fait également reference au meme objet et donc comme self et super designent le même objet, la comparaison d identite == retourne true.
+
+- Pour tester le mécanisme du dispatch en Pharo j'ai essayé de code suivant : 
+
+ ```  
+ Object << #Animal
+		slots: {};
+	package: 'Dispatch'  
+
+	speak 
+	^ 'noiseee' .
+
+	Animal << #Cat
+	slots: {};
+	package: 'Dispatch' 
+
+	Animal  << #Dog
+	slots: {};
+	package: 'Dispatch' ```   
+
+- J'ai ensuite tésté dans le playground avec  :
+	 ```| animal1 animal2 |
+		animal1 := Dog new.
+		animal2 := Cat new.
+
+		Transcript show: (animal1 speak); cr.  
+		Transcript show: (animal2 speak); cr.  ```  
+
+	
+  - Les exemples on marché comme prévu. 
 
