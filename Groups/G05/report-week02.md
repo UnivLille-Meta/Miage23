@@ -2,9 +2,63 @@
 
 ## KHADIJA BESBAS 
 
+
+J'ai essayé d'implémenter la fonction nand directement dans la classe boolean de pharo.
+J'ai d'abord chercher ou se trouvait la classe : j'ai écrit "true" dans playground, et j'ai regardé à droite dans méta, j'ai clique droit sur la classe Boolean => Browse.
+J'ai d'abord ajouté la fonction nand dans Boolean de la facon suivante : 
+
+````
+Boolean >>> nand: alternativeBlock
+ self subclassResponsibility
+````
+
+Ensuite dans les deux autres classes, j'ai redéfinis la méthode : 
+
+````
+True >>> nand: alternativeBlock
+ ^ alternativeBlock value not
+````
+````
+False >>> nand: alternativeBlock
+ ^ true
+````
+
+J'ai voulu ensuite écrire des tests. Je n'ai pas trouvé ou été placé les autres classes de test ( étant donné que des tests existent pour les fonctions déjà implémenté ). J'ai donc fait clique doroit sur ma méthode, "jump to test method" et la j'ai pu écrire les tests corrspondants
+
+````
+True >>> testNand
+ self assert: (true nand: true) equals: false.
+ self assert: (true nand: false) equals: true.
+````
+````
+False >>> testNand
+ self assert: (false nand: [ 'alternativeBlock' ]) equals: true
+
+````
+
+Ainsi j'ai bien : 
+
+
+true nand: true. => false
+true nand: false. => true
+false nand: true. => true
+false nand: false. => true
+
+
+
+
+Cette semaine fias les choses suivantes : 
+ - Homework2
+ - réfléchis sur le travail à réaliser dans mon kata
+ - lu le diapo sur dispach
+ - relu le dispo sur le double dispach ( vu en meta ) pour comprendre la différence entre les deux 
+
+Je me suis poser les questions suivante :
+- Quels différences dans la réalisation des tests que j'ai fais, avec les tests dans une classe dédié ?
+
 ****
 
-# Cyril Godet
+## Cyril Godet
 
 Cette semaine, j'ai installé le dépôt du jeu d' échecs sur ma machine et choisi avec mon équipe les katas que nous allons faire.  
 J'ai choisi de prendre le kata **Restrict legal moves** puisque lorsque j'ai testé le jeu d'échecs, j'ai remarqué que l'on pouvait faire des coups qui sont interdits comme prendre le roi alors que le jeu doit s'arrêter lors que le roi est échec et mat.   
