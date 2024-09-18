@@ -125,7 +125,7 @@ Do you have a hunch? Check the surrounding code.
 ## Takeaways
 - Focused on the target and the task at hand
 - Ignore things not in focus, keep a log for later
-- You will probably ignored more things than those that you learn
+- You will probably ignore more things than those that you learn
 - Flow: High-level View => Usage => Implementation
 
 - Comments had important info: the why of the design
