@@ -3,7 +3,29 @@
 
 # Wassim ABOU DAHER
 
+ ## Message Dispatch Practice
 
+**Objective:** The goal was to practice message dispatch in Pharo by implementing and testing a class to handle different types of arguments using message dispatch mechanisms.
+
+1. Implementation:
+
+I created a class named DispatchHandler to demonstrate message dispatch. The class includes methods for multiplying numbers, concatenating strings, and handling various argument types. The dispatcher:and: method uses message dispatch to handle different cases based on the types of arguments provided.
+
+
+2. Testing:
+
+I wrote test cases to ensure that the class methods behave as expected. The tests check whether the multiplication of two numbers, concatenation of two strings, and unsupported cases return the correct results.
+
+3. Conclusion:
+
+The implementation met the expected behavior for handling different argument types. The multiplyTwoNumbers:and: method correctly returns the product of two integers, concatTwoStrings:and: returns the concatenated string, and dispatcher:and: handles unsupported cases as expected.
+
+Use of Conditionals: Initially, I used conditionals (ifTrue:) to determine which method to call based on argument types. However, I learned that message dispatch can often replace explicit conditionals. Each message sent can be seen as a form of conditional logic.
+I'm not sure but due to what i have read on stackoverflow this may be the solution.
+
+4. Code Repository:
+
+You can find the code and test cases I used in my GitHub repository: https://github.com/wassimAbouDaher/Dispatch.git
 
 # Meryem EL ELKOURAICHI
 
