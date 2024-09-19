@@ -1,3 +1,5 @@
+# Report Week 2 - Group 9
+
 # Salim TITOUCHE
 
 ## Introduction
@@ -67,7 +69,7 @@ _Figure 2 : Résultats d'Exécution._
 
 - [Lien vers le code sur GitHub](https://github.com/salim2607/MyCounter/tree/master/src/weeak-02)
 
-## conclusion 
+## Conclusion 
 
 
 **Les exemples ont-ils fonctionné comme prévu ?**
@@ -82,8 +84,9 @@ Dans certains cas, la gestion de `self` et `super` a révélé des nuances inatt
 
 Pour corriger les hypothèses, il est important de vérifier les méthodes redéfinies dans chaque classe et de tester différentes situations d'héritage pour comprendre comment `self` et `super` interagissent. La documentation de Pharo et les résultats des tests pratiques ont été cruciaux pour ajuster les attentes. Les exemples pratiques et les lectures sur la gestion des messages en Pharo ont aidé à clarifier ces concepts.
 
+---
 
-# Rapport Week 2 Salas Merzouk
+# Salas Merzouk
 
 
 Dans cet exercice, j'ai exploré le mécanisme de dispatch de messages en Pharo, en travaillant avec l'héritage et la redéfinition de méthodes. Je vais expliquer le code que j'ai implémenté, et les résultats réels observés lors de l'exécution.
@@ -160,5 +163,75 @@ Cet exercice m'a permis de mieux comprendre comment fonctionne le dispatch de me
 
 En résumé, les comportements observés correspondaient à mes attentes, et je suis maintenant plus à l'aise avec le concept de dispatch de messages.
 
+----
+# André Carneiro A Santana Filho
 
+- Sources used:
+  - https://youtu.be/6-xJbCPLSng?si=-RVa4KXVo9Mg4Uq4
+  - http://rmod-pharo-mooc.lille.inria.fr/AdvancedDesignMooc/Slides/M1-1-Essence-01-NotExample.pdf
+  - http://rmod-pharo-mooc.lille.inria.fr/AdvancedDesignMooc/Slides/M1-2-Essence-02-Dispatch.pdf
 
+## Introduction
+
+Message Dispatch in Pharo is a concept which is not far away from heritage in some other Object-Oriented languages. Being defined as a away to tell an object how to interpret when a method is called, in which the object sends a "message" to its class and its predefined behaviours may change the end result replied by the object itself.
+
+Let's say, for instance, that we're having a big election coming through! In Brazil, the mayor and the city council happen at the same day, in which the voters may have to write in the same ballot the votes for their preferred concilours and mayor. Brazilian ballots work with numbers instead of names, so every voter needs to memorize the digits for each candidate; mayoral candidates have codes comprised of 2 digits, whilst city councilers have digits comprised of 5 digits.
+
+How can we use Pharo to deal with such cases to make it able for the voters to use an electronic voting machine?
+
+## The Challenge
+
+First of all, a good call would be to create a class that relates to all candidates, indenpendently of their position, therefore we should create our "main" class, simply called "Candidate"
+
+```pharo
+
+Object subclass: Candidate [
+    Candidate>>number [
+        ^ 'I tried to key to you...'
+    ]
+
+    Candidate>>announceNumber [
+        Transcript show: 'My number is: ', self number; cr.
+    ]
+]
+```
+In this class, we can see that the method "announceNumber" would, initially, call the self-included "number" method. However, by creating a "Candidate" object and telling it to announce its number, we'd get the following result.
+
+```Pharo
+My number is: I tried to get to you...
+```
+Which is very bleak and dark, just like a Joy Division song! This is due to the fact that this class is not really looking forward to show numbers.
+
+Now, we need to create a new class, which overrides the method "number", so that when we call it to announce its number for good, it actually shows a valid number!
+
+```Pharo
+Candidate subclass: MayorCandidate [
+    MayoCandidater>>number [
+        ^ '99'
+    ]
+]
+```
+
+Now by creating a "fulano" object, we get, finally, a candidate saying a valid code for themself!
+```Pharo
+My number is: 99
+```
+
+Finally, just repeating the same logic for City Councilor, we can make the following class, also by overriting the "number" class
+
+```Pharo
+Candidate subclass: CityCouncilorCandidate [
+    CityCouncilorCandidate>>number [
+        ^ '88888'
+    ]
+]
+```
+
+And, by creating an object called "ciclano", which is a city council candidate and asking them to say their code, we get the following result.
+
+```Pharo
+My number is: 88888
+```
+## Analysing results
+
+The results were pretty much what I expected, a little step that I wasn't able to take was to make the candidate number inputted by the object when created, but using some sort of character limit constraint, but so far as the logic related to super and self goes, everything seems very understandable, as does the Message Dispatch mechanisms.
