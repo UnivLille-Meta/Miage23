@@ -24,7 +24,7 @@ L’héritage est un pilier fondamental de la POO. Il permet à une classe (sous
     super est similaire à self mais modifie le comportement de la recherche de méthode. Lorsqu’un message est envoyé via super, la recherche commence directement dans la superclasse de la classe où le message a été envoyé, évitant les méthodes redéfinies dans la classe actuelle.
 
 ## Exemple 1 : Implémentation d'un booléen (and aussi le or et and ) sans if-else
-![Implémentation des classes True et False](image-week-2/boolen.png)
+![Implémentation des classes True et False](https://github.com/mrdedede/Miage23/blob/413741d7d37189cf2de60a2870ad67c6bf38e347/Groups/G09/image-week-2/boolen.PNG)
 _Figure 1 :  implémentant le comportement booléen sans `if-else`._
 ### Références
 
