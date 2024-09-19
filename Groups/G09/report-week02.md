@@ -57,7 +57,7 @@ Imaginons une hiérarchie de classes pour différents types d'employés dans une
 
 ## Diagramme Hiérarchique en Détail
 
-![Diagramme Hiérarchique en Détail]((https://github.com/mrdedede/Miage23/blob/6aa1a3cd6511d999fe3e11b8122b8b742b5dff15/Groups/G09/image-week-2/Diagramme.PNG))
+![Diagramme Hiérarchique en Détail](https://github.com/mrdedede/Miage23/blob/6aa1a3cd6511d999fe3e11b8122b8b742b5dff15/Groups/G09/image-week-2/Diagramme.PNG)
 _Figure 1 : Diagramme Hiérarchique en Détail._
 
 ## Résultats Affichés
