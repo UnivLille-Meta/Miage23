@@ -31,9 +31,9 @@ Object << #Vehicle
       ^ '2'.
 
   | vehicle1 vehicle2 vehicle3|
-	  vehicle1 := Vehicle new.
-	  vehicle2 := Car new.
-    vehicle3 := Motorcycle new.
+	vehicle1 := Vehicle new.
+	vehicle2 := Car new.
+	vehicle3 := Motorcycle new.
 
     vehicle1 wheel.
     vehicle2 wheel.
