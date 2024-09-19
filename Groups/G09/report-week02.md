@@ -57,12 +57,12 @@ Imaginons une hiérarchie de classes pour différents types d'employés dans une
 
 ## Diagramme Hiérarchique en Détail
 
-![Diagramme Hiérarchique en Détail]([image-week-2/Diagramme.png](https://github.com/mrdedede/Miage23/blob/6aa1a3cd6511d999fe3e11b8122b8b742b5dff15/Groups/G09/image-week-2/Diagramme.PNG))
+![Diagramme Hiérarchique en Détail]((https://github.com/mrdedede/Miage23/blob/6aa1a3cd6511d999fe3e11b8122b8b742b5dff15/Groups/G09/image-week-2/Diagramme.PNG))
 _Figure 1 : Diagramme Hiérarchique en Détail._
 
 ## Résultats Affichés
 
-![Résultats d'Exécution](image-week-2/resultat.png)
+![Résultats d'Exécution](https://github.com/mrdedede/Miage23/blob/4a059560a0b2209c8861ec94dabe21569c6f2212/Groups/G09/image-week-2/resultat.PNG)
 _Figure 2 : Résultats d'Exécution._
 
 - [Lien vers le code sur GitHub](https://github.com/salim2607/MyCounter/tree/master/src/weeak-02)
