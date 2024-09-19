@@ -81,3 +81,84 @@ Dans certains cas, la gestion de `self` et `super` a révélé des nuances inatt
 **Comment pouvez-vous corriger vos hypothèses et comment avez-vous trouvé ces informations ?**
 
 Pour corriger les hypothèses, il est important de vérifier les méthodes redéfinies dans chaque classe et de tester différentes situations d'héritage pour comprendre comment `self` et `super` interagissent. La documentation de Pharo et les résultats des tests pratiques ont été cruciaux pour ajuster les attentes. Les exemples pratiques et les lectures sur la gestion des messages en Pharo ont aidé à clarifier ces concepts.
+
+
+# Rapport Week 2 Salas Merzouk
+
+
+Dans cet exercice, j'ai exploré le mécanisme de dispatch de messages en Pharo, en travaillant avec l'héritage et la redéfinition de méthodes. Je vais expliquer le code que j'ai implémenté, et les résultats réels observés lors de l'exécution.
+
+J'ai commencé par définir deux classes : Chien et sa sous-classe Pitbull. Le but était d'analyser le fonctionnement du dispatch de méthodes lorsqu'on invoque des méthodes provenant de la classe parent et de la classe enfant.
+
+## Classe Chien
+J’ai créé une classe appelée Chien :
+
+
+```smalltalk
+Object << #Chien
+    slots: { 'nom' };
+    package: 'Test_dispach'.      
+```    
+
+
+La méthode `aboie` renvoie la chaîne de caractères "Le chien aboie" :
+
+```smalltalk
+aboie
+    ^ 'Le chien aboie'.   
+```    
+
+## Classe Pitbull
+La classe Pitbull est une sous-classe de Chien :
+
+```smalltalk
+Chien << #Pitbull
+    slots: {};
+    package: 'Test_dispach'.
+```    
+
+Elle redéfinit la méthode `aboie` pour retourner `"Le pitbull aboie"` :
+
+```smalltalk
+aboie
+    ^ 'Le pitbull aboie'.
+```    
+
+
+Une nouvelle méthode `sAboie` utilise le mot-clé super pour appeler la méthode `aboie` de la classe parent :
+sAboie
+
+```smalltalk
+sAboie
+    ^ super aboie.
+```    
+
+## Test des instances
+J’ai ensuite créé une instance de Chien (c) et une instance de Pitbull (d), afin de tester le comportement des méthodes dans les deux classes :
+
+```smalltalk
+c := Chien new.
+c aboie.
+
+d := Pitbull new.
+d aboie.
+
+d sAboie.
+```
+
+
+## Résultats obtenus
+- `c aboie` a renvoyé : `"Le chien aboie"`, comme prévu.
+- `d aboie` a renvoyé : `"Le pitbull aboie"`, conforme aux attentes.
+- `d sAboie` a bien invoqué la méthode de la classe parent `Chien` et a renvoyé : `"Le chien aboie"`, ce qui correspond exactement à mes attentes.
+
+## Analyse des résultats
+Les résultats ont parfaitement correspondu à ce que j'avais prévu. Le mécanisme de dispatch de messages suit une logique claire et intuitive : lorsqu'une méthode est redéfinie dans une sous-classe, celle-ci est utilisée, mais en appelant super, la méthode parent est correctement invoquée.
+
+## Conclusion
+Cet exercice m'a permis de mieux comprendre comment fonctionne le dispatch de messages et la redéfinition de méthodes. Il confirme que ce mécanisme suit les principes classiques de la programmation orientée objet pour l'héritage et l'invocation des méthodes via le mot-clé super.
+
+En résumé, les comportements observés correspondaient à mes attentes, et je suis maintenant plus à l'aise avec le concept de dispatch de messages.
+
+
+
