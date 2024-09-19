@@ -158,7 +158,10 @@ nombre := 7.
 
 * J'ai également réalisé les exercices proposés dans Flags.pdf ainsi que ceux sur le DSL.
 --> Le code correspondant aux exercices est disponible dans mon dépôt GitHub, que vous pouvez consulter via le lien suivant :
-  https://github.com/LouizaZC/C3P/tree/master
+
+  https://github.com/LouizaZC/TP_Flag/tree/master
+
+  https://github.com/LouizaZC/TP_DSL/tree/master
 
 ---
 
