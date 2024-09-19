@@ -1,5 +1,166 @@
 # ZIANE CHAOUCHE LOUIZA
 
+## HomeWork :
+
+Pendant ce cours, nous avons exploré les concepts fondamentaux autour de l'envoi de messages en Pharo. 
+
+---
+
+### Message Dispatch in Pharo :
+
+### 1. Utilisation de Self et Super :
+
+self et super sont des mots-clés utilisés pour définir quel contexte ou quelle classe doit être utilisée pour résoudre une méthode.
+    
+  * self :
+  - self fait référence à l'objet actuel qui reçoit le message.
+  Lorsqu'on utilise 'self' pour appeler une méthode, Pharo cherchera la méthode dans la classe de l'objet qui appelle.
+
+  * super :
+  - Représente également l'objet courant qui reçoit le message.
+ Lorsque super est utilisé, Pharo cherche la méthode dans la classe parente, et non dans la classe actuelle.
+
+
+---
+
+### 2. Utilisation de l'Héritage :
+
+L'héritage  permet à une classe d'hériter des méthodes et attributs d'une autre classe, généralement appelée la classe parente ou super-classe.
+  * Lorsqu'un objet reçoit un message, Pharo cherche d'abord la méthode dans la classe de l'objet.
+  * Si la méthode n'y est pas définie, Pharo remonte dans la chaîne d'héritage et vérifie dans la classe parente, puis dans la classe parente de celle-ci, et ainsi de suite.
+
+
+- Exemple :
+
+```
+    Oiseau >> voler [
+        Transcript show: 'L\'oiseau vole'; cr.
+    ]
+
+
+    Pingouin >> voler [
+        Transcript show: 'Les pingouins ne peuvent pas voler'; cr.
+    ]
+
+| oiseau pingouin |
+oiseau := Oiseau new.
+pingouin := Pingouin new.
+
+oiseau voler.   "J'attends : L'oiseau vole"
+pingouin voler. "J'attends : Les pingouins ne peuvent pas voler"
+
+```
+* Réalité :
+
+Le résultat est conforme aux attentes :
+--> Pharo suit un dispatch simple. Quand voler est appelé sur une instance de Pingouin, Pharo utilise la méthode redéfinie dans la classe Pingouin, même si cette dernière hérite de Oiseau.
+
+---
+
+### 3. Utilisation des Booléens et conditionals pour contrôler le Dispatch:
+
+Les conditions booléennes peuvent être utilisées pour décider quelle méthode appeler, modifiant ainsi le dispatch.
+
+---
+
+#### | (OR operator) :
+
+* La méthode | (ou logique) retourne true si l'un des deux booléens est vrai.
+
+- Exemple 1 :
+
+``` pharo
+| temperature |
+temperature := 22.
+
+(temperature >= 25) ifTrue: [
+    Transcript show: 'La piece est chaude'; cr.
+] ifFalse: [
+    (temperature >= 18 and: [temperature < 25]) ifTrue: [
+        Transcript show: 'La piece est confortable'; cr.
+    ] ifFalse: [
+        Transcript show: 'La piece est froide'; cr.
+    ].
+].
+```
+- Exemple 2 :
+
+``` pharo
+true | false  "Retourne true"
+false | true  "Retourne true"
+false | false "Retourne false"
+```
+
+---
+
+#### Méthode or:
+
+La méthode or: prend un bloc en argument et retourne true si le récepteur est true. Si le récepteur est false, elle évalue le bloc donné.
+
+``` pharo
+or: aBlock
+    ^self ifTrue: [true] ifFalse: [aBlock value]
+```
+- Exemple : 
+
+``` pharo
+| estConnecte modeHorsLigne |
+
+estConnecte := false.
+modeHorsLigne := true.
+
+"Si estConnecte est false, on vérifie le mode hors ligne."
+estConnecte or: [
+    modeHorsLigne ifTrue: [
+        Transcript show: 'Mode hors ligne activé'; cr.
+    ] ifFalse: [
+        Transcript show: 'Pas de connexion, ni de mode hors ligne'; cr.
+    ].
+].
+```
+--> Renvoie : Mode hors ligne activé.
+
+---
+
+#### Méthode ifTrue:ifFalse:
+
+Cette méthode prend deux blocs, le premier pour le cas true, le second pour le cas false. Elle évalue et retourne le résultat du bloc approprié.
+
+- Exemple :
+
+``` pharo
+| nombre |
+nombre := 7.
+
+(nombre \\ 2 = 0)
+    ifTrue: [
+        Transcript show: 'Le nombre est pair'; cr.
+    ]
+    ifFalse: [
+        Transcript show: 'Le nombre est impair'; cr.
+    ].
+  ```
+
+--> Renvoie : Le nombre est impair
+
+
+## Rapport :
+
+* J'ai travaillé sur l'exercice consistant à comparer self == super. Comme attendu, l'expression retourne toujours true, car self et super pointent tous deux vers la même instance.
+
+```
+    TestClass >> testComparison [
+        ^ self == super. "Renvoie toujours true"
+  ]
+```
+
+* Ensuite, j'ai implémenté les méthodes booléennes dans la partie " Utilisation des Booléens et conditionals pour contrôler le Dispatch", j'ai également testé ces méthodes sur plusieurs cas pour m'assurer qu'elles fonctionnent comme prévu, et les résultats étaient corrects.
+
+* J'ai également réalisé les exercices proposés dans Flags.pdf ainsi que ceux sur le DSL.
+--> Le code correspondant aux exercices est disponible dans mon dépôt GitHub, que vous pouvez consulter via le lien suivant :
+  https://github.com/LouizaZC/C3P/tree/master
+
+---
 
 # Wassim ABOU DAHER
 
