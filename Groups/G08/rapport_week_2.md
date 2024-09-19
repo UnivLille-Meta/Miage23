@@ -74,3 +74,91 @@ J'ai principalement déniché les connaissances à travers le cours ( Module 1-1
 
 ### Conclusion
 Pharo, en tant que langage purement orienté objet, encourage une approche où on laisse les objets décider de leurs actions en fonction des messages reçus, plutôt que de baser le code sur des conditions explicites. Cela rend le code plus modulaire, extensible, et élégant.
+
+## DASSI-Helyana
+
+# SECOND WEEK :
+
+## HOMEWORK : 
+
+## DISPATCH 
+
+Qu'est ce que Dispatch?
+
+Quand un message est envoyé à un objet en Pharo, le processus de dispatch fait en sorte que l'objet récepteur décide quelle méthode exécuter, en fonction de sa propre classe. 
+
+g
+"J'envoie un message et je sélectionne la bonne méthode"
+https://www.canal-u.tv/chaines/inria/3-design-class-methods-and-collections/essence-of-dispatch-22
+
+### Write small code examples challenging your knowledge about dispatch. 
+
+```
+myTab := #(1 2 3).
+myTab size 
+```
+A noter erreur d'inatention j'ai commencé à déclarer le tableau en utilisant des séparateurs virgules alors qu'il n'était pas nécessaire.
+
+
+Je m'attendais bien à avoir la taille de mon tableau qui est bien 3 car il y abien 3 élements. 
+Le dispatch a donc choisit la bonne méthode size en fonction de cet exemple. 
+
+
+Prenons l'exemple de myNot, j'ajoute cette méthode dans la classe True et False
+```
+myNot
+    
+	^false
+```   
+et dans la classe False : 
+```
+myNot
+    
+	^true
+```
+Je teste dans le playground : "true myNot" qui est censé me renvoyer false car on fait le dispatch sur notre objet true. On cherche donc la méthode myNot dans la bonne classe True pour ensuite qu'elle soit exécutée.
+
+
+### Autre exemple 
+
+Je décide de crée une classe mère Forme contenant une méthode aire en abstaite car chaque sous-classe doivent redéfinir cette méthode. Je créer ensuite mes 2 classes Rectangle et Carre. Il y a donc 2 méthodes aire : 
+
+```
+aire 
+	^cote * cote
+```
+```	
+aire 
+	^largeur * longueur 
+```
+ 
+Dans le playground on peut tester : 
+```|carre| 
+
+carre := MyCarre new. 
+carre cote:4.   
+carre aire.
+```
+Ici on identifie l'objet comme étant un carré donc il faut aller trouver la méthode aire dans la classe Carre et exécute la formule spécifique au carré. 
+On peut tester la même chose avec le rectangle qui nous renvoie 8 :
+```
+|rect| 
+
+rect := MyRectangle new. 
+rect largeur: 2; longueur: 4.    
+rect aire.
+```
+
+
+
+## Conclusion sur le Dispatch
+ 
+Ce que je comprends du Dispatch : 
+1. Envoie d'un message à un objet
+2. Recherche de la méthode appropriéeen regardant d'abord dans la classe de l'objet puis remonte dans la hierarchie des classes si nécessaire.
+3. Execution de la méthode 
+
+
+### Problème rencontré + Aide
+J'ai un problème concernant un push sur mon ordinateur mais je n'ai pas encore réussi a le régler.
+
