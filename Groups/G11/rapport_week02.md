@@ -47,3 +47,29 @@ Après avoir testé ce code, j'obtient bien ce resultat.
 ## Baptiste PARENT
 
 ### Practice message dispatch
+
+D'après ce que j'ai compris la dispatch c'est le mécanisme qui permet de choisir la méthode exécutée en fonction du message et du receveur. 
+
+En considérant cet exemple : 
+```
+Object subclass: ParentClass [
+    ParentClass >> myMethod [
+        ^ 'Méthode Parent'
+    ]
+]
+
+ParentClass subclass: ChildClass [
+    ChildClass >> myMethod [
+        ^ 'Méthode Enfant'
+    ]
+]
+```
+```
+| obj |
+obj := ChildClass new.
+obj myMethod
+```
+
+Dans cet exemple, myMethod est redéfini dans ChildClass. En appelant la méthode myMethod depuis une instance de ChildClass la méthode exécutée sera celle de ChildClass
+
+J'ai appris ce concept en regardant le MOOC.
