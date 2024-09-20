@@ -11,3 +11,12 @@ Without dispatch in Pharo, we would have been forced to compare the defined obje
 Here is my github link:
 
 https://github.com/sepideh94/C3P_week2
+
+Hamzaoui Ikram Leila 
+
+Le dispatch en Pharo consiste à choisir dynamiquement quelle méthode appeler en fonction d'un message ou d'une condition. En général, cela repose sur l'idée d'envoyer des messages aux objets, car en Pharo, tout est objet et les messages sont utilisés pour invoquer des méthodes.
+Dans mon exemple, j'ai créer une classe mère 'Animal' qui contient une méthode speak. aprés j'ai crée 2 classes filles 'dog' et 'cat' qui héritent cette méthode. En fonction de l'instance que nous créons, lorsque nous envoyons le message speak, la méthode correcte est exécutée, grâce au dispatch.
+
+voici le lien de l'exemple: https://github.com/ikramleilahm/Dispatch
+
+Ps: En regardant les videos, j'ai compris que cette solution nous evitent d'utiliser 'conditionals' en utilisant deux classes qui representent deux cas en appliquant " let the receiver decide".
