@@ -8,10 +8,14 @@ Ici, super n'est pas la super classe, mais le récepteur du message. On va donc 
 ``` ^super class == self class ```
 
 Cela retourne true. Le même concept de dispatch, expliqué dans le rapport, est appliqué dans les méthodes de classe.
+## Objects vs. Data
 
 Les objets ne stockent pas seulement des données, mais ils ont des méthodes, un comportement spécifique à chaque objet. C'est pourquoi on encapsule la logique dans la classe pour que le client puisse la réutiliser, simplifiant ainsi le code client, favorisant la maintenance, et évitant la répétition de code. Le client va utiliser la méthode sans connaître l'implémentation et ses détails.
 
-Les structures de données stockent uniquement des données et n'ont pas de comportement. Les variables globales ont la même valeur pour toutes les classes, ce qui pose problème si on en change une dans un objet X, car tous les autres objets se mettraient à jour également. À la place, on utilise des paramètres pour faciliter la testabilité et favoriser la modularité du code.
+Les structures de données stockent uniquement des données et n'ont pas de comportement. 
+ ## About global variables et Global to parameter
+
+Les variables globales ont la même valeur pour toutes les classes, ce qui pose problème si on en change une dans un objet X, car tous les autres objets se mettraient à jour également. À la place, on utilise des paramètres pour faciliter la testabilité et favoriser la modularité du code.
 
 Modularité : Diviser un système en plusieurs composants indépendants, chaque objet étant responsable de ses propres tâches. Dans ce cas, chaque application pourrait avoir ses propres ensembles d’icônes ou d’outils sans interférer avec les autres.
 
