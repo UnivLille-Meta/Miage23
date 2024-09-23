@@ -1,4 +1,11 @@
 ## PAWLOWSKI Florine 
+
+### lectures :
+points importants : 
+  - Les objets sont plus que de simples structures de données, il faut comprendre le service qu'ils offrent et leur logique doit être réutilisable.
+  - Il faut Eviter les variables globales et les Singleton, c'est difficile à tester, pas assez modulable.Comment gérer les évolutions avec une unique instance ?
+
+### KATA
 J'ai choisi de travailler le kata "Refactor piece rendering (practice refactorings, double dispatch and table dispatch)". 
 Pour cela j'ai commencé par pratiquer le reverse engineering en analysant de plus près le projet Chess. 
 
@@ -22,6 +29,7 @@ C'est intéressant, ça veut dire que je pourrais probablement utiliser le dispa
 
 - Ensuite je suis tombée sur des méthodes intéressantes comme renderBishop:, renderKing:, renderPawn: etc. Ces méthodes sont toutes similaires avec des doubles blocks conditionnels sur la couleur.
 
+Je me suis ensuite penchée sur les tests, il y'en a déjà quelques uns (13 tests) qui semblent tous fonctionner correctement. 
   
 
 
