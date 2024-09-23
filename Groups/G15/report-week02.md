@@ -164,11 +164,12 @@ result := dispatcher performOperation: multiplication with: 10 and: 5. --> 50
 
 Étant nouvelle dans le cours de C3P, j’ai commencé à me familiariser avec le langage orienté objet « Pharo ». J'ai consacré du temps à suivre les vidéos du MOOC et à lire les diapositives sur les syntaxes et les bases de Pharo avant d’aborder les exercices pratiques.
 
-## Introduction à Pharo et Dispatch des Messages : 
+## Introduction à Pharo : Dispatch des Messages : 
 
 En Pharo, tout est considéré comme un objet et les interactions se font par l'envoi de messages. Lorsqu'un message est envoyé, l'objet cherche à exécuter la méthode correspondante. Il s'agit du dispatch des messages.
 
 •	Ne pas demander : On indique à l'objet d'agir selon sa logique interne.
+
 •	 Laisser le récepteur décider : Le récepteur choisit la méthode à exécuter selon sa propre définition.
 
 Il existe plusieurs types de messages : 
@@ -210,9 +211,9 @@ Le code crée une chaîne de caractères "Pharo", la convertit en majuscules ave
 
 En Pharo, l'héritage permet à une sous-classe d'hériter des attributs et des comportements d'une superclasse. On utilise le mot-clé super pour appeler les méthodes de la superclasse. Une sous-classe se déclare avec la syntaxe suivante : SousClasse >> superClasse.
 
-Prenons par exemple, les classes Personne et Etudiant : 
+J'ai pris comme exemple les classes Personne et Etudiant, et j'ai ajouté des commentaires dans le code pour clarifier leur fonctionnement.
 
-# Super-classe Personne : 
+## Super-classe Personne : 
 
 ```smalltalk
 
@@ -277,7 +278,7 @@ Puisque self et super pointent vers le même objet, self == super renverra toujo
 
 Pharo permet de manipuler les objets booléens via des opérateurs logiques et des méthodes conditionnelles. On y retrouve des opérateurs classiques comme | (OU) et & (ET), évalués immédiatement, ainsi que des versions (lazy) telles que or: et and:. En outre, des structures conditionnelles comme ifTrue:, ifFalse:, ifTrue:ifFalse:, et ifFalse:ifTrue: sont utilisées pour contrôler le flux de code.
 
-| (OR operator) :  est utilisé pour évaluer deux conditions et retourne true si au moins l'une des deux conditions est vraie.
+* | (OR operator) :  est utilisé pour évaluer deux conditions et retourne true si au moins l'une des deux conditions est vraie.
 
 ```smalltalk
 
@@ -293,7 +294,7 @@ temperature := 15.
 
 Dans ce cas, le message affiché sera « Il fait chaud ou il fait 15 degrés », car la deuxième condition est vraie.
 
-or: (lazy or) :  c'est une version « lazy » de |. Si la première condition est vraie, il ne vérifiera pas la deuxième condition. Cela signifie que le bloc est évalué uniquement si le récepteur est False, ce qui permet d'éviter des évaluations inutiles.
+* or: (lazy or) :  c'est une version « lazy » de |. Si la première condition est vraie, il ne vérifiera pas la deuxième condition. Cela signifie que le bloc est évalué uniquement si le récepteur est False, ce qui permet d'éviter des évaluations inutiles.
 
 ```smalltalk
 
@@ -308,7 +309,7 @@ temperature := 10.
 ```
 Dans ce cas, le message affiché sera « Il fait chaud ou il fait 10 degrés », car la deuxième condition (dans le bloc) est évaluée et est vraie.
 
-ifTrue:ifFalse : c'est une manière d'exécuter un bloc de code si une condition est vraie, sinon il exécute un autre bloc.
+* ifTrue:ifFalse : c'est une manière d'exécuter un bloc de code si une condition est vraie, sinon il exécute un autre bloc.
 
 ```smalltalk
 
@@ -323,7 +324,7 @@ temperature := 25.
 ```
 Dans ce cas, le message affiché sera « Il fait chaud », car la condition est vraie.
 
-ifFalse:ifTrue: fonctionne de manière opposée à ifTrue:ifFalse:. Elle permet d'exécuter un bloc de code si le récepteur est False, et un autre bloc si le récepteur est True.
+* ifFalse:ifTrue: fonctionne de manière opposée à ifTrue:ifFalse:. Elle permet d'exécuter un bloc de code si le récepteur est False, et un autre bloc si le récepteur est True.
 
 ```smalltalk
 
@@ -338,7 +339,7 @@ temperature := 18.
 ```
 Dans ce cas, le message affiché sera « Il ne fait pas chaud », car la condition est fausse.
 
-ifTrue: and ifFalse : permettent d'exécuter des blocs de code en fonction du résultat d'une expression booléenne. ifTrue: exécute le bloc correspondant si le récepteur est True, tandis que ifFalse: exécute le bloc si le récepteur est False.
+* ifTrue: and ifFalse : permettent d'exécuter des blocs de code en fonction du résultat d'une expression booléenne. ifTrue: exécute le bloc correspondant si le récepteur est True, tandis que ifFalse: exécute le bloc si le récepteur est False.
 
 ```smalltalk
 
