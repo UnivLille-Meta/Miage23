@@ -20,5 +20,12 @@
 
 ### Réalisé à la maison
 
+- J'ai terminé le TP sur les DSL sur les dés dont voici le lien : [dsl-pharo (GitHub - AymericJak)](https://github.com/AymericJak/dsl-pharo).
+C'est un TP qui était plus avancé et concret que le compteur réalisé au premier cours. J'ai aussi appris à faire des exetensions de classe.
+- J'ai également réalisé le TP sur les pays en SVG : [flags-pharo (GitHub - AymericJak)](https://github.com/AymericJak/flags-pharo).
+Bien qu'un certain nombre de classes m'étaient inconnues (j'aurais été incapable de faire ça avec l'intitulé des questions seul). Néanmoins, c'était intéréssant à faire. Ça donne une idée des possibilités que l'on puisse réaliser en Pharo. Pouvoir modifier l'interface, des éléments existants aussi simplement (juste quelques méthodes à écrire) est tellement génial. Et le tout se fait en Pharo lui même.
+L'exécution de requettes API, la création d'interface, manipulation d'image sont des choses importantes et qui serviront sans doute pour le projet Chess.
+- J'ai aidé un camarade sur Discord, l'entraide est primordiale dans un groupe.
+- J'ai un peu travaillé sur le projet Chess, dont je vais détailler plus en détail ci-dessous.
 
 ### Exercices
