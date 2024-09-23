@@ -164,13 +164,9 @@ result := dispatcher performOperation: multiplication with: 10 and: 5. --> 50
 
 Étant nouvelle dans le cours de C3P, j’ai commencé à me familiariser avec le langage orienté objet « Pharo ». J'ai consacré du temps à suivre les vidéos du MOOC et à lire les diapositives sur les syntaxes et les bases de Pharo avant d’aborder les exercices pratiques.
 
-## Introduction à Pharo : Dispatch des Messages : 
+## Introduction à Pharo : Dispatch des Messages 
 
-En Pharo, tout est considéré comme un objet et les interactions se font par l'envoi de messages. Lorsqu'un message est envoyé, l'objet cherche à exécuter la méthode correspondante. Il s'agit du dispatch des messages.
-
-•	Ne pas demander : On indique à l'objet d'agir selon sa logique interne.
-
-•	 Laisser le récepteur décider : Le récepteur choisit la méthode à exécuter selon sa propre définition.
+En Pharo, tout est considéré comme un objet et les interactions se font par l'envoi de messages. Lorsqu'un message est envoyé à un objet, celui-ci cherche à exécuter la méthode correspondante selon sa propre logique. Il s'agit du dispatch des messages.
 
 Il existe plusieurs types de messages : 
 
@@ -205,7 +201,7 @@ Transcript show : ‘Pharo’ asUppercase.
 
 ```
 
-Le code crée une chaîne de caractères "Pharo", la convertit en majuscules avec asUppercase, puis envoie le résultat "PHARO" au Transcript pour l’afficher. 
+Le code crée une chaîne de caractères "Pharo", la convertit en majuscules avec asUppercase, puis envoie le résultat "PHARO" au Transcript. 
 
 ## L’héritage : 
 
@@ -272,7 +268,7 @@ Nom: Alice, Age: 21, Matricule: ETU1234
 ```
 ## Que renvoie self == super ?
 
-Puisque self et super pointent vers le même objet, self == super renverra toujours true. Puisque self et super désignent le même objet, l'expression self == super sera toujours vraie. Dans une méthode, self fait référence à l'objet qui appelle la méthode, tandis que super permet d'accéder aux méthodes de la superclasse de cet objet.
+Puisque self et super pointent vers le même objet, self == super renverra toujours true. Dans une méthode, self fait référence à l'objet qui appelle la méthode, tandis que super permet d'accéder aux méthodes de la superclasse de cet objet.
 
 ## Opérateurs logiques : 
 
@@ -356,7 +352,7 @@ Dans ce cas, le message affiché sera « Il fait chaud », car la condition est 
 
 ## Conclusion :
 
-Ce rapport m'a permis d'explorer les bases de la programmation en Pharo, notamment le dispatch des messages, l'héritage et l'utilisation des opérateurs logiques. Pour renforcer mes compétences, je m'engage à consulter régulièrement la documentation et à tester des extraits de code. Ces démarches sont essentielles pour approfondir ma compréhension et devenir plus autonome dans mes projets futurs.
+Ce rapport m'a permis d'explorer les bases de la programmation en Pharo, notamment le dispatch des messages, l'héritage et l'utilisation des opérateurs logiques. Pour continuer à progresser, je m'engage à consulter régulièrement la documentation et à tester des extraits de code. 
 
 
 
