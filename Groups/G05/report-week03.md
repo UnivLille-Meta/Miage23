@@ -94,6 +94,13 @@ On peut supposer que lorsque le cache est plein, l'algorithme LRU doit s'exécut
 
 ## Homework
 
+Cette semaine:
+
+* J'ai essayé d'appliquer le cours de jeudi dans le projet pour essayer de comprendre et de me concenter que sur ce qui est important à faire maintenant.   
+Je n'ai pas encore trouvé les problèmes liés à mes tests mais je pense être sur la bonne voie.
+* J'ai lu les policopiés du cours sur les tests et en particulier celui sur le Mutation Analysis.
+* J'ai relu les policopiés du MOOC sur l'héritage et j'ai essayé de l'appliquer dans le Pharo Launcher pour m'entraîner sur le code en Pharo.
+* J'ai refais les exercices du MOOC pour retravailler la syntaxe de Pharo.
 
 ****
 
