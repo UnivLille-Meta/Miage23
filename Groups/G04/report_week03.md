@@ -30,6 +30,7 @@ C'est intéressant, ça veut dire que je pourrais probablement utiliser le dispa
 - Ensuite je suis tombée sur des méthodes intéressantes comme renderBishop:, renderKing:, renderPawn: etc. Ces méthodes sont toutes similaires avec des doubles blocks conditionnels sur la couleur.
 
 Je me suis ensuite penchée sur les tests, il y'en a déjà quelques uns (13 tests) qui semblent tous fonctionner correctement. 
+Toutefois les tests sont sur 3 types de pions différents (le roi, la tour et le fou (bishop)) donc il manque des tests sur tous les autres pions.Il y'a aussi une classe test MyFENTest qui test 2 façons de parser des pièces (en noir ou en blanc) et une façon de parser une chaine de caractères en tableau de chaînes de caractères. 
   
 
 
