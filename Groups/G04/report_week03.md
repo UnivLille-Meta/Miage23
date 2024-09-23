@@ -1,4 +1,28 @@
 ## PAWLOWSKI Florine 
+J'ai choisi de travailler le kata "Refactor piece rendering (practice refactorings, double dispatch and table dispatch)". 
+Pour cela j'ai commencé par pratiquer le reverse engineering en analysant de plus près le projet Chess. 
+
+Un point important pour ce kata : "Qu'est ce que le refactoring"
+- Changer l'implémentation SANS changer le comportement.
+- Améliorer la qualité du code.
+- Les tests nous permettent de garantir que notre refactoring est bon.
+- Le code coverage est important.
+
+Mon plan pour ce kata est d'abord d'étudier le projet, analyser ce qui me semble pertinant pour le projet (ici surtout les blocks conditionnels), ensuite créer des tests sur l'existant. Créer un UML de classe pour le dispatch et enfin développer les classes et méthodes nécessaires. 
+  
+- J'ai commencé par regarder la classe MyChessBoard, qui n'a pas de commentaire de classe. Elle permet d'initialiser un Board, les squares, les pièces sur le plateau, mettre en couleur les squares, cliquer sur une case et set un jeu. 
+Rien de très intéressant pour mon objectif. 
+
+- Ensuite j'ai parcouru MyChessGame, qui possède un exemple de jeu dans le commentaire de classe. La méthode CheckForMate semble avoir des erreurs. 
+Les méthodes initializeFromFENGame, play et recordMovementOf ont toutes les trois des blocks de conditions ifTrue: , ifFalse: basé à priori sur la couleur du joueur/des cases (exemple de condition : currentPlayer isWhite ou currentPlayer = whitePlayer). 
+C'est intéressant, ça veut dire que je pourrais probablement utiliser le dispatch pour éviter ces conditions. 
+
+- Dans MyChessSquare, on retrouve la méthode contents: qui possède un double bloc conditionnel ifNil: ifNotNil: et ifFalse: ifTrue, basé sur la couleur d'une piece (isBlack) 
+- méthode foreground : block conditionnel sur isBlack
+
+- Ensuite je suis tombée sur des méthodes intéressantes comme renderBishop:, renderKing:, renderPawn: etc. Ces méthodes sont toutes similaires avec des doubles blocks conditionnels sur la couleur.
+
+  
 
 
 
