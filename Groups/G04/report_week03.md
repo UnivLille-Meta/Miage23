@@ -36,14 +36,22 @@ Toutefois les tests sont sur 3 types de pions différents (le roi, la tour et le
 
 
 ## LIETARD Evann 
+### Kata
+Vous trouverez le code lié a mon kata à ce lien: https://github.com/EvannLietard/Chess/tree/PawnPromotion
+#### Analyse
 Ayant choisi le kata lié à la promotion du pion, j'ai d'abord effectué une étude du code qui pouvait m'intéresser.
-Je me suis d'abord penché sur la classe MyPawn, mais les deux méthodes présentes n'avaient pas forcément à voir avec ce qui m'intéressait.
-Je suis donc passé à l'étude de la superclasse MyPiece : les méthodes square et board me permettent d'accéder à mon carré et au plateau à partir de n'importe quelle pièce.
-Je suis alors passé à la classe MyChessSquare : ici, j'ai trouvé plusieurs méthodes qui m'intéressaient, notamment hasPiece, qui sert à vérifier si le carré contient une pièce, et content, qui permet de vérifier quelle pièce est sur le carré.
-Enfin, j'ai étudié la classe MyChessBoard : je me suis rendu compte que je ne pouvais pas créer un plateau avec new, il fallait le faire avec empty, puis effectuer différentes initialisations. De plus, la méthode at:put: me permet de placer une pièce à des coordonnées bien précises.
-
-J'ai alors codé un test pour une méthode qui servirait à remplacer une pièce par une nouvelle pièce, ainsi que la méthode qui permet de faire passer ce test au vert.
-J'ai également codé différents tests ayant pour but de vérifier que le comportement des méthodes déjà écrites correspondait bien à celui attendu.
+- Je me suis d'abord penché sur la classe MyPawn, mais les deux méthodes présentes n'avaient pas forcément à voir avec ce qui m'intéressait.
+- Je suis donc passé à l'étude de la superclasse MyPiece : les méthodes square et board me permettent d'accéder à mon carré et au plateau à partir de n'importe quelle pièce.
+- Je suis alors passé à la classe MyChessSquare : ici, j'ai trouvé plusieurs méthodes qui m'intéressaient, notamment hasPiece, qui sert à vérifier si le carré contient une pièce, et content, qui permet de vérifier quelle pièce est sur le carré.
+- Enfin, j'ai étudié la classe MyChessBoard : je me suis rendu compte que je ne pouvais pas créer un plateau avec new, il fallait le faire avec empty, puis effectuer différentes initialisations. De plus, la méthode at:put: me permet de placer une pièce à des coordonnées bien précises.
+#### Code
+- J'ai alors codé un test pour une méthode qui servirait à remplacer une pièce par une nouvelle pièce, ainsi que la méthode qui permet de faire passer ce test au vert.
+- J'ai également codé différents tests ayant pour but de vérifier que le comportement des méthodes déjà écrites correspondait bien à celui attendu.
+- J'ai recodé la méthode isWhite ainsi que codé la méthode isBlack pour qu'elles soient plus compréhensibles.
+- J'ai essayé de coder une méthode shouldPromote qui aurait pour but de vérifier si la case où se trouve le pion permettrait de le promouvoir. Cependant, mes tests renvoyaient false alors que la promotion devait être possible. Après quelques vérifications avec le Transcript dans les différentes méthodes qui pouvaient poser problème, il s'avère que cela est dû à moveTo: qui ne semble pas effectuer le déplacement demandé. Cette méthode renvoie pour l'instant un booléen, ceci étant temporaire le temps de coder une méthode de choix de type de pièce, que ce soit de manière automatique ou manuelle.
+### Video/Cours
+Ce que j'ai retenu :
+- Que les variables globales et les Singletons sont partagés, qu'ils sont difficiles à tester, et que cela empêche de faire du dispatch.
 
 
 
