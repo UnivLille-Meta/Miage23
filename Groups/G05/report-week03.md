@@ -94,10 +94,12 @@ On peut supposer que lorsque le cache est plein, l'algorithme LRU doit s'exécut
 
 ## Homework
 
+
 Cette semaine:
 
 * J'ai essayé d'appliquer le cours de jeudi dans le projet pour essayer de comprendre et de me concenter que sur ce qui est important à faire maintenant.   
-Je n'ai pas encore trouvé les problèmes liés à mes tests mais je pense être sur la bonne voie.
+Je n'ai pas encore trouvé les problèmes liés à mes tests mais je pense être sur la bonne voie puisque je viens de voir que je vais devoir mettre en place le système pour savoir si une case est dangereuse pour le roi et ainsi savoir s'il est en échec.
+* Je pense aussi avoir conpris pourquoi je n'arrivais à rien, c'est parce que je n'avais pas compris comment fonctionne la logique booléenne en Pharo mais je pense maintenant avoir compris.
 * J'ai lu les policopiés du cours sur les tests et en particulier celui sur le Mutation Analysis.
 * J'ai relu les policopiés du MOOC sur l'héritage et j'ai essayé de l'appliquer dans le Pharo Launcher pour m'entraîner sur le code en Pharo.
 * J'ai refais les exercices du MOOC pour retravailler la syntaxe de Pharo.
