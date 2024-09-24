@@ -31,7 +31,25 @@ C'est intéressant, ça veut dire que je pourrais probablement utiliser le dispa
 
 Je me suis ensuite penchée sur les tests, il y'en a déjà quelques uns (13 tests) qui semblent tous fonctionner correctement. 
 Toutefois les tests sont sur 3 types de pions différents (le roi, la tour et le fou (bishop)) donc il manque des tests sur tous les autres pions.Il y'a aussi une classe test MyFENTest qui test 2 façons de parser des pièces (en noir ou en blanc) et une façon de parser une chaine de caractères en tableau de chaînes de caractères. 
-  
+
+Je dois donc impérativement mettre en place des tests pour tester le bon comportement du projet avant et après le refactoring. 
+
+J'ai aussi remarqué quelque chose de bizarre dans les méthodes render...: les lettres renvoyées n'ont pas forcément de sens, il y'a toujours une lettre qui correspond à la pièce (R pour Rook, B pour Bishop, K pour King etc etc) mais la deuxième lettre choisie dans chaque méthode ne me dit rien. Je ne sais pas si les lettres ont été choisies aléatoirements 
+
+  ```
+renderKing: aPiece
+
+	^ aPiece isWhite
+		  ifFalse: [
+			  color isBlack
+				  ifFalse: [ 'L' ]
+				  ifTrue: [ 'l' ] ]
+		  ifTrue: [
+			  color isBlack
+				  ifFalse: [ 'K' ]
+				  ifTrue: [ 'k' ] ]
+```
+Par exemple ici pourquoi 'L'/'l' ? 
 
 
 
