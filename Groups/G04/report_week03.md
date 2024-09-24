@@ -51,6 +51,41 @@ renderKing: aPiece
 ```
 Par exemple ici pourquoi 'L'/'l' ? 
 
+Pour mettre en place les tests qui concernent les méthodes "render(nom_de_la_pièce)" j'ai voulu initialiser chaque pièce et les mettre sur une case d'une couleur spécifique. J'ai dû aller voir dans MyChessBoard, la méthode initializePieces pour savoir comment préciser la couleur d'une pièce (ex : MyRook black). Pour les squares on peut utiliser la méthode color: aColor pour préciser la couleur d'une case. 
+
+J'ai créé la classe MyChessSquareTest pour tester tous les comportements de chaque méthode render en fonction des pièces. Voici un exemple de test pour la méthode renderBishop:
+
+lien vers la branche pour mon kata avec les tests : 
+
+https://github.com/EvannLietard/Chess/blob/refactor_piece_rendering/src/Myg-Chess-Tests/MyChessSquareTest.class.st 
+
+```
+testRenderBishop 
+
+	| squareTest whiteBishop blackBishop |
+	squareTest := MyChessSquare new.
+	
+	"Test fou blanc sur case blanche"
+	whiteBishop := MyBishop white. 
+	squareTest color: Color white.
+	self assert: (squareTest renderBishop: whiteBishop) equals: 'B'.
+	" test identique mais avec renderPieceOn qui décide de la méthode appelée en fonction de la pièce"
+	self assert: (whiteBishop renderPieceOn: squareTest ) equals: 'B'.
+	
+	"Test fou blanc sur case noire"
+	squareTest color: Color black.
+	self assert: (squareTest renderBishop: whiteBishop) equals: 'b'.
+	
+	"Test fou noir sur case blanche"
+	blackBishop := MyBishop black. 
+	squareTest color: Color white.
+	self assert: (squareTest renderBishop: blackBishop) equals: 'V'.
+	
+	"Test fou noir sur case noire"
+	squareTest color: Color black.
+	self assert: (squareTest renderBishop: blackBishop) equals: 'v'.
+```
+Les tests fonctionnent ce qui est normal je teste le comportement attendu du projet. Ces tests me serviront plus tard pour voir si mon refactoring est bon alors les tests passeront toujours.
 
 
 ## LIETARD Evann 
