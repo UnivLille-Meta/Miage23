@@ -62,3 +62,47 @@ display
 After looking at the code, I decide to write some simple test to understand the game, each piece and roles. For the time being, I write test for the Knight piece.
 
 here the you can find the code: https://github.com/marik27/Chess2024/blob/main/src/Myg-Chess-Tests/MyKingTest.class.st
+
+
+
+
+## Wagnan SORO
+### About design
+***Objects vs. data***
+Selon comprehension du cours, je retiens que les Objects permettent d'eviter la duplication de code en utilisant directelent les méthodes encapsulées à l'interieur d'elle même pour ne pas repeter la même logique.
+les objets fournissent une interface riche avec un comportement encapsulé, tandis que les données structurées se limitent à contenir des valeurs, elles favorisent ainsi la duplication de code car l'implementation de la logique d'une structure de données est faite en dehors de celle ci. 
+Cette différence est cruciale dans la conception d'API qui encouragent la réutilisation et réduisent la duplication de la logique dans le code client.
+
+***Globals variables***
+
+Il est necessaire de laisser les objects chosir leur propre implementation et d'éviter les variables globales au detriment d'une architecture modulaire qui consiste à aller la classe avoir son propore environnement.
+Leurs utilisations rendent le code non flexible et difficile à tester.
+Une façon de rémedier aux variables globales est d'encapsuler l'etat des objets dans des objets locaux.
+Comme le cas de la classe `MyApp`
+
+***Global to parameter***
+
+
+
+## Extras about language
+
+Les differentes informations à retenir sur les classes et que les classes sont des instances de class, reçoivent des messages, sont des objets.
+Super est le receveur du message et change le lookup en  commençant dans la superclasse de la classe qui contient Super.
+
+J'ai mis en place une classe mère `StaffMember`, dont  hérite une classe `Doctor`. Elle contiennent des méthodes comme 'InitializeWithName :aName role: Arole'
+
+> > `| myDoctor myNurse |
+"Créer une instance de Doctor"
+myDoctor := Doctor new.
+myDoctor initializeWithName: 'Dr. Smith' role: 'Cardiologist' specialty: 'Heart Surgery'.
+Transcript show: myDoctor displayInfo; cr. `
+
+J'avais une erreur de compilation de cette partie, car dans mon résultat, j'avais `'Dr. Smith' specialty: 'Heart Surgery'` du fait d'une erreur dans la méthode `initializeWithName: aName role: aRole specialty: aSpecialty` de la classe Doctor, j'appelais super sur cette méthode sen mettant
+`initializeWithName: aName role: role specialty: aSpecialty` et non `initializeWithName: aName role: aRole specialty: aSpecialty`.
+
+https://github.com/marik27/C3P_Devoirs/blob/main/src/Hospital
+
+#### Project milestone 1
+
+Mon kata : `Implements the 9 queens problems`
+J'ai implementé des tests concernant MyQueen que vous trouverez dans le depôt Chess tout au dessus
