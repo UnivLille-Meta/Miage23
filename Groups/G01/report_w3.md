@@ -105,4 +105,4 @@ https://github.com/marik27/C3P_Devoirs/blob/main/src/Hospital
 #### Project milestone 1
 
 Mon kata : `Implements the 9 queens problems`
-J'ai implementé des tests concernant MyQueen que vous trouverez dans le depôt Chess tout au dessus
+J'ai implementé des tests concernant MyQueen que vous trouverez dans le depôt Chess : https://github.com/marik27/Chess2024/blob/main/src/Myg-Chess-Tests/MyQueenTest.class.st
