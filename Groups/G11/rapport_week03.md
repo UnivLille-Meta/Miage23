@@ -6,13 +6,11 @@
 
 ### Extras about language
 
-### Katas envisagé : 
+### Katas choisis : 
 
-  * Game Replay (Practice refactoring and debugging)
-  * Fix pawn moves! (Practice debugging and testing)
-  * Restrict legal moves (Practice code understanding, refactorings and debugging)
-  * Remove nil checks (Practice refactorings and patterns)
-  * Refactor piece rendering (Practice refactorings, double dispatch and table dispatch)
-  * Add pawn promotion (Practice code understanding and debugging)
+ * Fix pawn moves! (Practice debugging and testing)
+ * Game Replay (Practice refactoring and debugging)
 
-  * Make the chess board graphical editor (mouais)
+### Katas supplémentaire si on a le temps : 
+
+ * Add pawn promotion (Practice code understanding and debugging)
