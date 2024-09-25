@@ -1,6 +1,14 @@
 # WEEK 3 :
 
 ## KHADIJA BESBAS 
+### Homework
+
+- J'ai avancé sur mon kata : j'ai corrigé les bugs et les déplacements des pions. On peut maintenant avantcé de 1 ou 2 au départ, avancé de 1 par tour, mangé en diagolal les pièces adverses.
+  J'ai réalisé les tests associés à ces corrections.   
+- J'ai lu les slides et commencé à faire un exercice de classe simple : Figure qui est hérité par deux autres classes Carré et Rond. Elles surcharges une méthode qui permet de calculer le périmètre d'un figure.
+- J'ai aidé des camarades à comprendre le kata pion.
+- J'ai commencé à réfléchir à la réalisation de la prise en passant.
+
 
 ****
 # Cyril Godet
