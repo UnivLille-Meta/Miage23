@@ -106,4 +106,11 @@ Je n'ai pas encore trouvé les problèmes liés à mes tests mais je pense être
 
 ****
 
-## BOU ALEXANDRE
+# BOU ALEXANDRE
+
+Cette semaine : 
+
+- J'ai aidé Kadija sur son kata (sur le premier mouvement du pion qui peut avancer de deux cases).
+- J'ai analisé le code de chess pour voir le mouvement du pion et comment sont géré les pièces dans game pour pouvoir le modifier avec la promotion.
+- J'ai lu les poly de cours de cette semaine.
+- J'ai relu les poly de la semaine précédente et refait l'exercice sur LRUCache vu en cours.
