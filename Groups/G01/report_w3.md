@@ -66,8 +66,8 @@ here the you can find the code: https://github.com/marik27/Chess2024/blob/main/s
 
 
 
-## Wagnan SORO
-### About design
+## _Wagnan SORO_
+> ### About design
 ***Objects vs. data***
 Selon comprehension du cours, je retiens que les Objects permettent d'eviter la duplication de code en utilisant directelent les méthodes encapsulées à l'interieur d'elle même pour ne pas repeter la même logique.
 les objets fournissent une interface riche avec un comportement encapsulé, tandis que les données structurées se limitent à contenir des valeurs, elles favorisent ainsi la duplication de code car l'implementation de la logique d'une structure de données est faite en dehors de celle ci. 
@@ -84,7 +84,7 @@ Comme le cas de la classe `MyApp`
 
 
 
-## Extras about language
+> ### Extras about language
 
 Les differentes informations à retenir sur les classes et que les classes sont des instances de class, reçoivent des messages, sont des objets.
 Super est le receveur du message et change le lookup en  commençant dans la superclasse de la classe qui contient Super.
@@ -102,7 +102,20 @@ J'avais une erreur de compilation de cette partie, car dans mon résultat, j'ava
 
 https://github.com/marik27/C3P_Devoirs/blob/main/src/Hospital
 
-#### Project milestone 1
+> ### Project milestone 1
 
 Mon kata : `Implements the 9 queens problems`
 J'ai implementé des tests concernant MyQueen que vous trouverez dans le depôt Chess : https://github.com/marik27/Chess2024/blob/main/src/Myg-Chess-Tests/MyQueenTest.class.st
+
+
+## _Ikimath Adeoye_
+
+To revise class methods and super, I created a class named Product. A product has a name, a price and a brand. We can create a new product with his caracteristics with a method defined in the class side of Product, we can also compare two products to know which is more expensive. On the instance side of the class Poduct, we have methods to change the price of a product, display a product.
+
+**Here is the repository link of my work:** https://github.com/IkiAde/M1_MIAGE/tree/master/Week03_Homework
+
+> ### Project milestone 1
+
+My kata: Remove nil checks
+I started some tests with MyPawnTest.
+**link**: https://github.com/marik27/Chess2024/blob/main/src/Myg-Chess-Tests/MyPawnTest.class.st
