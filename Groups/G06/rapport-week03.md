@@ -68,4 +68,20 @@ Test 4 : testMovesWithOpponentObstacle
 Test 5 : testMovesWithSameColorObstacle
 
 ### Notes :
-Je n'ai pas encore effectué les commits pour ma partie, car j'ai quelques questions à poser au professeur concernant les modifications que j'ai apportées avant de finaliser ces commits.
+Je n'ai pas encore effectué les commits pour ma partie, car j'ai quelques questions à poser au professeur concernant les modifications que j'ai apportées avant de finaliser ces commits. 
+
+
+# MOULOUEL Tarik 
+## Objects vs Data :
+ - les objets sont les éléments fondamentaux du système. Tout est un objet, et ces objets représentent des entités qui combinent à la fois un état (données) et un comportement (méthodes). Les objets sont des instances de classes, et ils encapsulent à la fois les données et les opérations qui peuvent être effectuées sur ces données. L’état d’un objet est privé et ne peut être accédé qu’à travers ses méthodes, en envoyant des messages à l’objet, un object a plusieurs carachteristiques comme l'encapsulation, comportement, identité et polymorphisme; Les données quant à elles se réfèrent à des valeurs brutes ou des informations. En POO, les données sont souvent considérées comme quelque chose à gérer ou à manipuler par les objets. Dans Pharo, les données peuvent être des valeurs primitives comme des nombres, des chaînes de caractères, ou des booléens, mais aussi des structures plus complexes comme des collections (par exemple, des tableaux ou des dictionnaires). Cependant, les données elles-mêmes n’ont pas de comportement propre. 
+
+ ## About global variables :
+ - Une variable globale en Pharo est une variable accessible depuis n'importe quelle partie du système, elle a une portee au niveau du système, ce qui signifie que toute classe, méthode ou tout objet dans Pharo peut y accéder et les modifier et Cela peut rendre le code plus difficile à maintenir, car il n'est pas toujours évident de savoir quelle partie du système est responsable d'un changement dans une variable globale. 
+
+ ##  Global to parameter ;
+ - Transformer une variable globale en un paramètre est une bonne pratique qui améliore l'encapsulation et la maintenabilité du code. En Pharo, cela signifie remplacer l'accès à une variable globale par l'utilisation d'un argument passé explicitement aux méthodes ou aux objets qui en ont besoin. Cette approche permet de réduire le couplage et d'améliorer la testabilité. 
+  
+## Project milestone 1 : 
+
+- Pour cette semaine, j'ai aussi regardé le projet des echecs, je vais le kata Refactor piece rendering, j'ai identifié les classes principales du projet, j'ai vu les quelqeus tests ecrits, j'ai aussi refactorisé la méthode ```renderKnight``` pour qu'elle soit plus lisible en enlevant les imbiquations profondes.
+- j'ai aussi fait la meme chose pour la methode ``` renderPawn``` en enlevant les imbriquations profondes car la logique etait similaire à la premiere.
