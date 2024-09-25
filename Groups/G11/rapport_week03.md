@@ -9,10 +9,10 @@
 ### Katas envisagé : 
 
   * Game Replay (Practice refactoring and debugging)
-  * Fix pawn moves!
-  * Restrict legal moves
-  * Remove nil checks
-  * Refactor piece rendering
-  * Add pawn promotion
+  * Fix pawn moves! (Practice debugging and testing)
+  * Restrict legal moves (Practice code understanding, refactorings and debugging)
+  * Remove nil checks (Practice refactorings and patterns)
+  * Refactor piece rendering (Practice refactorings, double dispatch and table dispatch)
+  * Add pawn promotion (Practice code understanding and debugging)
 
   * Make the chess board graphical editor (mouais)
