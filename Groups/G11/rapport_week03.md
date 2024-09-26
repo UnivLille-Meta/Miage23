@@ -2,6 +2,10 @@
 
 ### Extras about language
 
+### Question : 
+
+N'ayant pas compris si l'on devait choisir un kata chacun ou deux kata pour le binôme, que l'on se diviserait ensuite. Nous avons choisi deux katas ensemble sans vraiment ce les repartir pour le moment.
+
 ## Baptiste PARENT
 
 ### Extras about language
