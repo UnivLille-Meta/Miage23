@@ -83,6 +83,71 @@ Pour l'instant, je vais m'intéresser aux classes suivantes :
 - MyFENGam
 ------------------------
 
+# Wassim ABOU DAHER
 
+## Differences betwen Data structure and Object:
+
+### Data Structure:  
+A data structure organizes and stores data , focusing  on the arrangement and access to that data. Examples: arrays, lists, ...
+These structures do not inherently provide behavior; they  offer the basic operations like adding, removing data .  
+### Object:
+An object is a self-contained unit that combines data and behavior. Last year we got that an object is an instance of a class that holds data (attributes) and methods (functions) that operate on that data.
+Objects allow for encapsulation, meaning they can expose certain functionalities while hiding their internal status.  
+### Key Difference:
+A data structure is passive and  concerned with data storage.
+An object  combines data with methods that define its behavior, so it give a more interactive way to manage and manipulate data.
+Example:
+
+| phoneNumbers |
+phoneNumbers := #('123-456-7890' '987-654-3210' '555-0123').  
+phoneNumbers at: 1.  "Access the first phone number"  
+phoneNumbers is a data structure.
+
+Object subclass: Phone [
+    | number owner |
+
+    Phone class >> newPhone: aNumber owner: anOwner [
+        ^ self new initializeNumber: aNumber owner: anOwner
+    ]
+
+    initializeNumber: aNumber owner: anOwner [
+        number := aNumber.
+        owner := anOwner.
+    ]
+
+    call [
+        ^ 'Calling ', number, '...'
+    ]
+
+    getDetails [
+        ^ 'Owner: ', owner, ', Phone Number: ', number.
+    ]
+].
+
+| myPhone |
+myPhone := Phone newPhone: '123-456-7890' owner: 'Alice'.
+myPhone call.         "Returns 'Calling 123-456-7890...'"
+myPhone getDetails.   "Returns 'Owner: Alice, Phone Number: 123-456-7890'"
+In this example, the Phone class is an object that encapsulates data (phone number and owner) and behavior (methods to call and retrieve details).
+
+Class Methods and super
+Here's an example using a Phone class and a Smartphone subclass to illustrate how super is utilized in class methods:
+
+Phone class >> description
+    ^ 'Basic phone features'
+
+Smartphone class >> description
+    ^ super description, ' - Includes apps, internet connectivity, and touch screen'
+The Phone class has a class method description that returns 'Basic phone features'.
+The Smartphone class overrides this method, calling super description to get the base description.
+When you call:
+
+Phone description.      "Returns 'Basic phone features'"
+Smartphone description. "Returns 'Basic phone features - Includes apps, internet connectivity, and touch screen'"
+This demonstrates how super can be used to extend the functionality of class methods, allowing subclasses to build upon the logic defined in their parent classes.
+
+### Choice of Kata
+For my project, I chose the "Remove nil checks" kata. This kata focuses on refactoring existing code to eliminate unnecessary nil checks, so it improves code readability and +tive things. 
+I started to do some tests to analyze the current implementation, and explore some classes to identify where nil checks are used, and refactor the code. 
 
 
