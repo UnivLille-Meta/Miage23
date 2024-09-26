@@ -76,7 +76,53 @@ C'est un TP qui était plus avancé et concret que le compteur réalisé au prem
 - J'ai également réalisé le TP sur les pays en SVG : [flags-pharo (GitHub - AymericJak)](https://github.com/AymericJak/flags-pharo).
 Bien qu'un certain nombre de classes m'étaient inconnues (j'aurais été incapable de faire ça avec l'intitulé des questions seul). Néanmoins, c'était intéréssant à faire. Ça donne une idée des possibilités que l'on puisse réaliser en Pharo. Pouvoir modifier l'interface, des éléments existants aussi simplement (juste quelques méthodes à écrire) est tellement génial. Et le tout se fait en Pharo lui même.
 L'exécution de requettes API, la création d'interface, manipulation d'image sont des choses importantes et qui serviront sans doute pour le projet Chess.
+- J'ai regardé les 3 vidéos :
+  - Objects vs. Data
+  - About global variables
+  - Global to parameter
 - J'ai aidé un camarade sur Discord, l'entraide est primordiale dans un groupe.
 - J'ai un peu travaillé sur le projet Chess, dont je vais détailler plus en détail ci-dessous.
 
 ### Exercices
+
+Donc je le disais auparavant, je travaille sur le kata `Refactor piece rendering`. Mais avant d'entamer toute phase de développement, je prends un certain temps pour analyser le projet.
+
+Il y a 4 packages :
+- **BaselineOfMygChess**, pour vraisemblablement charger le projet, lier l'ensemble des packages, récupérer les resources nécaissaires sur GitHub.
+- **Myg-Chess-Core**, qui comporte les classes nécéssaires à notre application. Tout objet qui forme notre jeu. J'entend pas là : les pièces, le plateau, le joueur, etc.
+- **Myg-Chess-Importers**, qui comporte des classes utilitaires et relatives au FEN et au PGN. Ces 2 acronymes désignent respectivement un système de notation et un format de fichier nécéssaire au replay (kata Game Rplay par exemple).
+- **Myg-Chess-Tests**, qui assez explicitement comporte les tests de notre projet.
+
+En ce qui concerne mon kata, mon objectif est d'améliorer la logique de rendu actuelle. Et surtout, la simplifier (refactoring) en enlevant un maximum de conditions possibles.
+
+Durant le prochain cours, je vais m'intéresser au Module 6 sur le double dispatch. Quelque chose de nécéssaire pour mon kata.
+
+Un code était présent dans la consigne :
+
+```
+MyChessSquare >> renderKnight: aPiece
+
+	^ aPiece isWhite
+		  ifFalse: [ color isBlack
+				  ifFalse: [ 'M' ]
+				  ifTrue: [ 'm' ] ]
+		  ifTrue: [
+			  color isBlack
+				  ifFalse: [ 'N' ]
+				  ifTrue: [ 'n' ] ]
+```
+
+Un gros point négatif que je pourrais relever : le grand nombre de conditions. Ce qui est synonyme d'un grand nombre de tests pour cette seule fonction.
+
+Je vais devoir travailler sur les méthodes :
+- renderBishop:
+- renderKing:
+- renderKnight
+- renderPawn
+- renderQueen
+- renderRook
+
+On se rend bien compte que dans ces méthodes une multitude de code est dupliquée :
+1. On regarder si la pièce donnée en paramètre de notre méthode est de couleur blanche
+2. Si c'est le cas, on fait une condition pour voir si la couleur est noire ou non. (je ne comprends pas) Pour renvoyer l'id de la piece correspondante. Avec l'exemple ci-dessus, ça renvoit 'N' ou 'n', l'un désigne la piece du jour A et l'autre du joueur B.
+3. Mais si c'est faux, on renvoie un autre char (ici 'M' ou 'm'). Mais je ne comprends pas du tout d'où ils viennent.
