@@ -1,5 +1,7 @@
 ## Thomas LIENARD
 
+Cette semaine, nous avons pu commencer le reverse engineering. J’ai donc pu m’exercer sur le sujet en me baladant dans les classes du projet Chess, en analysant le code présent et en testant les différentes fonctionnalités du jeu grâce au playground.
+
 ### Extras about language
 
 ### Question : 
