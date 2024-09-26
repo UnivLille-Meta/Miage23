@@ -128,3 +128,136 @@ voiture := Voiture new. (ici notre instance de voiture  et new est trouve dans l
 Choix KATA :  
 
 J'ai choisis de prendre la kata : Remove nil checks qui permettra l'amelioration de code en utilisant le polymorphisme( méthode qui peut avoir plusieurs comportements selon l'objet sur lequel elle est appelée) .  
+
+
+## EL MANSOURI Yacine
+
+### Watch at home: about design (Resumé des cours)
+
+1. Global to Parameter
+L'utilisation de variables globales ( et les singletons ) fait ressortir des problemes tels que des dépendances difficiles à gérer, rendent les tests complexes et rendent la modularité du code plus faible. Il existe des alternatives/solutions pour les remplacer, notamment par des paramètres locaux ou des variables d'instance qui mettront en oeuvre l'encapsulation et la localité.
+- Exemple : 
+```
+RubScrollTextMorph >> defaultScrollTarget
+    | textArea |
+    textArea := self textAreaClass new.
+    textArea backgroundColor: Color lightGray veryMuchLighter.
+    ^ textArea
+```
+```
+RubScrollTextMorph >> defaultScrollTarget
+    | textArea |
+    textArea := self textAreaClass new.
+    textArea backgroundColor: defaultBackgroundColor.
+    ^ textArea
+  
+RubScrollTextMorph >> initialize
+    defaultBackgroundColor := Color lightGray veryMuchLighter
+```
+- Conclusion : 
+Il est essentiel d'éviter les variables globales et d'utiliser à la place la paramétrisation. Cela améliorera la modularité du code, permettra de substituer les composants plus facilement, et rendra les tests unitaires meilleurs.
+
+2. Objects vs Data
+En Java, les objets, par exemple l'objet Point sont de simples structures de données avec des méthodes basiques comme getX, getY, move. Cela limite les comportements que les objets peuvent offrir et donc ce qui force les développeurs à dupliquer/developper du code en plus pour les manipuler dans les clients.
+En revanche, les objets en Pharo, reprenons l'exemple de Point offrent une API beaucoup plus riche, avec des méthodes pour les opérations vectorielles, géométriques et mathématiques comme crossProduct:, dotProduct:, distanceTo:, etc. Cela permet aux clients de simplement réutiliser ces comportements sans les redéfinir.
+- Exemple :
+En Java, pour déplacer un robot à une certaine distance, on doit calculer manuellement la nouvelle position du point :
+```
+position = new Point(
+(Math.round(Math.cos(Math.toRadians(tilt))) * distance + position.x()),
+(Math.round(Math.sin(Math.toRadians(tilt))) * distance + position.y()));
+```
+En Pharo, le même déplacement est plus élégant car Point connaît son propre comportement :
+```
+Bot >> go: aDistance
+    position := position + ((tilt degreeCos @ tilt degreeSin) * aDistance) rounded.
+```
+- Conclusion : 
+Les objets sont plus que des conteneurs de données. Ils doivent encapsuler le comportement et offrir des services réutilisables. Donc une API bien conçue permet d'éviter la duplication de code et favorise la modularité.
+
+3. About Global Variables
+Les variables globales posent problème dans les systèmes logiciels.
+Par exemple, prenons Smalltalk icons (utilisée pour gérer des icônes dans Pharo), elle limite la flexibilité car il devient impossible d'avoir plusieurs jeux d'icônes spécifiques à une application ou de tester différentes configurations.
+Parfois, des globales sont dissimulées derrière des extensions de classe (comme Symbol>>asIcon qui retourne une icône). Même si cela rend l'utilisation plus compacte, cela reste un problème car tout repose toujours sur une seule variable globale.
+Pour améliorer la modularité, il est proposé de déplacer ces références globales dans des variables d'instance spécifiques aux objets. Par exemple, au lieu de référencer directement Smalltalk tools, on pourrait créer un ToolEnvironment que chaque application peut configurer individuellement (i.e encapsuler cette logique dans un environnement dédié).
+- Exemple :
+```
+MyApp >> initialize
+    toolEnvironment := ToolEnvironment new.
+```
+```
+MyApp >> browseMethodFull
+    self toolEnvironment browser
+    openOnClass: self currentClassOrMetaClass
+    selector: self currentMessageName.
+```
+- Conclusion : 
+Il est préférable d'éviter les globales et de penser en termes de modularité. Les objets doivent être capables de se spécialiser en fonction du contexte sans se reposer sur des variables partagées globalement.
+
+### Extras about language
+- Write small code examples showing how they work and challenging your understanding. Do they work as expected? How can you get a better understanding on their functionning? Add your examples and answers to the report
+
+1. Méthodes de classe
+- Résumé des concepts :
+Une classe est un objet : En Pharo, une classe est elle-même un objet qui peut recevoir des messages.
+- Méthodes de classe vs méthodes d'instance : Les méthodes de classe ne sont pas équivalentes aux méthodes statiques en Java. Elles sont envoyées à l'objet "classe", qui est une instance d'une métaclasse.
+- Recherche de méthode (lookup) : Il n'existe qu'un seul algorithme de recherche pour les méthodes. Que l'on envoie un message à une instance ou à une classe, Pharo commence par chercher la méthode dans la classe du récepteur puis remonte la chaîne des superclasses si nécessaire.
+- Exemple de code : Création de la classe Counter avec une méthode d'instance et une méthode de classe"
+```
+Counter class >> withValue: anInteger
+    ^ self new
+        value: anInteger;
+        yourself.
+
+Counter >> value: anInteger 
+    value := anInteger.
+```
+
+- Test du fonctionnement
+```
+| myCounter |
+myCounter := Counter withValue: 10.
+Transcript show: myCounter; cr.
+```
+
+- Fonctionne-t-il comme prévu ? 
+Oui, l'exemple fonctionne. La méthode de classe withValue: crée une nouvelle instance de Counter, assigne 10 à value, et renvoie l'objet. Le message est envoyé correctement à la classe.
+
+2. Comprendre super
+- Résumé des concepts :
+super est le récepteur du message : Lorsqu'on utilise super, on envoie un message à la même instance qu'avec self, mais la recherche de la méthode commence dans la superclasse de la classe qui contient l'expression.
+- Exemple d'utilisation de super : Utiliser super dans une méthode permet d’appeler la version héritée d’une méthode tout en pouvant ajouter des comportements spécifiques.
+Exemple de code : super dans une méthode d'instance
+```
+Animal >> makeSound 
+    ^ 'My sound :'.
+```
+```
+Dog >> makeSound 
+    ^ super makeSound , ' Woof'.
+```
+Ici, Dog hérite de la classe Animal. La méthode makeSound dans Dog utilise super pour appeler la méthode makeSound de Animal avant d'ajouter le son spécifique "Woof".
+- Test du fonctionnement
+| myDog |
+myDog := Dog new.
+Transcript show: myDog makeSound; cr
+.
+- Fonctionne-t-il comme prévu ? Oui. La méthode makeSound de Dog appelle la version de Animal puis concatène " Woof". Le résultat affiché sera "My sound : Woof".
+- Meilleure compréhension
+En utilisant super, on s’assure que la méthode de la classe parente est exécutée, ce qui permet de réutiliser du code tout en modifiant le comportement dans les sous-classes. Cela montre que super n’est pas une référence directe à la superclasse, mais modifie simplement le point de départ de la recherche de méthode.
+
+### Project milestone 1
+
+- You should have already started with at least one kata
+- At the minimum, you should have started to write tests to understand the existing code and the required features
+
+Pour le projet, j'ai decidé de choisir le kata **Fix pawn moves!**. 
+Pour commencer, j'ai manipulé l'interface graphique du jeu d'echec afin de mieux cerner le projet. J'ai donc repérer les mauvais comportements concernant le mouvement des pions.
+Notamment :
+- le premier mouvement des pions ne peut etre que de 1 seulement a la place de 2.
+- on mange une piece par un mouvement en avant au lieu d'un mouvement en diagonale.
+- un pion peut se deplacer sur sa meme place d'origine
+
+Une fois cela de fait, j'ai alors parcouru le code pour savoir où et comment était codé ces comportements de deplacement.
+
+Dès a present je vais devoir ecrire les tests illustrant ces bugs, et regler le code afin de les faire passer au vert en tant que bon pratiquant du TDD.
