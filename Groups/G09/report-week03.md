@@ -166,7 +166,7 @@ Dans cette tâche, j'ai choisi de me concentrer sur les mouvements des pions. Le
 
 ---
 
-![Implémentation des classes True et False](week-4.PNG)  
+![Implémentation des classes True et False](https://github.com/mrdedede/Miage23/blob/3b8a6a0567d19a4fa8b26e62981bf551da4eaabb/Groups/G09/week-4.PNG)  
 _Figure 1 : Capture des tests réalisés `if-else`._  
 
 ### Code des tests
