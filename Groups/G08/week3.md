@@ -134,7 +134,7 @@ J'ai choisis de prendre la kata : Remove nil checks qui permettra l'amelioration
 
 ### Watch at home: about design (Resumé des cours)
 
-1. Global to Parameter
+**1. Global to Parameter**  
 L'utilisation de variables globales ( et les singletons ) fait ressortir des problemes tels que des dépendances difficiles à gérer, rendent les tests complexes et rendent la modularité du code plus faible. Il existe des alternatives/solutions pour les remplacer, notamment par des paramètres locaux ou des variables d'instance qui mettront en oeuvre l'encapsulation et la localité.
 - Exemple : 
 ```
@@ -157,7 +157,7 @@ RubScrollTextMorph >> initialize
 - Conclusion : 
 Il est essentiel d'éviter les variables globales et d'utiliser à la place la paramétrisation. Cela améliorera la modularité du code, permettra de substituer les composants plus facilement, et rendra les tests unitaires meilleurs.
 
-2. Objects vs Data
+**2. Objects vs Data**  
 En Java, les objets, par exemple l'objet Point sont de simples structures de données avec des méthodes basiques comme getX, getY, move. Cela limite les comportements que les objets peuvent offrir et donc ce qui force les développeurs à dupliquer/developper du code en plus pour les manipuler dans les clients.
 En revanche, les objets en Pharo, reprenons l'exemple de Point offrent une API beaucoup plus riche, avec des méthodes pour les opérations vectorielles, géométriques et mathématiques comme crossProduct:, dotProduct:, distanceTo:, etc. Cela permet aux clients de simplement réutiliser ces comportements sans les redéfinir.
 - Exemple :
@@ -175,7 +175,7 @@ Bot >> go: aDistance
 - Conclusion : 
 Les objets sont plus que des conteneurs de données. Ils doivent encapsuler le comportement et offrir des services réutilisables. Donc une API bien conçue permet d'éviter la duplication de code et favorise la modularité.
 
-3. About Global Variables
+**3. About Global Variables**  
 Les variables globales posent problème dans les systèmes logiciels.
 Par exemple, prenons Smalltalk icons (utilisée pour gérer des icônes dans Pharo), elle limite la flexibilité car il devient impossible d'avoir plusieurs jeux d'icônes spécifiques à une application ou de tester différentes configurations.
 Parfois, des globales sont dissimulées derrière des extensions de classe (comme Symbol>>asIcon qui retourne une icône). Même si cela rend l'utilisation plus compacte, cela reste un problème car tout repose toujours sur une seule variable globale.
@@ -197,7 +197,7 @@ Il est préférable d'éviter les globales et de penser en termes de modularité
 ### Extras about language
 - Write small code examples showing how they work and challenging your understanding. Do they work as expected? How can you get a better understanding on their functionning? Add your examples and answers to the report
 
-1. Méthodes de classe
+**1. Méthodes de classe**
 - Résumé des concepts :
 Une classe est un objet : En Pharo, une classe est elle-même un objet qui peut recevoir des messages.
 - Méthodes de classe vs méthodes d'instance : Les méthodes de classe ne sont pas équivalentes aux méthodes statiques en Java. Elles sont envoyées à l'objet "classe", qui est une instance d'une métaclasse.
@@ -223,7 +223,7 @@ Transcript show: myCounter; cr.
 - Fonctionne-t-il comme prévu ? 
 Oui, l'exemple fonctionne. La méthode de classe withValue: crée une nouvelle instance de Counter, assigne 10 à value, et renvoie l'objet. Le message est envoyé correctement à la classe.
 
-2. Comprendre super
+**2. Comprendre super**
 - Résumé des concepts :
 super est le récepteur du message : Lorsqu'on utilise super, on envoie un message à la même instance qu'avec self, mais la recherche de la méthode commence dans la superclasse de la classe qui contient l'expression.
 - Exemple d'utilisation de super : Utiliser super dans une méthode permet d’appeler la version héritée d’une méthode tout en pouvant ajouter des comportements spécifiques.
