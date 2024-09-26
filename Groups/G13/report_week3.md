@@ -62,8 +62,6 @@ C1 radius: 4.
 Transcript show: 'Cercle desc: ', C1  descript asString; cr.
 Transcript show: 'Cercle area: ', C1  area asString; cr. 
 ```
-Remarque: j'ai écris "Rectangel" sur le code car sur pharo la classe rectangle est déja définie.
-
 Voici le code de l'exemple: https://github.com/ikramleilahm/Inheritance/tree/master
 
 ### Project mile stone 1
