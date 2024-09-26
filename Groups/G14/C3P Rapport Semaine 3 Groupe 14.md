@@ -28,3 +28,43 @@ J'ai commencé à lire le code du projet CHESS, à comprendre la structure du pr
 Et j'ai donc écris un test qui concerne le déplacement basique d'un pion, histoire de m'acclimater au projet.
 Voici mon test, fonctionnel :  
 ![](./CapturesDimos/testPawnMoves.png)
+
+# Guillaume GOOSSEN
+
+## Watch at home: about design
+
+- **Objets vs. Données**
+Une API riche permet d'éviter de la duplication de code, permet d'alléger le code aussi. Cela permet aussi de simplifier le code. Les objets sont plus que des structure de données car ils peuvent encapsuler des données et des comportements
+
+- **À propos des variables globales**
+Éviter les variables globales pour encourager la modularité et la spécialisation des comportements. Adopter des approches qui favorisent le polymorphisme et la configuration individuelle. `asClass` : Cette méthode d'accès aux classes via un point d'entrée global ne permet pas de changer d'environnement ou de namespace facilement.
+
+- **Global à paramètre**
+Remplacer les variables globales par des paramètres ou des variables d'instance facilite les futurs changement, la testabilité et l modularité
+
+- **Méthode de classes et super**
+Je me suis basé sur le code utilisé la semaine dernière pour déjà mettre en avant les notions, dans ma classe Vehicle j'ai ajouté une méthode salut ainsi que dans Bike et Car en utilisant super.
+## Project milestone 1
+
+J'ai choisi le kata : **Refactor piece rendering**. Tout d'abord j'ai essayer d'analyser d'un peu plus près le sujet en essayant de comprendre le rôle de certaines classes par exemple. Je remarque que les classes principales se situent dans le package `Myg-Chess-Core` :
+-  `MyBishop.class.st`, `MyKing.class.st`, `MyKnight.class.st`, `MyPawn.class.st`, `MyQueen.class.st`, `MyRook.class.st` : Classes représentant les différentes pièces d'échecs ayant comme classe mère `MyPiece`
+- `MyChessSquare` qui semble représenter une case du plateau
+
+J'ai remarqué que dans le code actuel on semble utiliser des méthodes spécifiques pour chaque type de pièce dans la classe `MyChessSquare`. J'ai alors essayé d'utiliser le double dispatch pour déléguer le rendu à la pièce elle même, puis la pièce appelle la méthode approprié. Un test `testRenderKnight` a été effectué pour vérifié le bon fonctionnement 
+
+Ce qui donne : 
+```
+MyKnight >> renderOn: aSquare [
+    ^ aSquare renderKnight: self
+]
+
+MyChessSquare >> renderPiece: aPiece [
+    ^ aPiece renderOn: self
+]
+
+MyChessSquare >> renderKnight: aKnight [
+    ^ aKnight isWhite
+        ifTrue: [ color isBlack ifTrue: [ 'n' ] ifFalse: [ 'N' ] ]
+        ifFalse: [ color isBlack ifTrue: [ 'm' ] ifFalse: [ 'M' ] ]
+]
+```
