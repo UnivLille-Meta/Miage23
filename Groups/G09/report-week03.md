@@ -181,3 +181,55 @@ Ce projet m’a permis tout d’abord de comprendre le fonctionnement du jeu en 
 ## Suite à faire
 
 J’ai commencé à travailler sur les changements pour améliorer le jeu, mais pour l’instant je rencontre des erreurs dans le code.
+
+
+# Rapport Hebdomadaire Semaine 3 de Salas Merzouk
+
+## Progrès
+
+J'ai commance a travailler sur le refactoring de la logique du jeu d'échecs afin de supprimer les vérifications de nil en utilisant le polymorphisme. J'ai commencé par écrire des tests pour mieux comprendre le code existant et orienter le processus de refactorisation.
+
+### Tâches réalisées :
+
+J'ai rédigé plusieurs cas de test pour valider le comportement de la classe MyChessSquare. Voici les tests réalisés avec leur objectif :
+
+- **Test de case vide** : Ce test vérifie si une instance nouvellement créée de MyChessSquare est initialisée sans pièce, assurant que la case est vide par défaut.
+
+```smalltalk
+testCaseIsEmpty
+    | chessSquare |
+    chessSquare := MyChessSquare new.
+    self assert: chessSquare hasPiece equals: false.
+```
+
+- **Test de création de case** : Ce test vérifie que l'instance de MyChessSquare est bien créée et initialisée sans erreurs.
+
+```smalltalk
+testChessSquareCreation
+    | chessSquare |
+    chessSquare := MyChessSquare new.
+    self assert: chessSquare notNil.
+```
+
+- **Test de vérification de pièce** : Ce test examine si la méthode indiquant la présence d'une pièce fonctionne correctement pour une case vide.
+
+```smalltalk
+testHasPiece
+    | chessSquare |
+    chessSquare := MyChessSquare new.
+    self assert: chessSquare hasPiece equals: false.
+```
+
+- **Test d'attribution de contenu** : Ce test vérifie si une pièce peut être correctement assignée à la case via la méthode de contenu. Cependant, ce test a révélé une erreur potentielle.
+
+```smalltalk
+testContents
+    | chessSquare |
+    chessSquare := MyChessSquare new.
+    chessSquare contents: MyKing white.
+    self assert: chessSquare contents equals: MyKing white.
+```
+
+Grâce aux tests que j'ai réalisés, j'arrive à mieux comprendre comment le code fonctionne, j'ai pu éclaircir des aspects du fonctionnement interne, ce qui facilite ma tâche pour envisager des refactorisations pour éliminer les vérifications de nil. 
+
+J'ai également identifié un problème potentiel en essayant de faire le tp de la semaine 4 (mutation testing), qui n'a aucun rapport direct avec le kata. J'ai rapporté ce problème sur le repository GitHub de Pharo. J'ai reçu une réponse et le suivi de cette issue est actuellement en cours.
