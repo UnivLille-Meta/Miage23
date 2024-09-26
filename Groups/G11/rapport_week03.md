@@ -26,9 +26,9 @@ instance := A new.
 result := instance foo.
 ```
 
-J'ai donc, d'après ce que j'ai compris du cours, supposé que le resultat serait True car super et self pointent tout deux sur le receveur du message donc dans notre cas A. Le resultat sera donc A class == A class donc evidemment True.
+J'ai donc, d'après ce que j'ai compris du cours, supposé que le résultat serait True car super et self pointent tout deux sur le receveur du message donc dans notre cas A. Le résultat sera donc A class == A class donc évidemment True.
 
-Et après avoir éxécuté ce code dans Pharo j'obtient le resultat escompté.
+Et après avoir éxécuté ce code dans Pharo j'obtient le résultat escompté.
 
 ### Question : 
 
