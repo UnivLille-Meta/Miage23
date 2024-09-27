@@ -20,3 +20,12 @@ But I also read that we could avoid conditionals because a message send can be s
 ## Prepare
 
 I read the slides about reverse engineering and LRU cache. I don't have many questions because the theory seems to be clear but I think I need to practice it to be sure that I fully understand the subject.
+
+# Julien Conoir section
+
+This week I finished the 1st mooc and received my certification to post on my linkedin profile :)  
+I've also completed the dice exercise and added the double dispatch by going back to last year's meta courses.  
+
+Project link : https://github.com/Julien-Conoir/C3P-Exercices  
+
+I helped Florine Pawlowski to understand double dispatch and to do the exercise on the dice.
