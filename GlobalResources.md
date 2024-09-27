@@ -46,7 +46,7 @@ StartupPreferencesLoader default executeAtomicItems: {
 			IceCredentialsProvider sshCredentials
 					username: 'git';
 					publicKey: '/Users/XXX/.ssh/id_rsa.pub';
-					privateKey: '/Users/XX/.ssh/id_rsa'."
+					privateKey: '/Users/XX/.ssh/id_rsa'.
 			IceCredentialStore current
 					storeCredential: (IcePlaintextCredentials new
 					username: 'GHUSER';
