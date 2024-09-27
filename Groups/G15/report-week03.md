@@ -75,5 +75,36 @@ J'ai choisi le premier kata "Corriger les movements des pions" et pour identifie
 Actuellement, le pion ne peut se déplacer que d'une seule case. Pour améliorer cela, j'ai commencé à ajouter de nouvelles méthodes afin de faire fonctionner les tests et corriger les bugs.
 
 
+# Coundoul Adama
+
+## Homework : 
+
+### Watch at home: about design
+
+#### Objects vs. Data
+
+The difference between an object and data structure is:
+-Data structures are data containers with a limited API, forcing the client to perform the necessary calculations themselves.  
+-Objects encapsulate both data and behaviors, exposing a rich API that allows clients to easily reuse complex behaviors without having to implement them themselves.
+
+#### About global variables 
+
+Global variables are convenient but have cons: they allow only one global instance, complicate testing, and cannot be specialized for specific contexts.
+The suggested solutions avoid global variables by using more modular approaches , letting objects specialize their messages to improve flexibility and testability.
+
+####  Global to parameter
+
+Avoid global variables and Singletons to make code more modular and easier to test.
+Global variables can be turned into parameters, such as instance variables , This improves code modularity and allows easier isolated testing.
+
+### Extra about langages 
+
+### Project milestone 1
+
+I choose the kata : Pawn Promotion .
+To understand the existing code , i write tests which show bugs when pawns arrive to the back of the board, the pawn is not promoted. It's still a pawn.
+
+
+
 
 
