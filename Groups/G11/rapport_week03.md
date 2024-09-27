@@ -75,3 +75,7 @@ N'ayant pas compris si l'on devait choisir un kata chacun ou deux kata pour le b
 ### Katas supplémentaire si on a le temps : 
 
  * Add pawn promotion (Practice code understanding and debugging)
+
+### Lien vers notre dépôt : 
+
+Toute nos modification du jeu Chess seront sur le repo suivant : https://github.com/ThomasLienard/Chess  que nous diviserons en branche pour le modifier. 
