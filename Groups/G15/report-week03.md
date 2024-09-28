@@ -109,18 +109,19 @@ MyPiece class >> black
 	^ self new
 		  color: Color black;
 		  yourself
- ```smalltalk   
+   
 MyPiece class>> white
 	^ self new
 		  color: Color white;
 		  yourself
-    
+
+``` 
 So to create a new White Queen for example , we do :
 
 ```smalltalk
 |queen|
 queen := MyQueen white.
-
+```
 
 ### Project milestone 1
 
