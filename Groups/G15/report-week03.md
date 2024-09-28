@@ -102,7 +102,7 @@ Global variables can be turned into parameters, such as instance variables , Thi
 #### Class methods and super
 
 Most class-side methods create new instances.
-For examples , in the chess game implementations , we have the class methods black and white which created a white piece or a black piece. Here is the code :
+For example , in the chess game implementations , we have the class methods black and white which created a white piece or a black piece. Here is the code :
 
 ```smalltalk
 MyPiece class >> black
@@ -122,11 +122,48 @@ So to create a new White Queen for example , we do :
 |queen|
 queen := MyQueen white.
 ```
+Super is the receiver of the message and the method lookup starts in the superclass of the class containing the expression.
+
+For examples , in the chess game implementation we have the following code :
+
+```smalltalk
+MyChessSquare>>printOn: aStream
+	"Generate a string representation of the receiver based on its instance variables."
+
+	super printOn: aStream.
+	aStream
+		nextPutAll: ' name: ';
+		print: name
+```
+
+The receiver of the message is: an instance of MyChessSquare.
+The class containing the expression (printOn) is: MyChessSquare 
+So the lookup start in the superclass of MyChessSquare : Object 
+
+And printOn is defined on the class Object . So we call this method but applies it to the receiver : an instance of MyChessSquare.
 
 ### Project milestone 1
 
 I choose the kata : Pawn Promotion .
-To understand the existing code , i write tests which show bugs when pawns arrive to the back of the board, the pawn is not promoted. It's still a pawn.
+When pawns arrive to the back of the board, the pawn is promoted: it is transfomed into a major (queen, rook) or minor piece (knight, bishop), choice of the player.
+To understand the existing code , i write tests which show bugs when pawns arrive to the back of the board.
+To simplify , i choose the pawn is promoted to a queen when he arrive to the back of the board . Here is test:
+
+```smalltalk
+testPawnPromotionWhenKo
+
+| pawn board |
+	board := MyChessBoard empty.
+	board at: 'd7' put: (pawn := MyPawn white).
+	
+
+	pawn moveTo: (board at: 'd8').
+	self assert: (board at:'d8') contents equals: MyQueen white.
+
+```
+
+Like expected , the test is red.
+The promotion happens when the pawn is on the back of the board and moves. So the right place to put this new code is in the methode moveTo: aSquare .I override the moveTo method in the pawn class to specify this condition.
 
 
 
