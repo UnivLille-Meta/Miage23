@@ -104,11 +104,12 @@ Global variables can be turned into parameters, such as instance variables , Thi
 Most class-side methods create new instances.
 For examples , in the chess game implementations , we have the class methods black and white which created a white piece or a black piece. Here is the code :
 
+```smalltalk
 MyPiece class >> black
 	^ self new
 		  color: Color black;
 		  yourself
-    
+ ```smalltalk   
 MyPiece class>> white
 	^ self new
 		  color: Color white;
@@ -116,6 +117,7 @@ MyPiece class>> white
     
 So to create a new White Queen for example , we do :
 
+```smalltalk
 |queen|
 queen := MyQueen white.
 
