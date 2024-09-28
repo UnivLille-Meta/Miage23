@@ -99,6 +99,27 @@ Global variables can be turned into parameters, such as instance variables , Thi
 
 ### Extra about langages 
 
+#### Class methods and super
+
+Most class-side methods create new instances.
+For examples , in the chess game implementations , we have the class methods black and white which created a white piece or a black piece. Here is the code :
+
+MyPiece class >> black
+	^ self new
+		  color: Color black;
+		  yourself
+    
+MyPiece class>> white
+	^ self new
+		  color: Color white;
+		  yourself
+    
+So to create a new White Queen for example , we do :
+
+|queen|
+queen := MyQueen white.
+
+
 ### Project milestone 1
 
 I choose the kata : Pawn Promotion .
