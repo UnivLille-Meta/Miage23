@@ -147,7 +147,7 @@ And printOn is defined on the class Object . So we call this method but applies 
 I choose the kata : Pawn Promotion .
 When pawns arrive to the back of the board, the pawn is promoted: it is transfomed into a major (queen, rook) or minor piece (knight, bishop), choice of the player.
 To understand the existing code , i write tests which show bugs when pawns arrive to the back of the board.
-To simplify , i choose the pawn is promoted to a queen when he arrive to the back of the board . Here is test:
+To simplify , i choose the pawn is promoted to a queen when he arrive to the back of the board . Here is the test:
 
 ```smalltalk
 testPawnPromotionWhenKo
@@ -163,7 +163,7 @@ testPawnPromotionWhenKo
 ```
 
 Like expected , the test is red.
-The promotion happens when the pawn is on the back of the board and moves. So the right place to put this new code is in the methode moveTo: aSquare .I override the moveTo method in the pawn class to specify this condition.
+The promotion happens when the pawn is on the back of the board and moves. So the right place to put this new code is in the method moveTo: aSquare .I override the moveTo method in the pawn class to specify this condition.
 
 
 
