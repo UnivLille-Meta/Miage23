@@ -165,6 +165,84 @@ testPawnPromotionWhenKo
 Like expected , the test is red.
 The promotion happens when the pawn is on the back of the board and moves. So the right place to put this new code is in the method moveTo: aSquare .I override the moveTo method in the pawn class to specify this condition.
 
+# Dahouane Youssra
+
+##Homework : 
+
+### Watch at home : about design
+
+#### Objets VS Données : 
+
+En Pharo, les objets ne sont pas de simples conteneurs de données ; ils encapsulent à la fois les données et les comportements. Par exemple, un objet Circle peut calculer la circonférence ou l'aire. Ainsi, les objets interagissent entre eux via des messages et des méthodes, contrairement aux structures de données qui ne font que stocker de l’information.
+
+#### Variables globales : 
+
+Les variables globales sont des éléments partagés dans le programme. Toute modification apportée à une variable globale peut influencer diverses parties du code, ce qui rend celui-ci plus difficile à tester et à maintenir. 
+
+#### Variables globales VS Paramètres:
+
+Pour éviter les problèmes liés aux variables globales, il est préférable d'utiliser des paramètres, comme des variables d'instance, qui maintiennent des données et des comportements spécifiques à chaque objet. 
+
+### Extras about language : 
+
+#### Les Méthodes de Classe et l’Utilisation de super
+
+En Pharo, les méthodes de classe sont généralement utilisées pour créer de nouvelles instances d'objets. Voici un exemple :
+
+##### Classe Personne : 
+
+```smalltalk
+
+Object subclass: #Personne
+    instanceVariableNames: 'nom'
+
+Personne >> creerPersonne: unNom
+    ^ self new initialiserPersonne: unNom.
+
+Personne >> initialiserPersonne: unNom
+    nom := unNom.
+
+Personne >> afficherInfos
+    ^ 'Nom: ', nom.
+
+```
+
+Dans cet exemple, creerPersonne: est une méthode de classe qui crée une nouvelle instance de Personne et l'initialise avec un nom.
+
+##### Sous-classe Étudiant
+
+```smalltalk
+
+Object subclass: #Etudiant
+    instanceVariableNames: 'matricule'
+
+Etudiant >> creerEtudiant: unNom matricule: unMatricule
+    ^ self new initialiserPersonne: unNom matricule: unMatricule.
+
+Etudiant >> initialiserPersonne: unNom matricule: unMatricule
+    super initialiserPersonne: unNom.
+    matricule := unMatricule.
+
+Etudiant >> afficherInfos
+    ^ super afficherInfos, ', Matricule: ', matricule.
+
+```
+
+Dans cet exemple, la méthode afficherInfos de la sous classe Étudiant utilise super pour appeler la méthode afficherInfos de la superclasse Personne, puis ajoute l'information du matricule.
+
+### Étape 1 du projet : 
+
+J'ai commencé à travailler sur le kata "Refactoriser le rendu des pièces." On retrouve la méthode renderKnight: aPiece, qui affiche les cavaliers selon la couleur de la pièce et de la case. Cette méthode utilise plusieurs conditions pour déterminer quel caractère afficher. Pour mieux comprendre le fonctionnement de cette méthode, j'ai testé différentes combinaisons de couleurs de pièces et de cases. Cela m'a permis de voir comment chaque condition affecte le rendu.
+
+Ensuite, j'ai réfléchi à des solutions de refactorisation. J'ai pensé à utiliser le double dispatch. Cela permettrait à chaque type de pièce de gérer son propre rendu selon la couleur de la case. Une autre option serait d'utiliser une table dispatch, qui pourrait simplifier les conditions en associant chaque pièce à un rendu prédéfini. Ces solutions visent à rendre le code plus lisible et plus maintenable. 
+
+
+
+
+
+
+
+
 
 
 
