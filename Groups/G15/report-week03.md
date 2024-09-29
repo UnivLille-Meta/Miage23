@@ -228,7 +228,10 @@ Etudiant >> afficherInfos
 
 ```
 
-Dans cet exemple, la méthode afficherInfos de la sous classe Étudiant utilise super pour appeler la méthode afficherInfos de la superclasse Personne, puis ajoute l'information du matricule.
+Dans cet exemple :
+* creerEtudiant: crée une nouvelle instance d'Etudiant et l'initialise avec un nom et un matricule.
+* initialiserPersonne: appelle d'abord la méthode d'initialisation de la superclasse (super initialiserPersonne:) pour configurer le nom, puis initialise la variable d'instance matricule.
+* afficherInfos: utilise super pour appeler la méthode afficherInfos de la superclasse Personne, puis ajoute l'information du matricule.
 
 ### Project milestone 1 : 
 
