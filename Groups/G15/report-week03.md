@@ -173,7 +173,7 @@ The promotion happens when the pawn is on the back of the board and moves. So th
 
 #### Objets VS Données : 
 
-En Pharo, les objets ne se limitent pas à stocker des données ; ils encapsulent à la fois les données et les comportements. Par exemple, un objet Circle peut non seulement stocker des informations comme le rayon, mais aussi effectuer des calculs, comme la circonférence ou l'aire. Ainsi, les objets interagissent entre eux via des messages et des méthodes, contrairement aux structures de données qui ne font que stocker de l’information.
+En Pharo, les objets ne se limitent pas à stocker des données ; ils encapsulent à la fois les données et les comportements. Par exemple, un objet Circle peut non seulement stocker des informations comme le rayon, mais aussi effectuer des calculs tels que la circonférence ou l'aire. Ainsi, les objets interagissent entre eux via des messages et des méthodes, contrairement aux structures de données qui ne font que stocker de l’information.
 
 #### Variables globales : 
 
@@ -231,14 +231,14 @@ Etudiant >> afficherInfos
 Dans cet exemple :
 
 * creerEtudiant: crée une nouvelle instance d'Etudiant et l'initialise avec un nom et un matricule.
-* initialiserPersonne: appelle d'abord la méthode d'initialisation de la superclasse Personne (super initialiserPersonne:) pour configurer le nom, puis initialise la variable d'instance matricule.
+* initialiserPersonne: appelle d'abord la méthode d'initialisation de la superclasse Personne (avec super initialiserPersonne:) pour configurer le nom, puis initialise la variable d'instance matricule.
 * afficherInfos: utilise super pour appeler la méthode afficherInfos de la superclasse Personne, puis ajoute l'information du matricule.
 
 ### Project milestone 1 : 
 
-J'ai commencé à travailler sur le kata "Refactoriser le rendu des pièces." On retrouve la méthode renderKnight: aPiece, qui affiche les cavaliers selon la couleur de la pièce et de la case. Cette méthode utilise plusieurs conditions pour déterminer quel caractère afficher. Pour mieux comprendre le fonctionnement de cette méthode, j'ai testé différentes combinaisons de couleurs de pièces et de cases. Cela m'a permis de voir comment chaque condition affecte le rendu.
+J'ai commencé à travailler sur le kata "Refactoriser le rendu des pièces." On y retrouve la méthode renderKnight: aPiece, qui affiche les cavaliers selon la couleur de la pièce et de la case. Cette méthode utilise plusieurs conditions pour déterminer quel caractère afficher. Pour mieux comprendre le fonctionnement de cette méthode, j'ai testé différentes combinaisons de couleurs de pièces et de cases. Cela m'a permis de voir comment chaque condition affecte le rendu.
 
-Ensuite, j'ai réfléchi à des solutions de refactorisation. J'ai pensé à utiliser le double dispatch afin de permettre à chaque type de pièce de gérer son propre rendu selon la couleur de la case. Une autre option serait d'utiliser une table dispatch, qui pourrait simplifier les conditions en associant chaque pièce à un rendu prédéfini. Ces solutions visent à rendre le code plus lisible et plus maintenable. 
+Ensuite, j'ai réfléchi à des solutions de refactorisation. J'ai pensé à utiliser le double dispatch afin de permettre à chaque type de pièce de gérer son propre rendu selon la couleur de la case. Une autre option serait d'utiliser une table dispatch, qui pourrait simplifier les conditions en associant chaque pièce à un rendu prédéfini. 
 
 
 
