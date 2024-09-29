@@ -185,7 +185,7 @@ Pour éviter les problèmes liés aux variables globales, il est préférable d'
 
 ### Extras about language : 
 
-#### Les Méthodes de Classe et l’Utilisation de super
+#### Les méthodes de classe et l’utilisation de super : 
 
 En Pharo, les méthodes de classe sont généralement utilisées pour créer de nouvelles instances d'objets. Voici un exemple :
 
@@ -230,7 +230,7 @@ Etudiant >> afficherInfos
 
 Dans cet exemple, la méthode afficherInfos de la sous classe Étudiant utilise super pour appeler la méthode afficherInfos de la superclasse Personne, puis ajoute l'information du matricule.
 
-### Étape 1 du projet : 
+### Project milestone 1 : 
 
 J'ai commencé à travailler sur le kata "Refactoriser le rendu des pièces." On retrouve la méthode renderKnight: aPiece, qui affiche les cavaliers selon la couleur de la pièce et de la case. Cette méthode utilise plusieurs conditions pour déterminer quel caractère afficher. Pour mieux comprendre le fonctionnement de cette méthode, j'ai testé différentes combinaisons de couleurs de pièces et de cases. Cela m'a permis de voir comment chaque condition affecte le rendu.
 
