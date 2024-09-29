@@ -238,7 +238,7 @@ Dans cet exemple :
 
 J'ai commencé à travailler sur le kata "Refactoriser le rendu des pièces." On retrouve la méthode renderKnight: aPiece, qui affiche les cavaliers selon la couleur de la pièce et de la case. Cette méthode utilise plusieurs conditions pour déterminer quel caractère afficher. Pour mieux comprendre le fonctionnement de cette méthode, j'ai testé différentes combinaisons de couleurs de pièces et de cases. Cela m'a permis de voir comment chaque condition affecte le rendu.
 
-Ensuite, j'ai réfléchi à des solutions de refactorisation. J'ai pensé à utiliser le double dispatch. Cela permettrait à chaque type de pièce de gérer son propre rendu selon la couleur de la case. Une autre option serait d'utiliser une table dispatch, qui pourrait simplifier les conditions en associant chaque pièce à un rendu prédéfini. Ces solutions visent à rendre le code plus lisible et plus maintenable. 
+Ensuite, j'ai réfléchi à des solutions de refactorisation. J'ai pensé à utiliser le double dispatch afin de permettre à chaque type de pièce de gérer son propre rendu selon la couleur de la case. Une autre option serait d'utiliser une table dispatch, qui pourrait simplifier les conditions en associant chaque pièce à un rendu prédéfini. Ces solutions visent à rendre le code plus lisible et plus maintenable. 
 
 
 
