@@ -167,7 +167,7 @@ The promotion happens when the pawn is on the back of the board and moves. So th
 
 # Dahouane Youssra
 
-##Homework : 
+## Homework : 
 
 ### Watch at home : about design
 
