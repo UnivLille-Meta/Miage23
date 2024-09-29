@@ -209,7 +209,7 @@ Personne >> afficherInfos
 
 Dans cet exemple, creerPersonne: est une méthode de classe qui crée une nouvelle instance de Personne et l'initialise avec un nom.
 
-##### Sous-classe Étudiant
+##### Sous-classe Étudiant : 
 
 ```smalltalk
 
