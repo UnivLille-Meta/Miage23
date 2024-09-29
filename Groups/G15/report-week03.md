@@ -173,7 +173,7 @@ The promotion happens when the pawn is on the back of the board and moves. So th
 
 #### Objets VS Données : 
 
-En Pharo, les objets ne sont pas de simples conteneurs de données ; ils encapsulent à la fois les données et les comportements. Par exemple, un objet Circle peut calculer la circonférence ou l'aire. Ainsi, les objets interagissent entre eux via des messages et des méthodes, contrairement aux structures de données qui ne font que stocker de l’information.
+En Pharo, les objets ne se limitent pas à stocker des données ; ils encapsulent à la fois les données et les comportements. Par exemple, un objet Circle peut non seulement stocker des informations comme le rayon, mais aussi effectuer des calculs, comme la circonférence ou l'aire. Ainsi, les objets interagissent entre eux via des messages et des méthodes, contrairement aux structures de données qui ne font que stocker de l’information.
 
 #### Variables globales : 
 
@@ -229,6 +229,7 @@ Etudiant >> afficherInfos
 ```
 
 Dans cet exemple :
+
 * creerEtudiant: crée une nouvelle instance d'Etudiant et l'initialise avec un nom et un matricule.
 * initialiserPersonne: appelle d'abord la méthode d'initialisation de la superclasse (super initialiserPersonne:) pour configurer le nom, puis initialise la variable d'instance matricule.
 * afficherInfos: utilise super pour appeler la méthode afficherInfos de la superclasse Personne, puis ajoute l'information du matricule.
