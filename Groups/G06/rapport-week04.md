@@ -87,3 +87,44 @@ Les tests :
     board at: 'e5' put: MyPawn black.  "Placer un pion noir à e5"
     squares := pawn targetSquares.
     self deny: (squares includes: (board at: 'e5')).```
+
+```
+
+# Karim EL JISR
+
+## Application de mutation sur le projet
+
+Pour cette partie, j'ai appliqué les mêmes étapes effectuées lors de l'exercice en classe à notre projet. J'ai commencé par exécuter ce code pour nos classes :
+
+```
+    testCases :=  { MypawnTest }.
+    classesToMutate := { MyPawn }.
+
+    analysis := MTAnalysis new
+        testClasses: testCases;
+        classesToMutate: classesToMutate.
+
+    analysis run.
+```
+
+Le temps d'exécution est de 11 secondes. Ensuite, j'ai demandé d'afficher le score de mutation avec le code suivant :
+
+```     
+    analysis generalResult mutationScore
+```
+Le score affiché est de 49, c'est-à-dire que 49 % des mutants ont été tués.
+
+Ensuite, j'ai exécuté le code suivant pour identifier les mutants qui ont survécu :
+
+```
+    "To retrieve the alive mutations"
+    alive := analysis generalResult aliveMutants.
+```
+
+En examinant analysis generalResult, on peut voir les mutants ayant survécu et réfléchir à des améliorations des méthodes pour qu'elles soient toutes couvertes par les tests.
+
+
+## Avancement sur le projet : Kata 'Add Pawn Promotion"
+Concernant le projet, la semaine dernière, j'ai effectué des tests sur les mouvements des pions, mais j'ai remarqué que mon collègue Yassine travaillait sur le kata "Fix Pawn Moves", donc nous travaillons sur la même classe de tests. J'ai dû supprimer ou conserver les méthodes que j'avais déjà développées en locale sans les ajouter (faire de push) de mes modifications sur Git, car elles avaient déjà été réalisées par Yassine.
+
+Cette semaine, je travaille sur la fonctionnalité qui affiche une fenêtre (pop-up) lorsque le pion atteint l'extrémité opposée de l'échiquier, demandant au joueur en quelle pièce il souhaite promouvoir son pion (knight,rook,bishop,queen).
