@@ -52,7 +52,9 @@ analysis := MTAnalysis new
  methodsToMutate: methodToMutate. 
 
 analysis run. 
-analysis generalResult. 
+analysis generalResult.
+
+Pour les tests du projet Chess Camille m'a expliqué qu'on pouvait séparer encore plus les tests grâce aux procédures. Je changerais ça pour n'avoir qu'un seul assert par test. 
 
 ```
 
