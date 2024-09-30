@@ -54,12 +54,24 @@ analysis := MTAnalysis new
 analysis run. 
 analysis generalResult.
 
-Pour les tests du projet Chess Camille m'a expliqué qu'on pouvait séparer encore plus les tests grâce aux procédures. Je changerais ça pour n'avoir qu'un seul assert par test. 
-
-```
-
 J'ai 22 mutants killed / 22 donc 100% de mutants tués. 
 
 J'ai fait ça pour chaque méthode render dont j'ai fait les tests et à chaque fois j'ai 22 mutants killed/ 22 mutants. 
 
 Mes tests ont 100% de Mutation Score
+
+
+Pour les tests du projet Chess Camille m'a expliqué qu'on pouvait séparer encore plus les tests grâce aux procédures. Je changerais ça pour n'avoir qu'un seul assert par test. 
+
+J'ai rajouté 2 tests sur la méthode foreground : 
+
+```
+foreground
+
+	^ color isBlack
+		  ifTrue: [ board blackColor ]
+		  ifFalse: [ board whiteColor ]
+```
+
+En testant les mutants sur cette méthode j'avais 9 mutants killed et un survivant. J'ai vu que c'était parce que j'avais séparé les tests par rapport à la couleur blanche ou noire mais pas dans le cas ou isBlack est évalué False. 
+
