@@ -76,7 +76,18 @@ foreground
 En testant les mutants sur cette méthode j'avais 9 mutants killed et un survivant. J'ai vu que c'était parce que j'avais séparé les tests par rapport à la couleur blanche ou noire mais.
 La mutation a changé le code ``` ^ color isBlack ``` par ``` ^ false``` parce que mes tests ne vérifiaient pas la condition liée à la couleur de la case.
 
-J'ai essayé de corriger mes 2 tests mais toujours un mutant, j'ai vu que mon deuxième test était dans les test excluded, j'ai demandé à Evann si il avait déjà vu ça, il m'a dit qu'on pouvait ajouter un filtre lors de l'analyse des mutants pour éviter ce soucis mais il ne se rappelle pas de la commande, pouvez vous nous l'écrire ?
+J'ai essayé de corriger mes 2 tests mais toujours un mutant, j'ai vu que mon deuxième test était dans les test excluded, j'ai demandé à Evann si il avait déjà vu ça, il m'a dit qu'on pouvait ajouter un filtre lors de l'analyse des mutants pour éviter ce soucis : 
+```
+testCases :=  { MyChessSquareTest }.
+methodToMutate := { MyChessSquare >> #foreground }.
 
-Pour l'instant la solution que j'ai trouvé est de tester les deux cas dans un seul test et pas deux différents. Dans ce cas j'ai 10 mutants killed/ 10 .
+analysis := MTAnalysis new
+    testClasses: testCases;
+    methodsToMutate: methodToMutate.
+    analysis testFilter: MTRedTestFilter new.
+analysis run.
+analysis generalResult.
+```
+Dans ce cas j'ai 10 mutants killed/ 10 .
 
+Les mutants sont très intéressants pour voir si nos tests couvrent bien toute la méthode et ne sont pas superflus 
