@@ -1,0 +1,63 @@
+### Pawlowski Florine 
+
+### exercices 
+
+le code-coverage du package Network-UUID est de 79.59%. 
+On voit qu'il y'a 10 méthodes non couvertes et 6 méthodes partiellement couvertes. 
+Pour améliorer le coverage il faudrait tester ces méthodes. 
+
+La couverture des tests est un bon indicateur de qualité si les tests ont un sens. Les tests doivent faire remonter des bugs.
+
+Si j'execute : 
+
+```
+analysis generalResult mutationScore
+```
+
+j'obtiens un score de 46 soit 46% du mutants killed. 
+
+si on inspecte le generalResult on peut voir les 478 mutants qui ont survécu et les regarder un par un 
+
+pour le runTime sur mon pc perso par exemple : 
+
+```
+testCases := { UUIDPrimitivesTest. UUIDTest. UUIDGeneratorTest }.
+classesToMutate := { UUID. UUIDGenerator }.
+
+analysis := MTAnalysis new
+ testClasses: testCases;
+ classesToMutate: classesToMutate.
+
+[analysis run.] timeToRun. "0:00:00:44.094"
+```
+
+j'ai 52.234 secondes. 
+
+### homeworks 
+
+Le code-coverage du package Myg-Chess-Tests sur Myg-CHess-Core est de 47.65% ce qui est peu. 
+
+Je peux voir grâce à ça que 78 méthodes ne sont pas testées 
+
+On peut tester les mutants sur les tests que j'ai fait sur les méthodes render 
+
+si j'éxecute :
+
+``` 
+testCases := { MyChessSquareTest }. 
+methodToMutate := { MyChessSquare >> #renderKing: }.
+
+analysis := MTAnalysis new
+ testClasses: testCases;
+ methodsToMutate: methodToMutate. 
+
+analysis run. 
+analysis generalResult. 
+
+```
+
+J'ai 22 mutants killed / 22 donc 100% de mutants tués. 
+
+J'ai fait ça pour chaque méthode render dont j'ai fait les tests et à chaque fois j'ai 22 mutants killed/ 22 mutants. 
+
+Mes tests ont 100% de Mutation Score
