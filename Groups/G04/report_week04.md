@@ -73,5 +73,7 @@ foreground
 		  ifFalse: [ board whiteColor ]
 ```
 
-En testant les mutants sur cette méthode j'avais 9 mutants killed et un survivant. J'ai vu que c'était parce que j'avais séparé les tests par rapport à la couleur blanche ou noire mais pas dans le cas ou isBlack est évalué False. 
+En testant les mutants sur cette méthode j'avais 9 mutants killed et un survivant. J'ai vu que c'était parce que j'avais séparé les tests par rapport à la couleur blanche ou noire mais pas dans le cas ou isBlack est évalué False.
+La mutation a changé le code ``` ^ color isBlack ``` par ``` ^ false```
+parce que mes tests ne vérifiaient pas la condition liée à la couleur de la case. 
 
