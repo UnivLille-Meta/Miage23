@@ -53,6 +53,7 @@ analysis := MTAnalysis new
 
 analysis run. 
 analysis generalResult.
+```
 
 J'ai 22 mutants killed / 22 donc 100% de mutants tués. 
 
@@ -73,8 +74,21 @@ foreground
 		  ifFalse: [ board whiteColor ]
 ```
 
+
 En testant les mutants sur cette méthode j'avais 9 mutants killed et un survivant. J'ai vu que c'était parce que j'avais séparé les tests par rapport à la couleur blanche ou noire mais.
-La mutation a changé le code ``` ^ color isBlack ``` par ``` ^ false``` parce que mes tests ne vérifiaient pas la condition liée à la couleur de la case.
+La mutation a changé le code
+
+
+``` ^ color isBlack ```
+
+
+par
+
+
+``` ^ false```
+
+
+parce que mes tests ne vérifiaient pas la condition liée à la couleur de la case.
 
 J'ai essayé de corriger mes 2 tests mais toujours un mutant, j'ai vu que mon deuxième test était dans les test excluded, j'ai demandé à Evann si il avait déjà vu ça, il m'a dit qu'on pouvait ajouter un filtre lors de l'analyse des mutants pour éviter ce soucis : 
 ```
