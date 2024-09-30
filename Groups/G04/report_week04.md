@@ -108,6 +108,7 @@ Les mutants sont très intéressants pour voir si nos tests couvrent bien toute 
 
 ### LIETARD Evann
 ### Lecture 
+#### Delegation vs. Inheritance
 J'ai regardé le cours sur la différence entre délégation et héritage.
 Dans ce cours, trois solutions étaient proposées :
 
@@ -129,3 +130,22 @@ Exemple : Strategy Design Pattern
 
 L'héritage offre une définition statique et incrémentale, mais peut mener à des conceptions rigides.
 La délégation apporte de la flexibilité et de la modularité à l'exécution, mais nécessite d'ouvrir l'API de l'éditeur.
+
+#### About State Design Pattern
+Le State Design Pattern est utilisé lorsque nous avons un objet qui peut se trouver dans différents états, et où les opérations et les transitions dépendent de l'état actuel de cet objet. 
+
+Sans utiliser le pattern d'état, chaque opération de la machine à café serait remplie de code conditionnel, vérifiant sans cesse l'état actuel de la machine avant d'exécuter une action. Cela conduit à un code difficile à maintenir et à une gestion compliquée des transitions d'état.
+
+Avec le State Pattern, chaque état est représenté par un objet distinct. Les opérations sont déléguées à ces objets d'état, ce qui élimine le besoin de conditionnels dans la classe principale. Par exemple, lorsqu'un client passe une commande, l'état actuel (comme IdleState ou ToPayState) va gérer la commande et, si nécessaire, changer l'état de la machine.
+
+Encapsulation des opérations : Chaque état implémente ses propres opérations.
+
+Transitions d'état explicites : Les transitions entre états sont définies directement dans les objets d'état eux-mêmes.
+
+Moins de conditionnels : En éliminant les vérifications d'état dans chaque opération, le code devient plus clair et plus facile à maintenir.
+
+Ajout de nouveaux états facile : Il est simple d'ajouter de nouveaux états sans avoir à toucher au reste du code, ce qui rend le système extensible.
+
+Le State Pattern est particulièrement utile lorsqu'un objet a de nombreux états différents et que chaque état doit encapsuler ses propres opérations et transitions. Il remplace les vérifications conditionnelles par de la délégation, rendant le code plus clair et plus modulaire.
+
+### Homework
