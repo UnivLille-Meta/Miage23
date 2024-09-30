@@ -105,3 +105,27 @@ analysis generalResult.
 Dans ce cas j'ai 10 mutants killed/ 10 .
 
 Les mutants sont très intéressants pour voir si nos tests couvrent bien toute la méthode et ne sont pas superflus 
+
+### LIETARD Evann
+### Lecture 
+J'ai regardé le cours sur la différence entre délégation et héritage.
+Dans ce cours, trois solutions étaient proposées :
+
+Solution avec héritage :
+Chaque sous-classe redéfinit la méthode format.
+Avantages : L'ajout de nouveaux algorithmes est simple via la sous-classe. Le packaging est bien modulaire.
+Inconvénients : Le changement dynamique d'algorithme est difficile, car l'éditeur doit être correctement initialisé dès le début. Cela entraîne une explosion combinatoire des classes si plusieurs fonctionnalités doivent être combinées.
+
+Solution avec une seule classe et des conditionnels :
+Le formatage est géré dans une seule classe TextEditor, avec des conditionnels qui sélectionnent l'algorithme en fonction de la sélection courante.
+Avantages : Changement d'algorithme dynamique.
+Inconvénients : L'ajout d'un nouvel algorithme nécessite de modifier et de recompiler le code. Le packaging est moins modulaire.
+
+Solution avec délégation :
+L'éditeur délègue le formatage à un objet externe (par exemple, FastFormatter ou SlowFormatter).
+Avantages : Ajout d'un nouvel algorithme par simple création d'un nouveau formateur. Modularité et flexibilité à l'exécution.
+Inconvénients : Le formateur doit accéder à l'état de l'éditeur, et l'API de l'éditeur doit être ajustée pour le permettre.
+Exemple : Strategy Design Pattern
+
+L'héritage offre une définition statique et incrémentale, mais peut mener à des conceptions rigides.
+La délégation apporte de la flexibilité et de la modularité à l'exécution, mais nécessite d'ouvrir l'API de l'éditeur.
