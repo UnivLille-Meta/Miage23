@@ -127,4 +127,28 @@ En examinant analysis generalResult, on peut voir les mutants ayant survécu et 
 ## Avancement sur le projet : Kata 'Add Pawn Promotion"
 Concernant le projet, la semaine dernière, j'ai effectué des tests sur les mouvements des pions, mais j'ai remarqué que mon collègue Yassine travaillait sur le kata "Fix Pawn Moves", donc nous travaillons sur la même classe de tests. J'ai dû supprimer ou conserver les méthodes que j'avais déjà développées en locale sans les ajouter (faire de push) de mes modifications sur Git, car elles avaient déjà été réalisées par Yassine.
 
-Cette semaine, je travaille sur la fonctionnalité qui affiche une fenêtre (pop-up) lorsque le pion atteint l'extrémité opposée de l'échiquier, demandant au joueur en quelle pièce il souhaite promouvoir son pion (knight,rook,bishop,queen).
+Cette semaine, je travaille sur la fonctionnalité qui affiche une fenêtre (pop-up) lorsque le pion atteint l'extrémité opposée de l'échiquier, demandant au joueur en quelle pièce il souhaite promouvoir son pion (knight,rook,bishop,queen). 
+
+
+# MOULOUEL Tarik 
+- Pour cette semaine, J'ai éffectué un test de coverage code sur le projet : Taux de coverage du code est de 49 %, avec 78 de méthodes non covered ainsi que 8 méthodes covered partiellement ce qui est peu.
+
+-  j'ai fait une analyse de mutants pour les projet des echecs  avec le code suivant : 
+```testCases :=  { MyBishopTests. MyFENTest. MyKingTest. MyRookTests. MypawnTest. }.
+classesToMutate := { MyBishop. MyFENGame. MyKing. MyRook. MyPawn }.
+
+analysis := MTAnalysis new
+    testClasses: testCases;
+    classesToMutate: classesToMutate.
+
+analysis run.  
+   ``` 
+
+- Ensuite j'ai analysé le resultat général avec la commande : ``` analysis generalResult mutationScore ``` 
+- J'ai également analysé les mutants qui ont survécu avec la commande ```alive := analysis generalResult aliveMutants.  ``` (comme fait dans l'exercice)
+
+- j'ai constaté que le score de mutation était de 34 sur les classes que j'ai téstes , ce qui n'est pas enorme; et donc on doit absolument ecrire plus de tests, j'ai aussi constaté qu'il y avait pas mal de mutants 338 au total. y a des mutants qui sont assez facile à tuer.  
+- J'ai conclut qu'il faut absolulent ecrire plus de tests pour un meilleur coverage.
+
+- ## PROJET ECHECS : 
+- Mon Kata consiste à refactoriser le code resposnable de l'affichage des pieces. je viens de faire un commit qui consiste a refactoriser la méthode  ```renderKing``` pour le code un peu plus comprehensible, j'ai aussi gérer les branches sur github.
