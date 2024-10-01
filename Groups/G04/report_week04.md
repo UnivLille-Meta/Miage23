@@ -105,7 +105,32 @@ analysis generalResult.
 Dans ce cas j'ai 10 mutants killed/ 10 .
 
 Les mutants sont très intéressants pour voir si nos tests couvrent bien toute la méthode et ne sont pas superflus 
+### lectures & videos sur les designs patterns : 
 
+#### DECORATOR : 
+	- Offre une alternative flexible pour ajouter des fonctionnalités supplémentaires. 
+ 	- Le client parle au Decorator et le Décorator délègue au Decoree (leaf ou autre décorateur) 
+  	- Tous les décorateurs doivent avoir les MEMES APIs (très important) 
+   	- basé sur la délégation. 
+    	- inconvénients si bcp d'APIS ou APIS différentes. 
+     
+#### COMPOSITE : 
+	- Les feuilles ont les mêmes APIs que le composite lui même mais elles font les choses de manière différente (polymorphisme) 
+ 	- C'est une structure d'arbre (composite avec enfants feuilles)
+  	- extensible
+   	- créé pour les traitements complexes. 
+
+#### STATE :
+	- Chaque état implémente ses opérations.
+ 	- Chaque état implémente les transitions vers les autres états.
+  	- MOINS de conditionnels, PLUS de délégation. 
+   	- Utile lorsque l'objet a beaucoup d'états différents. 
+    	- Facile d'ajouter d'autres états. 
+     
+#### COMMAND : 
+	- Chaque commande est responsable de la gestion de ses datas.
+ 	- Adaptée pour les manipulations d'actions. 
+  
 ### LIETARD Evann
 ### Lecture 
 #### Delegation vs. Inheritance
