@@ -149,3 +149,32 @@ Ajout de nouveaux états facile : Il est simple d'ajouter de nouveaux états san
 Le State Pattern est particulièrement utile lorsqu'un objet a de nombreux états différents et que chaque état doit encapsuler ses propres opérations et transitions. Il remplace les vérifications conditionnelles par de la délégation, rendant le code plus clair et plus modulaire.
 
 ### Homework
+
+Pour cette semaine, j'ai effectué l'analyse de la qualité de mes tests sur le projet d'échecs.
+
+J'ai d'abord appliqué la mutation sur l'ensemble de la classe comme demandé dans l'exercice. Cependant, je me suis rapidement rendu compte que presque tous les mutants non tués étaient dus aux méthodes que je n'avais pas testé.
+
+Je me suis alors renseigné et j'ai décidé de tester méthode par méthode, en utilisant la démarche suivante :
+```
+testCases :=  {MyPawnTest}.
+    methodToMutate := {MyPawn >> #shouldPromote}.
+    analysis := MTAnalysis new
+    testClasses: testCases;
+    methodsToMutate: methodToMutate.
+    analysis run.
+    analysis generalResult.
+```
+Cela a fonctionné pour la plupart des méthodes, sauf une en particulier qui renvoyait un mutant vivant alors que j'étais sûr de l'avoir testée. Le problème venait du fait que le filtre excluait un test parce que celui-ci était trop long.
+
+Pour résoudre cela, j'ai utilisé l'instruction suivante:
+```
+testCases := {MyPawnTest}. 
+    methodToMutate := {MyPawn >> #shouldPromote}. 
+    analysis := MTAnalysis new testClasses: 
+    testCases; 
+    methodsToMutate: methodToMutate.
+    analysis testFilter: MTRedTestFilter new.
+    analysis run.
+    analysis generalResult.
+```
+J'ai ainsi pu constater que mes tests étaient de bonne qualité, avec 100 % de mutants tués pour l'un, et 93 % pour l'autre.
