@@ -54,3 +54,11 @@ J'ai remarqué que les pièces qui menaçait le roi n'était jamais mises à jou
 ****
 
 # BOU ALEXANDRE
+
+Cette semaine : 
+
+
+- J'ai travaillé avec Khadija sur son kata pour voir comment faire la prise en passant.
+- J'ai fait l'exercice sur la mutation.
+- J'ai lu les pdf de cours pour cette semaine.
+- J'ai étudié le code du jeu d'échec pour pouvoir faire la promotion. 
