@@ -158,4 +158,61 @@ Everything in Pharo is Object and actions are done via messages
 
 --- 
 
+## Bethuel Lafalaise
+#### Learn about collections in Pharo and their iterators
+A collection is a data structure used to group and manage several elements (objects). It allows you to store, access and manipulate groups of related objects in an organized way. You can browse collections using blocks and methods such as do:, collect:, select:, reject:.
+
+#### Learn how to create classes and methods
+In the document I consulted to created the class (http://rmod-pharo-mooc.lille.inria.fr/MOOC/PharoMOOC/Week1/Exo-Counter.pdf), it says that “In pharo, a class is define in a package”. Therefore, to create a class, you need to create a package first. You create a class by specifying its superclass and defining methods within it. All methods are public in Pharo.
+
+I followed the steps in the document/videos and recreate the same class Counter with the count, decrement and increment methods. (Images below)
+![image](https://github.com/user-attachments/assets/b606baa9-b043-4992-ac6e-893c58dcbb9c)
+![image](https://github.com/user-attachments/assets/ea838f8f-6ff2-4c77-ac22-9e1d0ce4402a)
+![image](https://github.com/user-attachments/assets/0d004c30-bf1d-430b-8d95-d2ce08b4c8c7)
+![image](https://github.com/user-attachments/assets/18aeffdc-ccac-4b56-b643-49a117978d14)
+
+As this is my first time working with Pharo, I've been working with Pharo 11.0. In Pharo 12.0, the syntax for defining classes is a little different, which I need to master quickly. 
+Example:
+![image](https://github.com/user-attachments/assets/11d26659-1fa5-4f97-862f-f9f1a57fa332)
+Pharo 12.0
+![image](https://github.com/user-attachments/assets/84519007-500e-4d01-a497-ce69e56ac321)
+Pharo 11.0
+
+#### Learn about conditionals in Pharo
+In Pharo, they written using messages like ifTrue:, ifFalse:, ifTrue:ifFalse:, and blocks of code.
+Example :
+
+```
+x := 15.
+x >= 18 ifTrue: [ 'Vous etes majeur(e)' ] ifFalse: [ 'Vous etes mineur(e)' ].
+
+```
+To find the information, I watched the videos on the Pharo.org website and read the pdf. I also used ChatGPT to better understand anything that seemed difficult to understand, as I'm new to Pharo.
+
+#### Extras
+1- Cascades
+Cascades allow multiple messages to be sent to the same object in a single expression, separated by semicolons ( ;), which is useful for avoiding repeating the same recipient. The cascade returns the value of the last message sent.
+Example :
+```
+Transcript 
+	cr;
+	show: 'Hello';
+	show: 'World'
+```
+Instead of repeating the receiver (Transcript), we chain them using cascades.
+
+2- Block closures
+Closures are kind of anonymous methods, they are called blocks in Pharo and are enclosed in square brackets : [].
+Example : ```[Transcript show: ‘Hello World’]```
+
+Block closures can take arguments and be passed as values to methods.
+
+```
+square := [:x | x * x ]
+square value: 10.
+```
+It returns 100.
+
+#### Additional Information
+InPharo there are only objects and messages. There are a lot of objects to represent mounse pointer, numbers, windows …The messages indicate the programmer's intention. (Directly from the video Pharo Object Model in a Nutshell)
 
