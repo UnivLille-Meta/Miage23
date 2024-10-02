@@ -58,3 +58,24 @@ You can find the results of the implemented tests at [our fork for Chess](https:
 To put it briefly, we...
 
 ### Test Coverage / Mutation Analysis
+
+
+# Salim TITOUCHE
+
+Nos tâches pour cette semaine étaient plutôt simples, en gros comme l'a déjà expliqué mon camarade au-dessus, nous devions exécuter des tests de mutation sur nos tests d'échecs.
+
+J'ai fait le même travail sur la classe MyPawn et les tests que j'ai créés, intitulés PawnMoveTests.
+
+```smalltalk
+testCases := { MyPawn }.
+classesToMutate := { PawnMoveTests }.
+
+analysis := MTAnalysis new
+    testClasses: testCases;
+    classesToMutate: classesToMutate.
+
+analysis run.
+analysis generalResult mutationScore.
+```
+
+J'ai obtenu le résultat suivant : 44 % (26 mutants sauvés et 21 mutants tués
