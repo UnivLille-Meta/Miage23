@@ -1,6 +1,47 @@
 # WEEK 4 :
 
-## KHADIJA BESBAS 
+# KHADIJA BESBAS 
+### Homework
+
+- Sur ma branche ( kata_1 ), j'ai un taux de coverage de 51,90%. Plusieurs fonctions n'ont pas étaient testés ( qui ne concerne pas mon kata ). Par contre, j'ai pu constaté que certaine fonction que je pensais avoir bien testé, ne le sont que partiellements.
+- L'outils va me permettre de vérifier que le code tester, l'est bien.
+
+
+Je ne me suis concentré que sur la classe MyPawn :
+````
+
+testCases :=  { MyPawnTests }.
+classesToMutate := { MyPawn }.
+
+analysis := MTAnalysis new
+    testClasses: testCases;
+    classesToMutate: classesToMutate.
+
+analysis run.
+
+analysis generalResult mutationScore.
+
+"To retrieve the alive mutations"
+alive := analysis generalResult aliveMutants.
+
+analysis generalResult.
+
+````
+J'ai comme résultats : 64 mutants qui ont survécuent contre 204 de tués ( soit 23% de survivant ). Cela montre aussi que mes tests ne sont pas encore assez complet car il ne traite pas tout les cas possibles.
+
+- Ce que j'ai compris des mutations, c'est qu'en mutant son code, on peut vérifier que nos tests sont pertinents. Ainsi, c'est une façon de tester nos tests.
+
+Cette semaine j'ai donc : 
+- lu le cours
+- fait les exercices sur les mutations
+- avancé sur mon kata ( prise en passant )
+
+Concernant les questions que j'ai : 
+- Pendant que je travaillé sur mon kata, j'ai eu pharo qui est a "friz" ( impossible de faire quoi que ce soit, même de fermé l'application ). Comme je n'avais pas sauvegardé, j'ai perdu une partie de mon travail...
+Y a t-il quelques chose que l'on puisse faire lorsqu'on est confronté à ce problème ? Est-il possible d'avoir une sauvegarde automatique sur pharo ? 
+
+
+
 
 
 ****
