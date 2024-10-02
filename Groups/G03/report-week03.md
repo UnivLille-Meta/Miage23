@@ -194,7 +194,7 @@ introduce
 
 The results from the previous tests worked as expected. They demonstrate how Pharo's class methods and ```super``` operate in practice.
 
-##Project milestone 1
+## Project milestone 1
 
 My kata is “Restrict Legal Moves”. Before I even start working on the kata, I think it's necessary to know more about chess and how to play it, as I've never played it before. I've been watching YouTube videos and asking professional friends about it, and I have some good ideas that will help me get started on the project and be on the same page as everyone else on my team.
 However, I've taken a look at the MyKing class as well as the other pieces classes, as they're the ones who'll be putting the King in danger or defending him. 
