@@ -10,7 +10,7 @@ This week you must
 
 Check the PDFs, watch the videos.
 
-The lectures on Visitor and double dispatch: Module 6 from https://advanced-design-mooc.pharo.org/#module6
+The lectures on double dispatch: Module 6 from https://advanced-design-mooc.pharo.org/#module6
 
 - double dispatch
 - symmetry
