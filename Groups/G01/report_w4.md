@@ -26,5 +26,22 @@ analysis run.
 analysis generalResult.
 
 ```
-to analyse mutation testing in the chess project, The mutation score was 44% which is low and the test coverage is 53.02%, which is also low. The combination of low test coverage and a low mutation score indicates not only that there are too few tests but also that the existing tests are not strong enough in catching defects in the code. This means we need to not only increase the number of tests to cover more code but also write more precise and comprehensive tests to verify the behavior of the code under various scenarios.
 
+> # _Wagnan SORO_
+
+> Apres avoir exécuté les commandes qu'on retrouve dans le TP sur les mutants en les installant d'abord dans le tp Chess, j'ai démandé le score de mutation pour la classe `MyKing` et `MyBishop` avec
+``` 
+ testCases :=  { MyBishopTests.MyKingTest }.
+classesToMutate :={MyBishop.MyKing}.
+
+analysis := MTAnalysis new
+testClasses: testCases;
+classesToMutate: classesToMutate .
+analysis testFilter: MTRedTestFilter new.
+
+analysis run.
+analysis generalResult.
+
+```
+> Au depart, j'ai un taux de coverage pour `Myg-Chess-Core` qui s'élève à `51,01%`, et `14,63%` pour la classed `Myg-Chess-Importers`.
+> Je constate que 53 mutants lnt été tués avec 189 survivants, ce qui peut être expliqués par le fait que les tests ne couvrent pas toutes les méthodes, il faudra donc réecire des tests et bien modifier ceux dejà presents pour mieux couvrir la méthode qu'ils testent.
