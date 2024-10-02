@@ -86,7 +86,7 @@ Ideally, to write a small program in pharo, you start by coding a test (TDD). Wh
 
 I continued to write the Counter programme that we'd started in class. I just didn't follow all the tests in the document because it tested several cases at the same time.  
 
-Project link : https://github.com/Julien-Conoir/C3P-Week1-Exo
+Project link : https://github.com/Julien-Conoir/C3P-Exercices
 
 ### Learn about the basic Pharo coding style
 

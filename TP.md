@@ -28,7 +28,16 @@ At the end of the semester you need to deliver:
    - Add in your `Readme.md` file the link to your repository.
    - Make sure your repository is public so we can see it
    - Add the MIT licence
- 
+
+- **Mandatory: tag important commits in your repository**
+   - Every time a commit shows some improvement or event you would like to show, make a tag
+   - For example, you could tag:
+      - Before doing mutation testing
+      - After improving mutation coverage
+      - After a complex merge
+      - After the application of a design pattern
+      - ...
+
 - **Optional: give us write access to your code**
    - Share your repository with us the teachers, so we will have write access to your code
  
