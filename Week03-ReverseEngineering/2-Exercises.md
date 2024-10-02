@@ -125,7 +125,7 @@ Do you have a hunch? Check the surrounding code.
 ## Takeaways
 - Focused on the target and the task at hand
 - Ignore things not in focus, keep a log for later
-- You will probably ignored more things than those that you learn
+- You will probably ignore more things than those that you learn
 - Flow: High-level View => Usage => Implementation
 
 - Comments had important info: the why of the design
@@ -140,16 +140,16 @@ We recommend you take a look at the following
 - AVL is an implementation of balanced trees https://github.com/pharo-containers/AVL
 - Artefact is a generator of PDF documents https://github.com/pharo-contributions/artefact
 
-### Analysis
+### Tasks
 
 For each project perform *at least* the following analyses.
 
 Tips:
-- You can check the code from the Class browser,
+- Check the code from the Class browser,
 - Execute examples from the playground,
-- and inspect the results using the inspector.
-- To execute the tests use DrTests (see menus)
-- And check the options in the browser/playground (senders, implementors) what do they do and why are they useful?
+- Inspect the results using the inspector.
+- Execute the tests with DrTests (see menus)
+- Check the options in the browser/playground (senders, implementors) what do they do and why are they useful?
 
 #### From a user perspective
 - Is there good starting documentation? Look for installation instructions, starting points, examples.
