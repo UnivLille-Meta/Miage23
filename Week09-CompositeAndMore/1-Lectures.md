@@ -13,5 +13,4 @@ Check the PDFs, watch the videos.
 The lectures on composite: Module 5 from https://advanced-design-mooc.pharo.org/#module5
 
 - Composite: a Nice and Common Design Pattern
-- Delegation vs. Inheritance
 - Avoid Null Checks
