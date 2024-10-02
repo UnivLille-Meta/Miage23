@@ -151,3 +151,11 @@ Package
 Everything in Pharo is Object and actions are done via messages
 
 - This information was found by watching the MOOC on youtube, by following the PDFs and profStef Tutorials in Pharo.
+
+
+
+
+
+--- 
+
+
