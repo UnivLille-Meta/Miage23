@@ -14,4 +14,3 @@ The lectures on Visitor and double dispatch: Module 6 from https://advanced-desi
 
 - double dispatch
 - symmetry
-- visitor
