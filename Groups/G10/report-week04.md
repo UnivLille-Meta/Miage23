@@ -75,6 +75,33 @@ Cette semaine, j'ai eu moins de temps pour travailler le Pharo chez moi. Mais j'
 - Application du TP `Mutation testing practice` sur notre projet Chess.
 - On s'est entrainé à expliquer les différentes notions sur les mutants avec Ikram. Puisque pour mieux assimiler les connaissances et être sûr de comprendre une chose, il faut expliquer à l'autre, se poser les bonnes questions, etc.
 
+Code :
+```smalltalk
+testCases := { MyRookTests . MyFENTest . MyKingTest }.
+
+classesToMutate := { MyRook . MyKing . MyFENParser . MyFENGame }.
+
+analysis := MTAnalysis new
+	testClasses: testCases;
+   classesToMutate: classesToMutate;
+   testSelectionStrategy: MTSelectingFromCoverageTestSelectionStrategy new;
+   stopOnErrorOrFail: true.
+
+analysis run.
+
+analysis generalResult mutationScore.
+
+"To retrieve the alive mutations"
+alive := analysis generalResult aliveMutants.
+
+analysis generalResult.
+```
+On obtient :
+> 665 mutants, 153 killed, 512 alive, 0 terminated. Mutation Score: 23%.
+
+Le côté assez ahurissant de ces nombres est dû au manque de tests. Comme un grand nombre de tests n'existent pas actuellement, chacune des fonctions va alors avoir un nombre de mutant assez important. Ainsi, en ajoutant quelques tests, le score peut monter assez rapidement.
+
+
 ### Objectif pour la séance du 11 octobre
 
 - S'entraîner pour le DS en revoyant des questions types (différences entre super et self par exemple). Par exemple, je sais à quoi ces derniers servent, mais je ne sais pas forcément l'expliquer. J'ai du mal à mettre des mots sur des notions même si je sais les appliquer.
