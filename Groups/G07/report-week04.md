@@ -142,14 +142,71 @@ Voici le lien vers le code que j'ai réalisé:
 https://github.com/LouizaZC/Projet_Chess/tree/main/src
 
 
+------------------------------------------------------------------------------------------------------
+# ABOU DAHER Wassim
+
+## What I Learned About Mutation Testing :  
+1. What is Mutation Testing?
+Mutation testing is a technique used to evaluate the quality of tests in a project. The idea is to simulate error in the code by making small changes  and then checking if the tests can detect these errors. A good test is one that can "kill" the mutant, meaning it fails and identifies the artificial error. If any test survives, it indicates that the code might have error, meaning the change doesn't affect the program's logic.
+
+2. Mutation Testing Process
+The mutation testing process consists of three steps: 
+
+Introducing Mutations: Small changes are made to the code (like flipping a sign or modifying a condition).
+Running Tests: The existing test suite is executed on the mutated code.
+Evaluation: If a test fails, the mutant is considered "killed." If a test still passes, the mutant has survived.
+
+## Test Coverage:
+To know the test coverage i use the same code of the practice exercice that i did in the last class: 
+Deprecation activateTransformations: false.  
+Metacello new  
+  baseline: 'MuTalk';  
+  repository: 'github://pharo-contributions/mutalk:v2.5.0/src';  
+  load.  
+Metacello new  
+  baseline: 'AVLTesting';  
+  repository: 'github://avl-univ-lille/practice';  
+  load.  
+
+  Then i choose to see the test coverage of the core class: Myg-Chess-Core, and i got 48.3% Code coverage, 78 uncovered methods and 4 partially covered methods.
+
+I tried to test the methode moveTo: beacause it will be part of my kata.
+testCases := { MyPawnTest }. 
+methodToMutate := { MyPawn >> #moveTo: }.
+analysis := MTAnalysis new
+ testClasses: testCases;
+ methodsToMutate: methodToMutate. 
+analysis run. 
+analysis generalResult.
+
+resutat de l'exécution  :
+
+ `17 mutants, 14 killed, 3 alive.`
+
+So my work was to kill all the mutants and i did that to several methods to have 100% score.
+
+## Key Insights:
+1. Difference Between Mutation Score and Code Coverage:  
+The mutation score reflects the effectiveness of the tests in detecting faults, while code coverage measures how much of the code has been executed. The gap between these two metrics suggests that while some parts of the code are being tested, they may not be robust enough to catch errors introduced by small changes, so a big coverage it's not necessary a good thing, in case the mutation score was low .
 
 
+## Improving Mutation Analysis:
+To improve my approach to mutation analysis, I plan to:
 
+ Create additional tests to identified weak methods and edge cases. For instance, testing scenarios where pieces are moved in ways that could result in invalid states or exceptions.
 
+Target Specific Methods: Prioritize mutation testing on key methods within the following classes which is in link with my kata:
 
+MyPawn
+MyPiece
+MyChessSquare
+MyChessBoard
+MyFENGame
+By refining the tests in these classes, I hope to improve both the mutation score and overall code coverage.
 
-
-
+## Preparation for this week
+ I read the pdfs about the design patterns.
+ ( i have a question about the Variations on Composite behavior)
 
 
 
