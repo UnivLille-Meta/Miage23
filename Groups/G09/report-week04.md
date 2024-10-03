@@ -115,3 +115,40 @@ apré que jais ajouter dautre test jais optenu le resultas suivant :
 ### Code des tests
 
 - [GitHub](https://github.com/mrdedede/Chess/blob/main/src/Myg-Chess-Tests/PawnMoveTests.class.st)
+
+
+# Rapport Hebdomadaire Semaine 4 de Salas Merzouk
+
+## Progrès
+
+Cette semaine, j'ai continué à travailler sur le refactoring de la logique du jeu d'échecs, en me concentrant particulièrement sur l'application des tests de mutation pour évaluer et améliorer la qualité de mes tests unitaires.
+
+### Tâches réalisées :
+
+1. **Application des tests de mutation sur MyChessSquare**
+
+J'ai exécuté des tests de mutation sur la classe MyChessSquare pour évaluer la robustesse de ma suite de tests. Les résultats initiaux ont révélé un score de mutation de 11%, ce qui est relativement bas. Cependant, ce résultat n'est pas surprenant étant donné que j'ai actuellement 30 classes mais seulement 4 tests implémentés.
+
+2. **Analyse des résultats des tests de mutation**
+
+Le faible score de mutation m'a permis de tirer plusieurs enseignements :
+
+- **Couverture insuffisante** : Mes tests actuels ne couvrent qu'une petite partie des scénarios possibles et des comportements de la classe.
+- **Nécessité d'expansion** : Il est clair que je dois augmenter considérablement le nombre et la diversité de mes tests pour améliorer la robustesse de mon code.
+- **Identification des points faibles** : Les tests de mutation ont mis en évidence des parties spécifiques du code qui ne sont pas suffisamment testées, me donnant ainsi des directions claires pour l'amélioration.
+
+3. **Plan d'amélioration de la suite de tests**
+
+Pour augmenter le score de mutation et améliorer la qualité globale de mes tests, je dois :
+
+- Augmenter le nombre de tests pour couvrir plus de scénarios.
+- Diversifier les tests pour inclure plus de cas exceptionnelles.
+- Ajouter des tests spécifiques pour chaque méthode de la classe MyChessSquare.
+
+## Réflexions et apprentissages
+
+L'application des tests de mutation a été une expérience très instructive. Elle m'a permis de comprendre concrètement l'importance d'une suite de tests complète et diversifiée. J'ai réalisé que mes tests initiaux, bien que fonctionnels, ne couvraient qu'une fraction des cas possibles.
+
+Cette expérience m'a également montré l'utilité des tests de mutation comme outil pour évaluer et améliorer la qualité des tests unitaires. C'est un moyen efficace de découvrir les faiblesses de notre suite de tests et de guider nos efforts d'amélioration.
+
+
