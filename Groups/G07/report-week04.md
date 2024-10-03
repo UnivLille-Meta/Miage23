@@ -121,7 +121,7 @@ Pour rappel, je m'intéresse aux classes suivantes :
 - MyChessBoard
 - MyFENGam
 
---> Avant de rédiger les tests, j'ai d'abord à utiliser les exercices réalisés lors du cours précédent pour exécuter des tests de mutation sur les méthodes qui sont déjà testées.
+--> Avant de rédiger les tests, j'ai d'abord utiliser les exercices réalisés lors du cours précédent pour exécuter des tests de mutation sur les méthodes qui sont déjà testées.
 
 J'ai exécuté le code suivant en tant qu'exemple dans la classe de test MyKingTest afin de vérifier s'il fonctionne sur mon projet.
 
