@@ -48,7 +48,7 @@ J'ai effectué un mutation testing sur le package de tests du projet chess. J'ai
    - Pour faire une analyse, nous la réalisons comme suit :
    ```smalltalk
    testCases := { ClasseDeTest1 . ClasseDeTest2 . ClasseDeTest3 }.
-   classesToMutate := 'Nom-Du-Paquet' asPackage definedClasses.
+   classesToMutate := { Classe1 . Classe2 }.
 
    analysis := MTAnalysis new
       testClasses: testCases;
@@ -65,7 +65,18 @@ J'ai effectué un mutation testing sur le package de tests du projet chess. J'ai
 
    Je n'ai pas encore assimilé l'ensemble de ce concept, et ce n'est pas encore naturel pour moi d'implémenter des solutions avec le double dispatch. Le cours du vendredi 4 octobre va m'aider.
 
+- J'ai aussi continué à analyser le projet Chess. Dans mon rapport précédant, je me demandais d'où venaient les lettres 'L', 'B', ou autres pour le rendu des pièces.
+
+   Et bien c'est une question pour laquelle j'ai obtenu la réponse. Dans le programme de l'application, la manière dont le rendu est réalisée, est de sorte que les images sont récupérées sur un repository GitHub ([open-chess-font/output_svg_tiles](https://github.com/joshwalters/open-chess-font/tree/master/output_svg_tiles))
+
 ### Réalisé à la maison
 
+Cette semaine, j'ai eu moins de temps pour travailler le Pharo chez moi. Mais j'ai tout de même réalisé :
+- Application du TP `Mutation testing practice` sur notre projet Chess.
+- On s'est entrainé à expliquer les différentes notions sur les mutants avec Ikram. Puisque pour mieux assimiler les connaissances et être sûr de comprendre une chose, il faut expliquer à l'autre, se poser les bonnes questions, etc.
 
-### Exercices
+### Objectif pour la séance du 11 octobre
+
+- S'entraîner pour le DS en revoyant des questions types (différences entre super et self par exemple). Par exemple, je sais à quoi ces derniers servent, mais je ne sais pas forcément l'expliquer. J'ai du mal à mettre des mots sur des notions même si je sais les appliquer.
+- Refaire également des exercices comme l'implémentation des opérateurs logique sans utiliser de `if` (or, not, and). C'est la notion de dispatch dont il est question.
+- Proposer une implémentation pour le projet des échecs sur le kata `Refactor piece rendering` en utilisant le double dispatch.
