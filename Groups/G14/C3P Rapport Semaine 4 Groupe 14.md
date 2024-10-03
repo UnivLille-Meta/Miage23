@@ -29,3 +29,27 @@ analysis generalResult.
 En examinant le **Test Coverage**, on constate que dans `Myg-Chess-Core`, la couverture de code est de 43,59%, et dans `Myg-Chess-Importers`, elle est de 14,63%.
 
 J'ai donc commencé à réécrire certains tests et à modifier ceux existants pour qu'ils couvrent correctement les méthodes concernées.
+
+# Dimos MOUSSED-WERNITZ  
+
+Je ne connaissais pas trop le concept de mutation Testing.
+Je pensais que c'était le fait d'introduire des bugs dans nos tests et de vérifier que ces tests passez au rouge ou quelque chose du genre.  
+En réalité c'est plutôt une manière de s'assurer de la fiabilité de nos tests en introduisants des "mutants" non pas dans les tests mais dans le code directement. 
+Et donc de voir si nos tests verts ne sont pas potentiellement des "faux tests verts" <=> tests qui ne couvrent pas tout correctement.  
+
+## Dans Chess  
+J'ai donc voulu tester ce principe sur le projet Chess.  
+J'attaque directement tout ça avec les mêmes techniques vu en exercice, donc je lance ceci dans mon Playground :  
+![](./CapturesDimos/mutation/testsBase.png)  
+Il y a eu un total de 699 mutants introduits. 
+Je veux donc aussi avoir mon score de mutation grâce à :  
+`analysis generalResult mutationScore`  
+Donc j'observe ceci :  
+![](./CapturesDimos/mutation/699Mutations.png)  
+
+On a donc un total de 500 mutants qui ont survécus sur 699 mutants... aie.. score à 28,5%. Pas top, il faudra donc essayer de revplonger dans les tests pour réévaluer la pertinance des tests et essayer de couvrir plus de choses.  
+
+Maintenant en ce qui concerne mon test que j'avais écris sur les Pions on est sur ceci :  
+![](./CapturesDimos/mutation/mutationMyPawn.png)  
+
+Soit un score de mutation de 55% ce qui en soit est correct sachant que je n'ai pas encore tout couvert pour cette classe de Pion (Pawn)
