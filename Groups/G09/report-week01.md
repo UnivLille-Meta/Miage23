@@ -217,7 +217,7 @@ La bibliothèque standard de Pharo offre plusieurs types de collections, notamme
 - `OrderedCollection` : collections ordonnées
 - `SortedCollection` : collections triées
 
-![collection](/collection.png)
+![collection](https://github.com/mrdedede/Miage23/blob/19c3a20ec32440ed2494bc1fab8b896a5318f83d/Groups/G09/collection.PNG)
 
 Source de l'image : [Mooc](http://rmod-pharo-mooc.lille.inria.fr/OOPMooc/02-Syntax/W2S10-Iterators.pdf)
 

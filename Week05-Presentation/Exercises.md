@@ -31,7 +31,7 @@ list add: 17 before: 1. "Error!"
 list := MyList new.
 list add: 7.
 list add: 42 after: 7. "now the list is 7, 42"
-list add: 17 before: 1. "Error!"
+list add: 17 after: 1. "Error!"
 ```
 
 - `includes:` returns a boolean indicating if an element is inside the list or not
