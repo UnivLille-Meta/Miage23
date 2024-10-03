@@ -78,4 +78,17 @@ analysis run.
 analysis generalResult mutationScore.
 ```
 
-J'ai obtenu le résultat suivant : 44 % (26 mutants sauvés et 21 mutants tués
+J'ai obtenu le résultat suivant : 
+- 44 % (26 mutants sauvés et 21 mutants tués
+- 54.36% code Coverage 
+- 68 uncovered methods
+- 7 partially covered methods
+
+Et pour améliorer ce résultat, je dois ajouter des tests pour tuer plus de mutants et couvrir plus de méthodes, et aussi corriger le code du jeu car déjà il n'est pas juste.
+
+apré que jais ajouter dautre test jais optenu le resultas suivant : 
+- 57 % (20 mutants sauvés et 27 mutants tués
+
+### Code des tests
+
+- [GitHub](https://github.com/mrdedede/Chess/blob/main/src/Myg-Chess-Tests/PawnMoveTests.class.st)
