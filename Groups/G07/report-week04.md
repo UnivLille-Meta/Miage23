@@ -1,4 +1,4 @@
-### Meryem EL KOURAICHI
+# Meryem EL KOURAICHI
 
 ## tests 
 
@@ -45,4 +45,133 @@ Je pense donc qu'un autre design pattern sera plus adapté , je pense actuelleme
 Voici mon schéma de brainstorming : </br>
 
 ![double dispatch](./double_dispatch.jpg)
+
+-------------------
+# ZIANE CHAOUCHE LOUIZA
+
+## Exercices :
+
+### Analyse du Test de Mutation pour la Bibliothèque UUID:
+
+Lorsque j'ai exécuté le code donné, DrTest montre que nous avons une couverture de tests de 79,59 % avec 10 méthodes non couvertes et 6 méthodes partiellement couvertes.
+Pour cela j'ai décidé d'écrire des tests afin d'augmenter la couverture.
+
+* Après execution :
+```
+analysis generalResult mutationScore
+```
+J'obtiens un score de 46, donc maintenant 46 % des mutants sont tués.
+--> Pour visualiser tous les mutants surviavnts et tués un par un en detail, j'ai exécuté la commande :
+```
+analysis generalResult.
+```
+--> on peut voir qu'il y a 478 mutants survécus et 411 tués, cela nous donne au total 889 mutants 
+
+#### Things to think about:
+
+1. Score de Mutation/Pourcentage de Couverture :
+
+Le score de mutation est différent du pourcentage de couverture, car ils mesurent des aspects différents du code :
+* Couverture de code : Mesure le pourcentage de code exécuté lors de l’exécution de la suite de tests.
+* Score de mutation : Mesure le pourcentage de mutants "tués" par les tests, c’est-à-dire le pourcentage de changements apportés au code qui ont provoqué un échec des tests. 
+
+--> Pour réduire l'écart entre le score de mutation et la couverture de code, on peut par exemple tester les cas particuliers et les cas négatifs. On peut également gérer des entrées nulles qui ne sont pas été testées. 
+
+2. Quelle Mesure est Plus Précise ?
+
+On peut considérer que le score de mutation est plus précis pour évaluer la qulité des tests car il évalue l'éfficacité des tests à detecter des erreurs et non simplement leur capacité à exécuter le code. Cepenadant, la couverture de code est moins précise car elle nous montre seulement l'éxécution des lignes de code.
+
+
+### Compréhension des Mutants Survivants:
+ 
+* Les mutants survivants peuvent exister, par exemple pour les tests faibles, les mutants équivalents(les mutation changent pas le code, exmpl : elle peut pas changer x+0 en x), on a le code mort aussi.
+
+* On peut déduire la relation entre la couverture et les mutants: on a le code non couvert signifie que le code n'a pas été exécuté, les mutants montrent que même si le code a été exécuté, les tests n'ont pas réussi à détecter les changements.
+
+* Les mutants équivalents sont des mutations qui ne modifient pas le comportement du programme. 
+Pour la methode UUID >> readFrom: aStream par exemple, un mutant équivalent pourrait être quelque chose comme changer un message d’erreur pour un autre, sans modifier la logique.
+
+
+### Improving Mutation Analysis Runtime
+
+```
+testCases :=  { UUIDPrimitivesTest. UUIDTest. UUIDGeneratorTest }.
+classesToMutate := { UUID. UUIDGenerator }.
+
+analysis := MTAnalysis new
+    testClasses: testCases;
+    classesToMutate: classesToMutate.
+
+[analysis run.] timeToRun. "0:00:00:44.094"
+```
+--> 13 secondes 
+
+## Homework :
+
+Cette semaine, j'ai continué de travailler sur mon Kata en commançant par rédiger des tests.
+
+* Lorsque j'utilise DrTests sur mon projet, la couverture de code du package Myg-Chess-Tests sur le core du projet Myg-Chess-Core est de 47.65 %. On peut considérer que c'est faible.
+
+- On a 78 methodes qui ne sont pas couvertes par des tests càd non testé ou le test n'est pas fiable et 6 méthodes partiellement testées.
+
+Pour rappel, je m'intéresse aux classes suivantes :
+- MyPawn
+- MyPiece
+- MyChessSquare
+- MyChessBoard
+- MyFENGam
+
+--> Avant de rédiger les tests, j'ai d'abord à utiliser les exercices réalisés lors du cours précédent pour exécuter des tests de mutation sur les méthodes qui sont déjà testées.
+
+J'ai exécuté le code suivant en tant qu'exemple dans la classe de test MyKingTest afin de vérifier s'il fonctionne sur mon projet.
+
+```
+testCases := { MyBishopTests }. 
+methodToMutate := { MyChessSquare >> #renderBishop: }.
+analysis := MTAnalysis new
+ testClasses: testCases;
+ methodsToMutate: methodToMutate. 
+analysis run. 
+```
+``` analysis generalResult.```
+J'ai obtenu 21 mutants survécus et 3 mutons tués, mon score de mutation etait de 12%.
+
+* Pour affiner l'approche, j'ai d'abord testé les méthodes de la classe MyChessSquare, puis réalisé quelques tests sur la classe MyPawn.
+
+Voici le lien vers le code que j'ai réalisé: 
+https://github.com/LouizaZC/Projet_Chess/tree/main/src
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
