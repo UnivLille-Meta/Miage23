@@ -55,9 +55,32 @@ After a brief look at the web for some references for what reference should we g
 ### Test Implementation
 
 You can find the results of the implemented tests at [our fork for Chess](https://github.com/mrdedede/Chess).
-To put it briefly, we...
+To put it briefly, I added the tests which were either not covered or which the mutation under the king or the knight class were still alive and checked the next results, some example of test implementations were:
+
+```smalltalk
+
+testIsCheckMated
+
+	| king board |
+	board := MyChessBoard empty.
+	board at: 'a1' put: (king := MyKing white).
+
+	"Put two atacker rooks on e column"
+	board at: 'e1' put: MyRook black.
+	board at: 'e2' put: MyRook black.
+
+	self assert: king isCheckMated 
+```
+
+Which asserted the king would be check-mated at those cases.
 
 ### Test Coverage / Mutation Analysis
+
+After the implementations, we discovered some strange data:
+
+1. Test coverage has been shown to actually decrease! By a lot! We're down from 53% and 69 uncovered methods to 33% and 99 uncovered methods. I am still not sure why this is. Maybe is there a bug under Pharo?
+2. Mutation testing got a success of over 77%, which is a solid improvement after the previous result we've got, with only 51 living mutants.
+
 
 
 # Salim TITOUCHE
