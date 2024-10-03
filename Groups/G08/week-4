@@ -1,0 +1,68 @@
+## DASSI-Helyana
+
+# WEEK 4 :
+
+## HOMEWORK : 
+
+## MUTATION TESTING
+
+Ce que j'ai compris suite au TP :
+
+La couverture de code mesure quelles lignes de code sont exécutées par les tests. PAS LEUR QUALITÉ.
+
+Le score de mutation évalue la robustesse des tests (s'ils arrivent à détecter les erreurs (mutants) introduites dans le code).
+
+mutant = modification volontaire de code pour tester l'efficacité des tests à détecter les erreurs.
+
+Donc si un test échoue après la mutation, cela veut dire qu'il a détecté l'erreur.
+
+mutant vivant = il est passé inaperçu et n'a pas été détecté par le test.
+RAISONS :
+- pas assez de tests 
+- le code muté fait la même chose que l'original
+- ou c'est un code mort donc jamais exécuté
+
+En résumé :  
+couverture de test = combien de lignes de code sont couvertes par les tests.
+
+test de mutation = évalue si le code est exécuté mais aussi si les tests sont capables de détecter des erreurs potentielles dans ce code.
+Évalue donc la qualité des tests.
+
+J'ai aussi discuté avec 2-3 de mes camarades de classe pour leur expliquer ce que j'avais compris du mutation testing et nous avons pu échanger dessus avec des exemples également.
+
+## CHESS GAME
+
+Tous les tests de ce projet passent au vert, mais sont-ils vraiment efficaces ?
+
+Avec une couverture de test de 45,64 %.
+
+### Mini test : 
+
+Je rencontre un premier test simple qui teste que l'id renvoie bien 'B', qui est vert.
+J'ai essayé d'ajouter moi-même un mutant en changeant le 'B' par un 'C', le test a bien détecté l'erreur.
+
+Ensuite, je cherche à exécuter la commande qui permet d'ajouter des mutants synthétiques :
+
+- D'abord pour la classe MyKingTest, les 2 tests étaient verts.
+
+```
+smalltalk
+testCases :=  { MyKingTest }.
+classesToMutate := {MyKing }.
+
+analysis := MTAnalysis new
+    testClasses: testCases;
+    classesToMutate: classesToMutate.
+
+analysis run.
+analysis generalResult mutationScore
+```
+
+Mais suite à cette commande qui a introduit des mutants dans le code, les tests ont échoué, ce qui signifie que les tests ont réussi à détecter les modifications introduites dans le code. C'est très bien, efficace.
+
+Nous pouvons procéder de la même manière pour connaître l'efficacité des tests.
+
+Je constate aussi que les méthodes simples comme id ont leurs tests qui restent au vert, mais cela ne signifie pas que la détection de mutants a échoué, cela signifie juste qu'il n'y a eu aucun mutant sur cette méthode simple.
+
+ 
+
