@@ -121,7 +121,6 @@ testMyQueenRendering
     self assert: (blackSquare renderQueen: blackQueen) = 'w'.
 
 ```
-Les résultats des tests montrent que le rendu des pièces est conforme à leur couleur et à celle de la case. 
 
 #### Test de couverture du code :
 
