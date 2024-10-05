@@ -131,8 +131,11 @@ J'ai ensuite effectué des tests de mutation sur les tests de rendu des pièces 
 #### Ce que j'ai appris sur les tests de mutation :
 
 •	La couverture du code mesure le pourcentage de code exécuté lors des tests. Un taux élevé indique que la majorité du code a été vérifiée, tandis qu’un taux faible révèle des zones non testées.
+
 •	Les tests de mutation consistent à introduire des modifications dans le code pour évaluer l'efficacité des tests existants. Cela permet d'identifier les faiblesses et de s'assurer que le code est suffisamment robuste.
+
 •	Le score de mutation représente le pourcentage de mutants tués par rapport au total des mutants créés. Un score élevé indique que les tests sont efficaces, tandis qu’un score faible signale une couverture insuffisante.
+
 •	Les mutants tués sont détectés par les tests, tandis que les mutants vivants échappent aux vérifications, ce qui indique des lacunes dans l'efficacité des tests.
 
 
