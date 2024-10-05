@@ -100,6 +100,7 @@ Contrairement à un dispatch simple, où une seule classe décide de l'opératio
 J'ai effectué des tests pour vérifier le rendu des différentes pièces d’échecs. Par exemple, dans le testQueenRendering, j'ai vérifié que : 
 * la reine blanche est correctement représentée par la lettre 'Q' sur une case blanche et par 'q' sur une case noire.
 * la reine noire est représentée par 'W' sur une case blanche et par 'w' sur une case noire.
+  
 Des tests similaires ont été élaborés pour les autres pièces, notamment le fou (Bishop), le pion (Pawn), le roi (King), le cavalier (Knight) et la tour (Rook).
 
 Voici un exemple de test de rendu pour la reine :
