@@ -40,7 +40,7 @@ Il me reste à implémenter la capture d'une pièce adverse en diagonale ainsi q
 
 # COUNDOUL Adama
 
-##
+## Mutate your tests
 
 I run mutation test on my chess tests. First I want to analyse the coverage using the tests in the Myg-Chess-Tests package and see that it covers 51.32 % of the package Myg-Chess-Core. That means 48.68% of the code its not covered by the tests.
 I analyse the quality of the class MyPawn from a mutation testing perspective:
