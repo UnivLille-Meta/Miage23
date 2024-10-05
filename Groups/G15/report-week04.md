@@ -93,12 +93,14 @@ Pour le kata « Refactorisation du rendu des pièces », j'ai choisi d'utiliser 
 
 #### Ce que j'ai appris sur le double dispatch :
 
-Le double dispatch permet de répartir la responsabilité d'une opération entre deux objets. Contrairement à un dispatch simple, où une seule classe décide de l'opération à effectuer, le double dispatch permet à deux objets de collaborer pour choisir la méthode appropriée. 
-Dans ce contexte, au lieu d'utiliser des conditions imbriquées pour déterminer si une pièce est blanche ou noire, chaque pièce peut décider comment elle doit être affichée en tenant compte à la fois de sa propre couleur et de celle de la case sur laquelle elle se trouve. Cette approche rend le code plus lisible et plus facile à maintenir.
+Contrairement à un dispatch simple, où une seule classe décide de l'opération à effectuer, le double dispatch permet à deux objets de collaborer pour choisir la méthode appropriée. Dans ce contexte, au lieu d'utiliser des conditions imbriquées pour déterminer si une pièce est blanche ou noire, chaque pièce peut décider comment elle doit être affichée en tenant compte à la fois de sa propre couleur et de celle de la case sur laquelle elle se trouve. Cette approche rend le code plus lisible et plus facile à maintenir.
 
 #### Résultats des tests de rendu :
 
-J'ai effectué des tests pour vérifier le rendu des différentes pièces d’échecs. Par exemple, dans le testQueenRendering, j'ai vérifié que la reine blanche est correctement représentée par la lettre 'Q' sur une case blanche et par 'q' sur une case noire, tandis que la reine noire est représentée par 'W' sur une case blanche et par 'w' sur une case noire. Des tests similaires ont été élaborés pour les autres pièces, notamment le fou (Bishop), le pion (Pawn), le roi (King), le cavalier (Knight) et la tour (Rook).
+J'ai effectué des tests pour vérifier le rendu des différentes pièces d’échecs. Par exemple, dans le testQueenRendering, j'ai vérifié que : 
+* la reine blanche est correctement représentée par la lettre 'Q' sur une case blanche et par 'q' sur une case noire.
+* la reine noire est représentée par 'W' sur une case blanche et par 'w' sur une case noire.
+Des tests similaires ont été élaborés pour les autres pièces, notamment le fou (Bishop), le pion (Pawn), le roi (King), le cavalier (Knight) et la tour (Rook).
 
 Voici un exemple de test de rendu pour la reine :
 
@@ -118,11 +120,11 @@ testMyQueenRendering
     self assert: (blackSquare renderQueen: blackQueen) = 'w'.
 
 ```
-Les résultats des tests montrent que le rendu des pièces est conforme à leur couleur et la couleur de la case. 
+Les résultats des tests montrent que le rendu des pièces est conforme à leur couleur et à celle de la case. 
 
 #### Test de couverture du code :
 
-J'ai réalisé un test de couverture sur le code du package Myg-Chess-Core. Les résultats montrent un taux de couverture de 47,65 %, avec 78 méthodes non couvertes et 2 méthodes partiellement couvertes. Cela signifie qu'une grande partie du code n'est pas vérifiée par les tests actuels. Il est donc nécessaire d'améliorer cette couverture.
+J'ai réalisé un test de couverture sur le code du package Myg-Chess-Core. Les résultats montrent un taux de couverture de 47,65 %, avec 78 méthodes non couvertes et 2 méthodes partiellement couvertes. Cela signifie qu'une grande partie du code n'est pas vérifiée par les tests actuels. Il est donc nécessaire d'améliorer cette couverture en écrivant des tests supplémentaires pour les cas d'utilisation non testés
 
 #### Tests de mutation :
 
