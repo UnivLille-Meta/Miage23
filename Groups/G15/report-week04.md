@@ -83,6 +83,59 @@ So I will add tests that will cover the missing branches and try to increase the
 
 The repisotory of MyChess: https://github.com/adama-coundoul/Chess_G15
 
+# Dahouane Youssra
+
+## Homework : 
+
+### Projet : 
+
+Pour le kata « Refactorisation du rendu des pièces », j'ai choisi d'utiliser le double dispatch, un pattern qui délègue la responsabilité du rendu à deux objets : la case et la pièce. Ainsi, chaque pièce peut déterminer son rendu en fonction de sa propre couleur et de celle de la case.
+
+#### Ce que j'ai appris sur le double dispatch :
+
+Le double dispatch permet de répartir la responsabilité d'une opération entre deux objets. Contrairement à un dispatch simple, où une seule classe décide de l'opération à effectuer, le double dispatch permet à deux objets de collaborer pour choisir la méthode appropriée. 
+Dans ce contexte, au lieu d'utiliser des conditions imbriquées pour déterminer si une pièce est blanche ou noire, chaque pièce peut décider comment elle doit être affichée en tenant compte à la fois de sa propre couleur et de celle de la case sur laquelle elle se trouve. Cette approche rend le code plus lisible et plus facile à maintenir.
+
+#### Résultats des tests de rendu :
+
+J'ai effectué des tests pour vérifier le rendu des différentes pièces d’échecs. Par exemple, dans le testQueenRendering, j'ai vérifié que la reine blanche est correctement représentée par la lettre 'Q' sur une case blanche et par 'q' sur une case noire, tandis que la reine noire est représentée par 'W' sur une case blanche et par 'w' sur une case noire. Des tests similaires ont été élaborés pour les autres pièces, notamment le fou (Bishop), le pion (Pawn), le roi (King), le cavalier (Knight) et la tour (Rook).
+
+Voici un exemple de test de rendu pour la reine :
+
+```
+testMyQueenRendering
+    | whiteQueen blackQueen blackSquare whiteSquare |
+
+    whiteQueen := MyQueen new color: Color white.
+    blackQueen := MyQueen new color: Color black.
+
+    whiteSquare := MyChessSquare new color: Color white.
+    blackSquare := MyChessSquare new color: Color black.
+
+    self assert: (whiteSquare renderQueen: whiteQueen) = 'Q'.
+    self assert: (whiteSquare renderQueen: blackQueen) = 'W'.
+    self assert: (blackSquare renderQueen: whiteQueen) = 'q'.
+    self assert: (blackSquare renderQueen: blackQueen) = 'w'.
+
+```
+Les résultats des tests montrent que le rendu des pièces est conforme à leur couleur et la couleur de la case. 
+
+#### Test de couverture du code :
+
+J'ai réalisé un test de couverture sur le code du package Myg-Chess-Core. Les résultats montrent un taux de couverture de 47,65 %, avec 78 méthodes non couvertes et 2 méthodes partiellement couvertes. Cela signifie qu'une grande partie du code n'est pas vérifiée par les tests actuels. Il est donc nécessaire d'améliorer cette couverture.
+
+#### Tests de mutation :
+
+J'ai ensuite effectué des tests de mutation sur les tests de rendu des pièces (MyPieceRenderingTests). Pour cela, j'ai muté la classe MyChessSquare. Les résultats montrent un score de mutation de 29 %, avec 475 mutants générés. Parmi eux, 140 mutants ont été "tués", tandis que 335 sont restés "vivants". Cela indique que de nombreux aspects du code ne sont pas suffisamment testés. IL est donc nécessaire d'améliorer la qualité des tests.
+
+#### Ce que j'ai appris sur les tests de mutation :
+
+•	La couverture du code mesure le pourcentage de code exécuté lors des tests. Un taux élevé indique que la majorité du code a été vérifiée, tandis qu’un taux faible révèle des zones non testées.
+•	Les tests de mutation consistent à introduire des modifications dans le code pour évaluer l'efficacité des tests existants. Cela permet d'identifier les faiblesses et de s'assurer que le code est suffisamment robuste.
+•	Le score de mutation représente le pourcentage de mutants tués par rapport au total des mutants créés. Un score élevé indique que les tests sont efficaces, tandis qu’un score faible signale une couverture insuffisante.
+•	Les mutants tués sont détectés par les tests, tandis que les mutants vivants échappent aux vérifications, ce qui indique des lacunes dans l'efficacité des tests.
+
+
 
 
 
