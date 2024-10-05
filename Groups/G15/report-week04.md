@@ -81,7 +81,6 @@ Pawn >>TargetSquaresLegal have the most surviving mutants. After MoveTo and rend
 
 So I will add tests that will cover the missing branches and try to increase the score.
 
-The repisotory of MyChess: https://github.com/adama-coundoul/Chess_G15
 
 # Dahouane Youssra
 
