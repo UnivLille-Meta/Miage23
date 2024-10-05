@@ -38,6 +38,57 @@ Les résultats montrent un score de mutation de 75 %, avec 79 mutants générés
 Concernant mon kata "Corriger les mouvements des pions", cette semaine, j'ai réussi à faire passer le test testPawnInitialDoubleMove, qui évalue la capacité du pion à se déplacer de deux cases lors de son premier mouvement, en modifiant la méthode targetSquareLegal. 
 Il me reste à implémenter la capture d'une pièce adverse en diagonale ainsi que la capture en passant.
 
+# COUNDOUL Adama
+
+##
+
+I run mutation test on my chess tests. First I want to analyse the coverage using the tests in the Myg-Chess-Tests package and see that it covers 51.32 % of the package Myg-Chess-Core. That means 48.68% of the code its not covered by the tests.
+I analyse the quality of the class MyPawn from a mutation testing perspective:
+```
+testCases :=  { MyPawnTest }.
+classesToMutate := { MyPawn }.
+
+analysis := MTAnalysis new
+    testClasses: testCases;
+    classesToMutate: classesToMutate.
+
+analysis run.
+```
+I ask the result for the mutation score. In this case, we have a score of 71 , meaning that 71% of the mutants were killed. The score is different in comparison of Maya's score because i didn't push my part yet. I work on the pawn promotion and i override the moveTo: aSquare method to transform the pawn on queen if a square is on line 1 or 8. And the test passed. Now i think about how to implement , if its a ui interactive or automatic game . If it's automatic the method play is called. I think about a variable isAutomatic initialized at false , and in the method play of MyChessGame it turned to true. So we can check this variable to know how the pawn must do like the player decide or change automatically to a queen.
+
+```
+analysis generalResult mutationScore
+```
+I retrieve the alive mutants to work on them programatically.
+
+```
+alive := analysis generalResult aliveMutants.
+```
+
+Inspecting the generalResult allow me to see what is the code that was changed and do a case-by-case analysis to see what happened.
+```
+analysis generalResult.
+```
+We have 122 mutants , 87 killed , 35 alive. 
+
+ ```
+((analysis generalResult aliveMutants)
+	groupedBy: [ :m |m mutant originalMethod ])
+		associations sorted: [ :a :b | a value size > b value size ]
+```
+
+Pawn >>TargetSquaresLegal have the most surviving mutants. After MoveTo and renderOn.
+
+So I will add tests that will cover the missing branches and try to increase the score.
+
+
+
+
+
+
+
+
+
 
 
 
