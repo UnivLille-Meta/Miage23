@@ -92,7 +92,7 @@ Pour le kata « Refactorisation du rendu des pièces », j'ai choisi d'utiliser 
 
 #### Ce que j'ai appris sur le double dispatch :
 
-Contrairement à un dispatch simple, où une seule classe décide de l'opération à effectuer, le double dispatch permet à deux objets de collaborer pour choisir la méthode appropriée. Dans ce contexte, au lieu d'utiliser des conditions imbriquées pour déterminer si une pièce est blanche ou noire, chaque pièce peut décider comment elle doit être affichée en tenant compte à la fois de sa propre couleur et de celle de la case sur laquelle elle se trouve. Cette approche rend le code plus lisible et plus facile à maintenir.
+Contrairement à un dispatch simple, où une seule classe décide de l'opération à effectuer, le double dispatch permet à deux objets de collaborer pour choisir la méthode appropriée. Dans ce contexte, au lieu d'utiliser des conditions imbriquées pour déterminer si une pièce est blanche ou noire, chaque pièce peut décider comment elle doit être affichée. Cette approche rend le code plus lisible et plus facile à maintenir.
 
 #### Résultats des tests de rendu :
 
