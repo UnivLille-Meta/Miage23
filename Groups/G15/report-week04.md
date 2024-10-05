@@ -122,9 +122,9 @@ testMyQueenRendering
 
 ```
 
-#### Test de couverture du code :
+#### Couverture du code :
 
-J'ai réalisé un test de couverture sur le code du package Myg-Chess-Core. Les résultats montrent un taux de couverture de 47,65 %, avec 78 méthodes non couvertes et 2 méthodes partiellement couvertes. Cela signifie qu'une grande partie du code n'est pas vérifiée par les tests actuels. Il est donc nécessaire d'améliorer cette couverture en écrivant des tests supplémentaires pour les cas d'utilisation non testés
+J'ai analysé couverture du code du package Myg-Chess-Core. Les résultats montrent un taux de couverture de 47,65 %, avec 78 méthodes non couvertes et 2 méthodes partiellement couvertes. Cela signifie qu'une grande partie du code n'est pas vérifiée par les tests actuels. Il est donc nécessaire d'améliorer cette couverture en écrivant des tests supplémentaires pour les cas d'utilisation non testés. 
 
 #### Tests de mutation :
 
