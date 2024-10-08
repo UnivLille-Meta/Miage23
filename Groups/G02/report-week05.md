@@ -11,7 +11,7 @@ As I continued working on the project, I realized that my `canPromote` function 
 
 I also began working on the graphical interface using Bloc to open a new window when a pawn reaches the end of the board. However, at the moment, I can only print one button, and I'm unsure how to apply actions to this button.
 
-Here’s the link to this week's commit:
+Here’s the link to this week's commit: https://github.com/Jogozan/C3p_Chess/tree/v0.1-graphics-pawn-promotion
 
 ## Camille BARTHELEMY
 ### HOMEWORK 4
