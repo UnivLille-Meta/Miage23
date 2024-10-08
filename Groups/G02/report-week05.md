@@ -1,11 +1,17 @@
 ## Seïf-eddin Bouguerouche
 ### Hook and template 
 
-This week we study Hooks and template pattern what I understand on the slide is that the template is the core methode that call hooks on the superClass with a default hook method inside and the hook method can be Override to redifine the behaviour of the base method.
+This week, we studied Hooks and the Template pattern. From the slides, I understood that the template is the core method that calls hooks in the superclass, where a default hook method is defined. The hook method can be overridden to redefine the behavior of the base method.
 
 ### Exercice and Homework
 
-For the exercice we analyse the chess project to localise if their is any hook and template pattern.
+For the exercise, I analyzed the chess project to identify where the Hook and Template patterns are used. One example I found is the `targetSquare` method, because it contains the hook `targetSquareLegal`, which is implemented in all the subclasses, including `Mypiece`, where the behavior is redefined for each class.
+
+As I continued working on the project, I realized that my `canPromote` function was not correctly implemented and could be improved using the Hook and Template method. Now, I no longer need to check the instance of the piece to determine if it's a pawn or not.
+
+I also began working on the graphical interface using Bloc to open a new window when a pawn reaches the end of the board. However, at the moment, I can only print one button, and I'm unsure how to apply actions to this button.
+
+Here’s the link to this week's commit:
 
 ## Camille BARTHELEMY
 ### HOMEWORK 4
