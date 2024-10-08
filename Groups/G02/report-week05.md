@@ -40,4 +40,4 @@ Par exemple avec la classe parente MyPiece et les sous classes MyBishop, MyKing,
 Les hooks peuvent redifinir les méhodes, et si on les appelent pas dans les sous classes, alors elles appleront par défaut ce qui sont déclarer dans les classe parentes.
 
 ### En parallèle
-Je continue l’amélioration et l’implementation du projet chess. Mais également la préparation pour l’examen de ce vendredi.
+Je continue l’amélioration et l’implementation du projet chess pour le Kata Graphical Editor. Mais également la préparation pour l’examen de ce vendredi.
