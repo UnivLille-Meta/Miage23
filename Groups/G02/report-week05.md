@@ -32,17 +32,12 @@ En parallèle de cela, j’effectue aussi mon kata en faisant des tests pour que
 
 ## Maggy ANDRIA
 
-### Template & exemple
+### Template
+Template rend le code réutilisable. Template fournit le modèle, une stucture générale du code tout en permettant les sous classes les redifinir (hooks) s’il y a du changement.
+Par exemple avec la classe parente MyPiece et les sous classes MyBishop, MyKing, MyQueen, etc... avec la méthode renderPieceOn qui redéfinit le rendu de chaque pièce (et qui sont les hooks)
 
-Template rend le code réutilisable.
-Par exemple dans le chess, moveTo est réutilisé dans move: to :
-ou bien ClickOn utilise diverses méthodes commes select, highLightTargets:, highLightTargets: et qui sont les hooks
-
-### Hook & exemple
-
-Pour illustrer, les hooks c’est genre l’exectuion du premier code ensuite le deuxième ensuite le troisième et ainsi de suite.
-Par exemple : Dans InitializeFenGame d’abord ensuite dans editor ensuite clickOnDelete
+### Hook 
+Les hooks peuvent redifinir les méhodes, et si on les appelent pas dans les sous classes, alors elles appleront par défaut ce qui sont déclarer dans les classe parentes.
 
 ### En parallèle
-
 Je continue l’amélioration et l’implementation du projet chess. Mais également la préparation pour l’examen de ce vendredi.
