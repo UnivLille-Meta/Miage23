@@ -58,4 +58,14 @@ et j'ai ajouter au méthode targetsquarelegal la logique  de capture en passant
 			]
 ].```
 ### reste à faire`
-il faudra verifier si la piece a fait une seule deplacement par 2 square du coup il faux modifier la méthode recordmovementof
+il faudra verifier si la piece a fait une seule deplacement par 2 square du coup il faux modifier la méthode recordmovementof 
+
+
+
+``` 
+
+# MOULOUEL Tarik 
+
+- Pour cette semiane, j'ai essayé de chercher le design pattern hook et template méthode dans le project des echecs, sans surprise y a eu quelques utilisations de ce design pattern, par exemple la méthode ``` targetSquareLegal ```  qui a été redéfinie dans les sous classes de la classe ```MyPiece```, En effet on a redifini son code dans les classe ```MyBishop```, ```MyKing```, ```MyQueen``` ... .  
+- 
+- J'ai aussi préparé le prochain Design Pattern Visitor , en effet j'ai deja utilisé ce design pattern en Java l'annee derniere  l'interet de ce design pattern est de définir une nouvelle opération sans changer les classes des éléments sur lesquels on opère. Il est souvent utilisé pour traverser une structure d'objets complexe. 
