@@ -51,3 +51,4 @@ Voir plus de tests : [chess-group-10/src/Myg-Chess-Tests/ - GitHub](https://gith
 
 - J'ai réalisé la suite du TP sur les dés (Revisiting the Die DSL: a case for double dispatch) : [dsl-pharo - GitHub](https://github.com/AymericJak/dsl-pharo)
 - Pour réviser un peu à l'approche du devoir sur table, j'ai jugé intéréssant de faire le TP sur l'application LAN (A basic LAN application) : [lan-application-pharo - GitHub](https://github.com/AymericJak/lan-application-pharo)
+- Pour m'entraîner sur le double dispatch, un élément à maitriser pour mon kata, j'ai réalisé une partie du TP sur le pierre papier ciseaux (Stone paper scissors), jusqu'à la fin de la question 7.3 : [stone-paper-scissors-pharo - GitHub](https://github.com/AymericJak/stone-paper-scissors-pharo)
