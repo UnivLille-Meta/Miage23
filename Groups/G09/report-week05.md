@@ -36,3 +36,41 @@ Voici le lien vers le code : [MyPawn.class.st](https://github.com/mrdedede/Chess
 # Partie Révision pour l'Examen
 
 J'ai revu les vidéos du MOOC, notamment celles qui expliquent les concepts de `self`, `super`, polymorphisme, etc. Je les comprends bien, mais j'ai encore des difficultés à les expliquer clairement. J'ai également réalisé un exercice sur le double dispatch.
+
+
+# Rapport Semaine 5 de Salas Merzouk
+
+## Kata : Remove nil piece
+
+Cette semaine, j'ai travaillé sur le kata "Remove nil piece". L'objectif est de supprimer les vérifications de `nil` à l'aide du polymorphisme.
+
+### Problème initial
+
+Dans le jeu d'échecs, chaque case peut contenir ou non une pièce. L'absence de pièce était initialement représentée par `nil`. Cependant, cette approche ne suivait pas les meilleures pratiques de codage et les recommandations de qualité.
+
+### Solutions mises en œuvre
+
+1. **Création de la classe NullPiece** :
+   - J'ai créé une sous-classe de MyPiece appelée NullPiece.
+   - Cette nouvelle classe représente une case vide avec une couleur transparente.
+   - Elle n'a pas de déplacements légaux (targetSquaresLegal).
+
+2. **Remplacement des vérifications de nil** :
+   - J'ai modifié les méthodes qui utilisaient des vérifications de `nil` pour déterminer si une case était vide.
+   - Ces vérifications ont été remplacées par des tests vérifiant si la pièce est une instance de `NullPiece`.
+   - J'ai également modifié les méthodes qui initialisaient les cases avec `nil`.
+   - Ces méthodes utilisent maintenant une instance de NullPiece pour représenter une case vide.
+
+3. **Réécriture des tests** :
+   - Certains tests ont été cassés suite à mes modifications.
+   - J'ai réécrit ces tests pour les adapter à la nouvelle logique utilisant NullPiece.
+
+
+### Travail restant
+
+- Un problème similaire se produit lorsqu'une pièce tente de se déplacer en dehors du plateau. Je dois encore identifier et corriger cette situation.
+
+
+## Partie Révision pour l'Examen
+
+Comme mon collègue Salim, j'ai revu les concepts clés du MOOC, et j'ai aussi refais les TPs.
