@@ -57,7 +57,7 @@ Dans le jeu d'échecs, chaque case peut contenir ou non une pièce. L'absence de
 
 2. **Remplacement des vérifications de nil** :
    - J'ai modifié les méthodes qui utilisaient des vérifications de `nil` pour déterminer si une case était vide.
-   - Ces vérifications ont été remplacées par des tests vérifiant si la pièce est une instance de `NullPiece`.
+   - Ces vérifications ont été remplacées par des tests vérifiant si la pièce est une instance de NullPiece.
    - J'ai également modifié les méthodes qui initialisaient les cases avec `nil`.
    - Ces méthodes utilisent maintenant une instance de NullPiece pour représenter une case vide.
 
