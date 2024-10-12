@@ -1,11 +1,17 @@
 ## Seïf-eddin Bouguerouche
 ### Hook and template 
 
-This week we study Hooks and template pattern what I understand on the slide is that the template is the core methode that call hooks on the superClass with a default hook method inside and the hook method can be Override to redifine the behaviour of the base method.
+This week, we studied Hooks and the Template pattern. From the slides, I understood that the template is the core method that calls hooks in the superclass, where a default hook method is defined. The hook method can be overridden to redefine the behavior of the base method.
 
 ### Exercice and Homework
 
-For the exercice we analyse the chess project to localise if their is any hook and template pattern.
+For the exercise, I analyzed the chess project to identify where the Hook and Template patterns are used. One example I found is the `targetSquare` method, because it contains the hook `targetSquareLegal`, which is implemented in all the subclasses, including `Mypiece`, where the behavior is redefined for each class.
+
+As I continued working on the project, I realized that my `canPromote` function was not correctly implemented and could be improved using the Hook and Template method. Now, I no longer need to check the instance of the piece to determine if it's a pawn or not.
+
+I also began working on the graphical interface using Bloc to open a new window when a pawn reaches the end of the board. However, at the moment, I can only print one button, and I'm unsure how to apply actions to this button.
+
+Here’s the link to this week's commit: https://github.com/Jogozan/C3p_Chess/tree/v0.1-graphics-pawn-promotion
 
 ## Camille BARTHELEMY
 ### HOMEWORK 4
@@ -26,17 +32,12 @@ En parallèle de cela, j’effectue aussi mon kata en faisant des tests pour que
 
 ## Maggy ANDRIA
 
-### Template & exemple
+### Template
+Template rend le code réutilisable. Template fournit le modèle, une stucture générale du code tout en permettant les sous classes les redifinir (hooks) s’il y a du changement.
+Par exemple avec la classe parente MyPiece et les sous classes MyBishop, MyKing, MyQueen, etc... avec la méthode renderPieceOn qui redéfinit le rendu de chaque pièce (et qui sont les hooks)
 
-Template rend le code réutilisable.
-Par exemple dans le chess, moveTo est réutilisé dans move: to :
-ou bien ClickOn utilise diverses méthodes commes select, highLightTargets:, highLightTargets: et qui sont les hooks
-
-### Hook & exemple
-
-Pour illustrer, les hooks c’est genre l’exectuion du premier code ensuite le deuxième ensuite le troisième et ainsi de suite.
-Par exemple : Dans InitializeFenGame d’abord ensuite dans editor ensuite clickOnDelete
+### Hook 
+Les hooks peuvent redifinir les méhodes, et si on les appelent pas dans les sous classes, alors elles appleront par défaut ce qui sont déclarer dans les classe parentes.
 
 ### En parallèle
-
-Je continue l’amélioration et l’implementation du projet chess. Mais également la préparation pour l’examen de ce vendredi.
+Je continue l’amélioration et l’implementation du projet chess pour le Kata Graphical Editor. Mais également la préparation pour l’examen de ce vendredi.
