@@ -76,3 +76,17 @@ Dans le jeu d'échecs, chaque case peut contenir ou non une pièce. L'absence de
 Comme mon collègue Salim, j'ai revu les concepts clés du MOOC, et j'ai aussi refais les TPs.
 
 Voici le lien de notre repository github https://github.com/mrdedede/Chess.git .
+
+# Rapport Semaine 5 - André FILHO
+
+Pour la semaine, j'étais bloqué d'avancer fortement dans autres tâches pour le kata, étant donné les problèmes que mon équipe a eu avec le développement de la remotion des nil checks par Salas.
+
+D'abord, j'ai déjà pensé a des façons dont on peut améliorer les tests qui sont déjà fait, quelques-uns implementés par moi, mais je n'ai pas eu l'opportunité de le faire, étant donné que je aussi étais occupé en étudiant pour les éxamens de cette semaine.
+
+## Études Pharo - Examen
+
+Commme mes collègues Salim et Salas, j'ai bien revu toutes les cours du MOOC Pharo, dès le module 0 jusqu'au module 4.
+
+J'ai fait attention principalement aux conceptes de base, comme la syntaxe, les définitions sur message, méthode, self et super.
+
+J'ai eu du mal encore à comprendre le fonctionnement du Double Dispatch, je n'ai pas pu bien résoudre les exercises, mais je pense que je peux plus ou moins comprendre le concept.
