@@ -1,6 +1,14 @@
 # WEEK 3 :
 
 ## KHADIJA BESBAS 
+### Homework
+
+- J'ai avancé sur mon kata : j'ai corrigé les bugs et les déplacements des pions. On peut maintenant avantcé de 1 ou 2 au départ, avancé de 1 par tour, mangé en diagolal les pièces adverses.
+  J'ai réalisé les tests associés à ces corrections.   
+- J'ai lu les slides et commencé à faire un exercice de classe simple : Figure qui est hérité par deux autres classes Carré et Rond. Elles surcharges une méthode qui permet de calculer le périmètre d'un figure.
+- J'ai aidé des camarades à comprendre le kata pion.
+- J'ai commencé à réfléchir à la réalisation de la prise en passant.
+
 
 ****
 # Cyril Godet
@@ -95,6 +103,22 @@ On peut supposer que lorsque le cache est plein, l'algorithme LRU doit s'exécut
 ## Homework
 
 
+Cette semaine:
+
+* J'ai essayé d'appliquer le cours de jeudi dans le projet pour essayer de comprendre et de me concenter que sur ce qui est important à faire maintenant.   
+Je n'ai pas encore trouvé les problèmes liés à mes tests mais je pense être sur la bonne voie puisque je viens de voir que je vais devoir mettre en place le système pour savoir si une case est dangereuse pour le roi et ainsi savoir s'il est en échec.
+* Je pense aussi avoir conpris pourquoi je n'arrivais à rien, c'est parce que je n'avais pas compris comment fonctionne la logique booléenne en Pharo mais je pense maintenant avoir compris.
+* J'ai lu les policopiés du cours sur les tests et en particulier celui sur le Mutation Analysis.
+* J'ai relu les policopiés du MOOC sur l'héritage et j'ai essayé de l'appliquer dans le Pharo Launcher pour m'entraîner sur le code en Pharo.
+* J'ai refais les exercices du MOOC pour retravailler la syntaxe de Pharo.
+
 ****
 
-## BOU ALEXANDRE
+# BOU ALEXANDRE
+
+Cette semaine : 
+
+- J'ai aidé Kadija sur son kata (sur le premier mouvement du pion qui peut avancer de deux cases).
+- J'ai analisé le code de chess pour voir le mouvement du pion et comment sont géré les pièces dans game pour pouvoir le modifier avec la promotion.
+- J'ai lu les poly de cours de cette semaine.
+- J'ai relu les poly de la semaine précédente et refait l'exercice sur LRUCache vu en cours.
