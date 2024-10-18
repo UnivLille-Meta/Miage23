@@ -8,13 +8,12 @@
 - 06 WeekL Vendredi 11 Oct - Examen Salle B12, B13 (Gabriel)
 - 17-18 Oct Pas de cours
 - 07 Week: 24-25 Double dispatch (Gabriel)
-Break 31-1 Nov
-
-- 08 Week 07-08 Nov Visitor
-- 09 Week 14-15 Nov Composite 
-- 10 Week 21-22 Nov Inheritance
-- 11 Week 28-29 Dec Types
-- 12 Week 05-06 Dec Projet
+- Break 31-1 Nov
+- 08 Week 07-08 Nov Refactoring
+- 09 Week 14-15 Nov Composite + Visitor
+- 10 Week 21-22 Nov "Explain your design"
+- 11 Week 28-29 Dec Inheritance
+- 12 Week 05-06 Dec Types (Guille jeudi et vendredi)
 - Examen le 13 Dec de 9h à 12h (amphi à confirmer).
 
 
