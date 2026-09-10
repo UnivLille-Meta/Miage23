@@ -1,4 +1,4 @@
-# Weekly Report
+# Weekly Report 01
 
 ## Glariel
 
@@ -85,10 +85,23 @@ All fundemental information about `self` in Pharo *Inheritance and Lookup: Self-
 
 Finish the exercises that you should have done for the lecture preparation: See the ModulePreparation-01 folder
 
-Link to the MyCounter repository :
+Link to the MyCounter repository : https://github.com/nttt1400/MyCounter
 
 ### Conclusion
 
+#### What I learnt through the exercice
+
+- how to create a class, add slots, write methods, instantiate objects, and write class comments.
+- how to create a test class inheriting from TestCase, compile unit test methods, and verify results directly in the browser using SUnit.
+- how each method is categozided
+- why unit tests always belong on the instance side (for test isolation and inheriting assertions from TestCase).
+- how to use Iceberg to track packages locally in Git, manage commits, and push source code to GitHub.
+#### Difficulties (resolved or not)
+
+- new syntax, new UI >> get used to Pharo 13 better by searching Internet, reading the documentation and exploring the environment.
+- method categorization >> deciding the most appropriate protocol for each method
+- Instance side vs. Class side: Distinguishing when behavior belongs to an instance (ex: increment) versus the class itself (ex: startingAt:) (still difficult).
+- pushing code to GitHub: Resolved authentication issues by generating a GitHub Personal Access Token (classic with repo scope) instead of using an account password.
 
 
 
