@@ -11,7 +11,7 @@
 
 - Les tests ne passent pas encore tous, il doit y avoir une erreur dans une de mes méthodes, je suis en train de chercher
 - DSL : pas encore fait
-- Country/drapeaux : pas encore fait
+- Country: pas encore fait
 
 ## Difficultés
 
