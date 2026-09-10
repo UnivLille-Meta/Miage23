@@ -4,7 +4,7 @@
 
 # 1) Creating packages, classes and methods:
 
-I learned to create packages and classes and methods using the Counter Example shown in the course, I actually found at first that the syntax used in the tutorial is deprecated then I tried to look for the new syntax to create the Counter Class and the two Accessor methods(Get and Set).
+- I learned to create packages and classes and methods using the Counter Example shown in the course, I actually found at first that the syntax used in the tutorial is deprecated then I tried to look for the new syntax to create the Counter Class and the two Accessor methods(Get and Set).
 
 # 2) Creating Tests:
 
@@ -18,3 +18,15 @@ I learned to create packages and classes and methods using the Counter Example s
 
 - I learned how version control is managed inside pharo by testing two commits; one where I commited the Counter Class and its methods, and the other after I added a change and then recommited.
   Now pharo is getting more fun!!!
+
+# 4) Understood the principles pf TDD using an example of Count tests
+
+- I implemented test using TDD, it was by creating the tests first before even creating the increment and decrement tests methods.
+
+## Progress
+
+- [ X ] Creating packages, classes and methods.
+- [ X ] Creating Tests:
+- [ X ] Saving Our Code with Iceberg (Git Repositories Browser)
+- [ X ] Introduction to TDD.
+- [ X ] More is yet to come...
