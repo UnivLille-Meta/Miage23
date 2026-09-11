@@ -16,3 +16,5 @@
 ## Difficultés
 
 - Au début, j'ai eu du mal avec la syntaxe Pharo et à bien comprendre comment définir une classe et ses méthodes correctement
+
+
