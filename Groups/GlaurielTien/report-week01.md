@@ -1,8 +1,20 @@
 # Weekly Report 01
 
-## Glariel
+## Glauriel
 
 ---
+
+### Finish the exercises of the preparation
+
+Link to the MyCounter repository : 
+
+#### What I learnt through the exercice
+The difference between super and self in oriented object programming, and how works lookup in both cases.
+La syntaxe basique de pharo , creation des classes, des messages, des methodes de classes et d'instance.
+
+#### Difficulties (resolved or not)
+
+Les principales difficultées rencontrées etaient la prise en main du logiciel et de la syntaxe de base de Pharo. A cela peut s'ajouter la liaison entre mon depot github pour les exercices et mon dossier local. 
 ---
 
 ## Tien
