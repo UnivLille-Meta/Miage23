@@ -20,5 +20,5 @@ En parallèle de ça, j'ai créé 2 tests, un qui test le getter et le setter, e
 
 
 
-Une fois cela fait, j'ai essayé d'importer mon projet git, mais après environ 2 heures d'essaie infructueux (aussi bien en html que ssh), j'ai abandonné, et enregistré mes fichiers en dur sur un clone fait avec le terminal, puis commit et push "à la main".
+Une fois cela fait, j'ai eu beaucoup de problème avec git et j'ai mal compris les consignes, ce qui m'a fait perdre beaucoup de temps
 
