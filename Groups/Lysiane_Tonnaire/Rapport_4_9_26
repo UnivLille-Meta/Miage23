@@ -1,0 +1,49 @@
+Rapport d’activité – Découverte de Pharo
+
+	Lors de cette activité, j’ai découvert le langage Pharo et principalement ses différences avec Java, 
+    ainsi que le fonctionnement de l’envoi de messages, des méthodes booléennes, de super et de l’ordre 
+    de recherche des méthode
+1. Les grandes différences avec Java
+
+	La première différence importante est qu’en Pharo, tout est un objet. 
+    Contrairement à Java, où il existe des types de base comme int, boolean 
+    ou double, les nombres et les booléens sont également des objets. 
+    Par exemple, true et false sont des objets appartenant respectivement 
+    aux classes True et False.
+    
+    Une autre différence concerne les conditions. En Java, if, while et for sont des mots du langage. 
+    En Pharo, if n’est pas un mot-clé : c’est une méthode appelée ifTrue:ifFalse:. Elle est utilisée en 
+    envoyant un message à un objet booléen.
+    En Java, les variables ont également un type déclaré, par exemple int x = 5;. En Pharo, on ne déclare 
+    pas le type de la variable : on écrit simplement x := 5. Le type est déterminé à l’exécution.
+    Enfin, Pharo fonctionne avec une image, qui est un monde toujours allumé. Cela permet de modifier une 
+    classe et de tester directement les changements dans le Playground, sans devoir recompiler et redémarrer 
+    le programme.
+
+2. L’envoi de message et le polymorphisme
+	En Pharo, lorsqu’on utilise une méthode, on parle d’envoi de message. 
+    Le message est envoyé à un objet et c’est l’objet, au moment de l’exécution, 
+    qui détermine quelle méthode utiliser.
+    J’ai vérifié ce fonctionnement avec les classes Message et TextMessage. 
+    TextMessage est une sous-classe de Message et redéfinit la méthode deliver. 
+    Si une liste contient des objets Message et TextMessage et que le message 
+    deliver est envoyé à chacun, chaque objet utilise sa propre version de la 
+    méthode.
+    Cela montre le fonctionnement du polymorphisme, qui existe également en Java
+    avec l’héritage et @Override. La différence est qu’en Pharo, il n’y a pas de type 
+    déclaré pour la liste : Pharo regarde directement la classe de l’objet au moment 
+    de l’exécution.
+
+3. Comment if marche « en vrai »
+	J’ai également étudié le fonctionnement de ifTrue:ifFalse:. Cette méthode est définie dans les 
+    classes True et False. Dans True, le premier bloc est exécuté, alors que dans False, c’est le 
+    deuxième bloc qui est exécuté.
+    Les [ ... ] représentent un bloc, c’est-à-dire du code qui n’est pas exécuté immédiatement. 
+    Le message value permet ensuite d’exécuter ce bloc. Cela est comparable à une lambda en Java.
+    
+Conclusion
+	Cette activité m’a permis de mieux comprendre le fonctionnement de Pharo et ses différences avec 
+    Java. J’ai notamment découvert que tout est un objet, que les conditions fonctionnent grâce à 
+    l’envoi de messages, et que la recherche des méthodes se fait à l’exécution. Les tests réalisés 
+    dans le Playground et l’utilisation du navigateur de classes m’ont permis de vérifier concrètement 
+    ces différents concepts.
